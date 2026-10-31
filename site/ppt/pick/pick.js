@@ -205,9 +205,8 @@
     b.innerHTML = html; b.setAttribute("aria-pressed", pressed); b.onclick = onclick;
     el.appendChild(b); return el;
   }
-  const soon = (s) => s.status !== "ready" ? '<span class="badge soon">AI 即将支持</span>' : "";
   const badge = (sc, prefix) => `<span class="badge ${sc.tier}">${prefix || TIER_ZH[sc.tier]} ${sc.total}</span>`;
-  const styleHtml = (s, tag) => `<span class="nm">${s.name.zh}<span class="sub">${s.tagline.zh}</span></span>${soon(s)}${tag || ""}`;
+  const styleHtml = (s, tag) => `<span class="nm">${s.name.zh}<span class="sub">${s.tagline.zh}</span></span>${tag || ""}`;
   const palHtml = (p, tag) => `${swatch(p)}<span class="nm">${p.name.zh}<span class="sub">${p.kind} · ${p.tier}</span></span>${tag || ""}`;
 
   function renderDial() {
@@ -307,7 +306,6 @@
       msgs.push(`提示：这套组合在兼容矩阵里是冲突，${c.why} 仍可以用。`);
     }
     if (S.fx === "glass" && st.effects.glass === "conflict") msgs.push("提示：这种风格的禁止项里有柔和投影或渐变，和毛玻璃效果冲突。");
-    if (st.status !== "ready") msgs.push("这种风格可以下载模板，「用 AI 生成成品」即将支持。");
     if (msgs.length) { note.innerHTML = msgs.join("<br>"); note.hidden = false; if (/冲突|不推荐/.test(note.textContent)) note.classList.add("warn"); }
 
     const fxZh = S.fx === "glass" ? "毛玻璃" : "普通";
@@ -315,6 +313,7 @@
     $("cmd").textContent = `用 GarmanPPT 做成 PPT。配色：${pa.name.zh}；风格：${st.name.zh}；效果：${fxZh}。\nGP1:${pa.id}/${st.id}/${S.fx}`;
     const ready = st.status === "ready";
     $("aiBtn").setAttribute("aria-disabled", !ready);
+    $("aiBtn").textContent = ready ? "用 AI 生成成品" : "用 AI 生成成品（即将支持）";
     if (!ready) $("ai").hidden = true;
     const tpl = S.fx === "plain" && st.templates && st.templates[pa.id];
     $("dlTpl").href = tpl ? "../" + tpl : "#";

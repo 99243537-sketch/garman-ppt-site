@@ -2,7 +2,7 @@
 
 > 仓库里的 `site/ppt/` 对应服务器上的 `/ppt/`。下文说的「包」就是 Release 里的 zip，结构与 `site/ppt/` 相同。
 
-> 数据版本 0.4.0 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
+> 数据版本 0.4.1 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
 
 Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的全部东西。网站只放静态文件，**没有后端、不调模型、不做在线生成**。
 
@@ -82,7 +82,7 @@ python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/st
 - `previews/<同名>.jpg`：6 页拼图，约 2000×760，每张约 100 KB。
 - 7 种可生成风格各有一套手工定稿（`styles.json` 的 `template`），其余由 `tools/masters/build_all.py` 按兼容矩阵取好的五色批量生成。
 
-对应关系写在 `styles.json` 每种风格的 `templates` 和 `previews`（键是配色 id）。挑选页任选一个组合都显示真实预览图、点开看大图，「下载模板」都能下载。技能还不能生成的 9 种风格（`status: preview`）标「AI 即将支持」，只是「用 AI 生成成品」不可点。
+对应关系写在 `styles.json` 每种风格的 `templates` 和 `previews`（键是配色 id）。挑选页任选一个组合都显示真实预览图、点开看大图，「下载模板」都能下载。技能还不能生成的 9 种风格（`status: preview`）在列表里和其他风格一样，不加标记，只是「用 AI 生成成品」按钮变灰，写「即将支持」。
 
 全部文件约 32 MB（模板 8.6 MB + 预览图 23 MB）。
 
@@ -113,7 +113,7 @@ python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/st
 GP1:ginkgo/neubrutalism/plain
 ```
 
-`status: preview` 的风格可以看预览、下载模板，但「用 AI 生成成品」不可点，显示「AI 即将支持」。
+`status: preview` 的风格可以看预览、下载模板，但「用 AI 生成成品」不可点，按钮上写「即将支持」。
 
 **URL 参数**（可分享）：`?mode=p|s|c|m&s=<风格id>&p=<配色id>&doc=<文档类型id>&fx=plain|glass`。
 
