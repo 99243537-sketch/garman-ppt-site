@@ -6,6 +6,25 @@
 
 Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的全部东西。网站只放静态文件，**没有后端、不调模型、不做在线生成**。
 
+## 0. 这次更新要点（0.6.0）
+
+和你上次拿到的 0.2.3 包相比：
+
+| 变化 | 说明 |
+|---|---|
+| 模板从 7 份增加到 260 份 | 16 种风格 × 13 套配色共 208 份普通模板，外加 52 份毛玻璃模板；每份都配一张 6 页预览图（`previews/`，新目录） |
+| 开放毛玻璃效果 | `rules.json` 的 `effectsAvailable` 加入 `glass`；`styles.json` 新增 `glassTemplates` / `glassPreviews` |
+| 大胆风格会提饱和或加签名色 | `matrix.json` 里七种风格的格子新增 `fix` / `slots` / `sig`，`styles.json` 新增 `signature`；原来的 39 个冲突组合全部解除 |
+| 包变大 | 约 40 MB（模板 11 MB + 预览图 29 MB），以前不到 1 MB |
+| 发布方式 | 从「赵盾发 zip 给你」改成 GitHub Release 自动附 zip，可以定时拉取（见第 4 节） |
+
+**你这次需要做的**：
+1. 按第 4A 节覆盖 `/ppt/` 下的 `pick/`、`site-data/`、`templates/`、`previews/` 四个目录。
+2. **清一次 Cloudflare 缓存，包括 `templates/` 和 `previews/`**。这次很多模板保留了原来的文件名（`-v1`）但内容变了，按第 3 节的长缓存规则会读到旧文件。
+3. 按第 7 节验一遍。
+
+JSON 的字段只增不改，原有字段的含义不变；页面原型 `pick/` 已经按新字段更新好了。
+
 ## 1. 包里有什么
 
 ```
@@ -73,6 +92,70 @@ curl -sL https://api.github.com/repos/99243537-sketch/garman-ppt-site/releases/l
 node tools/export-styles.cjs <风格库>/design-styles/data.js tools/sources/styles-v2.json   # 风格库更新时才需要
 python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/styles-v2.json site/ppt/site-data
 ```
+
+### 4A. 手动部署（第一次部署或想手动更新时）
+
+```bash
+VER=0.6.0                                  # 要部署的版本
+WEB=/var/www/zhaodun.work/ppt              # 服务器上 /ppt/ 的实际目录，按你的路径改
+TMP=$(mktemp -d)
+
+# 1. 下载并解压（zip 根目录就是 pick/ site-data/ templates/ previews/ 部署说明.md）
+curl -fL -o "$TMP/site.zip" \
+  "https://github.com/99243537-sketch/garman-ppt-site/releases/download/site-v$VER/garman-site-$VER.zip"
+unzip -q "$TMP/site.zip" -d "$TMP/site"
+
+# 2. 核对版本号
+grep '"version"' "$TMP/site/site-data/version.json"        # 应显示 "version": "0.6.0"
+
+# 3. 逐个目录同步；--delete 只删这四个目录里已不在包中的旧文件，不碰 /ppt/ 下其他内容
+for d in pick site-data templates previews; do
+  mkdir -p "$WEB/$d"
+  rsync -a --delete "$TMP/site/$d/" "$WEB/$d/"
+done
+rm -rf "$TMP"
+```
+
+然后清 Cloudflare 缓存：在 Cloudflare 后台 →「缓存」→「配置」→「清除缓存」，选「全部清除」最省事；如果套餐支持「自定义清除 → 按前缀」，清 `zhaodun.work/ppt/` 即可。最后按第 7 节自检。
+
+### 4B. 自动拉取（可选，沿用你「定时从 GitHub 拉取」的方式）
+
+下面这个脚本只在 Release 版本变化时才下载并覆盖，可以直接放进 cron：
+
+```bash
+#!/usr/bin/env bash
+# /usr/local/bin/garman-site-pull.sh：有新 Release 就下载、校验、覆盖到 /ppt/
+set -euo pipefail
+REPO=99243537-sketch/garman-ppt-site
+WEB=/var/www/zhaodun.work/ppt              # 按你的路径改
+STAMP=/var/lib/garman-site.version         # 记录当前已部署的版本
+
+TAG=$(curl -fsSL "https://api.github.com/repos/$REPO/releases/latest" | grep -o '"tag_name": *"[^"]*"' | cut -d'"' -f4)
+VER=${TAG#site-v}
+[ -n "$VER" ] || { echo "取不到最新版本"; exit 1; }
+[ "$(cat "$STAMP" 2>/dev/null)" = "$VER" ] && exit 0      # 没有新版本
+
+TMP=$(mktemp -d); trap 'rm -rf "$TMP"' EXIT
+curl -fsSL -o "$TMP/site.zip" "https://github.com/$REPO/releases/download/$TAG/garman-site-$VER.zip"
+unzip -q "$TMP/site.zip" -d "$TMP/site"
+grep -q "\"version\": \"$VER\"" "$TMP/site/site-data/version.json" || { echo "包内版本与标签不一致"; exit 1; }
+for d in pick site-data templates previews; do
+  mkdir -p "$WEB/$d"; rsync -a --delete "$TMP/site/$d/" "$WEB/$d/"
+done
+echo "$VER" > "$STAMP"
+echo "已部署 garman-site $VER"
+
+# 可选：用 Cloudflare API 清缓存（需要一个只有「缓存清除」权限的令牌）
+# curl -fsS -X POST "https://api.cloudflare.com/client/v4/zones/$CF_ZONE/purge_cache" \
+#   -H "Authorization: Bearer $CF_TOKEN" -H "Content-Type: application/json" --data '{"purge_everything":true}'
+```
+
+```cron
+# 每小时第 7 分钟检查一次
+7 * * * * /usr/local/bin/garman-site-pull.sh >> /var/log/garman-site-pull.log 2>&1
+```
+
+公开仓库，不需要 GitHub 令牌；匿名调用 GitHub API 每小时限 60 次，每小时查一次绰绰有余。
 
 ## 5. 模板下载与预览图
 
