@@ -79,3 +79,14 @@ h2 { font-size: 15px; margin: 0 0 10px; color: var(--muted); font-weight: 600; }
 .ai { padding-left: 20px; margin: 12px 0; } .ai li { margin: 6px 0; }
 .ai code { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 8px; margin: 6px 0; white-space: pre-wrap; word-break: break-all; font-size: 13px; }
 .foot { border-top: 1px solid var(--line); padding: 14px 16px 30px; }
+
+/* 站点通用：返回首页 / 分享（2026-10-31 加） */
+.util { display: flex; align-items: center; gap: 12px; justify-content: flex-end; font-size: 13px; }
+.util a { color: var(--muted); text-decoration: none; }
+.util a:hover { color: var(--sel); }
+.util button { font: inherit; font-size: 13px; padding: 3px 10px; border: 1px solid var(--line);
+  background: var(--card); color: var(--ink); border-radius: 6px; cursor: pointer; }
+.util button:hover { border-color: var(--sel); color: var(--sel); }
+.share-status { color: var(--sel); font-size: 12px; min-height: 1em; }
+.foot { padding: 18px 16px 34px; border-top: 1px solid var(--line); margin-top: 8px; }
+.foot a { color: var(--muted); }

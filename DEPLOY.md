@@ -2,7 +2,7 @@
 
 > 仓库里的 `site/ppt/` 对应服务器上的 `/ppt/`。下文说的「包」就是 Release 里的 zip，结构与 `site/ppt/` 相同。
 
-> 数据版本 0.6.0 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
+> 数据版本 0.6.1 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
 
 Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的全部东西。网站只放静态文件，**没有后端、不调模型、不做在线生成**。
 
@@ -22,6 +22,8 @@ Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的�
 1. 按第 4A 节覆盖 `/ppt/` 下的 `pick/`、`site-data/`、`templates/`、`previews/` 四个目录。
 2. **清一次 Cloudflare 缓存，包括 `templates/` 和 `previews/`**。这次很多模板保留了原来的文件名（`-v1`）但内容变了，按第 3 节的长缓存规则会读到旧文件。
 3. 按第 7 节验一遍。
+
+0.6.1 起，Eddy 在线上 `pick/index.html` 加的分享卡片 meta、页头「返回首页 / 分享」、页脚链接，以及 `pick.css` 末尾的 `.util` / `.share-status` / `.foot` 规则都已合进仓库；`pick.css` / `pick.js` 的引用带 `?v=<数据版本>`，由 `build_site_data.py` 自动同步。自动拉取可以整目录覆盖 `pick/`，不用排除任何文件。
 
 JSON 的字段只增不改，原有字段的含义不变；页面原型 `pick/` 已经按新字段更新好了。
 
@@ -96,7 +98,7 @@ python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/st
 ### 4A. 手动部署（第一次部署或想手动更新时）
 
 ```bash
-VER=0.6.0                                  # 要部署的版本
+VER=0.6.1                                  # 要部署的版本
 WEB=/var/www/zhaodun.work/ppt              # 服务器上 /ppt/ 的实际目录，按你的路径改
 TMP=$(mktemp -d)
 
@@ -106,7 +108,7 @@ curl -fL -o "$TMP/site.zip" \
 unzip -q "$TMP/site.zip" -d "$TMP/site"
 
 # 2. 核对版本号
-grep '"version"' "$TMP/site/site-data/version.json"        # 应显示 "version": "0.6.0"
+grep '"version"' "$TMP/site/site-data/version.json"        # 应显示 "version": "0.6.1"
 
 # 3. 逐个目录同步；--delete 只删这四个目录里已不在包中的旧文件，不碰 /ppt/ 下其他内容
 for d in pick site-data templates previews; do

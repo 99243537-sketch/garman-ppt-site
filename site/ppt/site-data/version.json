@@ -1,6 +1,6 @@
 {
  "_note": "由 build_site_data.py 生成，请勿手改",
- "version": "0.6.0",
+ "version": "0.6.1",
  "built": "2026-10-31",
  "files": [
   "palettes.json",
@@ -11,6 +11,6 @@
  "skill": {
   "name": "garman-ppt",
   "version": "0.3.2",
-  "zip": "https://github.com/99243537-sketch/garman-ppt/releases"
+  "zip": "https://github.com/99243537-sketch/garman-ppt/releases/tag/v0.3.2"
  }
 }
