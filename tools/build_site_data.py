@@ -10,7 +10,7 @@
 import json, sys, os, datetime
 
 MATRIX, STYLES_V2, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
-DATA_VERSION = "0.6.2"
+DATA_VERSION = "0.7.0"
 
 # ---- 规则（暂定，待赵盾按实际分布定）----
 RULES = {
@@ -297,14 +297,17 @@ dump("matrix.json", {"key": "风格id|配色id", "cells": cells})
 dump("rules.json", {"rules": RULES, "docTypes": [{"id": a, "zh": b, "en": c} for a, b, c in DOC_TYPES]})
 dump("version.json", {"built": stamp, "files": ["palettes.json", "styles.json", "matrix.json", "rules.json"],
                       "skill": {"name": "garman-ppt", "version": "0.3.2",
-                                "zip": "https://github.com/99243537-sketch/garman-ppt/releases/tag/v0.3.2"}})
+                                "zip": "https://github.com/99243537-sketch/garman-ppt/releases/tag/v0.3.2",
+                                # 同源副本（相对 /ppt/）：服务器上放了这个文件，组合包就把技能一起打进去；
+                                # 文件不存在时挑选页自动退回成只给 GitHub 链接
+                                "local": "downloads/garman-ppt-0.3.2.zip"}})
 
 # 挑选页引用 pick.css / pick.js 时带 ?v=<数据版本>，换版时浏览器和 CDN 不会读到旧文件
 _idx = os.path.join(OUT, "..", "pick", "index.html")
 if os.path.exists(_idx):
     import re
     _h = open(_idx, encoding="utf-8").read()
-    open(_idx, "w", encoding="utf-8").write(re.sub(r'(pick\.(?:css|js))\?v=[0-9.]+', rf'\1?v={DATA_VERSION}', _h))
+    open(_idx, "w", encoding="utf-8").write(re.sub(r'((?:pick|pack)\.(?:css|js))\?v=[0-9.]+', rf'\1?v={DATA_VERSION}', _h))
 
 from collections import Counter
 c = Counter(v["tier"] for v in cells.values())

@@ -10,7 +10,7 @@
 <meta property="og:description" content="13 套自然配色 × 16 种设计风格，挑好搭配直接下载 PPT 模板；想让 AI 做成品，配合 GarmanPPT 技能。">
 <meta property="og:url" content="https://www.zhaodun.work/ppt/pick/">
 <meta property="og:image" content="https://www.zhaodun.work/ppt/media/palettes-13.webp">
-<link rel="stylesheet" href="pick.css?v=0.6.2">
+<link rel="stylesheet" href="pick.css?v=0.7.0">
 </head>
 <body>
 <header class="top">
@@ -70,13 +70,16 @@
           <button id="aiBtn" class="btn primary" aria-expanded="false">用 AI 生成成品</button>
         </div>
         <ol id="ai" class="ai" hidden>
-          <li>安装 GarmanPPT 技能：看 <a href="../#download">技能介绍页</a>（含下载和安装方法），或直接到 <a id="skillLink" target="_blank" rel="noopener">GitHub</a> 下载</li>
-          <li>复制口令：
-            <code id="cmd"></code>
-            <button id="copy" class="btn small">复制</button>
-          </li>
-          <li>把技能包、口令和你的文档一起发给智能体。</li>
+          <li><button id="packBtn" class="btn small primary">下载组合包</button> <span id="packStatus" class="muted small" aria-live="polite"></span><br>
+            <span class="muted small">一个 zip：这一组的母版 .pptx、6 页预览图、写好的提示词，和一份「先读我」。</span></li>
+          <li>解压后，把母版、预览图和你自己的文档一起上传给智能体，再把「提示词.md」全文粘贴发送。</li>
+          <li>可选：智能体装了 GarmanPPT 技能会更稳。看 <a href="../#download">技能介绍页</a>（含下载和安装方法），或直接到 <a id="skillLink" target="_blank" rel="noopener">GitHub</a> 下载。</li>
         </ol>
+        <details id="cmdBox" class="cmdbox" hidden>
+          <summary class="muted small">只要一句话口令（智能体已经装了技能时用）</summary>
+          <code id="cmd"></code>
+          <button id="copy" class="btn small">复制</button>
+        </details>
         <p class="muted small"><a id="detail" target="_blank" rel="noopener">看这种风格的详细说明</a></p>
       </div>
       <p id="opening" class="opening" hidden></p>
@@ -87,7 +90,8 @@
 <footer class="wrap foot muted small">
   16 种风格 × 13 套配色共 208 个组合，每个都有 6 页预览和可下载的模板。数据版本 <span id="ver"></span> · <a href="../">GarmanPPT 技能介绍</a> · <a href="../../">返回首页</a>
 </footer>
-<script src="pick.js?v=0.6.2"></script>
+<script src="pack.js?v=0.7.0"></script>
+<script src="pick.js?v=0.7.0"></script>
 <script>
 (function(){
   function setStatus(m){document.querySelectorAll(".share-status").forEach(function(el){el.textContent=m;});setTimeout(function(){document.querySelectorAll(".share-status").forEach(function(el){el.textContent="";});},2200);}

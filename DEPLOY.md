@@ -2,11 +2,24 @@
 
 > 仓库里的 `site/ppt/` 对应服务器上的 `/ppt/`。下文说的「包」就是 Release 里的 zip，结构与 `site/ppt/` 相同。
 
-> 数据版本 0.6.2 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
+> 数据版本 0.7.0 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
 
 Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的全部东西。网站只放静态文件，**没有后端、不调模型、不做在线生成**。
 
-## 0. 这次更新要点（0.6.0）
+## 0. 这次更新要点（0.7.0）：一键组合包
+
+结果区的「用 AI 做成品」改成三步：**下载组合包 → 解压后连同文档发给智能体 → 粘贴提示词**。16 种风格都能用（以前只有 7 种），毛玻璃版也能打包。
+
+- 组合包由浏览器当场打成 zip（新文件 `pick/pack.js`），**服务器不用加任何东西**。里面有：这一组的母版 .pptx、6 页预览图、`提示词.md`（五色色值表、只用 6 个版式、字数上限、风格要点、交付要求）、`先读我.txt`。
+- 「一句话口令」收进了一个可展开的小框，给已经装了技能的人用。
+- `version.json` 的 `skill` 多了 `local: "downloads/garman-ppt-0.3.2.zip"`。
+
+**你这次需要做的**：
+1. 照常覆盖 `pick/` 和 `site-data/`（模板、预览图这次没变）。自动拉取的话什么都不用做。
+2. **可选，建议做**：把技能 v0.3.2 的 zip 放到服务器 `/ppt/downloads/garman-ppt-0.3.2.zip`（和挑选页同域名）。放了，组合包就会把技能一起打进去；不放，组合包里只写 GitHub 链接。浏览器不能跨域去 GitHub 取文件，所以必须同域名。以后技能升级，换文件名、我这边改 `local` 即可。`downloads/` 不在 Release 包里，自动拉取不会动它。
+3. 按第 7 节第 3 条验一下组合包。
+
+## 0′. 上一版要点（0.6.0，备查）
 
 和你上次拿到的 0.2.3 包相比：
 
@@ -42,7 +55,8 @@ JSON 的字段只增不改，原有字段的含义不变；页面原型 `pick/` 
 ├─ pick/                  组合挑选页（静态原型）
 │  ├─ index.html
 │  ├─ pick.css
-│  └─ pick.js
+│  ├─ pick.js
+│  └─ pack.js         组合包：浏览器端打 zip、写提示词
 └─ tools/                 重新生成 site-data 用（不用上线）
    ├─ export-styles.cjs
    └─ build_site_data.py
@@ -98,7 +112,7 @@ python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/st
 ### 4A. 手动部署（第一次部署或想手动更新时）
 
 ```bash
-VER=0.6.2                                  # 要部署的版本
+VER=0.7.0                                  # 要部署的版本
 WEB=/var/www/zhaodun.work/ppt              # 服务器上 /ppt/ 的实际目录，按你的路径改
 TMP=$(mktemp -d)
 
@@ -108,7 +122,7 @@ curl -fL -o "$TMP/site.zip" \
 unzip -q "$TMP/site.zip" -d "$TMP/site"
 
 # 2. 核对版本号
-grep '"version"' "$TMP/site/site-data/version.json"        # 应显示 "version": "0.6.2"
+grep '"version"' "$TMP/site/site-data/version.json"        # 应显示 "version": "0.7.0"
 
 # 3. 逐个目录同步；--delete 只删这四个目录里已不在包中的旧文件，不碰 /ppt/ 下其他内容
 for d in pick site-data templates previews; do
@@ -229,7 +243,7 @@ GP1:ginkgo/neubrutalism/plain
 
 1. `/ppt/pick/` 打开后（文档类型默认「讲课 / 培训」）自动选中「编辑杂志风 × 翠鸟」，上方有一句理由；文档类型改成「不指定」时第一名是「编辑杂志风 × 天河石」。
 2. 转盘拨到 C，选「吉丁虫」，左列是配色、右列是风格并自动选中第一名；拨到 M：列表变成原顺序，没有分数；选「波普艺术 × 鹦鹉螺」，预览里能看到波普的红、蓝签名色。
-3. 任选一种风格和任一配色（共 208 组），都能看到 6 页预览图并下到 pptx；「复制」按钮能复制口令（需要 https）。
+3. 任选一种风格和任一配色（共 208 组），都能看到 6 页预览图并下到 pptx。点「用 AI 做成品 → 下载组合包」能下到一个 zip，解压后有母版、预览图、提示词.md、先读我.txt（放了技能 zip 的话还有 garman-ppt-0.3.2.zip）；展开「只要一句话口令」，「复制」按钮能复制口令（需要 https）。
 4. 手机宽度下没有横向滚动。
 5. 改一次 `version.json` 后刷新页面，页脚版本号立即变化（说明没被缓存）。
 

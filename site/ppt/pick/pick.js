@@ -130,7 +130,28 @@
       S.fx = r.value; autoPick(); render();
     });
     $("aiBtn").onclick = () => {
-      const open = $("ai").hidden; $("ai").hidden = !open; $("aiBtn").setAttribute("aria-expanded", open);
+      if ($("aiBtn").getAttribute("aria-disabled") === "true") return;
+      const open = $("ai").hidden; $("ai").hidden = !open; $("cmdBox").hidden = !open; $("aiBtn").setAttribute("aria-expanded", open);
+    };
+    $("packBtn").onclick = async () => {
+      const st = D.styleById[S.style], pa = D.palById[S.pal], fx = S.fx;
+      const pick = (kind) => ((fx === "glass" ? st["glass" + kind[0].toUpperCase() + kind.slice(1)] : st[kind]) || {})[pa.id];
+      const tpl = pick("templates"), prev = pick("previews");
+      if (!tpl || !prev) return;
+      const btn = $("packBtn"), msg = $("packStatus");
+      btn.disabled = true; msg.textContent = "正在打包…";
+      try {
+        const sk = D.ver.skill || {};
+        const r = await window.GarmanPack.download({
+          style: st, palette: pa, cell: cell(S.style, S.pal), fx,
+          files: { tpl: "../" + tpl, prev: "../" + prev },
+          version: D.ver.version, pageUrl: location.href,
+          skill: { zip: sk.zip, local: sk.local || null, localUrl: sk.local ? "../" + sk.local : null },
+        });
+        msg.textContent = `已下载 ${r.name}（${(r.size / 1048576).toFixed(1)} MB）`;
+      } catch (e) {
+        msg.textContent = "打包没成功：" + e.message + "。可以先用上面的「下载模板」。";
+      } finally { btn.disabled = false; }
     };
     $("copy").onclick = () => {
       navigator.clipboard.writeText($("cmd").textContent).then(() => {
@@ -312,12 +333,13 @@
     const fxZh = S.fx === "glass" ? "毛玻璃" : "普通";
     $("combo").textContent = `${st.name.zh} × ${pa.name.zh} · ${fxZh}`;
     $("cmd").textContent = `用 GarmanPPT 做成 PPT。配色：${pa.name.zh}；风格：${st.name.zh}；效果：${fxZh}。\nGP1:${pa.id}/${st.id}/${S.fx}`;
-    // 技能目前只生成普通效果：毛玻璃或还不能生成的风格，AI 按钮显示「即将支持」
-    const ready = st.status === "ready" && S.fx === "plain";
-    $("aiBtn").setAttribute("aria-disabled", !ready);
-    $("aiBtn").textContent = ready ? "用 AI 生成成品" : "用 AI 生成成品（即将支持）";
-    if (!ready) $("ai").hidden = true;
+    // 组合包靠母版 + 提示词，16 种风格都能用；只要当前效果有模板就可以打包
     const tpl = files("templates")[pa.id];
+    const ready = !!(tpl && shot);
+    $("aiBtn").setAttribute("aria-disabled", !ready);
+    $("aiBtn").textContent = ready ? "用 AI 做成品" : "用 AI 做成品（这一组暂无母版）";
+    if (!ready) { $("ai").hidden = true; $("cmdBox").hidden = true; $("aiBtn").setAttribute("aria-expanded", false); }
+    $("packStatus").textContent = "";
     $("dlTpl").href = tpl ? "../" + tpl : "#";
     $("dlTpl").setAttribute("aria-disabled", !tpl);
     $("dlTpl").textContent = tpl ? "下载模板" : S.fx === "glass" ? "下载模板（这种风格不做毛玻璃）" : "下载模板（这组暂无）";
