@@ -1,219 +1,267 @@
 {
  "_note": "由 build_site_data.py 生成，请勿手改",
- "version": "0.4.1",
+ "version": "0.5.0",
  "key": "风格id|配色id",
  "cells": {
   "bauhaus|amazonite": {
-   "s": 58,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 3 组（青、红、蓝），接近三原色的有：红。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 3 组（青、红、蓝），接近三原色的有：红。 已由包豪斯签名色（朱红、镉黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：朱红、镉黄。",
    "roles": {
     "background": "EFF8F9",
     "text": "243335",
     "primary": "70C6D6",
-    "secondary": "B04D2F",
-    "accent": "122947"
+    "secondary": "C8442F",
+    "accent": "E8B22A"
    },
    "alt": [],
-   "rankBase": 138
+   "sig": [
+    "C8442F",
+    "E8B22A"
+   ],
+   "rankBase": 75
   },
   "bauhaus|nautilus": {
-   "s": 58,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 2 组（黄、红），接近三原色的有：红、黄。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 2 组（黄、红），接近三原色的有：红、黄。 已由包豪斯签名色（群青、朱红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：群青、朱红。",
    "roles": {
     "background": "F8F5EE",
     "text": "353025",
     "primary": "CABCA1",
-    "secondary": "AD4E37",
-    "accent": "1C1B19"
+    "secondary": "2D4E9C",
+    "accent": "C8442F"
    },
    "alt": [],
-   "rankBase": 139
+   "sig": [
+    "2D4E9C",
+    "C8442F"
+   ],
+   "rankBase": 76
   },
   "bauhaus|abalone": {
-   "s": 58,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 3 组（青、紫、橙），接近三原色的有：无。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 3 组（青、紫、橙），接近三原色的有：无。 已由包豪斯签名色（朱红、镉黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：朱红、镉黄。",
    "roles": {
     "background": "EEF7F7",
     "text": "243433",
     "primary": "71C9C8",
-    "secondary": "8754AB",
-    "accent": "362517"
+    "secondary": "C8442F",
+    "accent": "E8B22A"
    },
    "alt": [],
-   "rankBase": 140
+   "sig": [
+    "C8442F",
+    "E8B22A"
+   ],
+   "rankBase": 77
   },
   "bauhaus|kingfisher": {
-   "s": 63,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 2 组（蓝、橙），接近三原色的有：红、蓝。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 91,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 2 组（蓝、橙），接近三原色的有：红、蓝。 已由包豪斯签名色（朱红、镉黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：朱红、镉黄。",
    "roles": {
     "background": "EFF6FB",
     "text": "273239",
     "primary": "55BCFA",
-    "secondary": "AC5107",
-    "accent": "1C1B19"
+    "secondary": "C8442F",
+    "accent": "E8B22A"
    },
    "alt": [],
-   "rankBase": 121
+   "sig": [
+    "C8442F",
+    "E8B22A"
+   ],
+   "rankBase": 67
   },
   "bauhaus|blue-magpie": {
-   "s": 69,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 2 组（蓝、红），接近三原色的有：红、蓝。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 92,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 2 组（蓝、红），接近三原色的有：红、蓝。 已由包豪斯签名色（镉黄、朱红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：镉黄、朱红。",
    "roles": {
     "background": "F2F5FC",
     "text": "2C303B",
     "primary": "93AEF8",
-    "secondary": "B1483E",
-    "accent": "1C1B19"
+    "secondary": "E8B22A",
+    "accent": "C8442F"
    },
    "alt": [],
-   "rankBase": 102
+   "sig": [
+    "E8B22A",
+    "C8442F"
+   ],
+   "rankBase": 59
   },
   "bauhaus|iris": {
-   "s": 58,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 2 组（紫、黄），接近三原色的有：黄。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 2 组（紫、黄），接近三原色的有：黄。 已由包豪斯签名色（镉黄、朱红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：镉黄、朱红。",
    "roles": {
     "background": "F7F3FB",
     "text": "332E39",
     "primary": "C5A9E6",
-    "secondary": "8C6802",
-    "accent": "1C1B19"
+    "secondary": "E8B22A",
+    "accent": "C8442F"
    },
    "alt": [],
-   "rankBase": 141
+   "sig": [
+    "E8B22A",
+    "C8442F"
+   ],
+   "rankBase": 78
   },
   "bauhaus|plum-blossom": {
-   "s": 48,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 2 组（玫红、绿），接近三原色的有：无。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 87,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 2 组（玫红、绿），接近三原色的有：无。 已由包豪斯签名色（群青、镉黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：群青、镉黄。",
    "roles": {
     "background": "FBF2F5",
     "text": "392C31",
     "primary": "E6A0BA",
-    "secondary": "067D51",
-    "accent": "1C1B19"
+    "secondary": "2D4E9C",
+    "accent": "E8B22A"
    },
    "alt": [],
-   "rankBase": 162
+   "sig": [
+    "2D4E9C",
+    "E8B22A"
+   ],
+   "rankBase": 101
   },
   "bauhaus|goldenrain": {
-   "s": 52,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 2 组（红、绿），接近三原色的有：红。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 88,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 2 组（红、绿），接近三原色的有：红。 已由包豪斯签名色（群青、镉黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：群青、镉黄。",
    "roles": {
     "background": "FCF3F1",
     "text": "3A2D2A",
     "primary": "F09F90",
-    "secondary": "3E7D2F",
-    "accent": "1C1B19"
+    "secondary": "2D4E9C",
+    "accent": "E8B22A"
    },
    "alt": [],
-   "rankBase": 158
+   "sig": [
+    "2D4E9C",
+    "E8B22A"
+   ],
+   "rankBase": 92
   },
   "bauhaus|maple": {
-   "s": 53,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 2 组（红、绿），接近三原色的有：红。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 88,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 2 组（红、绿），接近三原色的有：红。 已由包豪斯签名色（群青、镉黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：群青、镉黄。",
    "roles": {
     "background": "FCF3F0",
     "text": "3A2D29",
     "primary": "F49E84",
-    "secondary": "047B60",
-    "accent": "1C1B19"
+    "secondary": "2D4E9C",
+    "accent": "E8B22A"
    },
    "alt": [],
-   "rankBase": 154
+   "sig": [
+    "2D4E9C",
+    "E8B22A"
+   ],
+   "rankBase": 93
   },
   "bauhaus|tallow-tree": {
-   "s": 63,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 2 组（橙、蓝），接近三原色的有：蓝。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 91,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 2 组（橙、蓝），接近三原色的有：蓝。 已由包豪斯签名色（群青、镉黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：群青、镉黄。",
    "roles": {
     "background": "FBF3EF",
     "text": "392E27",
     "primary": "E9A679",
-    "secondary": "1672AB",
-    "accent": "1C1B19"
+    "secondary": "2D4E9C",
+    "accent": "E8B22A"
    },
    "alt": [],
-   "rankBase": 122
+   "sig": [
+    "2D4E9C",
+    "E8B22A"
+   ],
+   "rankBase": 68
   },
   "bauhaus|golden-cowry": {
-   "s": 48,
-   "l": "可调",
-   "tier": "against",
-   "why": "可用色相 2 组（橙、紫），接近三原色的有：红。",
-   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "s": 87,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 2 组（橙、紫），接近三原色的有：红。 已由包豪斯签名色（群青、镉黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：群青、镉黄。",
    "roles": {
     "background": "FBF3F0",
     "text": "392D28",
     "primary": "FE8F5B",
-    "secondary": "9250A0",
-    "accent": "1C1B19"
+    "secondary": "2D4E9C",
+    "accent": "E8B22A"
    },
    "alt": [],
-   "rankBase": 163
+   "sig": [
+    "2D4E9C",
+    "E8B22A"
+   ],
+   "rankBase": 102
   },
   "bauhaus|ginkgo": {
-   "s": 71,
+   "s": 93,
    "l": "兼容",
-   "tier": "against",
+   "tier": "neutral",
    "why": "可用色相 2 组（黄、蓝），接近三原色的有：蓝、黄。",
-   "act": "圆、方、三角分别用主色、点睛色、深色，直接套用。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：群青、朱红。",
    "roles": {
     "background": "F7F5EE",
     "text": "333025",
     "primary": "F0CF4C",
-    "secondary": "3B6CBF",
-    "accent": "1C1B19"
+    "secondary": "2D4E9C",
+    "accent": "C8442F"
    },
    "alt": [],
-   "rankBase": 99
+   "sig": [
+    "2D4E9C",
+    "C8442F"
+   ],
+   "rankBase": 54
   },
   "bauhaus|jewel-beetle": {
-   "s": 43,
-   "l": "冲突",
-   "tier": "against",
-   "why": "可用色相 3 组（绿、玫红、绿），接近三原色的有：无。",
-   "act": "色相都离三原色较远，几何色块会失去包豪斯辨识度，建议换配色。",
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "可用色相 3 组（绿、玫红、绿），接近三原色的有：无。 已由包豪斯签名色（群青、朱红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入包豪斯签名色：群青、朱红。",
    "roles": {
     "background": "F3F7F0",
     "text": "2D3228",
     "primary": "A4C386",
-    "secondary": "A8477A",
-    "accent": "003221"
+    "secondary": "2D4E9C",
+    "accent": "C8442F"
    },
-   "alt": [
-    "ginkgo",
-    "blue-magpie",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "2D4E9C",
+    "C8442F"
    ],
-   "rankBase": 171
+   "rankBase": 109
   },
   "swiss-style|amazonite": {
    "s": 96,
@@ -229,7 +277,7 @@
     "accent": "B04D2F"
    },
    "alt": [],
-   "rankBase": 21
+   "rankBase": 25
   },
   "swiss-style|nautilus": {
    "s": 94,
@@ -245,7 +293,7 @@
     "accent": "AD4E37"
    },
    "alt": [],
-   "rankBase": 40
+   "rankBase": 46
   },
   "swiss-style|abalone": {
    "s": 86,
@@ -261,7 +309,7 @@
     "accent": "8754AB"
    },
    "alt": [],
-   "rankBase": 62
+   "rankBase": 106
   },
   "swiss-style|kingfisher": {
    "s": 96,
@@ -277,7 +325,7 @@
     "accent": "AC5107"
    },
    "alt": [],
-   "rankBase": 22
+   "rankBase": 26
   },
   "swiss-style|blue-magpie": {
    "s": 96,
@@ -293,7 +341,7 @@
     "accent": "B1483E"
    },
    "alt": [],
-   "rankBase": 23
+   "rankBase": 27
   },
   "swiss-style|iris": {
    "s": 81,
@@ -309,7 +357,7 @@
     "accent": "8C6802"
    },
    "alt": [],
-   "rankBase": 77
+   "rankBase": 149
   },
   "swiss-style|plum-blossom": {
    "s": 82,
@@ -325,7 +373,7 @@
     "accent": "067D51"
    },
    "alt": [],
-   "rankBase": 74
+   "rankBase": 140
   },
   "swiss-style|goldenrain": {
    "s": 84,
@@ -341,7 +389,7 @@
     "accent": "3E7D2F"
    },
    "alt": [],
-   "rankBase": 70
+   "rankBase": 124
   },
   "swiss-style|maple": {
    "s": 76,
@@ -357,7 +405,7 @@
     "accent": "047B60"
    },
    "alt": [],
-   "rankBase": 93
+   "rankBase": 176
   },
   "swiss-style|tallow-tree": {
    "s": 82,
@@ -373,7 +421,7 @@
     "accent": "1672AB"
    },
    "alt": [],
-   "rankBase": 75
+   "rankBase": 141
   },
   "swiss-style|golden-cowry": {
    "s": 83,
@@ -389,7 +437,7 @@
     "accent": "9250A0"
    },
    "alt": [],
-   "rankBase": 71
+   "rankBase": 135
   },
   "swiss-style|ginkgo": {
    "s": 73,
@@ -405,7 +453,7 @@
     "accent": "3B6CBF"
    },
    "alt": [],
-   "rankBase": 98
+   "rankBase": 181
   },
   "swiss-style|jewel-beetle": {
    "s": 91,
@@ -421,7 +469,7 @@
     "accent": "A8477A"
    },
    "alt": [],
-   "rankBase": 54
+   "rankBase": 65
   },
   "editorial|amazonite": {
    "s": 100,
@@ -453,7 +501,7 @@
     "accent": "AD4E37"
    },
    "alt": [],
-   "rankBase": 63
+   "rankBase": 107
   },
   "editorial|abalone": {
    "s": 89,
@@ -469,7 +517,7 @@
     "accent": "8754AB"
    },
    "alt": [],
-   "rankBase": 61
+   "rankBase": 87
   },
   "editorial|kingfisher": {
    "s": 100,
@@ -533,7 +581,7 @@
     "accent": "067D51"
    },
    "alt": [],
-   "rankBase": 41
+   "rankBase": 47
   },
   "editorial|goldenrain": {
    "s": 100,
@@ -581,7 +629,7 @@
     "accent": "1672AB"
    },
    "alt": [],
-   "rankBase": 42
+   "rankBase": 48
   },
   "editorial|golden-cowry": {
    "s": 94,
@@ -597,7 +645,7 @@
     "accent": "9250A0"
    },
    "alt": [],
-   "rankBase": 43
+   "rankBase": 49
   },
   "editorial|ginkgo": {
    "s": 94,
@@ -613,7 +661,7 @@
     "accent": "3B6CBF"
    },
    "alt": [],
-   "rankBase": 44
+   "rankBase": 50
   },
   "editorial|jewel-beetle": {
    "s": 100,
@@ -645,7 +693,7 @@
     "accent": "A5563F"
    },
    "alt": [],
-   "rankBase": 95
+   "rankBase": 178
   },
   "japanese-minimal|nautilus": {
    "s": 98,
@@ -677,7 +725,7 @@
     "accent": "835B9F"
    },
    "alt": [],
-   "rankBase": 96
+   "rankBase": 179
   },
   "japanese-minimal|kingfisher": {
    "s": 58,
@@ -693,7 +741,7 @@
     "accent": "A1592D"
    },
    "alt": [],
-   "rankBase": 137
+   "rankBase": 201
   },
   "japanese-minimal|blue-magpie": {
    "s": 64,
@@ -709,7 +757,7 @@
     "accent": "A55249"
    },
    "alt": [],
-   "rankBase": 117
+   "rankBase": 193
   },
   "japanese-minimal|iris": {
    "s": 79,
@@ -725,7 +773,7 @@
     "accent": "866A2B"
    },
    "alt": [],
-   "rankBase": 85
+   "rankBase": 167
   },
   "japanese-minimal|plum-blossom": {
    "s": 83,
@@ -741,7 +789,7 @@
     "accent": "2E7A56"
    },
    "alt": [],
-   "rankBase": 72
+   "rankBase": 136
   },
   "japanese-minimal|goldenrain": {
    "s": 76,
@@ -757,7 +805,7 @@
     "accent": "4A7A3F"
    },
    "alt": [],
-   "rankBase": 94
+   "rankBase": 177
   },
   "japanese-minimal|maple": {
    "s": 79,
@@ -773,7 +821,7 @@
     "accent": "2F7861"
    },
    "alt": [],
-   "rankBase": 86
+   "rankBase": 168
   },
   "japanese-minimal|tallow-tree": {
    "s": 79,
@@ -789,7 +837,7 @@
     "accent": "33719F"
    },
    "alt": [],
-   "rankBase": 87
+   "rankBase": 169
   },
   "japanese-minimal|golden-cowry": {
    "s": 55,
@@ -805,7 +853,7 @@
     "accent": "8B5897"
    },
    "alt": [],
-   "rankBase": 146
+   "rankBase": 203
   },
   "japanese-minimal|ginkgo": {
    "s": 55,
@@ -821,7 +869,7 @@
     "accent": "466EB0"
    },
    "alt": [],
-   "rankBase": 147
+   "rankBase": 204
   },
   "japanese-minimal|jewel-beetle": {
    "s": 77,
@@ -837,7 +885,7 @@
     "accent": "9E5178"
    },
    "alt": [],
-   "rankBase": 92
+   "rankBase": 175
   },
   "art-deco|amazonite": {
    "s": 65,
@@ -853,7 +901,7 @@
     "accent": "B04D2F"
    },
    "alt": [],
-   "rankBase": 114
+   "rankBase": 190
   },
   "art-deco|nautilus": {
    "s": 86,
@@ -869,7 +917,7 @@
     "accent": "AD4E37"
    },
    "alt": [],
-   "rankBase": 65
+   "rankBase": 110
   },
   "art-deco|abalone": {
    "s": 55,
@@ -885,7 +933,7 @@
     "accent": "8754AB"
    },
    "alt": [],
-   "rankBase": 148
+   "rankBase": 205
   },
   "art-deco|kingfisher": {
    "s": 65,
@@ -901,7 +949,7 @@
     "accent": "AC5107"
    },
    "alt": [],
-   "rankBase": 115
+   "rankBase": 191
   },
   "art-deco|blue-magpie": {
    "s": 65,
@@ -917,7 +965,7 @@
     "accent": "B1483E"
    },
    "alt": [],
-   "rankBase": 116
+   "rankBase": 192
   },
   "art-deco|iris": {
    "s": 55,
@@ -933,7 +981,7 @@
     "accent": "8C6802"
    },
    "alt": [],
-   "rankBase": 149
+   "rankBase": 206
   },
   "art-deco|plum-blossom": {
    "s": 45,
@@ -949,7 +997,7 @@
     "accent": "067D51"
    },
    "alt": [],
-   "rankBase": 167
+   "rankBase": 208
   },
   "art-deco|goldenrain": {
    "s": 69,
@@ -965,7 +1013,7 @@
     "accent": "3E7D2F"
    },
    "alt": [],
-   "rankBase": 103
+   "rankBase": 184
   },
   "art-deco|maple": {
    "s": 63,
@@ -981,7 +1029,7 @@
     "accent": "047B60"
    },
    "alt": [],
-   "rankBase": 123
+   "rankBase": 197
   },
   "art-deco|tallow-tree": {
    "s": 74,
@@ -997,7 +1045,7 @@
     "accent": "1672AB"
    },
    "alt": [],
-   "rankBase": 97
+   "rankBase": 180
   },
   "art-deco|golden-cowry": {
    "s": 68,
@@ -1013,7 +1061,7 @@
     "accent": "9250A0"
    },
    "alt": [],
-   "rankBase": 106
+   "rankBase": 186
   },
   "art-deco|ginkgo": {
    "s": 80,
@@ -1029,7 +1077,7 @@
     "accent": "3B6CBF"
    },
    "alt": [],
-   "rankBase": 83
+   "rankBase": 161
   },
   "art-deco|jewel-beetle": {
    "s": 68,
@@ -1045,7 +1093,7 @@
     "accent": "A8477A"
    },
    "alt": [],
-   "rankBase": 107
+   "rankBase": 187
   },
   "art-nouveau|amazonite": {
    "s": 62,
@@ -1061,7 +1109,7 @@
     "accent": "A25843"
    },
    "alt": [],
-   "rankBase": 127
+   "rankBase": 198
   },
   "art-nouveau|nautilus": {
    "s": 100,
@@ -1093,7 +1141,7 @@
     "accent": "815C9C"
    },
    "alt": [],
-   "rankBase": 128
+   "rankBase": 199
   },
   "art-nouveau|kingfisher": {
    "s": 57,
@@ -1109,7 +1157,7 @@
     "accent": "9E5B32"
    },
    "alt": [],
-   "rankBase": 143
+   "rankBase": 202
   },
   "art-nouveau|blue-magpie": {
    "s": 62,
@@ -1125,7 +1173,7 @@
     "accent": "A2554B"
    },
    "alt": [],
-   "rankBase": 129
+   "rankBase": 200
   },
   "art-nouveau|iris": {
    "s": 81,
@@ -1141,7 +1189,7 @@
     "accent": "856A31"
    },
    "alt": [],
-   "rankBase": 78
+   "rankBase": 150
   },
   "art-nouveau|plum-blossom": {
    "s": 81,
@@ -1157,7 +1205,7 @@
     "accent": "347958"
    },
    "alt": [],
-   "rankBase": 79
+   "rankBase": 151
   },
   "art-nouveau|goldenrain": {
    "s": 86,
@@ -1173,7 +1221,7 @@
     "accent": "4C7942"
    },
    "alt": [],
-   "rankBase": 64
+   "rankBase": 108
   },
   "art-nouveau|maple": {
    "s": 90,
@@ -1189,7 +1237,7 @@
     "accent": "357762"
    },
    "alt": [],
-   "rankBase": 57
+   "rankBase": 72
   },
   "art-nouveau|tallow-tree": {
    "s": 93,
@@ -1205,7 +1253,7 @@
     "accent": "38719C"
    },
    "alt": [],
-   "rankBase": 47
+   "rankBase": 52
   },
   "art-nouveau|golden-cowry": {
    "s": 80,
@@ -1221,7 +1269,7 @@
     "accent": "8A5A94"
    },
    "alt": [],
-   "rankBase": 81
+   "rankBase": 159
   },
   "art-nouveau|ginkgo": {
    "s": 80,
@@ -1237,7 +1285,7 @@
     "accent": "496EAC"
    },
    "alt": [],
-   "rankBase": 82
+   "rankBase": 160
   },
   "art-nouveau|jewel-beetle": {
    "s": 90,
@@ -1253,939 +1301,1034 @@
     "accent": "9B5377"
    },
    "alt": [],
-   "rankBase": 58
+   "rankBase": 73
   },
   "constructivism|amazonite": {
-   "s": 79,
+   "s": 95,
    "l": "兼容",
-   "tier": "neutral",
+   "tier": "recommend",
    "why": "最接近「革命红」的是点睛色（红，彩度 0.14）。",
-   "act": "红黑大面积对撞，斜线构图直接成立。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "EFF8F9",
     "text": "161616",
     "primary": "B04D2F",
-    "secondary": "53686A",
+    "secondary": "B5262B",
     "accent": "70C6D6"
    },
    "alt": [],
-   "rankBase": 89
+   "sig": [
+    "B5262B"
+   ],
+   "rankBase": 44
   },
   "constructivism|nautilus": {
-   "s": 83,
+   "s": 96,
    "l": "兼容",
-   "tier": "neutral",
+   "tier": "recommend",
    "why": "最接近「革命红」的是点睛色（红，彩度 0.13）。",
-   "act": "红黑大面积对撞，斜线构图直接成立。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "F8F5EE",
     "text": "161616",
     "primary": "AD4E37",
-    "secondary": "6A6253",
+    "secondary": "B5262B",
     "accent": "CABCA1"
    },
    "alt": [],
-   "rankBase": 73
+   "sig": [
+    "B5262B"
+   ],
+   "rankBase": 28
   },
   "constructivism|abalone": {
-   "s": 25,
-   "l": "冲突",
-   "tier": "against",
-   "why": "最接近「革命红」的是主色（青，彩度 0.09）。",
-   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "s": 81,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是主色（青，彩度 0.09）。 已由构成主义签名色（红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "EEF7F7",
     "text": "161616",
     "primary": "71C9C8",
-    "secondary": "536868",
+    "secondary": "B5262B",
     "accent": "8754AB"
    },
-   "alt": [
-    "blue-magpie",
-    "nautilus",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "B5262B"
    ],
-   "rankBase": 197
+   "rankBase": 153
   },
   "constructivism|kingfisher": {
-   "s": 59,
-   "l": "可调",
-   "tier": "against",
-   "why": "最接近「革命红」的是点睛色（橙，彩度 0.14）。",
-   "act": "暖色不够红或太浅，需压暗、提饱和后再与黑对撞。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是点睛色（橙，彩度 0.14）。 已由构成主义签名色（红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "EFF6FB",
     "text": "161616",
     "primary": "AC5107",
-    "secondary": "566670",
+    "secondary": "B5262B",
     "accent": "55BCFA"
    },
    "alt": [],
-   "rankBase": 133
+   "sig": [
+    "B5262B"
+   ],
+   "rankBase": 79
   },
   "constructivism|blue-magpie": {
-   "s": 93,
+   "s": 98,
    "l": "兼容",
-   "tier": "neutral",
+   "tier": "recommend",
    "why": "最接近「革命红」的是点睛色（红，彩度 0.14）。",
-   "act": "红黑大面积对撞，斜线构图直接成立。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "F2F5FC",
     "text": "161616",
     "primary": "B1483E",
-    "secondary": "5D6372",
+    "secondary": "B5262B",
     "accent": "93AEF8"
    },
    "alt": [],
-   "rankBase": 49
+   "sig": [
+    "B5262B"
+   ],
+   "rankBase": 21
   },
   "constructivism|iris": {
-   "s": 25,
-   "l": "冲突",
-   "tier": "against",
-   "why": "最接近「革命红」的是主色（紫，彩度 0.09）。",
-   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "s": 81,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是主色（紫，彩度 0.09）。 已由构成主义签名色（红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "F7F3FB",
     "text": "161616",
     "primary": "C5A9E6",
-    "secondary": "66606F",
+    "secondary": "B5262B",
     "accent": "8C6802"
    },
-   "alt": [
-    "blue-magpie",
-    "nautilus",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "B5262B"
    ],
-   "rankBase": 198
+   "rankBase": 154
   },
   "constructivism|plum-blossom": {
-   "s": 37,
-   "l": "冲突",
-   "tier": "against",
-   "why": "最接近「革命红」的是深字色（玫红，彩度 0.08）。",
-   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是深字色（玫红，彩度 0.08）。 已由构成主义签名色（红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "FBF2F5",
     "text": "161616",
     "primary": "814A60",
-    "secondary": "705E64",
+    "secondary": "B5262B",
     "accent": "E6A0BA"
    },
-   "alt": [
-    "blue-magpie",
-    "nautilus",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "B5262B"
    ],
-   "rankBase": 179
+   "rankBase": 126
   },
   "constructivism|goldenrain": {
-   "s": 63,
-   "l": "可调",
-   "tier": "against",
-   "why": "最接近「革命红」的是深字色（红，彩度 0.08）。",
-   "act": "暖色不够红或太浅，需压暗、提饱和后再与黑对撞。",
+   "s": 91,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是深字色（红，彩度 0.08）。 已由构成主义签名色（红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "FCF3F1",
     "text": "161616",
     "primary": "854C41",
-    "secondary": "715E5B",
+    "secondary": "B5262B",
     "accent": "F09F90"
    },
    "alt": [],
-   "rankBase": 124
+   "sig": [
+    "B5262B"
+   ],
+   "rankBase": 69
   },
   "constructivism|maple": {
-   "s": 58,
-   "l": "可调",
-   "tier": "against",
-   "why": "最接近「革命红」的是深字色（红，彩度 0.08）。",
-   "act": "暖色不够红或太浅，需压暗、提饱和后再与黑对撞。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是深字色（红，彩度 0.08）。 已由构成主义签名色（红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "FCF3F0",
     "text": "161616",
     "primary": "844D3C",
-    "secondary": "715F59",
+    "secondary": "B5262B",
     "accent": "F49E84"
    },
    "alt": [],
-   "rankBase": 142
+   "sig": [
+    "B5262B"
+   ],
+   "rankBase": 80
   },
   "constructivism|tallow-tree": {
-   "s": 41,
-   "l": "冲突",
-   "tier": "against",
-   "why": "最接近「革命红」的是深字色（橙，彩度 0.08）。",
-   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "s": 85,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是深字色（橙，彩度 0.08）。 已由构成主义签名色（红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "FBF3EF",
     "text": "161616",
     "primary": "80512F",
-    "secondary": "6F6056",
+    "secondary": "B5262B",
     "accent": "E9A679"
    },
-   "alt": [
-    "blue-magpie",
-    "nautilus",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "B5262B"
    ],
-   "rankBase": 175
+   "rankBase": 118
   },
   "constructivism|golden-cowry": {
-   "s": 54,
-   "l": "可调",
-   "tier": "against",
-   "why": "最接近「革命红」的是主色（橙，彩度 0.15）。",
-   "act": "暖色不够红或太浅，需压暗、提饱和后再与黑对撞。",
+   "s": 88,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是主色（橙，彩度 0.15）。 已由构成主义签名色（红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "FBF3F0",
     "text": "161616",
     "primary": "FE8F5B",
-    "secondary": "705F58",
+    "secondary": "B5262B",
     "accent": "9250A0"
    },
    "alt": [],
-   "rankBase": 151
+   "sig": [
+    "B5262B"
+   ],
+   "rankBase": 94
   },
   "constructivism|ginkgo": {
-   "s": 25,
-   "l": "冲突",
-   "tier": "against",
-   "why": "最接近「革命红」的是主色（黄，彩度 0.15）。",
-   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "s": 81,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是主色（黄，彩度 0.15）。 已由构成主义签名色（红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "F7F5EE",
     "text": "161616",
     "primary": "F0CF4C",
-    "secondary": "686353",
+    "secondary": "B5262B",
     "accent": "3B6CBF"
    },
-   "alt": [
-    "blue-magpie",
-    "nautilus",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "B5262B"
    ],
-   "rankBase": 199
+   "rankBase": 155
   },
   "constructivism|jewel-beetle": {
-   "s": 37,
-   "l": "冲突",
-   "tier": "against",
-   "why": "最接近「革命红」的是点睛色（玫红，彩度 0.14）。",
-   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是点睛色（玫红，彩度 0.14）。 已由构成主义签名色（红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入构成主义签名色：红。",
    "roles": {
     "background": "F3F7F0",
     "text": "161616",
     "primary": "A8477A",
-    "secondary": "5E6657",
+    "secondary": "B5262B",
     "accent": "A4C386"
    },
-   "alt": [
-    "blue-magpie",
-    "nautilus",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "B5262B"
    ],
-   "rankBase": 180
+   "rankBase": 127
   },
   "de-stijl|amazonite": {
-   "s": 49,
-   "l": "可调",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红80%，蓝47%，黄0%。",
-   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "s": 87,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红80%，蓝47%，黄0%。 已由风格派签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、黄。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "B04D2F",
-    "secondary": "122947",
-    "accent": "70C6D6"
+    "secondary": "1F3F95",
+    "accent": "EFC12B"
    },
    "alt": [],
-   "rankBase": 161
+   "sig": [
+    "1F3F95",
+    "EFC12B"
+   ],
+   "rankBase": 100
   },
   "de-stijl|nautilus": {
-   "s": 57,
-   "l": "可调",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红84%，蓝7%，黄67%。",
-   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "s": 89,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红84%，蓝7%，黄67%。 已由风格派签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、黄。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "AD4E37",
-    "secondary": "27292D",
-    "accent": "725A21"
+    "secondary": "1F3F95",
+    "accent": "EFC12B"
    },
    "alt": [],
-   "rankBase": 145
+   "sig": [
+    "1F3F95",
+    "EFC12B"
+   ],
+   "rankBase": 89
   },
   "de-stijl|abalone": {
-   "s": 24,
-   "l": "冲突",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红11%，蓝10%，黄13%。",
-   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "s": 81,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红11%，蓝10%，黄13%。 已由风格派签名色（蓝、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、红。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "362517",
-    "secondary": "8754AB",
-    "accent": "362517"
+    "secondary": "1F3F95",
+    "accent": "C62A2A"
    },
-   "alt": [
-    "blue-magpie",
-    "ginkgo",
-    "nautilus"
+   "alt": [],
+   "sig": [
+    "1F3F95",
+    "C62A2A"
    ],
-   "rankBase": 201
+   "rankBase": 156
   },
   "de-stijl|kingfisher": {
-   "s": 48,
-   "l": "可调",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红54%，蓝50%，黄20%。",
-   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "s": 87,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红54%，蓝50%，黄20%。 已由风格派签名色（蓝、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、红。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "AC5107",
-    "secondary": "0E294A",
-    "accent": "AC5107"
+    "secondary": "1F3F95",
+    "accent": "C62A2A"
    },
    "alt": [],
-   "rankBase": 164
+   "sig": [
+    "1F3F95",
+    "C62A2A"
+   ],
+   "rankBase": 103
   },
   "de-stijl|blue-magpie": {
-   "s": 66,
-   "l": "可调",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红98%，蓝94%，黄0%。",
-   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "s": 92,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红98%，蓝94%，黄0%。 已由风格派签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、黄。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "B1483E",
-    "secondary": "93AEF8",
-    "accent": "93AEF8"
+    "secondary": "1F3F95",
+    "accent": "EFC12B"
    },
    "alt": [],
-   "rankBase": 111
+   "sig": [
+    "1F3F95",
+    "EFC12B"
+   ],
+   "rankBase": 60
   },
   "de-stijl|iris": {
-   "s": 44,
-   "l": "冲突",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红0%，蓝22%，黄88%。",
-   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红0%，蓝22%，黄88%。 已由风格派签名色（黄、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：黄、红。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "C5A9E6",
-    "secondary": "2C2145",
-    "accent": "8C6802"
+    "secondary": "EFC12B",
+    "accent": "C62A2A"
    },
-   "alt": [
-    "blue-magpie",
-    "ginkgo",
-    "nautilus"
+   "alt": [],
+   "sig": [
+    "EFC12B",
+    "C62A2A"
    ],
-   "rankBase": 170
+   "rankBase": 111
   },
   "de-stijl|plum-blossom": {
-   "s": 23,
-   "l": "冲突",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红29%，蓝0%，黄0%。",
-   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "s": 81,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红29%，蓝0%，黄0%。 已由风格派签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、黄。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "E6A0BA",
-    "secondary": "E6A0BA",
-    "accent": "E6A0BA"
+    "secondary": "1F3F95",
+    "accent": "EFC12B"
    },
-   "alt": [
-    "blue-magpie",
-    "ginkgo",
-    "nautilus"
+   "alt": [],
+   "sig": [
+    "1F3F95",
+    "EFC12B"
    ],
-   "rankBase": 202
+   "rankBase": 157
   },
   "de-stijl|goldenrain": {
-   "s": 37,
-   "l": "冲突",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红84%，蓝0%，黄0%。",
-   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红84%，蓝0%，黄0%。 已由风格派签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、黄。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "F09F90",
-    "secondary": "F09F90",
-    "accent": "F09F90"
+    "secondary": "1F3F95",
+    "accent": "EFC12B"
    },
-   "alt": [
-    "blue-magpie",
-    "ginkgo",
-    "nautilus"
+   "alt": [],
+   "sig": [
+    "1F3F95",
+    "EFC12B"
    ],
-   "rankBase": 181
+   "rankBase": 128
   },
   "de-stijl|maple": {
-   "s": 36,
-   "l": "冲突",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红78%，蓝0%，黄0%。",
-   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红78%，蓝0%，黄0%。 已由风格派签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、黄。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "F49E84",
-    "secondary": "F49E84",
-    "accent": "F49E84"
+    "secondary": "1F3F95",
+    "accent": "EFC12B"
    },
-   "alt": [
-    "blue-magpie",
-    "ginkgo",
-    "nautilus"
+   "alt": [],
+   "sig": [
+    "1F3F95",
+    "EFC12B"
    ],
-   "rankBase": 183
+   "rankBase": 129
   },
   "de-stijl|tallow-tree": {
-   "s": 48,
-   "l": "可调",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红40%，蓝56%，黄27%。",
-   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "s": 87,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红40%，蓝56%，黄27%。 已由风格派签名色（蓝、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、红。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "E9A679",
-    "secondary": "1672AB",
-    "accent": "E9A679"
+    "secondary": "1F3F95",
+    "accent": "C62A2A"
    },
    "alt": [],
-   "rankBase": 165
+   "sig": [
+    "1F3F95",
+    "C62A2A"
+   ],
+   "rankBase": 104
   },
   "de-stijl|golden-cowry": {
-   "s": 35,
-   "l": "冲突",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红64%，蓝0%，黄10%。",
-   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红64%，蓝0%，黄10%。 已由风格派签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、黄。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "FE8F5B",
-    "secondary": "FE8F5B",
-    "accent": "FE8F5B"
+    "secondary": "1F3F95",
+    "accent": "EFC12B"
    },
-   "alt": [
-    "blue-magpie",
-    "ginkgo",
-    "nautilus"
+   "alt": [],
+   "sig": [
+    "1F3F95",
+    "EFC12B"
    ],
-   "rankBase": 185
+   "rankBase": 130
   },
   "de-stijl|ginkgo": {
-   "s": 63,
-   "l": "可调",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红0%，蓝90%，黄90%。",
-   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "s": 91,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红0%，蓝90%，黄90%。 已由风格派签名色（蓝、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、红。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "F0CF4C",
-    "secondary": "3B6CBF",
-    "accent": "F0CF4C"
+    "secondary": "1F3F95",
+    "accent": "C62A2A"
    },
    "alt": [],
-   "rankBase": 125
+   "sig": [
+    "1F3F95",
+    "C62A2A"
+   ],
+   "rankBase": 70
   },
   "de-stijl|jewel-beetle": {
-   "s": 26,
-   "l": "冲突",
-   "tier": "against",
-   "why": "红 / 蓝 / 黄的覆盖度：红26%，蓝0%，黄16%。",
-   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "s": 82,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "红 / 蓝 / 黄的覆盖度：红26%，蓝0%，黄16%。 已由风格派签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入风格派签名色：蓝、黄。",
    "roles": {
     "background": "FFFFFF",
     "text": "121212",
     "primary": "A8477A",
-    "secondary": "A4C386",
-    "accent": "A4C386"
+    "secondary": "1F3F95",
+    "accent": "EFC12B"
    },
-   "alt": [
-    "blue-magpie",
-    "ginkgo",
-    "nautilus"
+   "alt": [],
+   "sig": [
+    "1F3F95",
+    "EFC12B"
    ],
-   "rankBase": 196
+   "rankBase": 142
   },
   "memphis|amazonite": {
-   "s": 52,
-   "l": "可调",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。",
-   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "s": 88,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。 已由孟菲斯签名色（珊瑚红、柠檬黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：珊瑚红、柠檬黄。",
    "roles": {
     "background": "EFF8F9",
     "text": "1A1A1A",
     "primary": "4ED1E7",
-    "secondary": "F97A55",
-    "accent": "7DDDFB"
+    "secondary": "FF7A85",
+    "accent": "FFD23F"
    },
    "alt": [],
-   "rankBase": 157
+   "sig": [
+    "FF7A85",
+    "FFD23F"
+   ],
+   "rankBase": 91
   },
   "memphis|nautilus": {
-   "s": 33,
-   "l": "冲突",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.04。",
-   "act": "提饱和后仍显发闷，与孟菲斯的玩具感相反，建议换风格或换鲜明档配色。",
+   "s": 83,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.04。 已由孟菲斯签名色（薄荷、珊瑚红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：薄荷、珊瑚红。",
    "roles": {
     "background": "F8F5EE",
     "text": "1A1A1A",
     "primary": "D5C29D",
-    "secondary": "F67C5E",
-    "accent": "ECC97C"
+    "secondary": "4FC9B0",
+    "accent": "FF7A85"
    },
-   "alt": [
-    "golden-cowry",
-    "ginkgo",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "4FC9B0",
+    "FF7A85"
    ],
-   "rankBase": 188
+   "rankBase": 137
   },
   "memphis|abalone": {
-   "s": 52,
-   "l": "可调",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。",
-   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "s": 88,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。 已由孟菲斯签名色（珊瑚红、柠檬黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：珊瑚红、柠檬黄。",
    "roles": {
     "background": "EEF7F7",
     "text": "1A1A1A",
     "primary": "4FD5D5",
-    "secondary": "C583F2",
-    "accent": "71E3E4"
+    "secondary": "FF7A85",
+    "accent": "FFD23F"
    },
    "alt": [],
-   "rankBase": 159
+   "sig": [
+    "FF7A85",
+    "FFD23F"
+   ],
+   "rankBase": 95
   },
   "memphis|kingfisher": {
-   "s": 66,
-   "l": "可调",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.13。",
-   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "s": 92,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.13。 已由孟菲斯签名色（柠檬黄、珊瑚红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：柠檬黄、珊瑚红。",
    "roles": {
     "background": "EFF6FB",
     "text": "1A1A1A",
     "primary": "60C2FE",
-    "secondary": "F58033",
-    "accent": "98D7FF"
+    "secondary": "FFD23F",
+    "accent": "FF7A85"
    },
    "alt": [],
-   "rankBase": 112
+   "sig": [
+    "FFD23F",
+    "FF7A85"
+   ],
+   "rankBase": 61
   },
   "memphis|blue-magpie": {
-   "s": 62,
-   "l": "可调",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.11。",
-   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.11。 已由孟菲斯签名色（柠檬黄、珊瑚红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：柠檬黄、珊瑚红。",
    "roles": {
     "background": "F2F5FC",
     "text": "1A1A1A",
     "primary": "99B5FE",
-    "secondary": "FC7567",
-    "accent": "B8CDFE"
+    "secondary": "FFD23F",
+    "accent": "FF7A85"
    },
    "alt": [],
-   "rankBase": 130
+   "sig": [
+    "FFD23F",
+    "FF7A85"
+   ],
+   "rankBase": 81
   },
   "memphis|iris": {
-   "s": 43,
-   "l": "冲突",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。",
-   "act": "提饱和后仍显发闷，与孟菲斯的玩具感相反，建议换风格或换鲜明档配色。",
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。 已由孟菲斯签名色（柠檬黄、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：柠檬黄、薄荷。",
    "roles": {
     "background": "F7F3FB",
     "text": "1A1A1A",
     "primary": "D0A9FD",
-    "secondary": "CB9D30",
-    "accent": "DCBFFF"
+    "secondary": "FFD23F",
+    "accent": "4FC9B0"
    },
-   "alt": [
-    "golden-cowry",
-    "ginkgo",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "FFD23F",
+    "4FC9B0"
    ],
-   "rankBase": 172
+   "rankBase": 112
   },
   "memphis|plum-blossom": {
-   "s": 43,
-   "l": "冲突",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。",
-   "act": "提饱和后仍显发闷，与孟菲斯的玩具感相反，建议换风格或换鲜明档配色。",
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。 已由孟菲斯签名色（薄荷、柠檬黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：薄荷、柠檬黄。",
    "roles": {
     "background": "FBF2F5",
     "text": "1A1A1A",
     "primary": "FB9DC2",
-    "secondary": "3FBF86",
-    "accent": "FFB5D1"
+    "secondary": "4FC9B0",
+    "accent": "FFD23F"
    },
-   "alt": [
-    "golden-cowry",
-    "ginkgo",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "4FC9B0",
+    "FFD23F"
    ],
-   "rankBase": 173
+   "rankBase": 113
   },
   "memphis|goldenrain": {
-   "s": 45,
-   "l": "可调",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.10。",
-   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.10。 已由孟菲斯签名色（薄荷、柠檬黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：薄荷、柠檬黄。",
    "roles": {
     "background": "FCF3F1",
     "text": "1A1A1A",
     "primary": "FFA190",
-    "secondary": "6CBC5A",
-    "accent": "FFBBAC"
+    "secondary": "4FC9B0",
+    "accent": "FFD23F"
    },
    "alt": [],
-   "rankBase": 168
+   "sig": [
+    "4FC9B0",
+    "FFD23F"
+   ],
+   "rankBase": 114
   },
   "memphis|maple": {
-   "s": 47,
-   "l": "可调",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.11。",
-   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "s": 87,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.11。 已由孟菲斯签名色（薄荷、柠檬黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：薄荷、柠檬黄。",
    "roles": {
     "background": "FCF3F0",
     "text": "1A1A1A",
     "primary": "FEA286",
-    "secondary": "41BD99",
-    "accent": "FFBBA6"
+    "secondary": "4FC9B0",
+    "accent": "FFD23F"
    },
    "alt": [],
-   "rankBase": 166
+   "sig": [
+    "4FC9B0",
+    "FFD23F"
+   ],
+   "rankBase": 105
   },
   "memphis|tallow-tree": {
-   "s": 45,
-   "l": "可调",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.10。",
-   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.10。 已由孟菲斯签名色（薄荷、珊瑚红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：薄荷、珊瑚红。",
    "roles": {
     "background": "FBF3EF",
     "text": "1A1A1A",
     "primary": "FEA566",
-    "secondary": "43ADF7",
-    "accent": "FEBE92"
+    "secondary": "4FC9B0",
+    "accent": "FF7A85"
    },
    "alt": [],
-   "rankBase": 169
+   "sig": [
+    "4FC9B0",
+    "FF7A85"
+   ],
+   "rankBase": 115
   },
   "memphis|golden-cowry": {
-   "s": 68,
-   "l": "可调",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.15。",
-   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "s": 92,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.15。 已由孟菲斯签名色（薄荷、柠檬黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：薄荷、柠檬黄。",
    "roles": {
     "background": "FBF3F0",
     "text": "1A1A1A",
     "primary": "FF996B",
-    "secondary": "D27EE5",
-    "accent": "FEBC9F"
+    "secondary": "4FC9B0",
+    "accent": "FFD23F"
    },
    "alt": [],
-   "rankBase": 108
+   "sig": [
+    "4FC9B0",
+    "FFD23F"
+   ],
+   "rankBase": 62
   },
   "memphis|ginkgo": {
-   "s": 68,
-   "l": "可调",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.15。",
-   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "s": 92,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.15。 已由孟菲斯签名色（薄荷、珊瑚红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：薄荷、珊瑚红。",
    "roles": {
     "background": "F7F5EE",
     "text": "1A1A1A",
     "primary": "FDD502",
-    "secondary": "6DA4FF",
-    "accent": "E3CD7C"
+    "secondary": "4FC9B0",
+    "accent": "FF7A85"
    },
    "alt": [],
-   "rankBase": 109
+   "sig": [
+    "4FC9B0",
+    "FF7A85"
+   ],
+   "rankBase": 63
   },
   "memphis|jewel-beetle": {
-   "s": 53,
-   "l": "可调",
-   "tier": "against",
-   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。",
-   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "s": 88,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。 已由孟菲斯签名色（珊瑚红、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入孟菲斯签名色：珊瑚红、薄荷。",
    "roles": {
     "background": "F3F7F0",
     "text": "1A1A1A",
     "primary": "A3CD78",
-    "secondary": "F073B3",
-    "accent": "B7DC92"
+    "secondary": "FF7A85",
+    "accent": "4FC9B0"
    },
    "alt": [],
-   "rankBase": 155
+   "sig": [
+    "FF7A85",
+    "4FC9B0"
+   ],
+   "rankBase": 96
   },
   "pop-art|amazonite": {
-   "s": 37,
-   "l": "冲突",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 3 组。",
-   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 3 组。 已由波普艺术签名色（红、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：红、黄。",
    "roles": {
     "background": "EFF8F9",
     "text": "141210",
     "primary": "1CB8CE",
-    "secondary": "C94E29",
-    "accent": "95E5FF"
+    "secondary": "E8312F",
+    "accent": "FFD400"
    },
-   "alt": [
-    "ginkgo",
-    "blue-magpie",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "E8312F",
+    "FFD400"
    ],
-   "rankBase": 178
+   "rankBase": 125
   },
   "pop-art|nautilus": {
-   "s": 29,
-   "l": "冲突",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.13，有彩色相 2 组。",
-   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "s": 82,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.13，有彩色相 2 组。 已由波普艺术签名色（蓝、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：蓝、红。",
    "roles": {
     "background": "F8F5EE",
     "text": "141210",
     "primary": "BCA883",
-    "secondary": "C55034",
-    "accent": "F8D37E"
+    "secondary": "1F6FD1",
+    "accent": "E8312F"
    },
-   "alt": [
-    "ginkgo",
-    "blue-magpie",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "1F6FD1",
+    "E8312F"
    ],
-   "rankBase": 194
+   "rankBase": 143
   },
   "pop-art|abalone": {
-   "s": 28,
-   "l": "冲突",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 3 组。",
-   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "s": 82,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 3 组。 已由波普艺术签名色（红、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：红、黄。",
    "roles": {
     "background": "EEF7F7",
     "text": "141210",
     "primary": "1CBCBC",
-    "secondary": "9958C3",
-    "accent": "71EFF0"
+    "secondary": "E8312F",
+    "accent": "FFD400"
    },
-   "alt": [
-    "ginkgo",
-    "blue-magpie",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "E8312F",
+    "FFD400"
    ],
-   "rankBase": 195
+   "rankBase": 144
   },
   "pop-art|kingfisher": {
-   "s": 55,
-   "l": "可调",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 2 组。",
-   "act": "两色推到高饱和平涂，第三色用网点浅色代替。",
+   "s": 89,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 2 组。 已由波普艺术签名色（红、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：红、黄。",
    "roles": {
     "background": "EFF6FB",
     "text": "141210",
     "primary": "08AAF2",
-    "secondary": "BF5902",
-    "accent": "AEDFFE"
+    "secondary": "E8312F",
+    "accent": "FFD400"
    },
    "alt": [],
-   "rankBase": 150
+   "sig": [
+    "E8312F",
+    "FFD400"
+   ],
+   "rankBase": 90
   },
   "pop-art|blue-magpie": {
-   "s": 60,
-   "l": "可调",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 2 组。",
-   "act": "两色推到高饱和平涂，第三色用网点浅色代替。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 2 组。 已由波普艺术签名色（黄、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：黄、红。",
    "roles": {
     "background": "F2F5FC",
     "text": "141210",
     "primary": "7598FE",
-    "secondary": "CA483E",
-    "accent": "C7D7FE"
+    "secondary": "FFD400",
+    "accent": "E8312F"
    },
    "alt": [],
-   "rankBase": 132
+   "sig": [
+    "FFD400",
+    "E8312F"
+   ],
+   "rankBase": 82
   },
   "pop-art|iris": {
-   "s": 33,
-   "l": "冲突",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.11，有彩色相 2 组。",
-   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "s": 83,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.11，有彩色相 2 组。 已由波普艺术签名色（黄、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：黄、红。",
    "roles": {
     "background": "F7F3FB",
     "text": "141210",
     "primary": "B78FE4",
-    "secondary": "9B7303",
-    "accent": "E2CCFF"
+    "secondary": "FFD400",
+    "accent": "E8312F"
    },
-   "alt": [
-    "ginkgo",
-    "blue-magpie",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "FFD400",
+    "E8312F"
    ],
-   "rankBase": 189
+   "rankBase": 138
   },
   "pop-art|plum-blossom": {
-   "s": 25,
-   "l": "冲突",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.12，有彩色相 2 组。",
-   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "s": 81,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.12，有彩色相 2 组。 已由波普艺术签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：蓝、黄。",
    "roles": {
     "background": "FBF2F5",
     "text": "141210",
     "primary": "E182A9",
-    "secondary": "028B5A",
-    "accent": "FEC5DA"
+    "secondary": "1F6FD1",
+    "accent": "FFD400"
    },
-   "alt": [
-    "ginkgo",
-    "blue-magpie",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "1F6FD1",
+    "FFD400"
    ],
-   "rankBase": 200
+   "rankBase": 158
   },
   "pop-art|goldenrain": {
-   "s": 35,
-   "l": "冲突",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.13，有彩色相 2 组。",
-   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.13，有彩色相 2 组。 已由波普艺术签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：蓝、黄。",
    "roles": {
     "background": "FCF3F1",
     "text": "141210",
     "primary": "EF806D",
-    "secondary": "3D8C29",
-    "accent": "FFC9BD"
+    "secondary": "1F6FD1",
+    "accent": "FFD400"
    },
-   "alt": [
-    "ginkgo",
-    "blue-magpie",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "1F6FD1",
+    "FFD400"
    ],
-   "rankBase": 186
+   "rankBase": 131
   },
   "pop-art|maple": {
-   "s": 33,
-   "l": "冲突",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.11，有彩色相 2 组。",
-   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "s": 83,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.11，有彩色相 2 组。 已由波普艺术签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：蓝、黄。",
    "roles": {
     "background": "FCF3F0",
     "text": "141210",
     "primary": "F47E59",
-    "secondary": "07886A",
-    "accent": "FECAB9"
+    "secondary": "1F6FD1",
+    "accent": "FFD400"
    },
-   "alt": [
-    "ginkgo",
-    "blue-magpie",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "1F6FD1",
+    "FFD400"
    ],
-   "rankBase": 190
+   "rankBase": 139
   },
   "pop-art|tallow-tree": {
-   "s": 37,
-   "l": "冲突",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.12，有彩色相 2 组。",
-   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.12，有彩色相 2 组。 已由波普艺术签名色（蓝、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：蓝、红。",
    "roles": {
     "background": "FBF3EF",
     "text": "141210",
     "primary": "E68A46",
-    "secondary": "077EC0",
-    "accent": "FFCBA9"
+    "secondary": "1F6FD1",
+    "accent": "E8312F"
    },
-   "alt": [
-    "ginkgo",
-    "blue-magpie",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "1F6FD1",
+    "E8312F"
    ],
-   "rankBase": 182
+   "rankBase": 132
   },
   "pop-art|golden-cowry": {
-   "s": 52,
-   "l": "可调",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.15，有彩色相 2 组。",
-   "act": "两色推到高饱和平涂，第三色用网点浅色代替。",
+   "s": 88,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.15，有彩色相 2 组。 已由波普艺术签名色（蓝、黄）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：蓝、黄。",
    "roles": {
     "background": "FBF3F0",
     "text": "141210",
     "primary": "FE6A00",
-    "secondary": "A553B7",
-    "accent": "FFCAB3"
+    "secondary": "1F6FD1",
+    "accent": "FFD400"
    },
    "alt": [],
-   "rankBase": 160
+   "sig": [
+    "1F6FD1",
+    "FFD400"
+   ],
+   "rankBase": 97
   },
   "pop-art|ginkgo": {
-   "s": 63,
-   "l": "可调",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.15，有彩色相 2 组。",
-   "act": "两色推到高饱和平涂，第三色用网点浅色代替。",
+   "s": 91,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.15，有彩色相 2 组。 已由波普艺术签名色（蓝、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：蓝、红。",
    "roles": {
     "background": "F7F5EE",
     "text": "141210",
     "primary": "DFBB02",
-    "secondary": "3876DC",
-    "accent": "EED77F"
+    "secondary": "1F6FD1",
+    "accent": "E8312F"
    },
    "alt": [],
-   "rankBase": 126
+   "sig": [
+    "1F6FD1",
+    "E8312F"
+   ],
+   "rankBase": 71
   },
   "pop-art|jewel-beetle": {
-   "s": 30,
-   "l": "冲突",
-   "tier": "against",
-   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 3 组。",
-   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "s": 82,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 3 组。 已由波普艺术签名色（蓝、红）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入波普艺术签名色：蓝、红。",
    "roles": {
     "background": "F3F7F0",
     "text": "141210",
     "primary": "8AB45C",
-    "secondary": "BF4788",
-    "accent": "BFE796"
+    "secondary": "1F6FD1",
+    "accent": "E8312F"
    },
-   "alt": [
-    "ginkgo",
-    "blue-magpie",
-    "kingfisher"
+   "alt": [],
+   "sig": [
+    "1F6FD1",
+    "E8312F"
    ],
-   "rankBase": 191
+   "rankBase": 145
   },
   "neubrutalism|amazonite": {
    "s": 92,
@@ -2201,7 +2344,7 @@
     "accent": "DDF1F2"
    },
    "alt": [],
-   "rankBase": 50
+   "rankBase": 55
   },
   "neubrutalism|nautilus": {
    "s": 70,
@@ -2217,7 +2360,7 @@
     "accent": "F2EADC"
    },
    "alt": [],
-   "rankBase": 100
+   "rankBase": 182
   },
   "neubrutalism|abalone": {
    "s": 91,
@@ -2233,7 +2376,7 @@
     "accent": "DCF0EF"
    },
    "alt": [],
-   "rankBase": 55
+   "rankBase": 66
   },
   "neubrutalism|kingfisher": {
    "s": 100,
@@ -2281,7 +2424,7 @@
     "accent": "EEE8F7"
    },
    "alt": [],
-   "rankBase": 51
+   "rankBase": 56
   },
   "neubrutalism|plum-blossom": {
    "s": 92,
@@ -2297,7 +2440,7 @@
     "accent": "F8E6EC"
    },
    "alt": [],
-   "rankBase": 52
+   "rankBase": 57
   },
   "neubrutalism|goldenrain": {
    "s": 95,
@@ -2313,7 +2456,7 @@
     "accent": "F9E6E3"
    },
    "alt": [],
-   "rankBase": 25
+   "rankBase": 30
   },
   "neubrutalism|maple": {
    "s": 98,
@@ -2345,7 +2488,7 @@
     "accent": "F7E8DE"
    },
    "alt": [],
-   "rankBase": 26
+   "rankBase": 31
   },
   "neubrutalism|golden-cowry": {
    "s": 90,
@@ -2361,7 +2504,7 @@
     "accent": "F8E7E0"
    },
    "alt": [],
-   "rankBase": 59
+   "rankBase": 74
   },
   "neubrutalism|ginkgo": {
    "s": 100,
@@ -2393,7 +2536,7 @@
     "accent": "E6EEE0"
    },
    "alt": [],
-   "rankBase": 53
+   "rankBase": 58
   },
   "metro|amazonite": {
    "s": 93,
@@ -2409,7 +2552,7 @@
     "accent": "B04D2F"
    },
    "alt": [],
-   "rankBase": 46
+   "rankBase": 51
   },
   "metro|nautilus": {
    "s": 53,
@@ -2425,7 +2568,7 @@
     "accent": "AD4E37"
    },
    "alt": [],
-   "rankBase": 153
+   "rankBase": 207
   },
   "metro|abalone": {
    "s": 78,
@@ -2441,7 +2584,7 @@
     "accent": "8754AB"
    },
    "alt": [],
-   "rankBase": 90
+   "rankBase": 173
   },
   "metro|kingfisher": {
    "s": 100,
@@ -2489,7 +2632,7 @@
     "accent": "8C6802"
    },
    "alt": [],
-   "rankBase": 118
+   "rankBase": 194
   },
   "metro|plum-blossom": {
    "s": 64,
@@ -2505,7 +2648,7 @@
     "accent": "067D51"
    },
    "alt": [],
-   "rankBase": 119
+   "rankBase": 195
   },
   "metro|goldenrain": {
    "s": 66,
@@ -2521,7 +2664,7 @@
     "accent": "3E7D2F"
    },
    "alt": [],
-   "rankBase": 110
+   "rankBase": 188
   },
   "metro|maple": {
    "s": 68,
@@ -2537,7 +2680,7 @@
     "accent": "047B60"
    },
    "alt": [],
-   "rankBase": 105
+   "rankBase": 185
   },
   "metro|tallow-tree": {
    "s": 81,
@@ -2553,7 +2696,7 @@
     "accent": "1672AB"
    },
    "alt": [],
-   "rankBase": 80
+   "rankBase": 152
   },
   "metro|golden-cowry": {
    "s": 70,
@@ -2569,7 +2712,7 @@
     "accent": "9250A0"
    },
    "alt": [],
-   "rankBase": 101
+   "rankBase": 183
   },
   "metro|ginkgo": {
    "s": 85,
@@ -2585,7 +2728,7 @@
     "accent": "3B6CBF"
    },
    "alt": [],
-   "rankBase": 66
+   "rankBase": 117
   },
   "metro|jewel-beetle": {
    "s": 79,
@@ -2601,74 +2744,86 @@
     "accent": "A8477A"
    },
    "alt": [],
-   "rankBase": 88
+   "rankBase": 170
   },
   "y2k|amazonite": {
-   "s": 91,
+   "s": 98,
    "l": "兼容",
-   "tier": "neutral",
+   "tier": "recommend",
    "why": "千禧风靠冷色铬金属；本套冷色在：主色。",
-   "act": "冷色主色做渐变和半透明气泡，最浅色作底。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：泡泡糖粉、丁香紫。",
    "roles": {
     "background": "EFF8F9",
     "text": "122947",
     "primary": "70C6D6",
-    "secondary": "DDF1F2",
-    "accent": "B04D2F"
+    "secondary": "FF5FC8",
+    "accent": "B48CFF"
    },
    "alt": [],
-   "rankBase": 56
+   "sig": [
+    "FF5FC8",
+    "B48CFF"
+   ],
+   "rankBase": 20
   },
   "y2k|nautilus": {
-   "s": 20,
-   "l": "冲突",
-   "tier": "against",
-   "why": "千禧风靠冷色铬金属；本套冷色在：无。",
-   "act": "整套偏暖，没有冷色撑起铬金属感，建议换配色。",
+   "s": 80,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：无。 已由千禧未来风签名色（电光蓝、丁香紫）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：电光蓝、丁香紫。",
    "roles": {
     "background": "F8F5EE",
     "text": "27292D",
     "primary": "E37F65",
-    "secondary": "F2EADC",
-    "accent": "CABCA1"
+    "secondary": "3A7BFF",
+    "accent": "B48CFF"
    },
-   "alt": [
-    "kingfisher",
-    "blue-magpie",
-    "iris"
+   "alt": [],
+   "sig": [
+    "3A7BFF",
+    "B48CFF"
    ],
-   "rankBase": 204
+   "rankBase": 162
   },
   "y2k|abalone": {
-   "s": 90,
+   "s": 98,
    "l": "兼容",
-   "tier": "neutral",
+   "tier": "recommend",
    "why": "千禧风靠冷色铬金属；本套冷色在：主色、点睛色。",
-   "act": "冷色主色做渐变和半透明气泡，最浅色作底。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：泡泡糖粉、丁香紫。",
    "roles": {
     "background": "EEF7F7",
     "text": "362517",
     "primary": "71C9C8",
-    "secondary": "DCF0EF",
-    "accent": "8754AB"
+    "secondary": "FF5FC8",
+    "accent": "B48CFF"
    },
    "alt": [],
-   "rankBase": 60
+   "sig": [
+    "FF5FC8",
+    "B48CFF"
+   ],
+   "rankBase": 22
   },
   "y2k|kingfisher": {
    "s": 100,
    "l": "兼容",
    "tier": "recommend",
    "why": "千禧风靠冷色铬金属；本套冷色在：主色。",
-   "act": "冷色主色做渐变和半透明气泡，最浅色作底。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：泡泡糖粉、丁香紫。",
    "roles": {
     "background": "EFF6FB",
     "text": "0E294A",
     "primary": "55BCFA",
-    "secondary": "DFEEF8",
-    "accent": "AC5107"
+    "secondary": "FF5FC8",
+    "accent": "B48CFF"
    },
    "alt": [],
+   "sig": [
+    "FF5FC8",
+    "B48CFF"
+   ],
    "rankBase": 12
   },
   "y2k|blue-magpie": {
@@ -2676,400 +2831,440 @@
    "l": "兼容",
    "tier": "recommend",
    "why": "千禧风靠冷色铬金属；本套冷色在：主色。",
-   "act": "冷色主色做渐变和半透明气泡，最浅色作底。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：泡泡糖粉、丁香紫。",
    "roles": {
     "background": "F2F5FC",
     "text": "1C2746",
     "primary": "93AEF8",
-    "secondary": "E5EBFA",
-    "accent": "B1483E"
+    "secondary": "FF5FC8",
+    "accent": "B48CFF"
    },
    "alt": [],
+   "sig": [
+    "FF5FC8",
+    "B48CFF"
+   ],
    "rankBase": 13
   },
   "y2k|iris": {
-   "s": 94,
+   "s": 98,
    "l": "兼容",
-   "tier": "neutral",
+   "tier": "recommend",
    "why": "千禧风靠冷色铬金属；本套冷色在：主色。",
-   "act": "冷色主色做渐变和半透明气泡，最浅色作底。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：泡泡糖粉、电光蓝。",
    "roles": {
     "background": "F7F3FB",
     "text": "2C2145",
     "primary": "C5A9E6",
-    "secondary": "EEE8F7",
-    "accent": "8C6802"
+    "secondary": "FF5FC8",
+    "accent": "3A7BFF"
    },
    "alt": [],
-   "rankBase": 45
+   "sig": [
+    "FF5FC8",
+    "3A7BFF"
+   ],
+   "rankBase": 23
   },
   "y2k|plum-blossom": {
-   "s": 39,
-   "l": "冲突",
-   "tier": "against",
-   "why": "千禧风靠冷色铬金属；本套冷色在：无。",
-   "act": "整套偏暖，没有冷色撑起铬金属感，建议换配色。",
+   "s": 85,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：无。 已由千禧未来风签名色（泡泡糖粉、丁香紫）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：泡泡糖粉、丁香紫。",
    "roles": {
     "background": "FBF2F5",
     "text": "2F262A",
     "primary": "53B585",
-    "secondary": "F8E6EC",
-    "accent": "E6A0BA"
+    "secondary": "FF5FC8",
+    "accent": "B48CFF"
    },
-   "alt": [
-    "kingfisher",
-    "blue-magpie",
-    "iris"
+   "alt": [],
+   "sig": [
+    "FF5FC8",
+    "B48CFF"
    ],
-   "rankBase": 177
+   "rankBase": 119
   },
   "y2k|goldenrain": {
-   "s": 20,
-   "l": "冲突",
-   "tier": "against",
-   "why": "千禧风靠冷色铬金属；本套冷色在：无。",
-   "act": "整套偏暖，没有冷色撑起铬金属感，建议换配色。",
+   "s": 80,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：无。 已由千禧未来风签名色（丁香紫、泡泡糖粉）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：丁香紫、泡泡糖粉。",
    "roles": {
     "background": "FCF3F1",
     "text": "0E3111",
     "primary": "71B263",
-    "secondary": "F9E6E3",
-    "accent": "F09F90"
+    "secondary": "B48CFF",
+    "accent": "FF5FC8"
    },
-   "alt": [
-    "kingfisher",
-    "blue-magpie",
-    "iris"
+   "alt": [],
+   "sig": [
+    "B48CFF",
+    "FF5FC8"
    ],
-   "rankBase": 205
+   "rankBase": 163
   },
   "y2k|maple": {
-   "s": 36,
-   "l": "冲突",
-   "tier": "against",
-   "why": "千禧风靠冷色铬金属；本套冷色在：无。",
-   "act": "整套偏暖，没有冷色撑起铬金属感，建议换配色。",
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：无。 已由千禧未来风签名色（泡泡糖粉、丁香紫）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：泡泡糖粉、丁香紫。",
    "roles": {
     "background": "FCF3F0",
     "text": "421C19",
     "primary": "54B395",
-    "secondary": "F9E7E1",
-    "accent": "F49E84"
+    "secondary": "FF5FC8",
+    "accent": "B48CFF"
    },
-   "alt": [
-    "kingfisher",
-    "blue-magpie",
-    "iris"
+   "alt": [],
+   "sig": [
+    "FF5FC8",
+    "B48CFF"
    ],
-   "rankBase": 184
+   "rankBase": 133
   },
   "y2k|tallow-tree": {
-   "s": 59,
-   "l": "可调",
-   "tier": "against",
-   "why": "千禧风靠冷色铬金属；本套冷色在：点睛色。",
-   "act": "冷色只在点睛色里，需把点睛色提亮成主渐变，原主色退为小点缀，整体气质会变。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：点睛色。 已由千禧未来风签名色（泡泡糖粉、丁香紫）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：泡泡糖粉、丁香紫。",
    "roles": {
     "background": "FBF3EF",
     "text": "2E2821",
     "primary": "54A6E3",
-    "secondary": "F7E8DE",
-    "accent": "E9A679"
+    "secondary": "FF5FC8",
+    "accent": "B48CFF"
    },
    "alt": [],
-   "rankBase": 134
+   "sig": [
+    "FF5FC8",
+    "B48CFF"
+   ],
+   "rankBase": 83
   },
   "y2k|golden-cowry": {
-   "s": 59,
-   "l": "可调",
-   "tier": "against",
-   "why": "千禧风靠冷色铬金属；本套冷色在：点睛色。",
-   "act": "冷色只在点睛色里，需把点睛色提亮成主渐变，原主色退为小点缀，整体气质会变。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：点睛色。 已由千禧未来风签名色（电光蓝、泡泡糖粉）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：电光蓝、泡泡糖粉。",
    "roles": {
     "background": "FBF3F0",
     "text": "2D2826",
     "primary": "C480D4",
-    "secondary": "F8E7E0",
-    "accent": "FE8F5B"
+    "secondary": "3A7BFF",
+    "accent": "FF5FC8"
    },
    "alt": [],
-   "rankBase": 135
+   "sig": [
+    "3A7BFF",
+    "FF5FC8"
+   ],
+   "rankBase": 84
   },
   "y2k|ginkgo": {
-   "s": 59,
-   "l": "可调",
-   "tier": "against",
-   "why": "千禧风靠冷色铬金属；本套冷色在：点睛色。",
-   "act": "冷色只在点睛色里，需把点睛色提亮成主渐变，原主色退为小点缀，整体气质会变。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：点睛色。 已由千禧未来风签名色（泡泡糖粉、丁香紫）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：泡泡糖粉、丁香紫。",
    "roles": {
     "background": "F7F5EE",
     "text": "2F281E",
     "primary": "699EF5",
-    "secondary": "EFEBDC",
-    "accent": "F0CF4C"
+    "secondary": "FF5FC8",
+    "accent": "B48CFF"
    },
    "alt": [],
-   "rankBase": 136
+   "sig": [
+    "FF5FC8",
+    "B48CFF"
+   ],
+   "rankBase": 85
   },
   "y2k|jewel-beetle": {
-   "s": 20,
-   "l": "冲突",
-   "tier": "against",
-   "why": "千禧风靠冷色铬金属；本套冷色在：无。",
-   "act": "整套偏暖，没有冷色撑起铬金属感，建议换配色。",
+   "s": 80,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：无。 已由千禧未来风签名色（电光蓝、丁香紫）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入千禧未来风签名色：电光蓝、丁香紫。",
    "roles": {
     "background": "F3F7F0",
     "text": "003221",
     "primary": "DE77AB",
-    "secondary": "E6EEE0",
-    "accent": "A4C386"
+    "secondary": "3A7BFF",
+    "accent": "B48CFF"
    },
-   "alt": [
-    "kingfisher",
-    "blue-magpie",
-    "iris"
+   "alt": [],
+   "sig": [
+    "3A7BFF",
+    "B48CFF"
    ],
-   "rankBase": 206
+   "rankBase": 164
   },
   "vaporwave|amazonite": {
-   "s": 57,
-   "l": "可调",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是青配红。",
-   "act": "深底压暗到 L18，有彩色提到高明度当霓虹线，效果偏「夜景」，需提醒用户。",
+   "s": 89,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是青配红。 已由蒸汽波签名色（霓虹粉、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：霓虹粉、薄荷。",
    "roles": {
     "background": "00112C",
     "text": "EFF8F9",
     "primary": "56D1E6",
-    "secondary": "F97A55",
-    "accent": "DDF1F2"
+    "secondary": "F772C8",
+    "accent": "3DF2A8"
    },
    "alt": [],
-   "rankBase": 144
+   "sig": [
+    "F772C8",
+    "3DF2A8"
+   ],
+   "rankBase": 88
   },
   "vaporwave|nautilus": {
-   "s": 15,
-   "l": "冲突",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是黄配红。",
-   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "s": 79,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是黄配红。 已由蒸汽波签名色（青、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：青、薄荷。",
    "roles": {
     "background": "061027",
     "text": "F8F5EE",
     "primary": "CEBC98",
-    "secondary": "F67C5E",
-    "accent": "F2EADC"
+    "secondary": "2DCCF0",
+    "accent": "3DF2A8"
    },
-   "alt": [
-    "plum-blossom",
-    "iris",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "2DCCF0",
+    "3DF2A8"
    ],
-   "rankBase": 207
+   "rankBase": 171
   },
   "vaporwave|abalone": {
-   "s": 54,
-   "l": "可调",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是青配紫。",
-   "act": "深底压暗到 L18，有彩色提到高明度当霓虹线，效果偏「夜景」，需提醒用户。",
+   "s": 88,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是青配紫。 已由蒸汽波签名色（霓虹粉、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：霓虹粉、薄荷。",
    "roles": {
     "background": "1F0C00",
     "text": "EEF7F7",
     "primary": "56D4D4",
-    "secondary": "C583F2",
-    "accent": "DCF0EF"
+    "secondary": "F772C8",
+    "accent": "3DF2A8"
    },
    "alt": [],
-   "rankBase": 152
+   "sig": [
+    "F772C8",
+    "3DF2A8"
+   ],
+   "rankBase": 98
   },
   "vaporwave|kingfisher": {
-   "s": 42,
-   "l": "冲突",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是蓝配橙。",
-   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是蓝配橙。 已由蒸汽波签名色（霓虹粉、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：霓虹粉、薄荷。",
    "roles": {
     "background": "00112B",
     "text": "EFF6FB",
     "primary": "73C8FE",
-    "secondary": "F58033",
-    "accent": "DFEEF8"
+    "secondary": "F772C8",
+    "accent": "3DF2A8"
    },
-   "alt": [
-    "plum-blossom",
-    "iris",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "F772C8",
+    "3DF2A8"
    ],
-   "rankBase": 174
+   "rankBase": 116
   },
   "vaporwave|blue-magpie": {
-   "s": 30,
-   "l": "冲突",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是蓝配红。",
-   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "s": 82,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是蓝配红。 已由蒸汽波签名色（霓虹粉、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：霓虹粉、薄荷。",
    "roles": {
     "background": "070F2B",
     "text": "F2F5FC",
     "primary": "A2BCFE",
-    "secondary": "FC7567",
-    "accent": "E5EBFA"
+    "secondary": "F772C8",
+    "accent": "3DF2A8"
    },
-   "alt": [
-    "plum-blossom",
-    "iris",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "F772C8",
+    "3DF2A8"
    ],
-   "rankBase": 192
+   "rankBase": 146
   },
   "vaporwave|iris": {
-   "s": 62,
-   "l": "可调",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是紫配黄。",
-   "act": "深底压暗到 L18，有彩色提到高明度当霓虹线，效果偏「夜景」，需提醒用户。",
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是紫配黄。 已由蒸汽波签名色（薄荷、青）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：薄荷、青。",
    "roles": {
     "background": "15092A",
     "text": "F7F3FB",
     "primary": "CFAAFA",
-    "secondary": "CB9D30",
-    "accent": "EEE8F7"
+    "secondary": "3DF2A8",
+    "accent": "2DCCF0"
    },
    "alt": [],
-   "rankBase": 131
+   "sig": [
+    "3DF2A8",
+    "2DCCF0"
+   ],
+   "rankBase": 86
   },
   "vaporwave|plum-blossom": {
-   "s": 69,
-   "l": "可调",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是玫红配绿。",
-   "act": "深底压暗到 L18，有彩色提到高明度当霓虹线，效果偏「夜景」，需提醒用户。",
+   "s": 92,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是玫红配绿。 已由蒸汽波签名色（薄荷、青）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：薄荷、青。",
    "roles": {
     "background": "210715",
     "text": "FBF2F5",
     "primary": "F99EC1",
-    "secondary": "3FBF86",
-    "accent": "F8E6EC"
+    "secondary": "3DF2A8",
+    "accent": "2DCCF0"
    },
    "alt": [],
-   "rankBase": 104
+   "sig": [
+    "3DF2A8",
+    "2DCCF0"
+   ],
+   "rankBase": 64
   },
   "vaporwave|goldenrain": {
-   "s": 30,
-   "l": "冲突",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是红配绿。",
-   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "s": 82,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是红配绿。 已由蒸汽波签名色（青、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：青、薄荷。",
    "roles": {
     "background": "001802",
     "text": "FCF3F1",
     "primary": "FEA291",
-    "secondary": "6CBC5A",
-    "accent": "F9E6E3"
+    "secondary": "2DCCF0",
+    "accent": "3DF2A8"
    },
-   "alt": [
-    "plum-blossom",
-    "iris",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "2DCCF0",
+    "3DF2A8"
    ],
-   "rankBase": 193
+   "rankBase": 147
   },
   "vaporwave|maple": {
-   "s": 40,
-   "l": "冲突",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是红配绿。",
-   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "s": 85,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是红配绿。 已由蒸汽波签名色（青、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：青、薄荷。",
    "roles": {
     "background": "260404",
     "text": "FCF3F0",
     "primary": "FFA386",
-    "secondary": "41BD99",
-    "accent": "F9E7E1"
+    "secondary": "2DCCF0",
+    "accent": "3DF2A8"
    },
-   "alt": [
-    "plum-blossom",
-    "iris",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "2DCCF0",
+    "3DF2A8"
    ],
-   "rankBase": 176
+   "rankBase": 120
   },
   "vaporwave|tallow-tree": {
-   "s": 22,
-   "l": "冲突",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是橙配蓝。",
-   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "s": 80,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是橙配蓝。 已由蒸汽波签名色（青、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：青、薄荷。",
    "roles": {
     "background": "1C0E00",
     "text": "FBF3EF",
     "primary": "FDA669",
-    "secondary": "43ADF7",
-    "accent": "F7E8DE"
+    "secondary": "2DCCF0",
+    "accent": "3DF2A8"
    },
-   "alt": [
-    "plum-blossom",
-    "iris",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "2DCCF0",
+    "3DF2A8"
    ],
-   "rankBase": 203
+   "rankBase": 165
   },
   "vaporwave|golden-cowry": {
-   "s": 35,
-   "l": "冲突",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是橙配紫。",
-   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是橙配紫。 已由蒸汽波签名色（青、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：青、薄荷。",
    "roles": {
     "background": "230801",
     "text": "FBF3F0",
     "primary": "FEA47B",
-    "secondary": "D27EE5",
-    "accent": "F8E7E0"
+    "secondary": "2DCCF0",
+    "accent": "3DF2A8"
    },
-   "alt": [
-    "plum-blossom",
-    "iris",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "2DCCF0",
+    "3DF2A8"
    ],
-   "rankBase": 187
+   "rankBase": 134
   },
   "vaporwave|ginkgo": {
-   "s": 15,
-   "l": "冲突",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是黄配蓝。",
-   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "s": 79,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是黄配蓝。 已由蒸汽波签名色（青、薄荷）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：青、薄荷。",
    "roles": {
     "background": "1B0F00",
     "text": "F7F5EE",
     "primary": "DFBB09",
-    "secondary": "6DA4FF",
-    "accent": "EFEBDC"
+    "secondary": "2DCCF0",
+    "accent": "3DF2A8"
    },
-   "alt": [
-    "plum-blossom",
-    "iris",
-    "amazonite"
+   "alt": [],
+   "sig": [
+    "2DCCF0",
+    "3DF2A8"
    ],
-   "rankBase": 208
+   "rankBase": 172
   },
   "vaporwave|jewel-beetle": {
-   "s": 53,
-   "l": "可调",
-   "tier": "against",
-   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是绿配玫红。",
-   "act": "深底压暗到 L18，有彩色提到高明度当霓虹线，效果偏「夜景」，需提醒用户。",
+   "s": 88,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是绿配玫红。 已由蒸汽波签名色（霓虹粉、青）补足。",
+   "act": "底色、文字和主色用本配色；色块与点缀加入蒸汽波签名色：霓虹粉、青。",
    "roles": {
     "background": "00170D",
     "text": "F3F7F0",
     "primary": "A5CD7B",
-    "secondary": "F073B3",
-    "accent": "E6EEE0"
+    "secondary": "F772C8",
+    "accent": "2DCCF0"
    },
    "alt": [],
-   "rankBase": 156
+   "sig": [
+    "F772C8",
+    "2DCCF0"
+   ],
+   "rankBase": 99
   },
   "glassmorphism|amazonite": {
    "s": 93,
@@ -3085,7 +3280,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 48
+   "rankBase": 53
   },
   "glassmorphism|nautilus": {
    "s": 66,
@@ -3101,7 +3296,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 113
+   "rankBase": 189
   },
   "glassmorphism|abalone": {
    "s": 78,
@@ -3117,7 +3312,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 91
+   "rankBase": 174
   },
   "glassmorphism|kingfisher": {
    "s": 100,
@@ -3165,7 +3360,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 84
+   "rankBase": 166
   },
   "glassmorphism|plum-blossom": {
    "s": 64,
@@ -3181,7 +3376,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 120
+   "rankBase": 196
   },
   "glassmorphism|goldenrain": {
    "s": 97,
@@ -3197,7 +3392,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 20
+   "rankBase": 24
   },
   "glassmorphism|maple": {
    "s": 85,
@@ -3213,7 +3408,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 67
+   "rankBase": 121
   },
   "glassmorphism|tallow-tree": {
    "s": 82,
@@ -3229,7 +3424,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 76
+   "rankBase": 148
   },
   "glassmorphism|golden-cowry": {
    "s": 85,
@@ -3245,7 +3440,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 68
+   "rankBase": 122
   },
   "glassmorphism|ginkgo": {
    "s": 85,
@@ -3261,7 +3456,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 69
+   "rankBase": 123
   },
   "glassmorphism|jewel-beetle": {
    "s": 95,
@@ -3277,7 +3472,7 @@
     "accent": "FFFFFF"
    },
    "alt": [],
-   "rankBase": 39
+   "rankBase": 45
   },
   "bento-grid|amazonite": {
    "s": 95,
@@ -3293,7 +3488,7 @@
     "accent": "B04D2F"
    },
    "alt": [],
-   "rankBase": 24
+   "rankBase": 29
   },
   "bento-grid|nautilus": {
    "s": 95,
@@ -3309,7 +3504,7 @@
     "accent": "AD4E37"
    },
    "alt": [],
-   "rankBase": 27
+   "rankBase": 32
   },
   "bento-grid|abalone": {
    "s": 95,
@@ -3325,7 +3520,7 @@
     "accent": "8754AB"
    },
    "alt": [],
-   "rankBase": 28
+   "rankBase": 33
   },
   "bento-grid|kingfisher": {
    "s": 95,
@@ -3341,7 +3536,7 @@
     "accent": "AC5107"
    },
    "alt": [],
-   "rankBase": 29
+   "rankBase": 34
   },
   "bento-grid|blue-magpie": {
    "s": 95,
@@ -3357,7 +3552,7 @@
     "accent": "B1483E"
    },
    "alt": [],
-   "rankBase": 30
+   "rankBase": 35
   },
   "bento-grid|iris": {
    "s": 95,
@@ -3373,7 +3568,7 @@
     "accent": "8C6802"
    },
    "alt": [],
-   "rankBase": 31
+   "rankBase": 36
   },
   "bento-grid|plum-blossom": {
    "s": 95,
@@ -3389,7 +3584,7 @@
     "accent": "067D51"
    },
    "alt": [],
-   "rankBase": 32
+   "rankBase": 37
   },
   "bento-grid|goldenrain": {
    "s": 95,
@@ -3405,7 +3600,7 @@
     "accent": "3E7D2F"
    },
    "alt": [],
-   "rankBase": 33
+   "rankBase": 38
   },
   "bento-grid|maple": {
    "s": 95,
@@ -3421,7 +3616,7 @@
     "accent": "047B60"
    },
    "alt": [],
-   "rankBase": 34
+   "rankBase": 39
   },
   "bento-grid|tallow-tree": {
    "s": 95,
@@ -3437,7 +3632,7 @@
     "accent": "1672AB"
    },
    "alt": [],
-   "rankBase": 35
+   "rankBase": 40
   },
   "bento-grid|golden-cowry": {
    "s": 95,
@@ -3453,7 +3648,7 @@
     "accent": "9250A0"
    },
    "alt": [],
-   "rankBase": 36
+   "rankBase": 41
   },
   "bento-grid|ginkgo": {
    "s": 95,
@@ -3469,7 +3664,7 @@
     "accent": "3B6CBF"
    },
    "alt": [],
-   "rankBase": 37
+   "rankBase": 42
   },
   "bento-grid|jewel-beetle": {
    "s": 95,
@@ -3485,7 +3680,7 @@
     "accent": "A8477A"
    },
    "alt": [],
-   "rankBase": 38
+   "rankBase": 43
   }
  }
 }

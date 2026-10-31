@@ -10,7 +10,7 @@
 import json, sys, os, datetime
 
 MATRIX, STYLES_V2, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
-DATA_VERSION = "0.4.1"
+DATA_VERSION = "0.5.0"
 
 # ---- 规则（暂定，待赵盾按实际分布定）----
 RULES = {
@@ -107,6 +107,51 @@ assert set(STYLE_META) == set(v2_by_id), "STYLE_META 缺风格"
 assert set(PALETTE_META) == {p["name"] for p in m["palettes"]}, "PALETTE_META 缺配色"
 assert len(m["cells"]) == len(v2) * len(m["palettes"]), "矩阵格数不对"
 
+# ---- 风格签名色（赵盾 2026-10-31 定：配色定底子，大胆风格可自带 1–2 个签名色）----
+# 底色、文字、主色仍取自所选配色；secondary / accent 换成风格自己的签名色，
+# 从候选里挑与主色色相相距最远的。签名色补足了彩度和色相，矩阵分相应上调（只升不降）。
+SIGNATURE = {  # 风格 id: [(中文名, 色值)…]，候选来自风格库该风格的经典配色
+    "pop-art":        [("红", "E8312F"), ("蓝", "1F6FD1"), ("黄", "FFD400")],
+    "vaporwave":      [("霓虹粉", "F772C8"), ("青", "2DCCF0"), ("薄荷", "3DF2A8")],
+    "de-stijl":       [("红", "C62A2A"), ("蓝", "1F3F95"), ("黄", "EFC12B")],
+    "constructivism": [("红", "B5262B")],
+    "y2k":            [("电光蓝", "3A7BFF"), ("丁香紫", "B48CFF"), ("泡泡糖粉", "FF5FC8")],
+    "memphis":        [("珊瑚红", "FF7A85"), ("薄荷", "4FC9B0"), ("柠檬黄", "FFD23F")],
+    "bauhaus":        [("群青", "2D4E9C"), ("朱红", "C8442F"), ("镉黄", "E8B22A")],
+}
+SIG_LIFT = (75, 0.25)   # 新分 = max(原分, 75 + 0.25 × 原分)：签名色补足颜色要求后，最低 15 分也到 79（中性线）
+
+def _hue(h):
+    import colorsys
+    r, g, b = (int(h[i:i + 2], 16) / 255 for i in (0, 2, 4))
+    return colorsys.rgb_to_hsv(r, g, b)[0] * 360
+
+def _hd(a, b):
+    d = abs(_hue(a) - _hue(b)) % 360
+    return min(d, 360 - d)
+
+def label_of(score):
+    return "兼容" if score >= 70 else "可调" if score >= 45 else "冲突"
+
+zh_name = {s["id"]: s["name"]["zh"] for s in v2}
+for key, c in m["cells"].items():
+    sid = key.split("|")[0]
+    if sid not in SIGNATURE:
+        continue
+    cand = sorted(SIGNATURE[sid], key=lambda x: -_hd(x[1], c["roles"]["primary"]))[:2]
+    roles = dict(c["roles"])
+    roles["secondary"] = cand[0][1]
+    if len(cand) > 1:
+        roles["accent"] = cand[1][1]
+    names = "、".join(n for n, _ in cand)
+    old = c["s"]
+    c["s"] = min(100, max(old, round(SIG_LIFT[0] + SIG_LIFT[1] * old)))
+    c["l"] = label_of(c["s"])
+    c["sig"] = [h for _, h in cand]
+    c["why"] = f"{c['why']} 已由{zh_name[sid]}签名色（{names}）补足。" if old < 70 else c["why"]
+    c["act"] = f"底色、文字和主色用本配色；色块与点缀加入{zh_name[sid]}签名色：{names}。"
+    c["roles"] = roles
+
 pid = {n: PALETTE_META[n][0] for n in PALETTE_META}
 palettes = []
 for i, p in enumerate(m["palettes"]):
@@ -132,6 +177,7 @@ for i, s in enumerate(v2):
         "id": s["id"], "order": i, "name": s["name"], "tagline": s["tagline"], "era": s["era"],
         "status": "ready" if s["id"] in READY else "preview",
         "docTypes": docs, "effects": {"glass": glass},
+        "signature": [{"zh": n, "hex": h} for n, h in SIGNATURE.get(s["id"], [])],
         "template": TEMPLATES.get(s["id"]),   # 每种风格手工定稿的那一套（推荐展示用）
         # 可生成风格 × 全部 13 套配色：模板与 6 页预览图（tools/masters/build_all.py 生成）
         "templates": {p["id"]: tpl_file(s["id"], p["id"]) for p in palettes},   # 16 种风格全有模板
@@ -168,6 +214,7 @@ for s in v2:
         cells[f"{s['id']}|{pid[n]}"] = {
             "s": c["s"], "l": c["l"], "tier": tier_of(c["s"], c["l"], CUTS),
             "why": c["why"], "act": c["act"], "roles": c["roles"], "alt": alt,
+            **({"sig": c["sig"]} if "sig" in c else {}),
         }
 
 # 无文档类型、普通效果下的全局排序（P 模式开场兜底用；页面里会按用户选的文档类型重算）

@@ -1,6 +1,6 @@
 {
  "_note": "由 build_site_data.py 生成，请勿手改",
- "version": "0.4.1",
+ "version": "0.5.0",
  "styles": [
   {
    "id": "bauhaus",
@@ -22,6 +22,20 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [
+    {
+     "zh": "群青",
+     "hex": "2D4E9C"
+    },
+    {
+     "zh": "朱红",
+     "hex": "C8442F"
+    },
+    {
+     "zh": "镉黄",
+     "hex": "E8B22A"
+    }
+   ],
    "template": null,
    "templates": {
     "amazonite": "templates/garman-bauhaus-amazonite-v1.pptx",
@@ -107,6 +121,7 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [],
    "template": {
     "palette": "blue-magpie",
     "file": "templates/garman-swiss-blue-magpie-v1.pptx"
@@ -195,6 +210,7 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [],
    "template": {
     "palette": "amazonite",
     "file": "templates/garman-editorial-amazonite-v1.pptx"
@@ -282,6 +298,7 @@
    "effects": {
     "glass": "adjust"
    },
+   "signature": [],
    "template": {
     "palette": "plum-blossom",
     "file": "templates/garman-japanese-minimal-plum-blossom-v1.pptx"
@@ -367,6 +384,7 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [],
    "template": null,
    "templates": {
     "amazonite": "templates/garman-art-deco-amazonite-v1.pptx",
@@ -450,6 +468,7 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [],
    "template": {
     "palette": "nautilus",
     "file": "templates/garman-art-nouveau-nautilus-v1.pptx"
@@ -534,6 +553,12 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [
+    {
+     "zh": "红",
+     "hex": "B5262B"
+    }
+   ],
    "template": null,
    "templates": {
     "amazonite": "templates/garman-constructivism-amazonite-v1.pptx",
@@ -616,6 +641,20 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [
+    {
+     "zh": "红",
+     "hex": "C62A2A"
+    },
+    {
+     "zh": "蓝",
+     "hex": "1F3F95"
+    },
+    {
+     "zh": "黄",
+     "hex": "EFC12B"
+    }
+   ],
    "template": null,
    "templates": {
     "amazonite": "templates/garman-de-stijl-amazonite-v1.pptx",
@@ -696,6 +735,20 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [
+    {
+     "zh": "珊瑚红",
+     "hex": "FF7A85"
+    },
+    {
+     "zh": "薄荷",
+     "hex": "4FC9B0"
+    },
+    {
+     "zh": "柠檬黄",
+     "hex": "FFD23F"
+    }
+   ],
    "template": null,
    "templates": {
     "amazonite": "templates/garman-memphis-amazonite-v1.pptx",
@@ -778,6 +831,20 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [
+    {
+     "zh": "红",
+     "hex": "E8312F"
+    },
+    {
+     "zh": "蓝",
+     "hex": "1F6FD1"
+    },
+    {
+     "zh": "黄",
+     "hex": "FFD400"
+    }
+   ],
    "template": null,
    "templates": {
     "amazonite": "templates/garman-pop-art-amazonite-v1.pptx",
@@ -860,6 +927,7 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [],
    "template": {
     "palette": "ginkgo",
     "file": "templates/garman-neubrutalism-ginkgo-v1.pptx"
@@ -944,6 +1012,7 @@
    "effects": {
     "glass": "conflict"
    },
+   "signature": [],
    "template": {
     "palette": "kingfisher",
     "file": "templates/garman-metro-kingfisher-v1.pptx"
@@ -1027,6 +1096,20 @@
    "effects": {
     "glass": "ok"
    },
+   "signature": [
+    {
+     "zh": "电光蓝",
+     "hex": "3A7BFF"
+    },
+    {
+     "zh": "丁香紫",
+     "hex": "B48CFF"
+    },
+    {
+     "zh": "泡泡糖粉",
+     "hex": "FF5FC8"
+    }
+   ],
    "template": null,
    "templates": {
     "amazonite": "templates/garman-y2k-amazonite-v1.pptx",
@@ -1108,6 +1191,20 @@
    "effects": {
     "glass": "ok"
    },
+   "signature": [
+    {
+     "zh": "霓虹粉",
+     "hex": "F772C8"
+    },
+    {
+     "zh": "青",
+     "hex": "2DCCF0"
+    },
+    {
+     "zh": "薄荷",
+     "hex": "3DF2A8"
+    }
+   ],
    "template": null,
    "templates": {
     "amazonite": "templates/garman-vaporwave-amazonite-v1.pptx",
@@ -1189,6 +1286,7 @@
    "effects": {
     "glass": "ok"
    },
+   "signature": [],
    "template": null,
    "templates": {
     "amazonite": "templates/garman-glassmorphism-amazonite-v1.pptx",
@@ -1270,6 +1368,7 @@
    "effects": {
     "glass": "ok"
    },
+   "signature": [],
    "template": {
     "palette": "tallow-tree",
     "file": "templates/garman-bento-grid-tallow-tree-v1.pptx"
