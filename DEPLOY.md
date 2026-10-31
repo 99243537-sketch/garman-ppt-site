@@ -2,7 +2,7 @@
 
 > 仓库里的 `site/ppt/` 对应服务器上的 `/ppt/`。下文说的「包」就是 Release 里的 zip，结构与 `site/ppt/` 相同。
 
-> 数据版本 0.5.0 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
+> 数据版本 0.6.0 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
 
 Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的全部东西。网站只放静态文件，**没有后端、不调模型、不做在线生成**。
 
@@ -16,8 +16,8 @@ Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的�
 │  ├─ styles.json         16 种风格
 │  ├─ matrix.json         208 格兼容矩阵（含三挡）
 │  └─ rules.json          三挡切分比例、综合分权重、文档类型表、可用效果
-├─ templates/             208 份「下载这套主题」.pptx（16 种风格 × 13 套配色）
-├─ previews/              208 张 6 页预览图
+├─ templates/             260 份 .pptx：208 份普通（16 种风格 × 13 套配色）+ 52 份毛玻璃
+├─ previews/              260 张 6 页预览图
 ├─ pick/                  组合挑选页（静态原型）
 │  ├─ index.html
 │  ├─ pick.css
@@ -34,7 +34,7 @@ Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的�
 /ppt/pick/                ← pick/ 三个文件
 /ppt/site-data/           ← site-data/ 五个 JSON
 /ppt/templates/           ← templates/ 208 个 .pptx（见第 5 节）
-/ppt/previews/            ← previews/ 208 张预览图
+/ppt/previews/            ← previews/ 260 张预览图
 /design-styles/           风格库 v2（已有；挑选页的「详细说明」链接指向 /design-styles/?style=<id>）
 ```
 
@@ -84,9 +84,11 @@ python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/st
 
 对应关系写在 `styles.json` 每种风格的 `templates` 和 `previews`（键是配色 id）。挑选页任选一个组合都显示真实预览图、点开看大图，「下载模板」都能下载。技能还不能生成的 9 种风格（`status: preview`）在列表里和其他风格一样，不加标记，只是「用 AI 生成成品」按钮变灰，写「即将支持」。
 
-全部文件约 32 MB（模板 8.6 MB + 预览图 23 MB）。
+全部文件约 40 MB（模板 11 MB + 预览图 29 MB）。
 
-**风格签名色（0.5.0 起）**：大胆风格不再被 Garman 自然色的低彩度卡住。底色、文字和主色仍取自所选配色；波普、蒸汽波、风格派、构成主义、千禧未来风、孟菲斯、包豪斯七种风格的色块与点缀（`roles` 的 secondary / accent）换成风格自己的签名色，从候选里挑与主色色相相距最远的一到两个。矩阵分相应上调（只升不降，新分 = max(原分, 75 + 0.25 × 原分)），原来 39 个「冲突」组合因此全部解除。
+**提饱和 + 风格签名色（0.5.0 起，0.6.0 改为混合策略）**：大胆风格不再被 Garman 自然色的低彩度卡住。底色、文字和主色仍取自所选配色；波普、蒸汽波、风格派、构成主义、千禧未来风、孟菲斯、包豪斯七种风格的色块与点缀（`roles` 的 secondary / accent）先从签名色里挑与主色色相相距最远的一到两个作为目标色，然后逐个槽位处理：配色九色里有色相相近（±20°）且本身有彩的颜色，就保留这个色相、把饱和度和明度提到目标色的水平（提饱和）；没有才直接用签名色。两个槽位色相太近时提饱和的那个退回签名色。每格的 `fix` 记 boost / signature / mixed，`slots` 记每个槽位用的哪种做法。矩阵分只升不降：新分 = max(原分, 75 + 0.25 × 原分) + 每个提饱和槽位 3 分。原来 39 个「冲突」组合因此全部解除。现在 91 格里 7 格全提饱和、28 格混合、56 格全签名色。
+
+**毛玻璃（0.6.0 起）**：`effectsAvailable` 加了 `glass`。与毛玻璃兼容的风格（`effects.glass` 为 ok / adjust：千禧未来风、蒸汽波、日式极简、便当盒、玻璃拟态）有毛玻璃版模板：在普通模板的每个版式底层加三团柔边色团，矩形卡片改成 72% 不透明、加半透明白边和柔和投影（`tools/masters/glassify.py`）；玻璃拟态本身就是毛玻璃，直接用原模板。对应关系在 `styles.json` 的 `glassTemplates` / `glassPreviews`。与毛玻璃冲突的 11 种风格仍可选毛玻璃（综合分扣 30 分、显示冲突提示），只是没有模板，显示示意样张和「这种风格不做毛玻璃」。技能目前只生成普通效果，所以选毛玻璃时「用 AI 生成成品」显示「即将支持」。
 
 ## 6. 页面怎么工作（如果你要按站点风格重写，看这一节就够）
 
@@ -106,9 +108,9 @@ python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/st
 - **开场句**：P / S / C 自动选中时上方显示一句理由，结尾「可以换」；用户自己点了另一半就不再显示。
 - **反对挡**：P、S 挡给 `alt` 里的替换配色；C 挡配色是用户定的，改为推荐 2–3 种可生成的风格。
 - **M 挡的冲突组合**：只显示一句「这套组合在兼容矩阵里是冲突，{why} 仍可以用」，不给替换建议。
-- **效果**：`rules.json` 的 `effectsAvailable` 现在只有 `plain`，毛玻璃选项显示「即将支持」且不可选。
+- **效果**：`rules.json` 的 `effectsAvailable` 现在是 `plain`、`glass`；如果去掉 `glass`，页面上毛玻璃选项会显示「即将支持」且不可选。
 
-**结果区**：6 页预览图（选毛玻璃效果时退回 SVG 示意样张，按该格 `roles` 五色上色）、「下载模板」、「用 AI 生成成品」（展开三步：下载技能包、复制口令、发给智能体）。口令格式：
+**结果区**：6 页预览图（毛玻璃效果下没有毛玻璃模板的风格退回 SVG 示意样张，按该格 `roles` 五色上色）、「下载模板」、「用 AI 生成成品」（展开三步：下载技能包、复制口令、发给智能体）。口令格式：
 
 ```
 用 GarmanPPT 做成 PPT。配色：银杏；风格：新粗野主义；效果：普通。
@@ -130,9 +132,10 @@ GP1:ginkgo/neubrutalism/plain
 | | `why` `act` | 原因、自动调整做法（中文） |
 | | `roles` | 五色：background / text / primary / secondary / accent，六位十六进制无 # |
 | | `alt` | 冲突时的替换配色 id，最多 3 个 |
-| | `sig` | 用了风格签名色的格才有：签名色色值（已写进 `roles` 的 secondary / accent） |
+| | `fix` `slots` `sig` | 七种大胆风格的格才有：处理方式（boost / signature / mixed）、每个槽位的做法、用到的签名色色值（都已写进 `roles`） |
 | styles.json | `status` | ready 可生成 / preview 只能看 |
-| | `signature` | 风格签名色（波普、蒸汽波、风格派、构成主义、千禧、孟菲斯、包豪斯有） |
+| | `signature` | 风格签名色候选（波普、蒸汽波、风格派、构成主义、千禧、孟菲斯、包豪斯有） |
+| | `glassTemplates` `glassPreviews` | 毛玻璃版模板和预览图（键是配色 id；与毛玻璃冲突的风格为空） |
 | | `docTypes` `effects.glass` | 综合分加减分用 |
 | palettes.json | `colors` `default` | 九色；天河石是默认 |
 | rules.json | `tiers` `weights` `docTypes` `effectsAvailable` | 页面必须从这里读，不要写死；比例改成各 1/3 时只改 `share` |

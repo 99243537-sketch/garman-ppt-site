@@ -10,7 +10,7 @@
 import json, sys, os, datetime
 
 MATRIX, STYLES_V2, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
-DATA_VERSION = "0.5.0"
+DATA_VERSION = "0.6.0"
 
 # ---- 规则（暂定，待赵盾按实际分布定）----
 RULES = {
@@ -32,7 +32,7 @@ RULES = {
         "glassAdjust": -10,             # 选了毛玻璃，风格需调整
     },
     "clamp": [0, 115],                  # 上限不截到 100，否则满分组合加了文档类型分也拉不开
-    "effectsAvailable": ["plain"],      # 首批只做普通效果（10-31 定）；毛玻璃以后再开
+    "effectsAvailable": ["plain", "glass"],   # 0.6.0 起开放毛玻璃（与毛玻璃冲突的风格不出毛玻璃模板）
     "pending": ["tiers.share", "weights", "docTypes", "styles[].docTypes", "palettes[].docTypes", "styles[].effects.glass"],
 }
 
@@ -107,9 +107,12 @@ assert set(STYLE_META) == set(v2_by_id), "STYLE_META 缺风格"
 assert set(PALETTE_META) == {p["name"] for p in m["palettes"]}, "PALETTE_META 缺配色"
 assert len(m["cells"]) == len(v2) * len(m["palettes"]), "矩阵格数不对"
 
-# ---- 风格签名色（赵盾 2026-10-31 定：配色定底子，大胆风格可自带 1–2 个签名色）----
-# 底色、文字、主色仍取自所选配色；secondary / accent 换成风格自己的签名色，
-# 从候选里挑与主色色相相距最远的。签名色补足了彩度和色相，矩阵分相应上调（只升不降）。
+# ---- 风格签名色 + 提饱和（混合策略）----
+# 赵盾 2026-10-31 定：配色定底子，大胆风格可自带签名色；同日补充：配色自身色相够用时优先提饱和。
+# 底色、文字、主色仍取自所选配色。secondary / accent 两个槽位：先从签名色里挑与主色色相相距最远的
+# 1–2 个作为「目标色」；对每个目标色，如果配色九色里有色相相近（±HUE_TOL°）且本身有彩（S ≥ MIN_S）的颜色，
+# 就保留配色的色相、把饱和度和明度提到目标色的水平（提饱和）；找不到才直接用签名色。
+# 每格记 fix：boost（全部提饱和）/ signature（全部签名色）/ mixed，slots 记每个槽位的做法。
 SIGNATURE = {  # 风格 id: [(中文名, 色值)…]，候选来自风格库该风格的经典配色
     "pop-art":        [("红", "E8312F"), ("蓝", "1F6FD1"), ("黄", "FFD400")],
     "vaporwave":      [("霓虹粉", "F772C8"), ("青", "2DCCF0"), ("薄荷", "3DF2A8")],
@@ -119,37 +122,79 @@ SIGNATURE = {  # 风格 id: [(中文名, 色值)…]，候选来自风格库该�
     "memphis":        [("珊瑚红", "FF7A85"), ("薄荷", "4FC9B0"), ("柠檬黄", "FFD23F")],
     "bauhaus":        [("群青", "2D4E9C"), ("朱红", "C8442F"), ("镉黄", "E8B22A")],
 }
-SIG_LIFT = (75, 0.25)   # 新分 = max(原分, 75 + 0.25 × 原分)：签名色补足颜色要求后，最低 15 分也到 79（中性线）
+SIG_LIFT = (75, 0.25)   # 新分 = max(原分, 75 + 0.25 × 原分)：补足颜色要求后，最低 15 分也到 79（中性线）
+BOOST_BONUS = 3         # 每个提饱和的槽位再加 3 分：保留了配色本来的色相，辨识度更好
+HUE_TOL, MIN_S = 20, 0.18
+BOOST_FROM = ["main", "accent", "deep", "base", "muted"]   # 可以拿来提饱和的配色色位
 
-def _hue(h):
-    import colorsys
-    r, g, b = (int(h[i:i + 2], 16) / 255 for i in (0, 2, 4))
-    return colorsys.rgb_to_hsv(r, g, b)[0] * 360
+import colorsys
+
+def _hsv(h):
+    return colorsys.rgb_to_hsv(*(int(h[i:i + 2], 16) / 255 for i in (0, 2, 4)))
+
+def _hex(hsv):
+    return "".join(f"{round(c * 255):02X}" for c in colorsys.hsv_to_rgb(*hsv))
 
 def _hd(a, b):
-    d = abs(_hue(a) - _hue(b)) % 360
+    d = abs(_hsv(a)[0] - _hsv(b)[0]) * 360 % 360
     return min(d, 360 - d)
 
 def label_of(score):
     return "兼容" if score >= 70 else "可调" if score >= 45 else "冲突"
 
+def boost_for(target, pal, used):
+    """配色里与目标色色相相近的有彩色 → 保留其色相、提到目标色的饱和度与明度；没有返回 None。"""
+    best = None
+    for k in BOOST_FROM:
+        c = pal[k]
+        hh, ss, vv = _hsv(c)
+        if k in used or ss < MIN_S or _hd(c, target) > HUE_TOL:
+            continue
+        if best is None or _hd(c, target) < _hd(best[1], target):
+            best = (k, c)
+    if not best:
+        return None
+    th, ts, tv = _hsv(target)
+    return best[0], _hex((_hsv(best[1])[0], max(ts, _hsv(best[1])[1]), tv))
+
 zh_name = {s["id"]: s["name"]["zh"] for s in v2}
+pal_by_name = {p["name"]: p for p in m["palettes"]}
 for key, c in m["cells"].items():
-    sid = key.split("|")[0]
+    sid, pname = key.split("|")
     if sid not in SIGNATURE:
         continue
-    cand = sorted(SIGNATURE[sid], key=lambda x: -_hd(x[1], c["roles"]["primary"]))[:2]
-    roles = dict(c["roles"])
-    roles["secondary"] = cand[0][1]
-    if len(cand) > 1:
-        roles["accent"] = cand[1][1]
-    names = "、".join(n for n, _ in cand)
+    pal = pal_by_name[pname]
+    targets = sorted(SIGNATURE[sid], key=lambda x: -_hd(x[1], c["roles"]["primary"]))[:2]
+    roles, slots, boosted, signed, used = dict(c["roles"]), {}, [], [], set()
+    for slot, (name, hexv) in zip(("secondary", "accent"), targets):
+        b = boost_for(hexv, pal, used)
+        if b:
+            used.add(b[0])
+            roles[slot] = b[1]; slots[slot] = {"how": "boost", "from": b[0], "target": name}
+            boosted.append(name)
+        else:
+            roles[slot] = hexv; slots[slot] = {"how": "signature", "target": name}
+            signed.append(name)
+    # 两个槽位色相太近就失去撞色感（< 35°，且不低于两个目标色本身距离的 0.8 倍）：把提饱和的槽位退回签名色
+    if len(slots) == 2 and _hd(roles["secondary"], roles["accent"]) < min(35, 0.8 * _hd(targets[0][1], targets[1][1])):
+        for slot, (name, hexv) in zip(("secondary", "accent"), targets):
+            if slots[slot]["how"] == "boost":
+                roles[slot] = hexv; slots[slot] = {"how": "signature", "target": name}
+                boosted.remove(name); signed.append(name)
+    fix = "boost" if not signed else "signature" if not boosted else "mixed"
     old = c["s"]
-    c["s"] = min(100, max(old, round(SIG_LIFT[0] + SIG_LIFT[1] * old)))
+    c["s"] = min(100, max(old, round(SIG_LIFT[0] + SIG_LIFT[1] * old)) + BOOST_BONUS * len(boosted))
     c["l"] = label_of(c["s"])
-    c["sig"] = [h for _, h in cand]
-    c["why"] = f"{c['why']} 已由{zh_name[sid]}签名色（{names}）补足。" if old < 70 else c["why"]
-    c["act"] = f"底色、文字和主色用本配色；色块与点缀加入{zh_name[sid]}签名色：{names}。"
+    c["fix"], c["slots"] = fix, slots
+    c["sig"] = [roles[k] for k, v in slots.items() if v["how"] == "signature"]
+    parts = []
+    if boosted:
+        parts.append(f"把本配色里接近{'、'.join(boosted)}的颜色提高饱和度")
+    if signed:
+        parts.append(f"加入{zh_name[sid]}签名色{'、'.join(signed)}")
+    how = "，".join(parts)
+    c["why"] = f"{c['why']} 已{how}补足。" if old < 70 else c["why"]
+    c["act"] = f"底色、文字和主色用本配色；色块与点缀{how}。"
     c["roles"] = roles
 
 pid = {n: PALETTE_META[n][0] for n in PALETTE_META}
@@ -169,6 +214,18 @@ def tpl_file(sid, pid):
         return t["file"]
     return f"templates/garman-{sid}-{pid}-v1.pptx"
 
+def glass_files(sid, glass, palettes, ext):
+    if glass == "conflict":
+        return {}
+    if sid == "glassmorphism":
+        f = lambda p: tpl_file(sid, p)
+    else:
+        f = lambda p: f"templates/garman-{sid}-{p}-glass-v1.pptx"
+    out = {p["id"]: f(p["id"]) for p in palettes}
+    if ext == "jpg":
+        out = {k: "previews/" + os.path.basename(v)[:-5] + ".jpg" for k, v in out.items()}
+    return out
+
 styles = []
 for i, s in enumerate(v2):
     docs, glass = STYLE_META[s["id"]]
@@ -183,6 +240,9 @@ for i, s in enumerate(v2):
         "templates": {p["id"]: tpl_file(s["id"], p["id"]) for p in palettes},   # 16 种风格全有模板
         "previews": {p["id"]: "previews/" + os.path.basename(tpl_file(s["id"], p["id"]))[:-5] + ".jpg"
                      for p in palettes},
+        # 毛玻璃版：与毛玻璃兼容（ok / adjust）的风格才有，由 tools/masters/glassify.py 生成；玻璃拟态本身就是毛玻璃，直接用原模板
+        "glassTemplates": glass_files(s["id"], glass, palettes, "pptx"),
+        "glassPreviews": glass_files(s["id"], glass, palettes, "jpg"),
         "ppt": {k: ppt[k] for k in ("layouts", "motifs", "forbid", "radius", "shadow", "density", "colorRule")},
         "detailUrl": f"/design-styles/?style={s['id']}",
     })
@@ -214,7 +274,7 @@ for s in v2:
         cells[f"{s['id']}|{pid[n]}"] = {
             "s": c["s"], "l": c["l"], "tier": tier_of(c["s"], c["l"], CUTS),
             "why": c["why"], "act": c["act"], "roles": c["roles"], "alt": alt,
-            **({"sig": c["sig"]} if "sig" in c else {}),
+            **({k: c[k] for k in ("fix", "slots", "sig") if k in c}),
         }
 
 # 无文档类型、普通效果下的全局排序（P 模式开场兜底用；页面里会按用户选的文档类型重算）

@@ -1,6 +1,6 @@
 {
  "_note": "由 build_site_data.py 生成，请勿手改",
- "version": "0.5.0",
+ "version": "0.6.0",
  "styles": [
   {
    "id": "bauhaus",
@@ -67,6 +67,8 @@
     "ginkgo": "previews/garman-bauhaus-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-bauhaus-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "geometric-blocks",
@@ -156,6 +158,8 @@
     "ginkgo": "previews/garman-swiss-style-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-swiss-style-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "asymmetric-grid",
@@ -245,6 +249,8 @@
     "ginkgo": "previews/garman-editorial-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-editorial-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "full-bleed-image",
@@ -333,6 +339,36 @@
     "ginkgo": "previews/garman-japanese-minimal-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-japanese-minimal-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {
+    "amazonite": "templates/garman-japanese-minimal-amazonite-glass-v1.pptx",
+    "nautilus": "templates/garman-japanese-minimal-nautilus-glass-v1.pptx",
+    "abalone": "templates/garman-japanese-minimal-abalone-glass-v1.pptx",
+    "kingfisher": "templates/garman-japanese-minimal-kingfisher-glass-v1.pptx",
+    "blue-magpie": "templates/garman-japanese-minimal-blue-magpie-glass-v1.pptx",
+    "iris": "templates/garman-japanese-minimal-iris-glass-v1.pptx",
+    "plum-blossom": "templates/garman-japanese-minimal-plum-blossom-glass-v1.pptx",
+    "goldenrain": "templates/garman-japanese-minimal-goldenrain-glass-v1.pptx",
+    "maple": "templates/garman-japanese-minimal-maple-glass-v1.pptx",
+    "tallow-tree": "templates/garman-japanese-minimal-tallow-tree-glass-v1.pptx",
+    "golden-cowry": "templates/garman-japanese-minimal-golden-cowry-glass-v1.pptx",
+    "ginkgo": "templates/garman-japanese-minimal-ginkgo-glass-v1.pptx",
+    "jewel-beetle": "templates/garman-japanese-minimal-jewel-beetle-glass-v1.pptx"
+   },
+   "glassPreviews": {
+    "amazonite": "previews/garman-japanese-minimal-amazonite-glass-v1.jpg",
+    "nautilus": "previews/garman-japanese-minimal-nautilus-glass-v1.jpg",
+    "abalone": "previews/garman-japanese-minimal-abalone-glass-v1.jpg",
+    "kingfisher": "previews/garman-japanese-minimal-kingfisher-glass-v1.jpg",
+    "blue-magpie": "previews/garman-japanese-minimal-blue-magpie-glass-v1.jpg",
+    "iris": "previews/garman-japanese-minimal-iris-glass-v1.jpg",
+    "plum-blossom": "previews/garman-japanese-minimal-plum-blossom-glass-v1.jpg",
+    "goldenrain": "previews/garman-japanese-minimal-goldenrain-glass-v1.jpg",
+    "maple": "previews/garman-japanese-minimal-maple-glass-v1.jpg",
+    "tallow-tree": "previews/garman-japanese-minimal-tallow-tree-glass-v1.jpg",
+    "golden-cowry": "previews/garman-japanese-minimal-golden-cowry-glass-v1.jpg",
+    "ginkgo": "previews/garman-japanese-minimal-ginkgo-glass-v1.jpg",
+    "jewel-beetle": "previews/garman-japanese-minimal-jewel-beetle-glass-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "single-focus",
@@ -416,6 +452,8 @@
     "ginkgo": "previews/garman-art-deco-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-art-deco-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "symmetric-frame",
@@ -503,6 +541,8 @@
     "ginkgo": "previews/garman-art-nouveau-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-art-nouveau-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "organic-frame",
@@ -590,6 +630,8 @@
     "ginkgo": "previews/garman-constructivism-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-constructivism-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "diagonal-split",
@@ -686,6 +728,8 @@
     "ginkgo": "previews/garman-de-stijl-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-de-stijl-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "color-field-grid",
@@ -780,6 +824,8 @@
     "ginkgo": "previews/garman-memphis-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-memphis-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "collage",
@@ -876,6 +922,8 @@
     "ginkgo": "previews/garman-pop-art-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-pop-art-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "comic-panel",
@@ -962,6 +1010,8 @@
     "ginkgo": "previews/garman-neubrutalism-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-neubrutalism-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "card-stack",
@@ -1047,6 +1097,8 @@
     "ginkgo": "previews/garman-metro-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-metro-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {},
+   "glassPreviews": {},
    "ppt": {
     "layouts": [
      "tiles",
@@ -1140,6 +1192,36 @@
     "golden-cowry": "previews/garman-y2k-golden-cowry-v1.jpg",
     "ginkgo": "previews/garman-y2k-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-y2k-jewel-beetle-v1.jpg"
+   },
+   "glassTemplates": {
+    "amazonite": "templates/garman-y2k-amazonite-glass-v1.pptx",
+    "nautilus": "templates/garman-y2k-nautilus-glass-v1.pptx",
+    "abalone": "templates/garman-y2k-abalone-glass-v1.pptx",
+    "kingfisher": "templates/garman-y2k-kingfisher-glass-v1.pptx",
+    "blue-magpie": "templates/garman-y2k-blue-magpie-glass-v1.pptx",
+    "iris": "templates/garman-y2k-iris-glass-v1.pptx",
+    "plum-blossom": "templates/garman-y2k-plum-blossom-glass-v1.pptx",
+    "goldenrain": "templates/garman-y2k-goldenrain-glass-v1.pptx",
+    "maple": "templates/garman-y2k-maple-glass-v1.pptx",
+    "tallow-tree": "templates/garman-y2k-tallow-tree-glass-v1.pptx",
+    "golden-cowry": "templates/garman-y2k-golden-cowry-glass-v1.pptx",
+    "ginkgo": "templates/garman-y2k-ginkgo-glass-v1.pptx",
+    "jewel-beetle": "templates/garman-y2k-jewel-beetle-glass-v1.pptx"
+   },
+   "glassPreviews": {
+    "amazonite": "previews/garman-y2k-amazonite-glass-v1.jpg",
+    "nautilus": "previews/garman-y2k-nautilus-glass-v1.jpg",
+    "abalone": "previews/garman-y2k-abalone-glass-v1.jpg",
+    "kingfisher": "previews/garman-y2k-kingfisher-glass-v1.jpg",
+    "blue-magpie": "previews/garman-y2k-blue-magpie-glass-v1.jpg",
+    "iris": "previews/garman-y2k-iris-glass-v1.jpg",
+    "plum-blossom": "previews/garman-y2k-plum-blossom-glass-v1.jpg",
+    "goldenrain": "previews/garman-y2k-goldenrain-glass-v1.jpg",
+    "maple": "previews/garman-y2k-maple-glass-v1.jpg",
+    "tallow-tree": "previews/garman-y2k-tallow-tree-glass-v1.jpg",
+    "golden-cowry": "previews/garman-y2k-golden-cowry-glass-v1.jpg",
+    "ginkgo": "previews/garman-y2k-ginkgo-glass-v1.jpg",
+    "jewel-beetle": "previews/garman-y2k-jewel-beetle-glass-v1.jpg"
    },
    "ppt": {
     "layouts": [
@@ -1236,6 +1318,36 @@
     "ginkgo": "previews/garman-vaporwave-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-vaporwave-jewel-beetle-v1.jpg"
    },
+   "glassTemplates": {
+    "amazonite": "templates/garman-vaporwave-amazonite-glass-v1.pptx",
+    "nautilus": "templates/garman-vaporwave-nautilus-glass-v1.pptx",
+    "abalone": "templates/garman-vaporwave-abalone-glass-v1.pptx",
+    "kingfisher": "templates/garman-vaporwave-kingfisher-glass-v1.pptx",
+    "blue-magpie": "templates/garman-vaporwave-blue-magpie-glass-v1.pptx",
+    "iris": "templates/garman-vaporwave-iris-glass-v1.pptx",
+    "plum-blossom": "templates/garman-vaporwave-plum-blossom-glass-v1.pptx",
+    "goldenrain": "templates/garman-vaporwave-goldenrain-glass-v1.pptx",
+    "maple": "templates/garman-vaporwave-maple-glass-v1.pptx",
+    "tallow-tree": "templates/garman-vaporwave-tallow-tree-glass-v1.pptx",
+    "golden-cowry": "templates/garman-vaporwave-golden-cowry-glass-v1.pptx",
+    "ginkgo": "templates/garman-vaporwave-ginkgo-glass-v1.pptx",
+    "jewel-beetle": "templates/garman-vaporwave-jewel-beetle-glass-v1.pptx"
+   },
+   "glassPreviews": {
+    "amazonite": "previews/garman-vaporwave-amazonite-glass-v1.jpg",
+    "nautilus": "previews/garman-vaporwave-nautilus-glass-v1.jpg",
+    "abalone": "previews/garman-vaporwave-abalone-glass-v1.jpg",
+    "kingfisher": "previews/garman-vaporwave-kingfisher-glass-v1.jpg",
+    "blue-magpie": "previews/garman-vaporwave-blue-magpie-glass-v1.jpg",
+    "iris": "previews/garman-vaporwave-iris-glass-v1.jpg",
+    "plum-blossom": "previews/garman-vaporwave-plum-blossom-glass-v1.jpg",
+    "goldenrain": "previews/garman-vaporwave-goldenrain-glass-v1.jpg",
+    "maple": "previews/garman-vaporwave-maple-glass-v1.jpg",
+    "tallow-tree": "previews/garman-vaporwave-tallow-tree-glass-v1.jpg",
+    "golden-cowry": "previews/garman-vaporwave-golden-cowry-glass-v1.jpg",
+    "ginkgo": "previews/garman-vaporwave-ginkgo-glass-v1.jpg",
+    "jewel-beetle": "previews/garman-vaporwave-jewel-beetle-glass-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "horizon-scene",
@@ -1304,6 +1416,36 @@
     "jewel-beetle": "templates/garman-glassmorphism-jewel-beetle-v1.pptx"
    },
    "previews": {
+    "amazonite": "previews/garman-glassmorphism-amazonite-v1.jpg",
+    "nautilus": "previews/garman-glassmorphism-nautilus-v1.jpg",
+    "abalone": "previews/garman-glassmorphism-abalone-v1.jpg",
+    "kingfisher": "previews/garman-glassmorphism-kingfisher-v1.jpg",
+    "blue-magpie": "previews/garman-glassmorphism-blue-magpie-v1.jpg",
+    "iris": "previews/garman-glassmorphism-iris-v1.jpg",
+    "plum-blossom": "previews/garman-glassmorphism-plum-blossom-v1.jpg",
+    "goldenrain": "previews/garman-glassmorphism-goldenrain-v1.jpg",
+    "maple": "previews/garman-glassmorphism-maple-v1.jpg",
+    "tallow-tree": "previews/garman-glassmorphism-tallow-tree-v1.jpg",
+    "golden-cowry": "previews/garman-glassmorphism-golden-cowry-v1.jpg",
+    "ginkgo": "previews/garman-glassmorphism-ginkgo-v1.jpg",
+    "jewel-beetle": "previews/garman-glassmorphism-jewel-beetle-v1.jpg"
+   },
+   "glassTemplates": {
+    "amazonite": "templates/garman-glassmorphism-amazonite-v1.pptx",
+    "nautilus": "templates/garman-glassmorphism-nautilus-v1.pptx",
+    "abalone": "templates/garman-glassmorphism-abalone-v1.pptx",
+    "kingfisher": "templates/garman-glassmorphism-kingfisher-v1.pptx",
+    "blue-magpie": "templates/garman-glassmorphism-blue-magpie-v1.pptx",
+    "iris": "templates/garman-glassmorphism-iris-v1.pptx",
+    "plum-blossom": "templates/garman-glassmorphism-plum-blossom-v1.pptx",
+    "goldenrain": "templates/garman-glassmorphism-goldenrain-v1.pptx",
+    "maple": "templates/garman-glassmorphism-maple-v1.pptx",
+    "tallow-tree": "templates/garman-glassmorphism-tallow-tree-v1.pptx",
+    "golden-cowry": "templates/garman-glassmorphism-golden-cowry-v1.pptx",
+    "ginkgo": "templates/garman-glassmorphism-ginkgo-v1.pptx",
+    "jewel-beetle": "templates/garman-glassmorphism-jewel-beetle-v1.pptx"
+   },
+   "glassPreviews": {
     "amazonite": "previews/garman-glassmorphism-amazonite-v1.jpg",
     "nautilus": "previews/garman-glassmorphism-nautilus-v1.jpg",
     "abalone": "previews/garman-glassmorphism-abalone-v1.jpg",
@@ -1402,6 +1544,36 @@
     "golden-cowry": "previews/garman-bento-grid-golden-cowry-v1.jpg",
     "ginkgo": "previews/garman-bento-grid-ginkgo-v1.jpg",
     "jewel-beetle": "previews/garman-bento-grid-jewel-beetle-v1.jpg"
+   },
+   "glassTemplates": {
+    "amazonite": "templates/garman-bento-grid-amazonite-glass-v1.pptx",
+    "nautilus": "templates/garman-bento-grid-nautilus-glass-v1.pptx",
+    "abalone": "templates/garman-bento-grid-abalone-glass-v1.pptx",
+    "kingfisher": "templates/garman-bento-grid-kingfisher-glass-v1.pptx",
+    "blue-magpie": "templates/garman-bento-grid-blue-magpie-glass-v1.pptx",
+    "iris": "templates/garman-bento-grid-iris-glass-v1.pptx",
+    "plum-blossom": "templates/garman-bento-grid-plum-blossom-glass-v1.pptx",
+    "goldenrain": "templates/garman-bento-grid-goldenrain-glass-v1.pptx",
+    "maple": "templates/garman-bento-grid-maple-glass-v1.pptx",
+    "tallow-tree": "templates/garman-bento-grid-tallow-tree-glass-v1.pptx",
+    "golden-cowry": "templates/garman-bento-grid-golden-cowry-glass-v1.pptx",
+    "ginkgo": "templates/garman-bento-grid-ginkgo-glass-v1.pptx",
+    "jewel-beetle": "templates/garman-bento-grid-jewel-beetle-glass-v1.pptx"
+   },
+   "glassPreviews": {
+    "amazonite": "previews/garman-bento-grid-amazonite-glass-v1.jpg",
+    "nautilus": "previews/garman-bento-grid-nautilus-glass-v1.jpg",
+    "abalone": "previews/garman-bento-grid-abalone-glass-v1.jpg",
+    "kingfisher": "previews/garman-bento-grid-kingfisher-glass-v1.jpg",
+    "blue-magpie": "previews/garman-bento-grid-blue-magpie-glass-v1.jpg",
+    "iris": "previews/garman-bento-grid-iris-glass-v1.jpg",
+    "plum-blossom": "previews/garman-bento-grid-plum-blossom-glass-v1.jpg",
+    "goldenrain": "previews/garman-bento-grid-goldenrain-glass-v1.jpg",
+    "maple": "previews/garman-bento-grid-maple-glass-v1.jpg",
+    "tallow-tree": "previews/garman-bento-grid-tallow-tree-glass-v1.jpg",
+    "golden-cowry": "previews/garman-bento-grid-golden-cowry-glass-v1.jpg",
+    "ginkgo": "previews/garman-bento-grid-ginkgo-glass-v1.jpg",
+    "jewel-beetle": "previews/garman-bento-grid-jewel-beetle-glass-v1.jpg"
    },
    "ppt": {
     "layouts": [

@@ -285,8 +285,9 @@
     note.hidden = true; note.className = "note";
     if (!has) { $("preview").innerHTML = ""; return; }
     const st = D.styleById[S.style], pa = D.palById[S.pal], c = cell(S.style, S.pal);
-    // 16 种风格都有真实模板的 6 页预览图；没有预览图时（如毛玻璃效果）用按五色上色的示意样张
-    const shot = S.fx === "plain" && st.previews && st.previews[pa.id];
+    // 16 种风格都有真实模板的 6 页预览图；毛玻璃版只有兼容毛玻璃的风格才有，没有时用按五色上色的示意样张
+    const files = (kind) => (S.fx === "glass" ? st["glass" + kind[0].toUpperCase() + kind.slice(1)] : st[kind]) || {};
+    const shot = files("previews")[pa.id];
     $("preview").classList.toggle("photo", !!shot);
     $("preview").innerHTML = shot
       ? `<a href="../${shot}" target="_blank" rel="noopener" title="打开大图"><img src="../${shot}" alt="${st.name.zh} × ${pa.name.zh} 模板 6 页预览" loading="lazy"></a>`
@@ -311,14 +312,15 @@
     const fxZh = S.fx === "glass" ? "毛玻璃" : "普通";
     $("combo").textContent = `${st.name.zh} × ${pa.name.zh} · ${fxZh}`;
     $("cmd").textContent = `用 GarmanPPT 做成 PPT。配色：${pa.name.zh}；风格：${st.name.zh}；效果：${fxZh}。\nGP1:${pa.id}/${st.id}/${S.fx}`;
-    const ready = st.status === "ready";
+    // 技能目前只生成普通效果：毛玻璃或还不能生成的风格，AI 按钮显示「即将支持」
+    const ready = st.status === "ready" && S.fx === "plain";
     $("aiBtn").setAttribute("aria-disabled", !ready);
     $("aiBtn").textContent = ready ? "用 AI 生成成品" : "用 AI 生成成品（即将支持）";
     if (!ready) $("ai").hidden = true;
-    const tpl = S.fx === "plain" && st.templates && st.templates[pa.id];
+    const tpl = files("templates")[pa.id];
     $("dlTpl").href = tpl ? "../" + tpl : "#";
     $("dlTpl").setAttribute("aria-disabled", !tpl);
-    $("dlTpl").textContent = tpl ? "下载模板" : "下载模板（这组暂无）";
+    $("dlTpl").textContent = tpl ? "下载模板" : S.fx === "glass" ? "下载模板（这种风格不做毛玻璃）" : "下载模板（这组暂无）";
     $("detail").href = st.detailUrl;
   }
 

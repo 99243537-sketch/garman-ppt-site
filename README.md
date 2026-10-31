@@ -30,7 +30,7 @@ GarmanPPT「配色 × 风格」组合挑选网站。纯静态页面，没有后�
 
 P / S / C 挡给每个组合标「推荐 / 中性 / 反对」：综合分 = 兼容矩阵分 + 文档类型加分 + 效果冲突扣分，按排名切成 1/4、1/2、1/4；矩阵判为冲突的一律反对。规则都在 `site/ppt/site-data/rules.json`，页面不写死。
 
-选好后有两条路：**下载模板**（16 种风格 × 13 套配色，208 个组合全有 .pptx 和 6 页预览图，大胆风格可自带签名色），或者**用 AI 生成成品**（下载技能包 + 复制口令，交给自己的智能体；目前 7 种风格可用，其余 9 种的这个按钮暂显示「即将支持」）。
+选好后有两条路：**下载模板**（16 种风格 × 13 套配色，208 个组合全有 .pptx 和 6 页预览图，大胆风格会提饱和或加签名色；与毛玻璃兼容的 5 种风格另有毛玻璃版），或者**用 AI 生成成品**（下载技能包 + 复制口令，交给自己的智能体；目前 7 种风格可用，其余 9 种的这个按钮暂显示「即将支持」）。
 
 ## 目录
 
@@ -40,13 +40,13 @@ site/                     GitHub Pages 发布这一层
 └─ ppt/                   = 服务器上的 /ppt/
    ├─ pick/               挑选页（index.html、pick.css、pick.js）
    ├─ site-data/          配色、风格、兼容矩阵、规则、版本（脚本生成，勿手改）
-   ├─ templates/          208 份「下载这套主题」.pptx
-   └─ previews/           208 张 6 页预览图
+   ├─ templates/          260 份「下载这套主题」.pptx（含 52 份毛玻璃版）
+   └─ previews/           260 张 6 页预览图
 tools/
 ├─ build_site_data.py     从源数据生成 site-data
 ├─ export-styles.cjs      把风格库 data.js 导出成 JSON
 ├─ sources/               当前使用的源数据（兼容矩阵、风格库导出）
-└─ masters/               模板生成脚本（16 个风格类 + build_all.py 批量换色 + render_previews.py 出预览图）
+└─ masters/               模板生成脚本（16 个风格类 + build_all.py 批量换色 + render_previews.py 出预览图 + glassify.py 出毛玻璃版）
 docs/preview/             截图
 DEPLOY.md                 部署说明（给 Eddy）
 ```
