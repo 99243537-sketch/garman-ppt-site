@@ -10,7 +10,7 @@
 import json, sys, os, datetime
 
 MATRIX, STYLES_V2, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
-DATA_VERSION = "0.2.4"
+DATA_VERSION = "0.3.0"
 
 # ---- 规则（暂定，待赵盾按实际分布定）----
 RULES = {
@@ -118,6 +118,12 @@ for i, p in enumerate(m["palettes"]):
         "glass": True, "default": p["name"] == "天河石", "docTypes": docs,
     })
 
+def tpl_file(sid, pid):
+    t = TEMPLATES.get(sid)
+    if t and t["palette"] == pid:
+        return t["file"]
+    return f"templates/garman-{sid}-{pid}-v1.pptx"
+
 styles = []
 for i, s in enumerate(v2):
     docs, glass = STYLE_META[s["id"]]
@@ -126,7 +132,11 @@ for i, s in enumerate(v2):
         "id": s["id"], "order": i, "name": s["name"], "tagline": s["tagline"], "era": s["era"],
         "status": "ready" if s["id"] in READY else "preview",
         "docTypes": docs, "effects": {"glass": glass},
-        "template": TEMPLATES.get(s["id"]),
+        "template": TEMPLATES.get(s["id"]),   # 每种风格手工定稿的那一套（推荐展示用）
+        # 可生成风格 × 全部 13 套配色：模板与 6 页预览图（tools/masters/build_all.py 生成）
+        "templates": {p["id"]: tpl_file(s["id"], p["id"]) for p in palettes} if s["id"] in READY else {},
+        "previews": {p["id"]: "previews/" + os.path.basename(tpl_file(s["id"], p["id"]))[:-5] + ".jpg"
+                     for p in palettes} if s["id"] in READY else {},
         "ppt": {k: ppt[k] for k in ("layouts", "motifs", "forbid", "radius", "shadow", "density", "colorRule")},
         "detailUrl": f"/design-styles/?style={s['id']}",
     })

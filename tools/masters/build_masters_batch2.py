@@ -273,7 +273,7 @@ class Metro:
     """Metro 磁贴 × 翠鸟：深底白字，纯色方块磁贴，无圆角、无投影、无线条装饰。"""
     key, file = "metro", "garman-metro-kingfisher"
     title = "Metro 磁贴 × 翠鸟"
-    C = dict(bg="001532", ink="FFFFFF", main="55BCFA", deep="2C6485", accent="AC5107", muted="9FB3C4", dark="001532")
+    C = dict(bg="001532", ink="FFFFFF", main="55BCFA", deep="2C6485", accent="AC5107", muted="9FB3C4", dark="001532", panel="0E294A")
     theme = ["001532", "FFFFFF", "0E294A", "EFF6FB", "55BCFA", "AC5107", "9FB3C4", "C9D3D9", "2C6485", "DFEEF8"]
     logo = (29.4, 0.7, 3.6, 1.4)
     chapter_num = "01"
@@ -307,7 +307,7 @@ class Metro:
         self.footer(p)
         p.ph("目录标题", "title", 0, 1.35, 1.0, 26, 2.0, "目录标题（8 字以内）", 30, c["ink"], anchor="ctr")
         tiles = [(1.35, 3.8, 15.3, 6.6, c["main"], c["dark"]), (16.95, 3.8, 15.3, 6.6, c["deep"], c["ink"]),
-                 (1.35, 10.7, 15.3, 6.6, c["accent"], c["ink"]), (16.95, 10.7, 15.3, 6.6, "0E294A", c["ink"])]
+                 (1.35, 10.7, 15.3, 6.6, c["accent"], c["ink"]), (16.95, 10.7, 15.3, 6.6, c["panel"], c["ink"])]
         for i, (idx, (x, y, w, h, f, tc)) in enumerate(zip(IDX["toc"], tiles)):
             self.tile(p, x, y, w, h, f)
             p.ph(f"目录条目 {i + 1}", "body", idx, x + 0.8, y + h - 3.4, w - 1.6, 2.8,

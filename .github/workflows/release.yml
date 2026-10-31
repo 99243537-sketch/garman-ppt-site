@@ -19,7 +19,7 @@ jobs:
         run: |
           mkdir dist
           cp DEPLOY.md site/ppt/部署说明.md
-          (cd site/ppt && zip -qr "../../dist/garman-site-${GITHUB_REF_NAME#site-v}.zip" 部署说明.md pick site-data templates)
+          (cd site/ppt && zip -qr "../../dist/garman-site-${GITHUB_REF_NAME#site-v}.zip" 部署说明.md pick site-data templates previews)
       - uses: softprops/action-gh-release@v2
         with:
           files: dist/*.zip

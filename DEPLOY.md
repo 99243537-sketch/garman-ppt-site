@@ -2,7 +2,7 @@
 
 > 仓库里的 `site/ppt/` 对应服务器上的 `/ppt/`。下文说的「包」就是 Release 里的 zip，结构与 `site/ppt/` 相同。
 
-> 数据版本 0.2.4 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
+> 数据版本 0.3.0 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
 
 Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的全部东西。网站只放静态文件，**没有后端、不调模型、不做在线生成**。
 
@@ -16,7 +16,8 @@ Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的�
 │  ├─ styles.json         16 种风格
 │  ├─ matrix.json         208 格兼容矩阵（含三挡）
 │  └─ rules.json          三挡切分比例、综合分权重、文档类型表、可用效果
-├─ templates/             7 份「下载这套主题」.pptx（每种可生成风格一份）
+├─ templates/             91 份「下载这套主题」.pptx（7 种风格 × 13 套配色）
+├─ previews/              91 张 6 页预览图
 ├─ pick/                  组合挑选页（静态原型）
 │  ├─ index.html
 │  ├─ pick.css
@@ -32,7 +33,8 @@ Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的�
 /ppt/                     现有技能介绍页，加一个「组合挑选」入口链接到 /ppt/pick/
 /ppt/pick/                ← pick/ 三个文件
 /ppt/site-data/           ← site-data/ 五个 JSON
-/ppt/templates/           ← templates/ 七个 .pptx（见第 5 节）
+/ppt/templates/           ← templates/ 91 个 .pptx（见第 5 节）
+/ppt/previews/            ← previews/ 91 张预览图
 /design-styles/           风格库 v2（已有；挑选页的「详细说明」链接指向 /design-styles/?style=<id>）
 ```
 
@@ -50,11 +52,11 @@ Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的�
 |---|---|
 | `site-data/version.json` | 不缓存（`Cache-Control: no-store`）。页面每次都实时读它 |
 | 其他 JSON、`pick.js`、`pick.css` | 可以缓存；每次更新数据后清一次缓存，或者改用带版本号的目录（`/ppt/site-data/0.2.0/`）并改 `GARMAN_DATA_BASE` |
-| `templates/*.pptx` | 长缓存，文件名里带 `-v1`，换版本就换文件名 |
+| `templates/*.pptx`、`previews/*.jpg` | 长缓存，文件名里带 `-v1`，换版本就换文件名 |
 
 ## 4. 怎么拉取、怎么更新
 
-从 GitHub 拉取：仓库 [99243537-sketch/garman-ppt-site](https://github.com/99243537-sketch/garman-ppt-site) 每次打 `site-v*` 标签，Release 里会自动出一个 `garman-site-<版本>.zip`，内容就是仓库的 `site/ppt/` 加本说明。你沿用「定时从 GitHub 拉取」：查最新 Release，版本变了就下载解压，覆盖到服务器的 `/ppt/`（会更新 `pick/`、`site-data/`、`templates/` 三个目录，不碰 `/ppt/` 下其他文件）。判断有没有新版本看 Release 标签或 `site-data/version.json` 的 `version`。
+从 GitHub 拉取：仓库 [99243537-sketch/garman-ppt-site](https://github.com/99243537-sketch/garman-ppt-site) 每次打 `site-v*` 标签，Release 里会自动出一个 `garman-site-<版本>.zip`，内容就是仓库的 `site/ppt/` 加本说明。你沿用「定时从 GitHub 拉取」：查最新 Release，版本变了就下载解压，覆盖到服务器的 `/ppt/`（会更新 `pick/`、`site-data/`、`templates/`、`previews/` 四个目录，不碰 `/ppt/` 下其他文件）。判断有没有新版本看 Release 标签或 `site-data/version.json` 的 `version`。
 
 ```bash
 # 示例：取最新 Release 的 zip（公开仓库，不需要令牌）
@@ -72,21 +74,17 @@ node tools/export-styles.cjs <风格库>/design-styles/data.js tools/sources/sty
 python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/styles-v2.json site/ppt/site-data
 ```
 
-## 5. 模板下载
+## 5. 模板下载与预览图
 
-7 种可生成风格各一份模板，已在包里的 `templates/`。挑选页的「下载模板」只在「风格 × 它那套配色」上可点，其余组合显示「这组暂无」。每份都是 6 个版式（封面、目录、章节页、正文、正文 + 引文、结尾页）加示例页，元素逐个淡入。
+7 种可生成风格 × 13 套配色，**91 个组合全部有模板和预览图**：
 
-| 风格 × 配色 | 文件 |
-|---|---|
-| 编辑杂志风 × 天河石 | `templates/garman-editorial-amazonite-v1.pptx` |
-| 新粗野主义 × 银杏 | `templates/garman-neubrutalism-ginkgo-v1.pptx` |
-| 新艺术运动 × 鹦鹉螺 | `templates/garman-art-nouveau-nautilus-v1.pptx` |
-| 瑞士国际主义 × 红嘴蓝鹊 | `templates/garman-swiss-blue-magpie-v1.pptx` |
-| 日式极简 × 梅花 | `templates/garman-japanese-minimal-plum-blossom-v1.pptx` |
-| 便当盒布局 × 乌桕 | `templates/garman-bento-grid-tallow-tree-v1.pptx` |
-| Metro 磁贴 × 翠鸟 | `templates/garman-metro-kingfisher-v1.pptx` |
+- `templates/garman-<风格id>-<配色id>-v1.pptx`：6 个版式（封面、目录、章节页、正文、正文 + 引文、结尾页）加示例页，元素逐个淡入，微软雅黑，敏感词自检 0 命中。每份约 40 KB。
+- `previews/<同名>.jpg`：6 页拼图，约 2000×760，每张约 100 KB。
+- 每种风格有一套手工定稿（`styles.json` 的 `template`），其余 12 套由 `tools/masters/build_all.py` 按兼容矩阵取好的五色批量生成。
 
-对应关系写在 `styles.json` 每种风格的 `template` 字段里。
+对应关系写在 `styles.json` 每种风格的 `templates` 和 `previews`（键是配色 id）。挑选页选中可生成风格时显示真实预览图、点开看大图；还不能生成的 9 种风格仍显示按五色上色的示意样张，「下载模板」显示「这组暂无」。
+
+全部文件约 13 MB（模板 3.7 MB + 预览图 8.7 MB）。
 
 ## 6. 页面怎么工作（如果你要按站点风格重写，看这一节就够）
 
@@ -139,7 +137,7 @@ GP1:ginkgo/neubrutalism/plain
 
 1. `/ppt/pick/` 打开后自动选中「编辑杂志风 × 天河石」，上方有一句理由。
 2. 转盘拨到 C，选「吉丁虫」，左列是配色、右列是风格并自动选中第一名；拨到 M：列表变成原顺序，没有分数；选「波普艺术 × 鹦鹉螺」出现冲突软提示，没有替换建议。
-3. 7 种可生成风格各自的模板组合（见第 5 节）都能下到 pptx；「复制」按钮能复制口令（需要 https）。
+3. 任选一个可生成风格和任一配色，都能看到 6 页预览图并下到 pptx；「复制」按钮能复制口令（需要 https）。
 4. 手机宽度下没有横向滚动。
 5. 改一次 `version.json` 后刷新页面，页脚版本号立即变化（说明没被缓存）。
 

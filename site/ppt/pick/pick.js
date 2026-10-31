@@ -286,7 +286,12 @@
     note.hidden = true; note.className = "note";
     if (!has) { $("preview").innerHTML = ""; return; }
     const st = D.styleById[S.style], pa = D.palById[S.pal], c = cell(S.style, S.pal);
-    $("preview").innerHTML = slide(c.roles, st, S.fx === "glass");
+    // 可生成风格有真实模板的 6 页预览图；其余风格用按五色上色的示意样张
+    const shot = S.fx === "plain" && st.previews && st.previews[pa.id];
+    $("preview").classList.toggle("photo", !!shot);
+    $("preview").innerHTML = shot
+      ? `<a href="../${shot}" target="_blank" rel="noopener" title="打开大图"><img src="../${shot}" alt="${st.name.zh} × ${pa.name.zh} 模板 6 页预览" loading="lazy"></a>`
+      : slide(c.roles, st, S.fx === "glass");
 
     const msgs = [];
     if (S.mode !== "m") {
@@ -311,8 +316,8 @@
     const ready = st.status === "ready";
     $("aiBtn").setAttribute("aria-disabled", !ready);
     if (!ready) $("ai").hidden = true;
-    const tpl = st.template && st.template.palette === pa.id && S.fx === "plain";
-    $("dlTpl").href = tpl ? "../" + st.template.file : "#";
+    const tpl = S.fx === "plain" && st.templates && st.templates[pa.id];
+    $("dlTpl").href = tpl ? "../" + tpl : "#";
     $("dlTpl").setAttribute("aria-disabled", !tpl);
     $("dlTpl").textContent = tpl ? "下载模板" : "下载模板（这组暂无）";
     $("detail").href = st.detailUrl;
