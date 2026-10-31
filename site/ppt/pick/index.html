@@ -10,7 +10,7 @@
 <meta property="og:description" content="13 套自然配色 × 16 种设计风格，挑好搭配直接下载 PPT 模板，或一键打包交给 AI 做成品。">
 <meta property="og:url" content="https://www.zhaodun.work/ppt/pick/">
 <meta property="og:image" content="https://www.zhaodun.work/ppt/media/palettes-13.webp">
-<link rel="stylesheet" href="pick.css?v=0.7.0">
+<link rel="stylesheet" href="pick.css?v=0.7.1">
 </head>
 <body>
 <header class="top">
@@ -23,8 +23,8 @@
       <div class="dial" role="radiogroup" aria-label="挑选方式转盘" tabindex="0">
         <span class="mark" aria-hidden="true"></span>
         <div class="disk" id="disk">
-          <button role="radio" data-mode="p" aria-checked="true" aria-label="P 程序自动">P</button>
-          <button role="radio" data-mode="s" aria-checked="false" aria-label="S 风格优先">S</button>
+          <button role="radio" data-mode="p" aria-checked="false" aria-label="P 程序自动">P</button>
+          <button role="radio" data-mode="s" aria-checked="true" aria-label="S 风格优先">S</button>
           <button role="radio" data-mode="c" aria-checked="false" aria-label="C 色彩优先">C</button>
           <button role="radio" data-mode="m" aria-checked="false" aria-label="M 手动">M</button>
         </div>
@@ -90,8 +90,8 @@
 <footer class="wrap foot muted small">
   16 种风格 × 13 套配色共 208 个组合，每个都有 6 页预览和可下载的模板。数据版本 <span id="ver"></span> · <a href="../">GarmanPPT 技能介绍</a> · <a href="../../">返回首页</a>
 </footer>
-<script src="pack.js?v=0.7.0"></script>
-<script src="pick.js?v=0.7.0"></script>
+<script src="pack.js?v=0.7.1"></script>
+<script src="pick.js?v=0.7.1"></script>
 <script>
 (function(){
   function setStatus(m){document.querySelectorAll(".share-status").forEach(function(el){el.textContent=m;});setTimeout(function(){document.querySelectorAll(".share-status").forEach(function(el){el.textContent="";});},2200);}

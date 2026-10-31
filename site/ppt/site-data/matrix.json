@@ -1,6 +1,6 @@
 {
  "_note": "由 build_site_data.py 生成，请勿手改",
- "version": "0.7.0",
+ "version": "0.7.1",
  "key": "风格id|配色id",
  "cells": {
   "bauhaus|amazonite": {

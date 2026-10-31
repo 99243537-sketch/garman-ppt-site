@@ -18,14 +18,14 @@
   const TIER_ZH = { recommend: "推荐", neutral: "中性", against: "反对" };
   const MODES = {
     p: { name: "P · 程序自动", desc: "风格和配色都替你选好，可以再换。", angle: -66 },
-    s: { name: "S · 风格优先", desc: "你选风格，配色按合适程度排好并自动选第一名。", angle: -22 },
-    c: { name: "C · 色彩优先", desc: "你选配色，风格按合适程度排好并自动选第一名。", angle: 22 },
+    s: { name: "S · 风格优先", desc: "先选一种风格，再看哪套配色最合适：配色按合适程度排好，自动选第一名。", angle: -22 },
+    c: { name: "C · 色彩优先", desc: "先选一套配色，再看哪种风格最合适：风格按合适程度排好，自动选第一名。", angle: 22 },
     m: { name: "M · 手动", desc: "按原顺序列出，不排序、不推荐，全部自己定。", angle: 66 },
   };
   const ORDER = ["p", "s", "c", "m"];
   let D = null;
   const DEFAULT_DOC = "teaching";   // 文档类型默认「讲课 / 培训」
-  const S = { mode: "p", doc: DEFAULT_DOC, fx: "plain", style: null, pal: null, auto: false };
+  const S = { mode: "s", doc: DEFAULT_DOC, fx: "plain", style: null, pal: null, auto: false };
 
   Promise.all(["palettes", "styles", "matrix", "rules", "version"].map((n) =>
     fetch(BASE + n + ".json", { cache: n === "version" ? "no-store" : "default" }).then((r) => r.json())
@@ -110,10 +110,8 @@
   function setMode(m) {
     if (m === S.mode) return;
     S.mode = m;
-    // 换挡时保留「优先」的那一半：S 留风格，C 留配色，M 清空，P 全自动
-    if (m === "s") S.pal = null;
-    if (m === "c") S.style = null;
-    if (m === "m") { S.style = null; S.pal = null; }
+    // 换到 S / C / M 都从头选：「优先」的那一半由用户先点，不沿用别的挡替他选好的；P 全自动
+    if (m !== "p") { S.style = null; S.pal = null; }
     autoPick(); render();
   }
   function bind() {
@@ -304,7 +302,11 @@
     $("out").hidden = !has;
     const note = $("note");
     note.hidden = true; note.className = "note";
-    if (!has) { $("preview").innerHTML = ""; return; }
+    if (!has) {
+      $("preview").classList.remove("photo");
+      $("preview").innerHTML = `<p class="empty">${S.mode === "c" ? "先在左边选一套配色" : "先在左边选一种风格"}，这里会出现 6 页预览。</p>`;
+      return;
+    }
     const st = D.styleById[S.style], pa = D.palById[S.pal], c = cell(S.style, S.pal);
     // 16 种风格都有真实模板的 6 页预览图；毛玻璃版只有兼容毛玻璃的风格才有，没有时用按五色上色的示意样张
     const files = (kind) => (S.fx === "glass" ? st["glass" + kind[0].toUpperCase() + kind.slice(1)] : st[kind]) || {};
