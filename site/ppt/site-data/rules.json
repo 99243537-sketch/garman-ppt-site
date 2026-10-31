@@ -1,0 +1,102 @@
+{
+ "_note": "由 build_site_data.py 生成，请勿手改",
+ "version": "0.2.3",
+ "rules": {
+  "tiers": [
+   {
+    "id": "recommend",
+    "zh": "推荐",
+    "en": "Recommended",
+    "share": 0.25
+   },
+   {
+    "id": "neutral",
+    "zh": "中性",
+    "en": "Neutral",
+    "share": 0.5
+   },
+   {
+    "id": "against",
+    "zh": "反对",
+    "en": "Not advised",
+    "share": 0.25
+   }
+  ],
+  "tierMethod": "quantile",
+  "tierPool": "ready",
+  "conflictIsAgainst": true,
+  "weights": {
+   "styleDocMatch": 10,
+   "paletteDocMatch": 5,
+   "glassConflict": -30,
+   "glassAdjust": -10
+  },
+  "clamp": [
+   0,
+   115
+  ],
+  "effectsAvailable": [
+   "plain"
+  ],
+  "pending": [
+   "tiers.share",
+   "weights",
+   "docTypes",
+   "styles[].docTypes",
+   "palettes[].docTypes",
+   "styles[].effects.glass"
+  ]
+ },
+ "docTypes": [
+  {
+   "id": "report",
+   "zh": "工作汇报 / 总结",
+   "en": "Work report / review"
+  },
+  {
+   "id": "official",
+   "zh": "公文 / 公共事务",
+   "en": "Official / public affairs"
+  },
+  {
+   "id": "teaching",
+   "zh": "讲课 / 培训",
+   "en": "Lecture / training"
+  },
+  {
+   "id": "reading",
+   "zh": "读书分享 / 人文",
+   "en": "Book talk / humanities"
+  },
+  {
+   "id": "tech",
+   "zh": "科技 / 数据",
+   "en": "Tech / data"
+  },
+  {
+   "id": "event",
+   "zh": "活动 / 宣传",
+   "en": "Event / promotion"
+  },
+  {
+   "id": "festive",
+   "zh": "节庆 / 传统文化",
+   "en": "Festive / tradition"
+  },
+  {
+   "id": "product",
+   "zh": "产品介绍 / 发布",
+   "en": "Product / launch"
+  },
+  {
+   "id": "student",
+   "zh": "学生 / 校园",
+   "en": "Student / campus"
+  },
+  {
+   "id": "culture",
+   "zh": "文艺 / 设计",
+   "en": "Arts / design"
+  }
+ ]
+}

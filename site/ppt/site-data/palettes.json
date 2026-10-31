@@ -1,0 +1,389 @@
+{
+ "_note": "由 build_site_data.py 生成，请勿手改",
+ "version": "0.2.3",
+ "palettes": [
+  {
+   "id": "amazonite",
+   "order": 0,
+   "name": {
+    "zh": "天河石",
+    "en": "Amazonite"
+   },
+   "kind": "矿物",
+   "tier": "雅致",
+   "desc": {
+    "zh": "青蓝配钒铅矿橙红，冷静理性；默认，适合工作汇报、公文"
+   },
+   "colors": {
+    "main": "70C6D6",
+    "soft": "DDF1F2",
+    "pale": "EFF8F9",
+    "deep": "1B667A",
+    "base": "122947",
+    "accent": "B04D2F",
+    "ink": "243335",
+    "muted": "53686A",
+    "line": "C8D5D4"
+   },
+   "glass": true,
+   "default": true,
+   "docTypes": [
+    "report",
+    "official"
+   ]
+  },
+  {
+   "id": "nautilus",
+   "order": 1,
+   "name": {
+    "zh": "鹦鹉螺",
+    "en": "Nautilus"
+   },
+   "kind": "贝壳",
+   "tier": "雅致",
+   "desc": {
+    "zh": "象牙米白配赭红，中性温和；适合人文、历史、任何不想抢眼的场合"
+   },
+   "colors": {
+    "main": "CABCA1",
+    "soft": "F2EADC",
+    "pale": "F8F5EE",
+    "deep": "725A21",
+    "base": "27292D",
+    "accent": "AD4E37",
+    "ink": "353025",
+    "muted": "6A6253",
+    "line": "D5D0C7"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "reading",
+    "culture"
+   ]
+  },
+  {
+   "id": "abalone",
+   "order": 2,
+   "name": {
+    "zh": "鲍鱼壳",
+    "en": "Abalone"
+   },
+   "kind": "贝壳",
+   "tier": "雅致",
+   "desc": {
+    "zh": "珠光蓝绿配虹彩紫，清新；适合科技、海洋、环保"
+   },
+   "colors": {
+    "main": "71C9C8",
+    "soft": "DCF0EF",
+    "pale": "EEF7F7",
+    "deep": "086B6C",
+    "base": "362517",
+    "accent": "8754AB",
+    "ink": "243433",
+    "muted": "536868",
+    "line": "C7D4D4"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "tech"
+   ]
+  },
+  {
+   "id": "kingfisher",
+   "order": 3,
+   "name": {
+    "zh": "翠鸟",
+    "en": "Kingfisher"
+   },
+   "kind": "鸟类",
+   "tier": "鲜明",
+   "desc": {
+    "zh": "明亮天蓝配栗橙，响亮有活力；适合教学、活动、少儿"
+   },
+   "colors": {
+    "main": "55BCFA",
+    "soft": "DFEEF8",
+    "pale": "EFF6FB",
+    "deep": "2C6485",
+    "base": "0E294A",
+    "accent": "AC5107",
+    "ink": "273239",
+    "muted": "566670",
+    "line": "C9D3D9"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "teaching",
+    "event",
+    "student"
+   ]
+  },
+  {
+   "id": "blue-magpie",
+   "order": 4,
+   "name": {
+    "zh": "红嘴蓝鹊",
+    "en": "Red-billed Blue Magpie"
+   },
+   "kind": "鸟类",
+   "tier": "鲜明",
+   "desc": {
+    "zh": "宝蓝配红嘴，醒目；适合宣传、活动"
+   },
+   "colors": {
+    "main": "93AEF8",
+    "soft": "E5EBFA",
+    "pale": "F2F5FC",
+    "deep": "4A5C8B",
+    "base": "1C2746",
+    "accent": "B1483E",
+    "ink": "2C303B",
+    "muted": "5D6372",
+    "line": "CDD1DA"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "event"
+   ]
+  },
+  {
+   "id": "iris",
+   "order": 5,
+   "name": {
+    "zh": "鸢尾",
+    "en": "Iris"
+   },
+   "kind": "花卉",
+   "tier": "雅致",
+   "desc": {
+    "zh": "淡紫配姜黄，柔和优雅；适合文艺、艺术、读书"
+   },
+   "colors": {
+    "main": "C5A9E6",
+    "soft": "EEE8F7",
+    "pale": "F7F3FB",
+    "deep": "685282",
+    "base": "2C2145",
+    "accent": "8C6802",
+    "ink": "332E39",
+    "muted": "66606F",
+    "line": "D3CFD9"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "culture",
+    "reading"
+   ]
+  },
+  {
+   "id": "plum-blossom",
+   "order": 6,
+   "name": {
+    "zh": "梅花",
+    "en": "Plum Blossom"
+   },
+   "kind": "花卉",
+   "tier": "雅致",
+   "desc": {
+    "zh": "梅粉配苔青、墨枝深底，温婉；适合节庆、冬季、传统文化"
+   },
+   "colors": {
+    "main": "E6A0BA",
+    "soft": "F8E6EC",
+    "pale": "FBF2F5",
+    "deep": "814A60",
+    "base": "2F262A",
+    "accent": "067D51",
+    "ink": "392C31",
+    "muted": "705E64",
+    "line": "D9CDD1"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "festive"
+   ]
+  },
+  {
+   "id": "goldenrain",
+   "order": 7,
+   "name": {
+    "zh": "栾树",
+    "en": "Goldenrain Tree"
+   },
+   "kind": "果实",
+   "tier": "雅致",
+   "desc": {
+    "zh": "珊瑚粉配叶绿、林荫墨绿，温暖有生气；适合社区、民生、秋季"
+   },
+   "colors": {
+    "main": "F09F90",
+    "soft": "F9E6E3",
+    "pale": "FCF3F1",
+    "deep": "854C41",
+    "base": "0E3111",
+    "accent": "3E7D2F",
+    "ink": "3A2D2A",
+    "muted": "715E5B",
+    "line": "DACECB"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "official"
+   ]
+  },
+  {
+   "id": "maple",
+   "order": 8,
+   "name": {
+    "zh": "槭枫",
+    "en": "Maple"
+   },
+   "kind": "树叶",
+   "tier": "雅致",
+   "desc": {
+    "zh": "枫红橙配松绿，热烈而沉稳；适合年终总结、秋季"
+   },
+   "colors": {
+    "main": "F49E84",
+    "soft": "F9E7E1",
+    "pale": "FCF3F0",
+    "deep": "844D3C",
+    "base": "421C19",
+    "accent": "047B60",
+    "ink": "3A2D29",
+    "muted": "715F59",
+    "line": "DACECA"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "report"
+   ]
+  },
+  {
+   "id": "tallow-tree",
+   "order": 9,
+   "name": {
+    "zh": "乌桕",
+    "en": "Chinese Tallow"
+   },
+   "kind": "树叶",
+   "tier": "雅致",
+   "desc": {
+    "zh": "杏橙配秋空蓝、枝干深底，明朗；适合乡村、文旅、秋季"
+   },
+   "colors": {
+    "main": "E9A679",
+    "soft": "F7E8DE",
+    "pale": "FBF3EF",
+    "deep": "80512F",
+    "base": "2E2821",
+    "accent": "1672AB",
+    "ink": "392E27",
+    "muted": "6F6056",
+    "line": "D9CFC8"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "culture"
+   ]
+  },
+  {
+   "id": "golden-cowry",
+   "order": 10,
+   "name": {
+    "zh": "黄金宝螺",
+    "en": "Golden Cowry"
+   },
+   "kind": "贝壳",
+   "tier": "鲜明",
+   "desc": {
+    "zh": "赤橙配紫晕，饱满喜庆；适合庆典、活动"
+   },
+   "colors": {
+    "main": "FE8F5B",
+    "soft": "F8E7E0",
+    "pale": "FBF3F0",
+    "deep": "834E36",
+    "base": "2D2826",
+    "accent": "9250A0",
+    "ink": "392D28",
+    "muted": "705F58",
+    "line": "D9CECA"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "festive",
+    "event"
+   ]
+  },
+  {
+   "id": "ginkgo",
+   "order": 11,
+   "name": {
+    "zh": "银杏",
+    "en": "Ginkgo"
+   },
+   "kind": "树叶",
+   "tier": "鲜明",
+   "desc": {
+    "zh": "金黄配秋空蓝，明亮温暖；适合校园、秋季"
+   },
+   "colors": {
+    "main": "F0CF4C",
+    "soft": "EFEBDC",
+    "pale": "F7F5EE",
+    "deep": "6C5D22",
+    "base": "2F281E",
+    "accent": "3B6CBF",
+    "ink": "333025",
+    "muted": "686353",
+    "line": "D4D1C7"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "student"
+   ]
+  },
+  {
+   "id": "jewel-beetle",
+   "order": 12,
+   "name": {
+    "zh": "吉丁虫",
+    "en": "Jewel Beetle"
+   },
+   "kind": "昆虫",
+   "tier": "雅致",
+   "desc": {
+    "zh": "豆绿配紫红，自然清新；适合农业、健康、环保"
+   },
+   "colors": {
+    "main": "A4C386",
+    "soft": "E6EEE0",
+    "pale": "F3F7F0",
+    "deep": "4E6734",
+    "base": "003221",
+    "accent": "A8477A",
+    "ink": "2D3228",
+    "muted": "5E6657",
+    "line": "CED3C9"
+   },
+   "glass": true,
+   "default": false,
+   "docTypes": [
+    "official"
+   ]
+  }
+ ]
+}

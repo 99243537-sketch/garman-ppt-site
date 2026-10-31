@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GarmanPPT 组合挑选</title>
+<link rel="stylesheet" href="pick.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../">GarmanPPT</a>
+    <h1>选一套配色 × 风格</h1>
+    <p class="lead">选好后复制口令，和技能包、你的文档一起交给智能体；也可以直接下载模板自己填。</p>
+    <div class="dialbox">
+      <div class="dial" role="radiogroup" aria-label="挑选方式转盘" tabindex="0">
+        <span class="mark" aria-hidden="true"></span>
+        <div class="disk" id="disk">
+          <button role="radio" data-mode="p" aria-checked="true" aria-label="P 程序自动">P</button>
+          <button role="radio" data-mode="s" aria-checked="false" aria-label="S 风格优先">S</button>
+          <button role="radio" data-mode="c" aria-checked="false" aria-label="C 色彩优先">C</button>
+          <button role="radio" data-mode="m" aria-checked="false" aria-label="M 手动">M</button>
+        </div>
+      </div>
+      <div class="dialinfo">
+        <p class="modename" id="modeName"></p>
+        <p class="muted small" id="modeDesc"></p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="controls">
+    <label id="docWrap">文档类型
+      <select id="doc"><option value="">不指定</option></select>
+    </label>
+    <fieldset class="fx">
+      <legend>效果</legend>
+      <label><input type="radio" name="fx" value="plain" checked> 普通</label>
+      <label><input type="radio" name="fx" value="glass"> 毛玻璃</label>
+    </fieldset>
+  </section>
+
+  <p id="opening" class="opening" hidden></p>
+
+  <div class="grid">
+    <section class="col">
+      <h2 id="headA">1 · 风格</h2>
+      <ul id="listA" class="list"></ul>
+    </section>
+    <section class="col">
+      <h2 id="headB">2 · 配色</h2>
+      <p id="hintB" class="muted"></p>
+      <ul id="listB" class="list"></ul>
+    </section>
+    <section class="col result">
+      <h2>3 · 结果</h2>
+      <div id="preview" class="preview" aria-label="示意样张"></div>
+      <p id="note" class="note" hidden></p>
+      <div id="out" hidden>
+        <p class="combo" id="combo"></p>
+        <div class="btns">
+          <a id="dlTpl" class="btn" download>下载模板</a>
+          <button id="aiBtn" class="btn primary" aria-expanded="false">用 AI 生成成品</button>
+        </div>
+        <ol id="ai" class="ai" hidden>
+          <li>下载技能包：<a id="skillLink" target="_blank" rel="noopener">GitHub Release</a></li>
+          <li>复制口令：
+            <code id="cmd"></code>
+            <button id="copy" class="btn small">复制</button>
+          </li>
+          <li>把技能包、口令和你的文档一起发给智能体。</li>
+        </ol>
+        <p class="muted small"><a id="detail" target="_blank" rel="noopener">看这种风格的详细说明</a></p>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="wrap foot muted small">
+  示意样张按矩阵取好的五色实时上色，仅供看色，不是成品版式。数据版本 <span id="ver"></span>
+</footer>
+<script src="pick.js"></script>
+</body>
+</html>

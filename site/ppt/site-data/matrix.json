@@ -1,0 +1,3491 @@
+{
+ "_note": "由 build_site_data.py 生成，请勿手改",
+ "version": "0.2.3",
+ "key": "风格id|配色id",
+ "cells": {
+  "bauhaus|amazonite": {
+   "s": 58,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 3 组（青、红、蓝），接近三原色的有：红。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "EFF8F9",
+    "text": "243335",
+    "primary": "70C6D6",
+    "secondary": "B04D2F",
+    "accent": "122947"
+   },
+   "alt": [],
+   "rankBase": 138
+  },
+  "bauhaus|nautilus": {
+   "s": 58,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 2 组（黄、红），接近三原色的有：红、黄。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "F8F5EE",
+    "text": "353025",
+    "primary": "CABCA1",
+    "secondary": "AD4E37",
+    "accent": "1C1B19"
+   },
+   "alt": [],
+   "rankBase": 139
+  },
+  "bauhaus|abalone": {
+   "s": 58,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 3 组（青、紫、橙），接近三原色的有：无。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "EEF7F7",
+    "text": "243433",
+    "primary": "71C9C8",
+    "secondary": "8754AB",
+    "accent": "362517"
+   },
+   "alt": [],
+   "rankBase": 140
+  },
+  "bauhaus|kingfisher": {
+   "s": 63,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 2 组（蓝、橙），接近三原色的有：红、蓝。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "EFF6FB",
+    "text": "273239",
+    "primary": "55BCFA",
+    "secondary": "AC5107",
+    "accent": "1C1B19"
+   },
+   "alt": [],
+   "rankBase": 121
+  },
+  "bauhaus|blue-magpie": {
+   "s": 69,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 2 组（蓝、红），接近三原色的有：红、蓝。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "F2F5FC",
+    "text": "2C303B",
+    "primary": "93AEF8",
+    "secondary": "B1483E",
+    "accent": "1C1B19"
+   },
+   "alt": [],
+   "rankBase": 102
+  },
+  "bauhaus|iris": {
+   "s": 58,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 2 组（紫、黄），接近三原色的有：黄。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "F7F3FB",
+    "text": "332E39",
+    "primary": "C5A9E6",
+    "secondary": "8C6802",
+    "accent": "1C1B19"
+   },
+   "alt": [],
+   "rankBase": 141
+  },
+  "bauhaus|plum-blossom": {
+   "s": 48,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 2 组（玫红、绿），接近三原色的有：无。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "FBF2F5",
+    "text": "392C31",
+    "primary": "E6A0BA",
+    "secondary": "067D51",
+    "accent": "1C1B19"
+   },
+   "alt": [],
+   "rankBase": 162
+  },
+  "bauhaus|goldenrain": {
+   "s": 52,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 2 组（红、绿），接近三原色的有：红。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "FCF3F1",
+    "text": "3A2D2A",
+    "primary": "F09F90",
+    "secondary": "3E7D2F",
+    "accent": "1C1B19"
+   },
+   "alt": [],
+   "rankBase": 158
+  },
+  "bauhaus|maple": {
+   "s": 53,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 2 组（红、绿），接近三原色的有：红。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "FCF3F0",
+    "text": "3A2D29",
+    "primary": "F49E84",
+    "secondary": "047B60",
+    "accent": "1C1B19"
+   },
+   "alt": [],
+   "rankBase": 154
+  },
+  "bauhaus|tallow-tree": {
+   "s": 63,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 2 组（橙、蓝），接近三原色的有：蓝。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "FBF3EF",
+    "text": "392E27",
+    "primary": "E9A679",
+    "secondary": "1672AB",
+    "accent": "1C1B19"
+   },
+   "alt": [],
+   "rankBase": 122
+  },
+  "bauhaus|golden-cowry": {
+   "s": 48,
+   "l": "可调",
+   "tier": "against",
+   "why": "可用色相 2 组（橙、紫），接近三原色的有：红。",
+   "act": "只有两组有彩色相，第三个几何形改用近黑色；色块面积按 50/18/12 分配，保持对撞感。",
+   "roles": {
+    "background": "FBF3F0",
+    "text": "392D28",
+    "primary": "FE8F5B",
+    "secondary": "9250A0",
+    "accent": "1C1B19"
+   },
+   "alt": [],
+   "rankBase": 163
+  },
+  "bauhaus|ginkgo": {
+   "s": 71,
+   "l": "兼容",
+   "tier": "against",
+   "why": "可用色相 2 组（黄、蓝），接近三原色的有：蓝、黄。",
+   "act": "圆、方、三角分别用主色、点睛色、深色，直接套用。",
+   "roles": {
+    "background": "F7F5EE",
+    "text": "333025",
+    "primary": "F0CF4C",
+    "secondary": "3B6CBF",
+    "accent": "1C1B19"
+   },
+   "alt": [],
+   "rankBase": 99
+  },
+  "bauhaus|jewel-beetle": {
+   "s": 43,
+   "l": "冲突",
+   "tier": "against",
+   "why": "可用色相 3 组（绿、玫红、绿），接近三原色的有：无。",
+   "act": "色相都离三原色较远，几何色块会失去包豪斯辨识度，建议换配色。",
+   "roles": {
+    "background": "F3F7F0",
+    "text": "2D3228",
+    "primary": "A4C386",
+    "secondary": "A8477A",
+    "accent": "003221"
+   },
+   "alt": [
+    "ginkgo",
+    "blue-magpie",
+    "kingfisher"
+   ],
+   "rankBase": 171
+  },
+  "swiss-style|amazonite": {
+   "s": 96,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "最饱和的可读色是点睛色（红，彩度 0.14），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "243335",
+    "primary": "243335",
+    "secondary": "53686A",
+    "accent": "B04D2F"
+   },
+   "alt": [],
+   "rankBase": 21
+  },
+  "swiss-style|nautilus": {
+   "s": 94,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最饱和的可读色是点睛色（红，彩度 0.13），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "353025",
+    "primary": "353025",
+    "secondary": "6A6253",
+    "accent": "AD4E37"
+   },
+   "alt": [],
+   "rankBase": 40
+  },
+  "swiss-style|abalone": {
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最饱和的可读色是点睛色（紫，彩度 0.14），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "243433",
+    "primary": "243433",
+    "secondary": "536868",
+    "accent": "8754AB"
+   },
+   "alt": [],
+   "rankBase": 62
+  },
+  "swiss-style|kingfisher": {
+   "s": 96,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "最饱和的可读色是点睛色（橙，彩度 0.14），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "273239",
+    "primary": "273239",
+    "secondary": "566670",
+    "accent": "AC5107"
+   },
+   "alt": [],
+   "rankBase": 22
+  },
+  "swiss-style|blue-magpie": {
+   "s": 96,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "最饱和的可读色是点睛色（红，彩度 0.14），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "2C303B",
+    "primary": "2C303B",
+    "secondary": "5D6372",
+    "accent": "B1483E"
+   },
+   "alt": [],
+   "rankBase": 23
+  },
+  "swiss-style|iris": {
+   "s": 81,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最饱和的可读色是点睛色（黄，彩度 0.11），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "332E39",
+    "primary": "332E39",
+    "secondary": "66606F",
+    "accent": "8C6802"
+   },
+   "alt": [],
+   "rankBase": 77
+  },
+  "swiss-style|plum-blossom": {
+   "s": 82,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最饱和的可读色是点睛色（绿，彩度 0.12），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "392C31",
+    "primary": "392C31",
+    "secondary": "705E64",
+    "accent": "067D51"
+   },
+   "alt": [],
+   "rankBase": 74
+  },
+  "swiss-style|goldenrain": {
+   "s": 84,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最饱和的可读色是点睛色（绿，彩度 0.13），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "3A2D2A",
+    "primary": "3A2D2A",
+    "secondary": "715E5B",
+    "accent": "3E7D2F"
+   },
+   "alt": [],
+   "rankBase": 70
+  },
+  "swiss-style|maple": {
+   "s": 76,
+   "l": "兼容",
+   "tier": "against",
+   "why": "最饱和的可读色是点睛色（绿，彩度 0.10），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "3A2D29",
+    "primary": "3A2D29",
+    "secondary": "715F59",
+    "accent": "047B60"
+   },
+   "alt": [],
+   "rankBase": 93
+  },
+  "swiss-style|tallow-tree": {
+   "s": 82,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最饱和的可读色是点睛色（蓝，彩度 0.12），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "392E27",
+    "primary": "392E27",
+    "secondary": "6F6056",
+    "accent": "1672AB"
+   },
+   "alt": [],
+   "rankBase": 75
+  },
+  "swiss-style|golden-cowry": {
+   "s": 83,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最饱和的可读色是点睛色（紫，彩度 0.14），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "392D28",
+    "primary": "392D28",
+    "secondary": "705F58",
+    "accent": "9250A0"
+   },
+   "alt": [],
+   "rankBase": 71
+  },
+  "swiss-style|ginkgo": {
+   "s": 73,
+   "l": "兼容",
+   "tier": "against",
+   "why": "最饱和的可读色是点睛色（蓝，彩度 0.14），其余全部回到黑白灰。",
+   "act": "金黄主色在白底上对比度不足 3:1，强调色改用秋空蓝点睛色；金黄只做封面大色块。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "333025",
+    "primary": "333025",
+    "secondary": "686353",
+    "accent": "3B6CBF"
+   },
+   "alt": [],
+   "rankBase": 98
+  },
+  "swiss-style|jewel-beetle": {
+   "s": 91,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最饱和的可读色是点睛色（玫红，彩度 0.14），其余全部回到黑白灰。",
+   "act": "直接套用，强调色只占 10% 以内。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "2D3228",
+    "primary": "2D3228",
+    "secondary": "5E6657",
+    "accent": "A8477A"
+   },
+   "alt": [],
+   "rankBase": 54
+  },
+  "editorial|amazonite": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "标题用深底色（蓝，彩度够深），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "EFF8F9",
+    "text": "1E1E1E",
+    "primary": "122947",
+    "secondary": "53686A",
+    "accent": "B04D2F"
+   },
+   "alt": [],
+   "rankBase": 1
+  },
+  "editorial|nautilus": {
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "标题用深字色（黄，深底色接近中性，改用深字色），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "F8F5EE",
+    "text": "1E1E1E",
+    "primary": "725A21",
+    "secondary": "6A6253",
+    "accent": "AD4E37"
+   },
+   "alt": [],
+   "rankBase": 63
+  },
+  "editorial|abalone": {
+   "s": 89,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "标题用深字色（青，深底色接近中性，改用深字色），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "EEF7F7",
+    "text": "1E1E1E",
+    "primary": "086B6C",
+    "secondary": "536868",
+    "accent": "8754AB"
+   },
+   "alt": [],
+   "rankBase": 61
+  },
+  "editorial|kingfisher": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "标题用深底色（蓝，彩度够深），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "EFF6FB",
+    "text": "1E1E1E",
+    "primary": "0E294A",
+    "secondary": "566670",
+    "accent": "AC5107"
+   },
+   "alt": [],
+   "rankBase": 2
+  },
+  "editorial|blue-magpie": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "标题用深底色（蓝，彩度够深），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "F2F5FC",
+    "text": "1E1E1E",
+    "primary": "1C2746",
+    "secondary": "5D6372",
+    "accent": "B1483E"
+   },
+   "alt": [],
+   "rankBase": 3
+  },
+  "editorial|iris": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "标题用深底色（紫，彩度够深），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "F7F3FB",
+    "text": "1E1E1E",
+    "primary": "2C2145",
+    "secondary": "66606F",
+    "accent": "8C6802"
+   },
+   "alt": [],
+   "rankBase": 4
+  },
+  "editorial|plum-blossom": {
+   "s": 94,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "标题用深字色（玫红，深底色接近中性，改用深字色），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "FBF2F5",
+    "text": "1E1E1E",
+    "primary": "814A60",
+    "secondary": "705E64",
+    "accent": "067D51"
+   },
+   "alt": [],
+   "rankBase": 41
+  },
+  "editorial|goldenrain": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "标题用深底色（绿，彩度够深），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "FCF3F1",
+    "text": "1E1E1E",
+    "primary": "0E3111",
+    "secondary": "715E5B",
+    "accent": "3E7D2F"
+   },
+   "alt": [],
+   "rankBase": 5
+  },
+  "editorial|maple": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "标题用深底色（红，彩度够深），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "FCF3F0",
+    "text": "1E1E1E",
+    "primary": "421C19",
+    "secondary": "715F59",
+    "accent": "047B60"
+   },
+   "alt": [],
+   "rankBase": 6
+  },
+  "editorial|tallow-tree": {
+   "s": 94,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "标题用深字色（橙，深底色接近中性，改用深字色），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "FBF3EF",
+    "text": "1E1E1E",
+    "primary": "80512F",
+    "secondary": "6F6056",
+    "accent": "1672AB"
+   },
+   "alt": [],
+   "rankBase": 42
+  },
+  "editorial|golden-cowry": {
+   "s": 94,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "标题用深字色（橙，深底色接近中性，改用深字色），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "FBF3F0",
+    "text": "1E1E1E",
+    "primary": "834E36",
+    "secondary": "705F58",
+    "accent": "9250A0"
+   },
+   "alt": [],
+   "rankBase": 43
+  },
+  "editorial|ginkgo": {
+   "s": 94,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "标题用深字色（黄，深底色接近中性，改用深字色），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "F7F5EE",
+    "text": "1E1E1E",
+    "primary": "6C5D22",
+    "secondary": "686353",
+    "accent": "3B6CBF"
+   },
+   "alt": [],
+   "rankBase": 44
+  },
+  "editorial|jewel-beetle": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "标题用深底色（绿，彩度够深），点睛色作极少量点缀。",
+   "act": "直接套用：黑白灰为主体，有彩色只出现在标题、栏目名和引语线。",
+   "roles": {
+    "background": "F3F7F0",
+    "text": "1E1E1E",
+    "primary": "003221",
+    "secondary": "5E6657",
+    "accent": "A8477A"
+   },
+   "alt": [],
+   "rankBase": 7
+  },
+  "japanese-minimal|amazonite": {
+   "s": 74,
+   "l": "兼容",
+   "tier": "against",
+   "why": "主色彩度 0.09，本身就够克制；点睛色只允许 3% 面积。",
+   "act": "主色彩度降到约 55%、略提亮后直接用。",
+   "roles": {
+    "background": "EFF8F9",
+    "text": "243335",
+    "primary": "9EC9D2",
+    "secondary": "C8D5D4",
+    "accent": "A5563F"
+   },
+   "alt": [],
+   "rankBase": 95
+  },
+  "japanese-minimal|nautilus": {
+   "s": 98,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "主色彩度 0.04，本身就够克制；点睛色只允许 3% 面积。",
+   "act": "主色彩度降到约 55%、略提亮后直接用。",
+   "roles": {
+    "background": "F8F5EE",
+    "text": "353025",
+    "primary": "CEC6B8",
+    "secondary": "D5D0C7",
+    "accent": "A25744"
+   },
+   "alt": [],
+   "rankBase": 16
+  },
+  "japanese-minimal|abalone": {
+   "s": 74,
+   "l": "兼容",
+   "tier": "against",
+   "why": "主色彩度 0.09，本身就够克制；点睛色只允许 3% 面积。",
+   "act": "主色彩度降到约 55%、略提亮后直接用。",
+   "roles": {
+    "background": "EEF7F7",
+    "text": "243433",
+    "primary": "9FCBCA",
+    "secondary": "C7D4D4",
+    "accent": "835B9F"
+   },
+   "alt": [],
+   "rankBase": 96
+  },
+  "japanese-minimal|kingfisher": {
+   "s": 58,
+   "l": "可调",
+   "tier": "against",
+   "why": "主色彩度 0.13，偏鲜艳；点睛色只允许 3% 面积。",
+   "act": "这是「鲜明」档配色，降饱和后蓝会变成土调，原配色的识别度会明显减弱，需提醒用户。",
+   "roles": {
+    "background": "EFF6FB",
+    "text": "273239",
+    "primary": "8FC2E3",
+    "secondary": "C9D3D9",
+    "accent": "A1592D"
+   },
+   "alt": [],
+   "rankBase": 137
+  },
+  "japanese-minimal|blue-magpie": {
+   "s": 64,
+   "l": "可调",
+   "tier": "against",
+   "why": "主色彩度 0.11，偏鲜艳；点睛色只允许 3% 面积。",
+   "act": "这是「鲜明」档配色，降饱和后蓝会变成土调，原配色的识别度会明显减弱，需提醒用户。",
+   "roles": {
+    "background": "F2F5FC",
+    "text": "2C303B",
+    "primary": "A9BAE2",
+    "secondary": "CDD1DA",
+    "accent": "A55249"
+   },
+   "alt": [],
+   "rankBase": 117
+  },
+  "japanese-minimal|iris": {
+   "s": 79,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色彩度 0.09，本身就够克制；点睛色只允许 3% 面积。",
+   "act": "主色彩度降到约 55%、略提亮后直接用。",
+   "roles": {
+    "background": "F7F3FB",
+    "text": "332E39",
+    "primary": "C8B9DB",
+    "secondary": "D3CFD9",
+    "accent": "866A2B"
+   },
+   "alt": [],
+   "rankBase": 85
+  },
+  "japanese-minimal|plum-blossom": {
+   "s": 83,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色彩度 0.09，本身就够克制；点睛色只允许 3% 面积。",
+   "act": "主色彩度降到约 55%、略提亮后直接用。",
+   "roles": {
+    "background": "FBF2F5",
+    "text": "392C31",
+    "primary": "DCB5C3",
+    "secondary": "D9CDD1",
+    "accent": "2E7A56"
+   },
+   "alt": [],
+   "rankBase": 72
+  },
+  "japanese-minimal|goldenrain": {
+   "s": 76,
+   "l": "兼容",
+   "tier": "against",
+   "why": "主色彩度 0.10，偏鲜艳；点睛色只允许 3% 面积。",
+   "act": "主色彩度降到约 55%、略提亮后直接用。",
+   "roles": {
+    "background": "FCF3F1",
+    "text": "3A2D2A",
+    "primary": "E2B4AB",
+    "secondary": "DACECB",
+    "accent": "4A7A3F"
+   },
+   "alt": [],
+   "rankBase": 94
+  },
+  "japanese-minimal|maple": {
+   "s": 79,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色彩度 0.11，偏鲜艳；点睛色只允许 3% 面积。",
+   "act": "主色彩度降到约 55%、略提亮后直接用。",
+   "roles": {
+    "background": "FCF3F0",
+    "text": "3A2D29",
+    "primary": "E4B4A5",
+    "secondary": "DACECA",
+    "accent": "2F7861"
+   },
+   "alt": [],
+   "rankBase": 86
+  },
+  "japanese-minimal|tallow-tree": {
+   "s": 79,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色彩度 0.10，偏鲜艳；点睛色只允许 3% 面积。",
+   "act": "主色彩度降到约 55%、略提亮后直接用。",
+   "roles": {
+    "background": "FBF3EF",
+    "text": "392E27",
+    "primary": "DDB8A0",
+    "secondary": "D9CFC8",
+    "accent": "33719F"
+   },
+   "alt": [],
+   "rankBase": 87
+  },
+  "japanese-minimal|golden-cowry": {
+   "s": 55,
+   "l": "可调",
+   "tier": "against",
+   "why": "主色彩度 0.15，偏鲜艳；点睛色只允许 3% 面积。",
+   "act": "这是「鲜明」档配色，降饱和后橙会变成土调，原配色的识别度会明显减弱，需提醒用户。",
+   "roles": {
+    "background": "FBF3F0",
+    "text": "392D28",
+    "primary": "E8AA8F",
+    "secondary": "D9CECA",
+    "accent": "8B5897"
+   },
+   "alt": [],
+   "rankBase": 146
+  },
+  "japanese-minimal|ginkgo": {
+   "s": 55,
+   "l": "可调",
+   "tier": "against",
+   "why": "主色彩度 0.15，偏鲜艳；点睛色只允许 3% 面积。",
+   "act": "这是「鲜明」档配色，降饱和后黄会变成土调，原配色的识别度会明显减弱，需提醒用户。",
+   "roles": {
+    "background": "F7F5EE",
+    "text": "333025",
+    "primary": "ECDB9C",
+    "secondary": "D4D1C7",
+    "accent": "466EB0"
+   },
+   "alt": [],
+   "rankBase": 147
+  },
+  "japanese-minimal|jewel-beetle": {
+   "s": 77,
+   "l": "兼容",
+   "tier": "against",
+   "why": "主色彩度 0.09，本身就够克制；点睛色只允许 3% 面积。",
+   "act": "主色彩度降到约 55%、略提亮后直接用。",
+   "roles": {
+    "background": "F3F7F0",
+    "text": "2D3228",
+    "primary": "B6C8A6",
+    "secondary": "CED3C9",
+    "accent": "9E5178"
+   },
+   "alt": [],
+   "rankBase": 92
+  },
+  "art-deco|amazonite": {
+   "s": 65,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（青），不是金色系。",
+   "act": "没有暖金色时改走「银色装饰艺术」：主色降饱和当银线，对称框饰不变。",
+   "roles": {
+    "background": "021532",
+    "text": "DDF1F2",
+    "primary": "70C6D6",
+    "secondary": "1B667A",
+    "accent": "B04D2F"
+   },
+   "alt": [],
+   "rankBase": 114
+  },
+  "art-deco|nautilus": {
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "深底色作底；「金属色」取主色（黄），接近香槟金。",
+   "act": "主色当金线和标题，点睛色只做宝石小点缀。",
+   "roles": {
+    "background": "14161A",
+    "text": "F2EADC",
+    "primary": "CABCA1",
+    "secondary": "725A21",
+    "accent": "AD4E37"
+   },
+   "alt": [],
+   "rankBase": 65
+  },
+  "art-deco|abalone": {
+   "s": 55,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（青），不是金色系。",
+   "act": "没有暖金色时改走「银色装饰艺术」：主色降饱和当银线，对称框饰不变。",
+   "roles": {
+    "background": "221205",
+    "text": "DCF0EF",
+    "primary": "71C9C8",
+    "secondary": "086B6C",
+    "accent": "8754AB"
+   },
+   "alt": [],
+   "rankBase": 148
+  },
+  "art-deco|kingfisher": {
+   "s": 65,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（蓝），不是金色系。",
+   "act": "没有暖金色时改走「银色装饰艺术」：主色降饱和当银线，对称框饰不变。",
+   "roles": {
+    "background": "001532",
+    "text": "DFEEF8",
+    "primary": "55BCFA",
+    "secondary": "2C6485",
+    "accent": "AC5107"
+   },
+   "alt": [],
+   "rankBase": 115
+  },
+  "art-deco|blue-magpie": {
+   "s": 65,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（蓝），不是金色系。",
+   "act": "没有暖金色时改走「银色装饰艺术」：主色降饱和当银线，对称框饰不变。",
+   "roles": {
+    "background": "0B1330",
+    "text": "E5EBFA",
+    "primary": "93AEF8",
+    "secondary": "4A5C8B",
+    "accent": "B1483E"
+   },
+   "alt": [],
+   "rankBase": 116
+  },
+  "art-deco|iris": {
+   "s": 55,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（紫），不是金色系。",
+   "act": "没有暖金色时改走「银色装饰艺术」：主色降饱和当银线，对称框饰不变。",
+   "roles": {
+    "background": "190E2F",
+    "text": "EEE8F7",
+    "primary": "C5A9E6",
+    "secondary": "685282",
+    "accent": "8C6802"
+   },
+   "alt": [],
+   "rankBase": 149
+  },
+  "art-deco|plum-blossom": {
+   "s": 45,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（玫红），不是金色系。",
+   "act": "没有暖金色时改走「银色装饰艺术」：主色降饱和当银线，对称框饰不变。",
+   "roles": {
+    "background": "1B1317",
+    "text": "F8E6EC",
+    "primary": "E6A0BA",
+    "secondary": "814A60",
+    "accent": "067D51"
+   },
+   "alt": [],
+   "rankBase": 167
+  },
+  "art-deco|goldenrain": {
+   "s": 69,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（红），接近香槟金。",
+   "act": "没有暖金色时改走「银色装饰艺术」：主色降饱和当银线，对称框饰不变。",
+   "roles": {
+    "background": "001D03",
+    "text": "F9E6E3",
+    "primary": "F09F90",
+    "secondary": "854C41",
+    "accent": "3E7D2F"
+   },
+   "alt": [],
+   "rankBase": 103
+  },
+  "art-deco|maple": {
+   "s": 63,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（红），接近香槟金。",
+   "act": "没有暖金色时改走「银色装饰艺术」：主色降饱和当银线，对称框饰不变。",
+   "roles": {
+    "background": "2C0807",
+    "text": "F9E7E1",
+    "primary": "F49E84",
+    "secondary": "844D3C",
+    "accent": "047B60"
+   },
+   "alt": [],
+   "rankBase": 123
+  },
+  "art-deco|tallow-tree": {
+   "s": 74,
+   "l": "兼容",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（橙），接近香槟金。",
+   "act": "主色当金线和标题，点睛色只做宝石小点缀。",
+   "roles": {
+    "background": "1A150F",
+    "text": "F7E8DE",
+    "primary": "E9A679",
+    "secondary": "80512F",
+    "accent": "1672AB"
+   },
+   "alt": [],
+   "rankBase": 97
+  },
+  "art-deco|golden-cowry": {
+   "s": 68,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（橙），接近香槟金。",
+   "act": "没有暖金色时改走「银色装饰艺术」：主色降饱和当银线，对称框饰不变。",
+   "roles": {
+    "background": "191513",
+    "text": "F8E7E0",
+    "primary": "FE8F5B",
+    "secondary": "834E36",
+    "accent": "9250A0"
+   },
+   "alt": [],
+   "rankBase": 106
+  },
+  "art-deco|ginkgo": {
+   "s": 80,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "深底色作底；「金属色」取主色（黄），接近香槟金。",
+   "act": "主色当金线和标题，点睛色只做宝石小点缀。",
+   "roles": {
+    "background": "1B150C",
+    "text": "EFEBDC",
+    "primary": "F0CF4C",
+    "secondary": "6C5D22",
+    "accent": "3B6CBF"
+   },
+   "alt": [],
+   "rankBase": 83
+  },
+  "art-deco|jewel-beetle": {
+   "s": 68,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底色作底；「金属色」取主色（绿），接近香槟金。",
+   "act": "没有暖金色时改走「银色装饰艺术」：主色降饱和当银线，对称框饰不变。",
+   "roles": {
+    "background": "001C11",
+    "text": "E6EEE0",
+    "primary": "A4C386",
+    "secondary": "4E6734",
+    "accent": "A8477A"
+   },
+   "alt": [],
+   "rankBase": 107
+  },
+  "art-nouveau|amazonite": {
+   "s": 62,
+   "l": "可调",
+   "tier": "against",
+   "why": "主色青偏冷，和新艺术的暖调植物气质有距离；彩度 0.09。",
+   "act": "冷色配色需整体往暖偏，或只用深字色描线、主色淡铺底。",
+   "roles": {
+    "background": "EFF8F9",
+    "text": "122947",
+    "primary": "82C3D0",
+    "secondary": "1B667A",
+    "accent": "A25843"
+   },
+   "alt": [],
+   "rankBase": 127
+  },
+  "art-nouveau|nautilus": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "主色黄是暖调或植物色，契合藤蔓母题；彩度 0.04。",
+   "act": "主色和深字色作邻近色组合，略降饱和；点睛色只用在花心等小处。",
+   "roles": {
+    "background": "F8F5EE",
+    "text": "353025",
+    "primary": "C8BCA7",
+    "secondary": "725A21",
+    "accent": "9F5947"
+   },
+   "alt": [],
+   "rankBase": 8
+  },
+  "art-nouveau|abalone": {
+   "s": 62,
+   "l": "可调",
+   "tier": "against",
+   "why": "主色青偏冷，和新艺术的暖调植物气质有距离；彩度 0.09。",
+   "act": "冷色配色需整体往暖偏，或只用深字色描线、主色淡铺底。",
+   "roles": {
+    "background": "EEF7F7",
+    "text": "362517",
+    "primary": "83C6C5",
+    "secondary": "086B6C",
+    "accent": "815C9C"
+   },
+   "alt": [],
+   "rankBase": 128
+  },
+  "art-nouveau|kingfisher": {
+   "s": 57,
+   "l": "可调",
+   "tier": "against",
+   "why": "主色蓝偏冷，和新艺术的暖调植物气质有距离；彩度 0.13。",
+   "act": "冷色配色需整体往暖偏，或只用深字色描线、主色淡铺底。",
+   "roles": {
+    "background": "EFF6FB",
+    "text": "0E294A",
+    "primary": "6DBBEB",
+    "secondary": "2C6485",
+    "accent": "9E5B32"
+   },
+   "alt": [],
+   "rankBase": 143
+  },
+  "art-nouveau|blue-magpie": {
+   "s": 62,
+   "l": "可调",
+   "tier": "against",
+   "why": "主色蓝偏冷，和新艺术的暖调植物气质有距离；彩度 0.11。",
+   "act": "冷色配色需整体往暖偏，或只用深字色描线、主色淡铺底。",
+   "roles": {
+    "background": "F2F5FC",
+    "text": "1C2746",
+    "primary": "98AFEA",
+    "secondary": "4A5C8B",
+    "accent": "A2554B"
+   },
+   "alt": [],
+   "rankBase": 129
+  },
+  "art-nouveau|iris": {
+   "s": 81,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色紫是暖调或植物色，契合藤蔓母题；彩度 0.09。",
+   "act": "主色和深字色作邻近色组合，略降饱和；点睛色只用在花心等小处。",
+   "roles": {
+    "background": "F7F3FB",
+    "text": "2C2145",
+    "primary": "C2ACDD",
+    "secondary": "685282",
+    "accent": "856A31"
+   },
+   "alt": [],
+   "rankBase": 78
+  },
+  "art-nouveau|plum-blossom": {
+   "s": 81,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色玫红是暖调或植物色，契合藤蔓母题；彩度 0.09。",
+   "act": "主色和深字色作邻近色组合，略降饱和；点睛色只用在花心等小处。",
+   "roles": {
+    "background": "FBF2F5",
+    "text": "392C31",
+    "primary": "DDA5BA",
+    "secondary": "814A60",
+    "accent": "347958"
+   },
+   "alt": [],
+   "rankBase": 79
+  },
+  "art-nouveau|goldenrain": {
+   "s": 86,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色红是暖调或植物色，契合藤蔓母题；彩度 0.10。",
+   "act": "主色和深字色作邻近色组合，略降饱和；点睛色只用在花心等小处。",
+   "roles": {
+    "background": "FCF3F1",
+    "text": "0E3111",
+    "primary": "E6A498",
+    "secondary": "854C41",
+    "accent": "4C7942"
+   },
+   "alt": [],
+   "rankBase": 64
+  },
+  "art-nouveau|maple": {
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色红是暖调或植物色，契合藤蔓母题；彩度 0.11。",
+   "act": "主色和深字色作邻近色组合，略降饱和；点睛色只用在花心等小处。",
+   "roles": {
+    "background": "FCF3F0",
+    "text": "421C19",
+    "primary": "E9A48E",
+    "secondary": "844D3C",
+    "accent": "357762"
+   },
+   "alt": [],
+   "rankBase": 57
+  },
+  "art-nouveau|tallow-tree": {
+   "s": 93,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色橙是暖调或植物色，契合藤蔓母题；彩度 0.10。",
+   "act": "主色和深字色作邻近色组合，略降饱和；点睛色只用在花心等小处。",
+   "roles": {
+    "background": "FBF3EF",
+    "text": "392E27",
+    "primary": "DFAA86",
+    "secondary": "80512F",
+    "accent": "38719C"
+   },
+   "alt": [],
+   "rankBase": 47
+  },
+  "art-nouveau|golden-cowry": {
+   "s": 80,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色橙是暖调或植物色，契合藤蔓母题；彩度 0.15。",
+   "act": "主色和深字色作邻近色组合，略降饱和；点睛色只用在花心等小处。",
+   "roles": {
+    "background": "FBF3F0",
+    "text": "392D28",
+    "primary": "F0986F",
+    "secondary": "834E36",
+    "accent": "8A5A94"
+   },
+   "alt": [],
+   "rankBase": 81
+  },
+  "art-nouveau|ginkgo": {
+   "s": 80,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色黄是暖调或植物色，契合藤蔓母题；彩度 0.15。",
+   "act": "主色和深字色作邻近色组合，略降饱和；点睛色只用在花心等小处。",
+   "roles": {
+    "background": "F7F5EE",
+    "text": "333025",
+    "primary": "EAD070",
+    "secondary": "6C5D22",
+    "accent": "496EAC"
+   },
+   "alt": [],
+   "rankBase": 82
+  },
+  "art-nouveau|jewel-beetle": {
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色绿是暖调或植物色，契合藤蔓母题；彩度 0.09。",
+   "act": "主色和深字色作邻近色组合，略降饱和；点睛色只用在花心等小处。",
+   "roles": {
+    "background": "F3F7F0",
+    "text": "003221",
+    "primary": "A8C190",
+    "secondary": "4E6734",
+    "accent": "9B5377"
+   },
+   "alt": [],
+   "rankBase": 58
+  },
+  "constructivism|amazonite": {
+   "s": 79,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是点睛色（红，彩度 0.14）。",
+   "act": "红黑大面积对撞，斜线构图直接成立。",
+   "roles": {
+    "background": "EFF8F9",
+    "text": "161616",
+    "primary": "B04D2F",
+    "secondary": "53686A",
+    "accent": "70C6D6"
+   },
+   "alt": [],
+   "rankBase": 89
+  },
+  "constructivism|nautilus": {
+   "s": 83,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是点睛色（红，彩度 0.13）。",
+   "act": "红黑大面积对撞，斜线构图直接成立。",
+   "roles": {
+    "background": "F8F5EE",
+    "text": "161616",
+    "primary": "AD4E37",
+    "secondary": "6A6253",
+    "accent": "CABCA1"
+   },
+   "alt": [],
+   "rankBase": 73
+  },
+  "constructivism|abalone": {
+   "s": 25,
+   "l": "冲突",
+   "tier": "against",
+   "why": "最接近「革命红」的是主色（青，彩度 0.09）。",
+   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "roles": {
+    "background": "EEF7F7",
+    "text": "161616",
+    "primary": "71C9C8",
+    "secondary": "536868",
+    "accent": "8754AB"
+   },
+   "alt": [
+    "blue-magpie",
+    "nautilus",
+    "amazonite"
+   ],
+   "rankBase": 197
+  },
+  "constructivism|kingfisher": {
+   "s": 59,
+   "l": "可调",
+   "tier": "against",
+   "why": "最接近「革命红」的是点睛色（橙，彩度 0.14）。",
+   "act": "暖色不够红或太浅，需压暗、提饱和后再与黑对撞。",
+   "roles": {
+    "background": "EFF6FB",
+    "text": "161616",
+    "primary": "AC5107",
+    "secondary": "566670",
+    "accent": "55BCFA"
+   },
+   "alt": [],
+   "rankBase": 133
+  },
+  "constructivism|blue-magpie": {
+   "s": 93,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "最接近「革命红」的是点睛色（红，彩度 0.14）。",
+   "act": "红黑大面积对撞，斜线构图直接成立。",
+   "roles": {
+    "background": "F2F5FC",
+    "text": "161616",
+    "primary": "B1483E",
+    "secondary": "5D6372",
+    "accent": "93AEF8"
+   },
+   "alt": [],
+   "rankBase": 49
+  },
+  "constructivism|iris": {
+   "s": 25,
+   "l": "冲突",
+   "tier": "against",
+   "why": "最接近「革命红」的是主色（紫，彩度 0.09）。",
+   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "roles": {
+    "background": "F7F3FB",
+    "text": "161616",
+    "primary": "C5A9E6",
+    "secondary": "66606F",
+    "accent": "8C6802"
+   },
+   "alt": [
+    "blue-magpie",
+    "nautilus",
+    "amazonite"
+   ],
+   "rankBase": 198
+  },
+  "constructivism|plum-blossom": {
+   "s": 37,
+   "l": "冲突",
+   "tier": "against",
+   "why": "最接近「革命红」的是深字色（玫红，彩度 0.08）。",
+   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "roles": {
+    "background": "FBF2F5",
+    "text": "161616",
+    "primary": "814A60",
+    "secondary": "705E64",
+    "accent": "E6A0BA"
+   },
+   "alt": [
+    "blue-magpie",
+    "nautilus",
+    "amazonite"
+   ],
+   "rankBase": 179
+  },
+  "constructivism|goldenrain": {
+   "s": 63,
+   "l": "可调",
+   "tier": "against",
+   "why": "最接近「革命红」的是深字色（红，彩度 0.08）。",
+   "act": "暖色不够红或太浅，需压暗、提饱和后再与黑对撞。",
+   "roles": {
+    "background": "FCF3F1",
+    "text": "161616",
+    "primary": "854C41",
+    "secondary": "715E5B",
+    "accent": "F09F90"
+   },
+   "alt": [],
+   "rankBase": 124
+  },
+  "constructivism|maple": {
+   "s": 58,
+   "l": "可调",
+   "tier": "against",
+   "why": "最接近「革命红」的是深字色（红，彩度 0.08）。",
+   "act": "暖色不够红或太浅，需压暗、提饱和后再与黑对撞。",
+   "roles": {
+    "background": "FCF3F0",
+    "text": "161616",
+    "primary": "844D3C",
+    "secondary": "715F59",
+    "accent": "F49E84"
+   },
+   "alt": [],
+   "rankBase": 142
+  },
+  "constructivism|tallow-tree": {
+   "s": 41,
+   "l": "冲突",
+   "tier": "against",
+   "why": "最接近「革命红」的是深字色（橙，彩度 0.08）。",
+   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "roles": {
+    "background": "FBF3EF",
+    "text": "161616",
+    "primary": "80512F",
+    "secondary": "6F6056",
+    "accent": "E9A679"
+   },
+   "alt": [
+    "blue-magpie",
+    "nautilus",
+    "amazonite"
+   ],
+   "rankBase": 175
+  },
+  "constructivism|golden-cowry": {
+   "s": 54,
+   "l": "可调",
+   "tier": "against",
+   "why": "最接近「革命红」的是主色（橙，彩度 0.15）。",
+   "act": "暖色不够红或太浅，需压暗、提饱和后再与黑对撞。",
+   "roles": {
+    "background": "FBF3F0",
+    "text": "161616",
+    "primary": "FE8F5B",
+    "secondary": "705F58",
+    "accent": "9250A0"
+   },
+   "alt": [],
+   "rankBase": 151
+  },
+  "constructivism|ginkgo": {
+   "s": 25,
+   "l": "冲突",
+   "tier": "against",
+   "why": "最接近「革命红」的是主色（黄，彩度 0.15）。",
+   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "roles": {
+    "background": "F7F5EE",
+    "text": "161616",
+    "primary": "F0CF4C",
+    "secondary": "686353",
+    "accent": "3B6CBF"
+   },
+   "alt": [
+    "blue-magpie",
+    "nautilus",
+    "amazonite"
+   ],
+   "rankBase": 199
+  },
+  "constructivism|jewel-beetle": {
+   "s": 37,
+   "l": "冲突",
+   "tier": "against",
+   "why": "最接近「革命红」的是点睛色（玫红，彩度 0.14）。",
+   "act": "配色里没有足够强的暖红色，构成主义的「口号感」出不来，建议换配色。",
+   "roles": {
+    "background": "F3F7F0",
+    "text": "161616",
+    "primary": "A8477A",
+    "secondary": "5E6657",
+    "accent": "A4C386"
+   },
+   "alt": [
+    "blue-magpie",
+    "nautilus",
+    "amazonite"
+   ],
+   "rankBase": 180
+  },
+  "de-stijl|amazonite": {
+   "s": 49,
+   "l": "可调",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红80%，蓝47%，黄0%。",
+   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "B04D2F",
+    "secondary": "122947",
+    "accent": "70C6D6"
+   },
+   "alt": [],
+   "rankBase": 161
+  },
+  "de-stijl|nautilus": {
+   "s": 57,
+   "l": "可调",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红84%，蓝7%，黄67%。",
+   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "AD4E37",
+    "secondary": "27292D",
+    "accent": "725A21"
+   },
+   "alt": [],
+   "rankBase": 145
+  },
+  "de-stijl|abalone": {
+   "s": 24,
+   "l": "冲突",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红11%，蓝10%，黄13%。",
+   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "362517",
+    "secondary": "8754AB",
+    "accent": "362517"
+   },
+   "alt": [
+    "blue-magpie",
+    "ginkgo",
+    "nautilus"
+   ],
+   "rankBase": 201
+  },
+  "de-stijl|kingfisher": {
+   "s": 48,
+   "l": "可调",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红54%，蓝50%，黄20%。",
+   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "AC5107",
+    "secondary": "0E294A",
+    "accent": "AC5107"
+   },
+   "alt": [],
+   "rankBase": 164
+  },
+  "de-stijl|blue-magpie": {
+   "s": 66,
+   "l": "可调",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红98%，蓝94%，黄0%。",
+   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "B1483E",
+    "secondary": "93AEF8",
+    "accent": "93AEF8"
+   },
+   "alt": [],
+   "rankBase": 111
+  },
+  "de-stijl|iris": {
+   "s": 44,
+   "l": "冲突",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红0%，蓝22%，黄88%。",
+   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "C5A9E6",
+    "secondary": "2C2145",
+    "accent": "8C6802"
+   },
+   "alt": [
+    "blue-magpie",
+    "ginkgo",
+    "nautilus"
+   ],
+   "rankBase": 170
+  },
+  "de-stijl|plum-blossom": {
+   "s": 23,
+   "l": "冲突",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红29%，蓝0%，黄0%。",
+   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "E6A0BA",
+    "secondary": "E6A0BA",
+    "accent": "E6A0BA"
+   },
+   "alt": [
+    "blue-magpie",
+    "ginkgo",
+    "nautilus"
+   ],
+   "rankBase": 202
+  },
+  "de-stijl|goldenrain": {
+   "s": 37,
+   "l": "冲突",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红84%，蓝0%，黄0%。",
+   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "F09F90",
+    "secondary": "F09F90",
+    "accent": "F09F90"
+   },
+   "alt": [
+    "blue-magpie",
+    "ginkgo",
+    "nautilus"
+   ],
+   "rankBase": 181
+  },
+  "de-stijl|maple": {
+   "s": 36,
+   "l": "冲突",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红78%，蓝0%，黄0%。",
+   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "F49E84",
+    "secondary": "F49E84",
+    "accent": "F49E84"
+   },
+   "alt": [
+    "blue-magpie",
+    "ginkgo",
+    "nautilus"
+   ],
+   "rankBase": 183
+  },
+  "de-stijl|tallow-tree": {
+   "s": 48,
+   "l": "可调",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红40%，蓝56%，黄27%。",
+   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "E9A679",
+    "secondary": "1672AB",
+    "accent": "E9A679"
+   },
+   "alt": [],
+   "rankBase": 165
+  },
+  "de-stijl|golden-cowry": {
+   "s": 35,
+   "l": "冲突",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红64%，蓝0%，黄10%。",
+   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "FE8F5B",
+    "secondary": "FE8F5B",
+    "accent": "FE8F5B"
+   },
+   "alt": [
+    "blue-magpie",
+    "ginkgo",
+    "nautilus"
+   ],
+   "rankBase": 185
+  },
+  "de-stijl|ginkgo": {
+   "s": 63,
+   "l": "可调",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红0%，蓝90%，黄90%。",
+   "act": "缺的那一原色用白格或黑格代替，色块数量减到两块。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "F0CF4C",
+    "secondary": "3B6CBF",
+    "accent": "F0CF4C"
+   },
+   "alt": [],
+   "rankBase": 125
+  },
+  "de-stijl|jewel-beetle": {
+   "s": 26,
+   "l": "冲突",
+   "tier": "against",
+   "why": "红 / 蓝 / 黄的覆盖度：红26%，蓝0%，黄16%。",
+   "act": "只有一个或没有接近原色的颜色，色域网格会像普通色块拼图，建议换配色。",
+   "roles": {
+    "background": "FFFFFF",
+    "text": "121212",
+    "primary": "A8477A",
+    "secondary": "A4C386",
+    "accent": "A4C386"
+   },
+   "alt": [
+    "blue-magpie",
+    "ginkgo",
+    "nautilus"
+   ],
+   "rankBase": 196
+  },
+  "memphis|amazonite": {
+   "s": 52,
+   "l": "可调",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。",
+   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "roles": {
+    "background": "EFF8F9",
+    "text": "1A1A1A",
+    "primary": "4ED1E7",
+    "secondary": "F97A55",
+    "accent": "7DDDFB"
+   },
+   "alt": [],
+   "rankBase": 157
+  },
+  "memphis|nautilus": {
+   "s": 33,
+   "l": "冲突",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.04。",
+   "act": "提饱和后仍显发闷，与孟菲斯的玩具感相反，建议换风格或换鲜明档配色。",
+   "roles": {
+    "background": "F8F5EE",
+    "text": "1A1A1A",
+    "primary": "D5C29D",
+    "secondary": "F67C5E",
+    "accent": "ECC97C"
+   },
+   "alt": [
+    "golden-cowry",
+    "ginkgo",
+    "kingfisher"
+   ],
+   "rankBase": 188
+  },
+  "memphis|abalone": {
+   "s": 52,
+   "l": "可调",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。",
+   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "roles": {
+    "background": "EEF7F7",
+    "text": "1A1A1A",
+    "primary": "4FD5D5",
+    "secondary": "C583F2",
+    "accent": "71E3E4"
+   },
+   "alt": [],
+   "rankBase": 159
+  },
+  "memphis|kingfisher": {
+   "s": 66,
+   "l": "可调",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.13。",
+   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "roles": {
+    "background": "EFF6FB",
+    "text": "1A1A1A",
+    "primary": "60C2FE",
+    "secondary": "F58033",
+    "accent": "98D7FF"
+   },
+   "alt": [],
+   "rankBase": 112
+  },
+  "memphis|blue-magpie": {
+   "s": 62,
+   "l": "可调",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.11。",
+   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "roles": {
+    "background": "F2F5FC",
+    "text": "1A1A1A",
+    "primary": "99B5FE",
+    "secondary": "FC7567",
+    "accent": "B8CDFE"
+   },
+   "alt": [],
+   "rankBase": 130
+  },
+  "memphis|iris": {
+   "s": 43,
+   "l": "冲突",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。",
+   "act": "提饱和后仍显发闷，与孟菲斯的玩具感相反，建议换风格或换鲜明档配色。",
+   "roles": {
+    "background": "F7F3FB",
+    "text": "1A1A1A",
+    "primary": "D0A9FD",
+    "secondary": "CB9D30",
+    "accent": "DCBFFF"
+   },
+   "alt": [
+    "golden-cowry",
+    "ginkgo",
+    "kingfisher"
+   ],
+   "rankBase": 172
+  },
+  "memphis|plum-blossom": {
+   "s": 43,
+   "l": "冲突",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。",
+   "act": "提饱和后仍显发闷，与孟菲斯的玩具感相反，建议换风格或换鲜明档配色。",
+   "roles": {
+    "background": "FBF2F5",
+    "text": "1A1A1A",
+    "primary": "FB9DC2",
+    "secondary": "3FBF86",
+    "accent": "FFB5D1"
+   },
+   "alt": [
+    "golden-cowry",
+    "ginkgo",
+    "kingfisher"
+   ],
+   "rankBase": 173
+  },
+  "memphis|goldenrain": {
+   "s": 45,
+   "l": "可调",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.10。",
+   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "roles": {
+    "background": "FCF3F1",
+    "text": "1A1A1A",
+    "primary": "FFA190",
+    "secondary": "6CBC5A",
+    "accent": "FFBBAC"
+   },
+   "alt": [],
+   "rankBase": 168
+  },
+  "memphis|maple": {
+   "s": 47,
+   "l": "可调",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.11。",
+   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "roles": {
+    "background": "FCF3F0",
+    "text": "1A1A1A",
+    "primary": "FEA286",
+    "secondary": "41BD99",
+    "accent": "FFBBA6"
+   },
+   "alt": [],
+   "rankBase": 166
+  },
+  "memphis|tallow-tree": {
+   "s": 45,
+   "l": "可调",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.10。",
+   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "roles": {
+    "background": "FBF3EF",
+    "text": "1A1A1A",
+    "primary": "FEA566",
+    "secondary": "43ADF7",
+    "accent": "FEBE92"
+   },
+   "alt": [],
+   "rankBase": 169
+  },
+  "memphis|golden-cowry": {
+   "s": 68,
+   "l": "可调",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.15。",
+   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "roles": {
+    "background": "FBF3F0",
+    "text": "1A1A1A",
+    "primary": "FF996B",
+    "secondary": "D27EE5",
+    "accent": "FEBC9F"
+   },
+   "alt": [],
+   "rankBase": 108
+  },
+  "memphis|ginkgo": {
+   "s": 68,
+   "l": "可调",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.15。",
+   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "roles": {
+    "background": "F7F5EE",
+    "text": "1A1A1A",
+    "primary": "FDD502",
+    "secondary": "6DA4FF",
+    "accent": "E3CD7C"
+   },
+   "alt": [],
+   "rankBase": 109
+  },
+  "memphis|jewel-beetle": {
+   "s": 53,
+   "l": "可调",
+   "tier": "against",
+   "why": "孟菲斯要糖果色，Garman 配色彩度上限约 0.15；本套主色彩度 0.09。",
+   "act": "有彩色全部提亮、提饱和约 1.3 倍，会偏离 Garman 规范，需告知用户。",
+   "roles": {
+    "background": "F3F7F0",
+    "text": "1A1A1A",
+    "primary": "A3CD78",
+    "secondary": "F073B3",
+    "accent": "B7DC92"
+   },
+   "alt": [],
+   "rankBase": 155
+  },
+  "pop-art|amazonite": {
+   "s": 37,
+   "l": "冲突",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 3 组。",
+   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "roles": {
+    "background": "EFF8F9",
+    "text": "141210",
+    "primary": "1CB8CE",
+    "secondary": "C94E29",
+    "accent": "95E5FF"
+   },
+   "alt": [
+    "ginkgo",
+    "blue-magpie",
+    "kingfisher"
+   ],
+   "rankBase": 178
+  },
+  "pop-art|nautilus": {
+   "s": 29,
+   "l": "冲突",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.13，有彩色相 2 组。",
+   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "roles": {
+    "background": "F8F5EE",
+    "text": "141210",
+    "primary": "BCA883",
+    "secondary": "C55034",
+    "accent": "F8D37E"
+   },
+   "alt": [
+    "ginkgo",
+    "blue-magpie",
+    "kingfisher"
+   ],
+   "rankBase": 194
+  },
+  "pop-art|abalone": {
+   "s": 28,
+   "l": "冲突",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 3 组。",
+   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "roles": {
+    "background": "EEF7F7",
+    "text": "141210",
+    "primary": "1CBCBC",
+    "secondary": "9958C3",
+    "accent": "71EFF0"
+   },
+   "alt": [
+    "ginkgo",
+    "blue-magpie",
+    "kingfisher"
+   ],
+   "rankBase": 195
+  },
+  "pop-art|kingfisher": {
+   "s": 55,
+   "l": "可调",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 2 组。",
+   "act": "两色推到高饱和平涂，第三色用网点浅色代替。",
+   "roles": {
+    "background": "EFF6FB",
+    "text": "141210",
+    "primary": "08AAF2",
+    "secondary": "BF5902",
+    "accent": "AEDFFE"
+   },
+   "alt": [],
+   "rankBase": 150
+  },
+  "pop-art|blue-magpie": {
+   "s": 60,
+   "l": "可调",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 2 组。",
+   "act": "两色推到高饱和平涂，第三色用网点浅色代替。",
+   "roles": {
+    "background": "F2F5FC",
+    "text": "141210",
+    "primary": "7598FE",
+    "secondary": "CA483E",
+    "accent": "C7D7FE"
+   },
+   "alt": [],
+   "rankBase": 132
+  },
+  "pop-art|iris": {
+   "s": 33,
+   "l": "冲突",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.11，有彩色相 2 组。",
+   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "roles": {
+    "background": "F7F3FB",
+    "text": "141210",
+    "primary": "B78FE4",
+    "secondary": "9B7303",
+    "accent": "E2CCFF"
+   },
+   "alt": [
+    "ginkgo",
+    "blue-magpie",
+    "kingfisher"
+   ],
+   "rankBase": 189
+  },
+  "pop-art|plum-blossom": {
+   "s": 25,
+   "l": "冲突",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.12，有彩色相 2 组。",
+   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "roles": {
+    "background": "FBF2F5",
+    "text": "141210",
+    "primary": "E182A9",
+    "secondary": "028B5A",
+    "accent": "FEC5DA"
+   },
+   "alt": [
+    "ginkgo",
+    "blue-magpie",
+    "kingfisher"
+   ],
+   "rankBase": 200
+  },
+  "pop-art|goldenrain": {
+   "s": 35,
+   "l": "冲突",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.13，有彩色相 2 组。",
+   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "roles": {
+    "background": "FCF3F1",
+    "text": "141210",
+    "primary": "EF806D",
+    "secondary": "3D8C29",
+    "accent": "FFC9BD"
+   },
+   "alt": [
+    "ginkgo",
+    "blue-magpie",
+    "kingfisher"
+   ],
+   "rankBase": 186
+  },
+  "pop-art|maple": {
+   "s": 33,
+   "l": "冲突",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.11，有彩色相 2 组。",
+   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "roles": {
+    "background": "FCF3F0",
+    "text": "141210",
+    "primary": "F47E59",
+    "secondary": "07886A",
+    "accent": "FECAB9"
+   },
+   "alt": [
+    "ginkgo",
+    "blue-magpie",
+    "kingfisher"
+   ],
+   "rankBase": 190
+  },
+  "pop-art|tallow-tree": {
+   "s": 37,
+   "l": "冲突",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.12，有彩色相 2 组。",
+   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "roles": {
+    "background": "FBF3EF",
+    "text": "141210",
+    "primary": "E68A46",
+    "secondary": "077EC0",
+    "accent": "FFCBA9"
+   },
+   "alt": [
+    "ginkgo",
+    "blue-magpie",
+    "kingfisher"
+   ],
+   "rankBase": 182
+  },
+  "pop-art|golden-cowry": {
+   "s": 52,
+   "l": "可调",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.15，有彩色相 2 组。",
+   "act": "两色推到高饱和平涂，第三色用网点浅色代替。",
+   "roles": {
+    "background": "FBF3F0",
+    "text": "141210",
+    "primary": "FE6A00",
+    "secondary": "A553B7",
+    "accent": "FFCAB3"
+   },
+   "alt": [],
+   "rankBase": 160
+  },
+  "pop-art|ginkgo": {
+   "s": 63,
+   "l": "可调",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.15，有彩色相 2 组。",
+   "act": "两色推到高饱和平涂，第三色用网点浅色代替。",
+   "roles": {
+    "background": "F7F5EE",
+    "text": "141210",
+    "primary": "DFBB02",
+    "secondary": "3876DC",
+    "accent": "EED77F"
+   },
+   "alt": [],
+   "rankBase": 126
+  },
+  "pop-art|jewel-beetle": {
+   "s": 30,
+   "l": "冲突",
+   "tier": "against",
+   "why": "波普要三个高饱和平涂色；本套最高彩度 0.14，有彩色相 3 组。",
+   "act": "自然色饱和度和色相数都不够，波普的冲击力出不来，建议换风格。",
+   "roles": {
+    "background": "F3F7F0",
+    "text": "141210",
+    "primary": "8AB45C",
+    "secondary": "BF4788",
+    "accent": "BFE796"
+   },
+   "alt": [
+    "ginkgo",
+    "blue-magpie",
+    "kingfisher"
+   ],
+   "rankBase": 191
+  },
+  "neubrutalism|amazonite": {
+   "s": 92,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色 L78、彩度 0.09，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "EFF8F9",
+    "text": "121212",
+    "primary": "70C6D6",
+    "secondary": "FB9071",
+    "accent": "DDF1F2"
+   },
+   "alt": [],
+   "rankBase": 50
+  },
+  "neubrutalism|nautilus": {
+   "s": 70,
+   "l": "兼容",
+   "tier": "against",
+   "why": "主色 L80、彩度 0.04，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "F8F5EE",
+    "text": "121212",
+    "primary": "CABCA1",
+    "secondary": "F89177",
+    "accent": "F2EADC"
+   },
+   "alt": [],
+   "rankBase": 100
+  },
+  "neubrutalism|abalone": {
+   "s": 91,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色 L78、彩度 0.09，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "EEF7F7",
+    "text": "121212",
+    "primary": "71C9C8",
+    "secondary": "CC97F3",
+    "accent": "DCF0EF"
+   },
+   "alt": [],
+   "rankBase": 55
+  },
+  "neubrutalism|kingfisher": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "主色 L76、彩度 0.13，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "EFF6FB",
+    "text": "121212",
+    "primary": "55BCFA",
+    "secondary": "F7955B",
+    "accent": "DFEEF8"
+   },
+   "alt": [],
+   "rankBase": 9
+  },
+  "neubrutalism|blue-magpie": {
+   "s": 98,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "主色 L76、彩度 0.11，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "F2F5FC",
+    "text": "121212",
+    "primary": "93AEF8",
+    "secondary": "FD8C7F",
+    "accent": "E5EBFA"
+   },
+   "alt": [],
+   "rankBase": 17
+  },
+  "neubrutalism|iris": {
+   "s": 92,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色 L78、彩度 0.09，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "F7F3FB",
+    "text": "121212",
+    "primary": "C5A9E6",
+    "secondary": "D2AB5A",
+    "accent": "EEE8F7"
+   },
+   "alt": [],
+   "rankBase": 51
+  },
+  "neubrutalism|plum-blossom": {
+   "s": 92,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色 L78、彩度 0.09，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "FBF2F5",
+    "text": "121212",
+    "primary": "E6A0BA",
+    "secondary": "67C897",
+    "accent": "F8E6EC"
+   },
+   "alt": [],
+   "rankBase": 52
+  },
+  "neubrutalism|goldenrain": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "主色 L78、彩度 0.10，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "FCF3F1",
+    "text": "121212",
+    "primary": "F09F90",
+    "secondary": "83C575",
+    "accent": "F9E6E3"
+   },
+   "alt": [],
+   "rankBase": 25
+  },
+  "neubrutalism|maple": {
+   "s": 98,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "主色 L78、彩度 0.11，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "FCF3F0",
+    "text": "121212",
+    "primary": "F49E84",
+    "secondary": "68C6A7",
+    "accent": "F9E7E1"
+   },
+   "alt": [],
+   "rankBase": 18
+  },
+  "neubrutalism|tallow-tree": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "主色 L78、彩度 0.10，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "FBF3EF",
+    "text": "121212",
+    "primary": "E9A679",
+    "secondary": "67B9F7",
+    "accent": "F7E8DE"
+   },
+   "alt": [],
+   "rankBase": 26
+  },
+  "neubrutalism|golden-cowry": {
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色 L76、彩度 0.15，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "FBF3F0",
+    "text": "121212",
+    "primary": "FE8F5B",
+    "secondary": "D893E8",
+    "accent": "F8E7E0"
+   },
+   "alt": [],
+   "rankBase": 59
+  },
+  "neubrutalism|ginkgo": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "主色 L86、彩度 0.15，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "F7F5EE",
+    "text": "121212",
+    "primary": "F0CF4C",
+    "secondary": "82B2FF",
+    "accent": "EFEBDC"
+   },
+   "alt": [],
+   "rankBase": 10
+  },
+  "neubrutalism|jewel-beetle": {
+   "s": 92,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "主色 L78、彩度 0.09，适合做平涂卡片；黑描边统一由近黑色承担。",
+   "act": "直接套用：主色卡片、点睛色提亮作第二卡片色，粗黑边和硬投影。",
+   "roles": {
+    "background": "F3F7F0",
+    "text": "121212",
+    "primary": "A4C386",
+    "secondary": "F38ABE",
+    "accent": "E6EEE0"
+   },
+   "alt": [],
+   "rankBase": 53
+  },
+  "metro|amazonite": {
+   "s": 93,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色青、深字色、点睛色红。",
+   "act": "主色、深字色、点睛色三档明度作磁贴，深底白字。",
+   "roles": {
+    "background": "021532",
+    "text": "FFFFFF",
+    "primary": "70C6D6",
+    "secondary": "1B667A",
+    "accent": "B04D2F"
+   },
+   "alt": [],
+   "rankBase": 46
+  },
+  "metro|nautilus": {
+   "s": 53,
+   "l": "可调",
+   "tier": "against",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色黄、深字色、点睛色红。",
+   "act": "暖色或低彩度磁贴在深底上不够亮，需提彩度并拉大磁贴明度差。",
+   "roles": {
+    "background": "14161A",
+    "text": "FFFFFF",
+    "primary": "CABCA1",
+    "secondary": "725A21",
+    "accent": "AD4E37"
+   },
+   "alt": [],
+   "rankBase": 153
+  },
+  "metro|abalone": {
+   "s": 78,
+   "l": "兼容",
+   "tier": "against",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色青、深字色、点睛色紫。",
+   "act": "主色、深字色、点睛色三档明度作磁贴，深底白字。",
+   "roles": {
+    "background": "221205",
+    "text": "FFFFFF",
+    "primary": "71C9C8",
+    "secondary": "086B6C",
+    "accent": "8754AB"
+   },
+   "alt": [],
+   "rankBase": 90
+  },
+  "metro|kingfisher": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色蓝、深字色、点睛色橙。",
+   "act": "主色、深字色、点睛色三档明度作磁贴，深底白字。",
+   "roles": {
+    "background": "001532",
+    "text": "FFFFFF",
+    "primary": "55BCFA",
+    "secondary": "2C6485",
+    "accent": "AC5107"
+   },
+   "alt": [],
+   "rankBase": 11
+  },
+  "metro|blue-magpie": {
+   "s": 98,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色蓝、深字色、点睛色红。",
+   "act": "主色、深字色、点睛色三档明度作磁贴，深底白字。",
+   "roles": {
+    "background": "0B1330",
+    "text": "FFFFFF",
+    "primary": "93AEF8",
+    "secondary": "4A5C8B",
+    "accent": "B1483E"
+   },
+   "alt": [],
+   "rankBase": 19
+  },
+  "metro|iris": {
+   "s": 64,
+   "l": "可调",
+   "tier": "against",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色紫、深字色、点睛色黄。",
+   "act": "暖色或低彩度磁贴在深底上不够亮，需提彩度并拉大磁贴明度差。",
+   "roles": {
+    "background": "190E2F",
+    "text": "FFFFFF",
+    "primary": "C5A9E6",
+    "secondary": "685282",
+    "accent": "8C6802"
+   },
+   "alt": [],
+   "rankBase": 118
+  },
+  "metro|plum-blossom": {
+   "s": 64,
+   "l": "可调",
+   "tier": "against",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色玫红、深字色、点睛色绿。",
+   "act": "暖色或低彩度磁贴在深底上不够亮，需提彩度并拉大磁贴明度差。",
+   "roles": {
+    "background": "1B1317",
+    "text": "FFFFFF",
+    "primary": "E6A0BA",
+    "secondary": "814A60",
+    "accent": "067D51"
+   },
+   "alt": [],
+   "rankBase": 119
+  },
+  "metro|goldenrain": {
+   "s": 66,
+   "l": "可调",
+   "tier": "against",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色红、深字色、点睛色绿。",
+   "act": "暖色或低彩度磁贴在深底上不够亮，需提彩度并拉大磁贴明度差。",
+   "roles": {
+    "background": "001D03",
+    "text": "FFFFFF",
+    "primary": "F09F90",
+    "secondary": "854C41",
+    "accent": "3E7D2F"
+   },
+   "alt": [],
+   "rankBase": 110
+  },
+  "metro|maple": {
+   "s": 68,
+   "l": "可调",
+   "tier": "against",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色红、深字色、点睛色绿。",
+   "act": "暖色或低彩度磁贴在深底上不够亮，需提彩度并拉大磁贴明度差。",
+   "roles": {
+    "background": "2C0807",
+    "text": "FFFFFF",
+    "primary": "F49E84",
+    "secondary": "844D3C",
+    "accent": "047B60"
+   },
+   "alt": [],
+   "rankBase": 105
+  },
+  "metro|tallow-tree": {
+   "s": 81,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色橙、深字色、点睛色蓝。",
+   "act": "主色、深字色、点睛色三档明度作磁贴，深底白字。",
+   "roles": {
+    "background": "1A150F",
+    "text": "FFFFFF",
+    "primary": "E9A679",
+    "secondary": "80512F",
+    "accent": "1672AB"
+   },
+   "alt": [],
+   "rankBase": 80
+  },
+  "metro|golden-cowry": {
+   "s": 70,
+   "l": "兼容",
+   "tier": "against",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色橙、深字色、点睛色紫。",
+   "act": "主色、深字色、点睛色三档明度作磁贴，深底白字。",
+   "roles": {
+    "background": "191513",
+    "text": "FFFFFF",
+    "primary": "FE8F5B",
+    "secondary": "834E36",
+    "accent": "9250A0"
+   },
+   "alt": [],
+   "rankBase": 101
+  },
+  "metro|ginkgo": {
+   "s": 85,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色黄、深字色、点睛色蓝。",
+   "act": "主色、深字色、点睛色三档明度作磁贴，深底白字。",
+   "roles": {
+    "background": "1B150C",
+    "text": "FFFFFF",
+    "primary": "F0CF4C",
+    "secondary": "6C5D22",
+    "accent": "3B6CBF"
+   },
+   "alt": [],
+   "rankBase": 66
+  },
+  "metro|jewel-beetle": {
+   "s": 79,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "磁贴需要 3 到 4 个明度拉开的纯色；本套主色绿、深字色、点睛色玫红。",
+   "act": "主色、深字色、点睛色三档明度作磁贴，深底白字。",
+   "roles": {
+    "background": "001C11",
+    "text": "FFFFFF",
+    "primary": "A4C386",
+    "secondary": "4E6734",
+    "accent": "A8477A"
+   },
+   "alt": [],
+   "rankBase": 88
+  },
+  "y2k|amazonite": {
+   "s": 91,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：主色。",
+   "act": "冷色主色做渐变和半透明气泡，最浅色作底。",
+   "roles": {
+    "background": "EFF8F9",
+    "text": "122947",
+    "primary": "70C6D6",
+    "secondary": "DDF1F2",
+    "accent": "B04D2F"
+   },
+   "alt": [],
+   "rankBase": 56
+  },
+  "y2k|nautilus": {
+   "s": 20,
+   "l": "冲突",
+   "tier": "against",
+   "why": "千禧风靠冷色铬金属；本套冷色在：无。",
+   "act": "整套偏暖，没有冷色撑起铬金属感，建议换配色。",
+   "roles": {
+    "background": "F8F5EE",
+    "text": "27292D",
+    "primary": "E37F65",
+    "secondary": "F2EADC",
+    "accent": "CABCA1"
+   },
+   "alt": [
+    "kingfisher",
+    "blue-magpie",
+    "iris"
+   ],
+   "rankBase": 204
+  },
+  "y2k|abalone": {
+   "s": 90,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：主色、点睛色。",
+   "act": "冷色主色做渐变和半透明气泡，最浅色作底。",
+   "roles": {
+    "background": "EEF7F7",
+    "text": "362517",
+    "primary": "71C9C8",
+    "secondary": "DCF0EF",
+    "accent": "8754AB"
+   },
+   "alt": [],
+   "rankBase": 60
+  },
+  "y2k|kingfisher": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "千禧风靠冷色铬金属；本套冷色在：主色。",
+   "act": "冷色主色做渐变和半透明气泡，最浅色作底。",
+   "roles": {
+    "background": "EFF6FB",
+    "text": "0E294A",
+    "primary": "55BCFA",
+    "secondary": "DFEEF8",
+    "accent": "AC5107"
+   },
+   "alt": [],
+   "rankBase": 12
+  },
+  "y2k|blue-magpie": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "千禧风靠冷色铬金属；本套冷色在：主色。",
+   "act": "冷色主色做渐变和半透明气泡，最浅色作底。",
+   "roles": {
+    "background": "F2F5FC",
+    "text": "1C2746",
+    "primary": "93AEF8",
+    "secondary": "E5EBFA",
+    "accent": "B1483E"
+   },
+   "alt": [],
+   "rankBase": 13
+  },
+  "y2k|iris": {
+   "s": 94,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "千禧风靠冷色铬金属；本套冷色在：主色。",
+   "act": "冷色主色做渐变和半透明气泡，最浅色作底。",
+   "roles": {
+    "background": "F7F3FB",
+    "text": "2C2145",
+    "primary": "C5A9E6",
+    "secondary": "EEE8F7",
+    "accent": "8C6802"
+   },
+   "alt": [],
+   "rankBase": 45
+  },
+  "y2k|plum-blossom": {
+   "s": 39,
+   "l": "冲突",
+   "tier": "against",
+   "why": "千禧风靠冷色铬金属；本套冷色在：无。",
+   "act": "整套偏暖，没有冷色撑起铬金属感，建议换配色。",
+   "roles": {
+    "background": "FBF2F5",
+    "text": "2F262A",
+    "primary": "53B585",
+    "secondary": "F8E6EC",
+    "accent": "E6A0BA"
+   },
+   "alt": [
+    "kingfisher",
+    "blue-magpie",
+    "iris"
+   ],
+   "rankBase": 177
+  },
+  "y2k|goldenrain": {
+   "s": 20,
+   "l": "冲突",
+   "tier": "against",
+   "why": "千禧风靠冷色铬金属；本套冷色在：无。",
+   "act": "整套偏暖，没有冷色撑起铬金属感，建议换配色。",
+   "roles": {
+    "background": "FCF3F1",
+    "text": "0E3111",
+    "primary": "71B263",
+    "secondary": "F9E6E3",
+    "accent": "F09F90"
+   },
+   "alt": [
+    "kingfisher",
+    "blue-magpie",
+    "iris"
+   ],
+   "rankBase": 205
+  },
+  "y2k|maple": {
+   "s": 36,
+   "l": "冲突",
+   "tier": "against",
+   "why": "千禧风靠冷色铬金属；本套冷色在：无。",
+   "act": "整套偏暖，没有冷色撑起铬金属感，建议换配色。",
+   "roles": {
+    "background": "FCF3F0",
+    "text": "421C19",
+    "primary": "54B395",
+    "secondary": "F9E7E1",
+    "accent": "F49E84"
+   },
+   "alt": [
+    "kingfisher",
+    "blue-magpie",
+    "iris"
+   ],
+   "rankBase": 184
+  },
+  "y2k|tallow-tree": {
+   "s": 59,
+   "l": "可调",
+   "tier": "against",
+   "why": "千禧风靠冷色铬金属；本套冷色在：点睛色。",
+   "act": "冷色只在点睛色里，需把点睛色提亮成主渐变，原主色退为小点缀，整体气质会变。",
+   "roles": {
+    "background": "FBF3EF",
+    "text": "2E2821",
+    "primary": "54A6E3",
+    "secondary": "F7E8DE",
+    "accent": "E9A679"
+   },
+   "alt": [],
+   "rankBase": 134
+  },
+  "y2k|golden-cowry": {
+   "s": 59,
+   "l": "可调",
+   "tier": "against",
+   "why": "千禧风靠冷色铬金属；本套冷色在：点睛色。",
+   "act": "冷色只在点睛色里，需把点睛色提亮成主渐变，原主色退为小点缀，整体气质会变。",
+   "roles": {
+    "background": "FBF3F0",
+    "text": "2D2826",
+    "primary": "C480D4",
+    "secondary": "F8E7E0",
+    "accent": "FE8F5B"
+   },
+   "alt": [],
+   "rankBase": 135
+  },
+  "y2k|ginkgo": {
+   "s": 59,
+   "l": "可调",
+   "tier": "against",
+   "why": "千禧风靠冷色铬金属；本套冷色在：点睛色。",
+   "act": "冷色只在点睛色里，需把点睛色提亮成主渐变，原主色退为小点缀，整体气质会变。",
+   "roles": {
+    "background": "F7F5EE",
+    "text": "2F281E",
+    "primary": "699EF5",
+    "secondary": "EFEBDC",
+    "accent": "F0CF4C"
+   },
+   "alt": [],
+   "rankBase": 136
+  },
+  "y2k|jewel-beetle": {
+   "s": 20,
+   "l": "冲突",
+   "tier": "against",
+   "why": "千禧风靠冷色铬金属；本套冷色在：无。",
+   "act": "整套偏暖，没有冷色撑起铬金属感，建议换配色。",
+   "roles": {
+    "background": "F3F7F0",
+    "text": "003221",
+    "primary": "DE77AB",
+    "secondary": "E6EEE0",
+    "accent": "A4C386"
+   },
+   "alt": [
+    "kingfisher",
+    "blue-magpie",
+    "iris"
+   ],
+   "rankBase": 206
+  },
+  "vaporwave|amazonite": {
+   "s": 57,
+   "l": "可调",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是青配红。",
+   "act": "深底压暗到 L18，有彩色提到高明度当霓虹线，效果偏「夜景」，需提醒用户。",
+   "roles": {
+    "background": "00112C",
+    "text": "EFF8F9",
+    "primary": "56D1E6",
+    "secondary": "F97A55",
+    "accent": "DDF1F2"
+   },
+   "alt": [],
+   "rankBase": 144
+  },
+  "vaporwave|nautilus": {
+   "s": 15,
+   "l": "冲突",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是黄配红。",
+   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "roles": {
+    "background": "061027",
+    "text": "F8F5EE",
+    "primary": "CEBC98",
+    "secondary": "F67C5E",
+    "accent": "F2EADC"
+   },
+   "alt": [
+    "plum-blossom",
+    "iris",
+    "amazonite"
+   ],
+   "rankBase": 207
+  },
+  "vaporwave|abalone": {
+   "s": 54,
+   "l": "可调",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是青配紫。",
+   "act": "深底压暗到 L18，有彩色提到高明度当霓虹线，效果偏「夜景」，需提醒用户。",
+   "roles": {
+    "background": "1F0C00",
+    "text": "EEF7F7",
+    "primary": "56D4D4",
+    "secondary": "C583F2",
+    "accent": "DCF0EF"
+   },
+   "alt": [],
+   "rankBase": 152
+  },
+  "vaporwave|kingfisher": {
+   "s": 42,
+   "l": "冲突",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是蓝配橙。",
+   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "roles": {
+    "background": "00112B",
+    "text": "EFF6FB",
+    "primary": "73C8FE",
+    "secondary": "F58033",
+    "accent": "DFEEF8"
+   },
+   "alt": [
+    "plum-blossom",
+    "iris",
+    "amazonite"
+   ],
+   "rankBase": 174
+  },
+  "vaporwave|blue-magpie": {
+   "s": 30,
+   "l": "冲突",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是蓝配红。",
+   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "roles": {
+    "background": "070F2B",
+    "text": "F2F5FC",
+    "primary": "A2BCFE",
+    "secondary": "FC7567",
+    "accent": "E5EBFA"
+   },
+   "alt": [
+    "plum-blossom",
+    "iris",
+    "amazonite"
+   ],
+   "rankBase": 192
+  },
+  "vaporwave|iris": {
+   "s": 62,
+   "l": "可调",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是紫配黄。",
+   "act": "深底压暗到 L18，有彩色提到高明度当霓虹线，效果偏「夜景」，需提醒用户。",
+   "roles": {
+    "background": "15092A",
+    "text": "F7F3FB",
+    "primary": "CFAAFA",
+    "secondary": "CB9D30",
+    "accent": "EEE8F7"
+   },
+   "alt": [],
+   "rankBase": 131
+  },
+  "vaporwave|plum-blossom": {
+   "s": 69,
+   "l": "可调",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是玫红配绿。",
+   "act": "深底压暗到 L18，有彩色提到高明度当霓虹线，效果偏「夜景」，需提醒用户。",
+   "roles": {
+    "background": "210715",
+    "text": "FBF2F5",
+    "primary": "F99EC1",
+    "secondary": "3FBF86",
+    "accent": "F8E6EC"
+   },
+   "alt": [],
+   "rankBase": 104
+  },
+  "vaporwave|goldenrain": {
+   "s": 30,
+   "l": "冲突",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是红配绿。",
+   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "roles": {
+    "background": "001802",
+    "text": "FCF3F1",
+    "primary": "FEA291",
+    "secondary": "6CBC5A",
+    "accent": "F9E6E3"
+   },
+   "alt": [
+    "plum-blossom",
+    "iris",
+    "amazonite"
+   ],
+   "rankBase": 193
+  },
+  "vaporwave|maple": {
+   "s": 40,
+   "l": "冲突",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是红配绿。",
+   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "roles": {
+    "background": "260404",
+    "text": "FCF3F0",
+    "primary": "FFA386",
+    "secondary": "41BD99",
+    "accent": "F9E7E1"
+   },
+   "alt": [
+    "plum-blossom",
+    "iris",
+    "amazonite"
+   ],
+   "rankBase": 176
+  },
+  "vaporwave|tallow-tree": {
+   "s": 22,
+   "l": "冲突",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是橙配蓝。",
+   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "roles": {
+    "background": "1C0E00",
+    "text": "FBF3EF",
+    "primary": "FDA669",
+    "secondary": "43ADF7",
+    "accent": "F7E8DE"
+   },
+   "alt": [
+    "plum-blossom",
+    "iris",
+    "amazonite"
+   ],
+   "rankBase": 203
+  },
+  "vaporwave|golden-cowry": {
+   "s": 35,
+   "l": "冲突",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是橙配紫。",
+   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "roles": {
+    "background": "230801",
+    "text": "FBF3F0",
+    "primary": "FEA47B",
+    "secondary": "D27EE5",
+    "accent": "F8E7E0"
+   },
+   "alt": [
+    "plum-blossom",
+    "iris",
+    "amazonite"
+   ],
+   "rankBase": 187
+  },
+  "vaporwave|ginkgo": {
+   "s": 15,
+   "l": "冲突",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是黄配蓝。",
+   "act": "色相离霓虹太远，提亮后像暖色夜灯，不是蒸汽波，建议换配色。",
+   "roles": {
+    "background": "1B0F00",
+    "text": "F7F5EE",
+    "primary": "DFBB09",
+    "secondary": "6DA4FF",
+    "accent": "EFEBDC"
+   },
+   "alt": [
+    "plum-blossom",
+    "iris",
+    "amazonite"
+   ],
+   "rankBase": 208
+  },
+  "vaporwave|jewel-beetle": {
+   "s": 53,
+   "l": "可调",
+   "tier": "against",
+   "why": "霓虹需要粉、青、紫、薄荷这类色相；本套是绿配玫红。",
+   "act": "深底压暗到 L18，有彩色提到高明度当霓虹线，效果偏「夜景」，需提醒用户。",
+   "roles": {
+    "background": "00170D",
+    "text": "F3F7F0",
+    "primary": "A5CD7B",
+    "secondary": "F073B3",
+    "accent": "E6EEE0"
+   },
+   "alt": [],
+   "rankBase": 156
+  },
+  "glassmorphism|amazonite": {
+   "s": 93,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "深底蓝，色团用主色（彩度 0.09）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "122947",
+    "text": "FFFFFF",
+    "primary": "70C6D6",
+    "secondary": "B04D2F",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 48
+  },
+  "glassmorphism|nautilus": {
+   "s": 66,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底近中性，色团用主色（彩度 0.04）和点睛色。",
+   "act": "主色太灰，色团在毛玻璃后面没有存在感，需提高色团彩度或加大面积。",
+   "roles": {
+    "background": "27292D",
+    "text": "FFFFFF",
+    "primary": "CABCA1",
+    "secondary": "AD4E37",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 113
+  },
+  "glassmorphism|abalone": {
+   "s": 78,
+   "l": "兼容",
+   "tier": "against",
+   "why": "深底橙，色团用主色（彩度 0.09）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "362517",
+    "text": "FFFFFF",
+    "primary": "71C9C8",
+    "secondary": "8754AB",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 91
+  },
+  "glassmorphism|kingfisher": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "深底蓝，色团用主色（彩度 0.13）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "0E294A",
+    "text": "FFFFFF",
+    "primary": "55BCFA",
+    "secondary": "AC5107",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 14
+  },
+  "glassmorphism|blue-magpie": {
+   "s": 100,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "深底蓝，色团用主色（彩度 0.11）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "1C2746",
+    "text": "FFFFFF",
+    "primary": "93AEF8",
+    "secondary": "B1483E",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 15
+  },
+  "glassmorphism|iris": {
+   "s": 80,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "深底紫，色团用主色（彩度 0.09）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "2C2145",
+    "text": "FFFFFF",
+    "primary": "C5A9E6",
+    "secondary": "8C6802",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 84
+  },
+  "glassmorphism|plum-blossom": {
+   "s": 64,
+   "l": "可调",
+   "tier": "against",
+   "why": "深底近中性，色团用主色（彩度 0.09）和点睛色。",
+   "act": "主色太灰，色团在毛玻璃后面没有存在感，需提高色团彩度或加大面积。",
+   "roles": {
+    "background": "2F262A",
+    "text": "FFFFFF",
+    "primary": "E6A0BA",
+    "secondary": "067D51",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 120
+  },
+  "glassmorphism|goldenrain": {
+   "s": 97,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "深底绿，色团用主色（彩度 0.10）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "0E3111",
+    "text": "FFFFFF",
+    "primary": "F09F90",
+    "secondary": "3E7D2F",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 20
+  },
+  "glassmorphism|maple": {
+   "s": 85,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "深底红，色团用主色（彩度 0.11）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "421C19",
+    "text": "FFFFFF",
+    "primary": "F49E84",
+    "secondary": "047B60",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 67
+  },
+  "glassmorphism|tallow-tree": {
+   "s": 82,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "深底近中性，色团用主色（彩度 0.10）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "2E2821",
+    "text": "FFFFFF",
+    "primary": "E9A679",
+    "secondary": "1672AB",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 76
+  },
+  "glassmorphism|golden-cowry": {
+   "s": 85,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "深底近中性，色团用主色（彩度 0.15）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "2D2826",
+    "text": "FFFFFF",
+    "primary": "FE8F5B",
+    "secondary": "9250A0",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 68
+  },
+  "glassmorphism|ginkgo": {
+   "s": 85,
+   "l": "兼容",
+   "tier": "neutral",
+   "why": "深底近中性，色团用主色（彩度 0.15）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "2F281E",
+    "text": "FFFFFF",
+    "primary": "F0CF4C",
+    "secondary": "3B6CBF",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 69
+  },
+  "glassmorphism|jewel-beetle": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "深底绿，色团用主色（彩度 0.09）和点睛色。",
+   "act": "直接套用，已在毛玻璃 13 套试做里验证过。",
+   "roles": {
+    "background": "003221",
+    "text": "FFFFFF",
+    "primary": "A4C386",
+    "secondary": "A8477A",
+    "accent": "FFFFFF"
+   },
+   "alt": [],
+   "rankBase": 39
+  },
+  "bento-grid|amazonite": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "EFF8F9",
+    "text": "243335",
+    "primary": "70C6D6",
+    "secondary": "FFFFFF",
+    "accent": "B04D2F"
+   },
+   "alt": [],
+   "rankBase": 24
+  },
+  "bento-grid|nautilus": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "F8F5EE",
+    "text": "353025",
+    "primary": "CABCA1",
+    "secondary": "FFFFFF",
+    "accent": "AD4E37"
+   },
+   "alt": [],
+   "rankBase": 27
+  },
+  "bento-grid|abalone": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "EEF7F7",
+    "text": "243433",
+    "primary": "71C9C8",
+    "secondary": "FFFFFF",
+    "accent": "8754AB"
+   },
+   "alt": [],
+   "rankBase": 28
+  },
+  "bento-grid|kingfisher": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "EFF6FB",
+    "text": "273239",
+    "primary": "55BCFA",
+    "secondary": "FFFFFF",
+    "accent": "AC5107"
+   },
+   "alt": [],
+   "rankBase": 29
+  },
+  "bento-grid|blue-magpie": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "F2F5FC",
+    "text": "2C303B",
+    "primary": "93AEF8",
+    "secondary": "FFFFFF",
+    "accent": "B1483E"
+   },
+   "alt": [],
+   "rankBase": 30
+  },
+  "bento-grid|iris": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "F7F3FB",
+    "text": "332E39",
+    "primary": "C5A9E6",
+    "secondary": "FFFFFF",
+    "accent": "8C6802"
+   },
+   "alt": [],
+   "rankBase": 31
+  },
+  "bento-grid|plum-blossom": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "FBF2F5",
+    "text": "392C31",
+    "primary": "E6A0BA",
+    "secondary": "FFFFFF",
+    "accent": "067D51"
+   },
+   "alt": [],
+   "rankBase": 32
+  },
+  "bento-grid|goldenrain": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "FCF3F1",
+    "text": "3A2D2A",
+    "primary": "F09F90",
+    "secondary": "FFFFFF",
+    "accent": "3E7D2F"
+   },
+   "alt": [],
+   "rankBase": 33
+  },
+  "bento-grid|maple": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "FCF3F0",
+    "text": "3A2D29",
+    "primary": "F49E84",
+    "secondary": "FFFFFF",
+    "accent": "047B60"
+   },
+   "alt": [],
+   "rankBase": 34
+  },
+  "bento-grid|tallow-tree": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "FBF3EF",
+    "text": "392E27",
+    "primary": "E9A679",
+    "secondary": "FFFFFF",
+    "accent": "1672AB"
+   },
+   "alt": [],
+   "rankBase": 35
+  },
+  "bento-grid|golden-cowry": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "FBF3F0",
+    "text": "392D28",
+    "primary": "FE8F5B",
+    "secondary": "FFFFFF",
+    "accent": "9250A0"
+   },
+   "alt": [],
+   "rankBase": 36
+  },
+  "bento-grid|ginkgo": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "F7F5EE",
+    "text": "333025",
+    "primary": "F0CF4C",
+    "secondary": "FFFFFF",
+    "accent": "3B6CBF"
+   },
+   "alt": [],
+   "rankBase": 37
+  },
+  "bento-grid|jewel-beetle": {
+   "s": 95,
+   "l": "兼容",
+   "tier": "recommend",
+   "why": "布局不规定颜色，沿用当前配色的角色。",
+   "act": "直接套用；与其他风格叠加时圆角、投影服从那个风格。",
+   "roles": {
+    "background": "F3F7F0",
+    "text": "2D3228",
+    "primary": "A4C386",
+    "secondary": "FFFFFF",
+    "accent": "A8477A"
+   },
+   "alt": [],
+   "rankBase": 38
+  }
+ }
+}

@@ -1,0 +1,4368 @@
+{
+ "STYLES": [
+  {
+   "id": "bauhaus",
+   "kind": "style",
+   "era": "1919–1933",
+   "provenance": "original",
+   "name": {
+    "zh": "包豪斯",
+    "en": "Bauhaus"
+   },
+   "origin": {
+    "zh": "德国魏玛 · 德绍",
+    "en": "Weimar & Dessau, Germany"
+   },
+   "tagline": {
+    "zh": "把设计拆成点、线、面和三原色，再一课一课教给学生。",
+    "en": "Design broken down into point, line, plane and primary colour, then taught one lesson at a time."
+   },
+   "summary": {
+    "zh": "1919 年，格罗皮乌斯在魏玛把美术学院和工艺学校合并成包豪斯。学生先上一学期基础课，研究形状、色彩和材料，再进金属、纺织、印刷等作坊动手做。它留给平面设计的东西很具体：几何形、无衬线字、不对称构图，还有一个观念，就是设计可以像语法一样被系统地教。",
+    "en": "In 1919 Walter Gropius merged an art academy and a crafts school in Weimar to form the Bauhaus. Students spent a preliminary term on shape, colour and material before moving into the metal, weaving or printing workshops. Its legacy for graphic design is concrete: geometric form, sans-serif type, asymmetric composition, and the conviction that design can be taught like a grammar."
+   },
+   "history": [
+    {
+     "year": "1919",
+     "zh": "格罗皮乌斯在魏玛创办国立包豪斯学校",
+     "en": "Gropius founds the Staatliches Bauhaus in Weimar"
+    },
+    {
+     "year": "1923",
+     "zh": "首次大型展览，提出「艺术与技术：新的统一」",
+     "en": "First major exhibition, under the motto “Art and Technology: A New Unity”"
+    },
+    {
+     "year": "1925",
+     "zh": "学校迁往德绍；拜尔设计只用小写字母的「通用字体」",
+     "en": "The school moves to Dessau; Herbert Bayer draws his lowercase-only “universal” alphabet"
+    },
+    {
+     "year": "1933",
+     "zh": "在纳粹压力下关闭，师生流散到美国等地继续教学",
+     "en": "Closes under Nazi pressure; staff and students carry its teaching abroad, notably to the US"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "基本形",
+      "en": "Basic forms"
+     },
+     "how": {
+      "zh": "用圆、方、三角搭画面，像搭积木一样组合",
+      "en": "Build the page from circles, squares and triangles, like building blocks"
+     },
+     "watch": {
+      "zh": "形状本身就是内容，别再往上加细节",
+      "en": "The shapes are the content; don’t decorate them"
+     }
+    },
+    {
+     "title": {
+      "zh": "纯色平涂",
+      "en": "Flat colour"
+     },
+     "how": {
+      "zh": "红、黄、蓝加黑，每块颜色边界清楚",
+      "en": "Red, yellow, blue and black, each area with a crisp edge"
+     },
+     "watch": {
+      "zh": "不要渐变，不要做旧质感",
+      "en": "No gradients, no distressed texture"
+     }
+    },
+    {
+     "title": {
+      "zh": "粗线分割",
+      "en": "Heavy rules"
+     },
+     "how": {
+      "zh": "用粗黑线切分版面、引导阅读方向",
+      "en": "Use thick black rules to divide space and steer the eye"
+     },
+     "watch": {
+      "zh": "线是结构，不是花边",
+      "en": "Rules are structure, not trim"
+     }
+    },
+    {
+     "title": {
+      "zh": "字也是图形",
+      "en": "Type as shape"
+     },
+     "how": {
+      "zh": "标题可以旋转、放大、贴着形状走",
+      "en": "Headlines may rotate, scale up and follow the shapes"
+     },
+     "watch": {
+      "zh": "正文仍要横排、好读",
+      "en": "Body text still runs horizontally and stays legible"
+     }
+    },
+    {
+     "title": {
+      "zh": "不对称平衡",
+      "en": "Asymmetric balance"
+     },
+     "how": {
+      "zh": "重心放在一侧，用另一侧的空白去平衡",
+      "en": "Weight one side and balance it with open space on the other"
+     },
+     "watch": {
+      "zh": "别把所有东西摆在中轴线上",
+      "en": "Avoid stacking everything on the centre line"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "linen",
+     "hex": "#EEE6D3",
+     "area": 50,
+     "name": {
+      "zh": "亚麻白",
+      "en": "Linen"
+     }
+    },
+    {
+     "key": "carbon",
+     "hex": "#1C1B19",
+     "area": 15,
+     "name": {
+      "zh": "炭黑",
+      "en": "Carbon"
+     }
+    },
+    {
+     "key": "ultramarine",
+     "hex": "#2D4E9C",
+     "area": 18,
+     "name": {
+      "zh": "群青",
+      "en": "Ultramarine"
+     }
+    },
+    {
+     "key": "vermilion",
+     "hex": "#C8442F",
+     "area": 12,
+     "name": {
+      "zh": "朱红",
+      "en": "Vermilion"
+     }
+    },
+    {
+     "key": "cadmium",
+     "hex": "#E8B22A",
+     "area": 5,
+     "name": {
+      "zh": "镉黄",
+      "en": "Cadmium yellow"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "圆方三角构图",
+     "纯色平涂",
+     "粗黑线分割",
+     "标题可旋转",
+     "重心偏向一侧"
+    ],
+    "en": [
+     "Compose with circle, square, triangle",
+     "Flat colour",
+     "Heavy black rules",
+     "Rotated headlines",
+     "Off-centre weight"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "渐变",
+     "柔和投影",
+     "圆角卡片",
+     "花饰边框",
+     "全部居中"
+    ],
+    "en": [
+     "Gradients",
+     "Soft shadows",
+     "Rounded cards",
+     "Ornamental borders",
+     "Centring everything"
+    ]
+   },
+   "myth": {
+    "zh": "包豪斯本身并不承认有一种「包豪斯风格」，格罗皮乌斯反对学生去模仿某种固定样式。今天说的包豪斯风，是后人从校内作品里提炼出来的视觉特征。",
+    "en": "The Bauhaus never claimed a “Bauhaus style”; Gropius explicitly discouraged students from imitating a fixed look. What we call Bauhaus style today is a set of traits later distilled from the school’s output."
+   },
+   "prompt": "Bauhaus-inspired poster, flat geometric composition of a circle, a square and a triangle, heavy black rules, rotated geometric sans-serif headline, ultramarine #2D4E9C, vermilion #C8442F and cadmium yellow #E8B22A on linen #EEE6D3, asymmetric balance, no gradients, no shadows --ar 4:5",
+   "ppt": {
+    "layouts": [
+     "geometric-blocks",
+     "diagonal-split",
+     "cover-big-type"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 6
+    },
+    "fonts": {
+     "heading": "Jost / Futura / Century Gothic + Source Han Sans Heavy / Microsoft YaHei Bold",
+     "body": "Jost / Arial + Source Han Sans / Microsoft YaHei",
+     "scale": 3
+    },
+    "motifs": [
+     "circle",
+     "square",
+     "triangle",
+     "thick-rule"
+    ],
+    "roles": {
+     "background": "linen",
+     "text": "carbon",
+     "primary": "ultramarine",
+     "secondary": "vermilion",
+     "accent": "cadmium"
+    },
+    "colorRule": {
+     "strategy": "triad-far-hues",
+     "note": {
+      "zh": "从当前配色里取色相相距最远的三色，分别给圆、方、三角；底色取最浅色，文字取最深色。",
+      "en": "Take the three most distant hues from the current palette for circle, square and triangle; lightest colour as ground, darkest as text."
+     }
+    },
+    "decoration": {
+     "zh": "每页最多 3 个几何形，至少一个出血到页边。",
+     "en": "At most three geometric shapes per slide, at least one bleeding off the edge."
+    },
+    "forbid": [
+     "gradient",
+     "soft-shadow",
+     "rounded-corners",
+     "ornament",
+     "centered-layout"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low"
+   }
+  },
+  {
+   "id": "swiss-style",
+   "kind": "style",
+   "era": "1950s–1970s",
+   "provenance": "original",
+   "name": {
+    "zh": "瑞士国际主义",
+    "en": "International Typographic Style"
+   },
+   "origin": {
+    "zh": "瑞士苏黎世 · 巴塞尔",
+    "en": "Zurich & Basel, Switzerland"
+   },
+   "tagline": {
+    "zh": "先画网格，再让信息按重要程度各就各位。",
+    "en": "Draw the grid first, then let each piece of information take its place by importance."
+   },
+   "summary": {
+    "zh": "二战后，苏黎世和巴塞尔的设计师把排版当成工程来做：先定网格，再按内容的轻重分配位置和字号。他们偏爱摄影胜过插画，偏爱齐左胜过居中，追求一种在德、法、意多语言并存的瑞士也能一眼读懂的客观表达。这套方法后来被企业形象、交通导视和网页栅格全面吸收，所以也常被称为「瑞士风格」。",
+    "en": "After the Second World War, designers in Zurich and Basel treated typography as engineering: set the grid, then assign position and size by the weight of the content. They preferred photography to illustration and flush-left to centred, aiming for an objective clarity that would read instantly in multilingual Switzerland. Corporate identity, wayfinding and web grids later absorbed the method wholesale, which is why it is often simply called Swiss Style."
+   },
+   "history": [
+    {
+     "year": "1957",
+     "zh": "Neue Haas Grotesk（后改名 Helvetica）与 Univers 同年发布",
+     "en": "Neue Haas Grotesk (later Helvetica) and Univers are both released"
+    },
+    {
+     "year": "1958",
+     "zh": "苏黎世设计师创办三语杂志《Neue Grafik》",
+     "en": "Zurich designers launch the trilingual magazine Neue Grafik"
+    },
+    {
+     "year": "1965",
+     "zh": "阿明·霍夫曼出版《平面设计手册》",
+     "en": "Armin Hofmann publishes Graphic Design Manual"
+    },
+    {
+     "year": "1967",
+     "zh": "埃米尔·鲁德出版《字体排印》",
+     "en": "Emil Ruder publishes Typographie"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "网格先行",
+      "en": "Grid first"
+     },
+     "how": {
+      "zh": "动手前先定栏数、边距和基线，所有元素的边都落在网格上",
+      "en": "Fix columns, margins and baseline before anything else; every edge lands on the grid"
+     },
+     "watch": {
+      "zh": "网格是看不见的骨架，成品里不必画出来",
+      "en": "The grid is an invisible skeleton; it need not be drawn"
+     }
+    },
+    {
+     "title": {
+      "zh": "一个字族",
+      "en": "One type family"
+     },
+     "how": {
+      "zh": "全篇一种无衬线，层级只靠字号和字重拉开",
+      "en": "One sans-serif family; hierarchy comes only from size and weight"
+     },
+     "watch": {
+      "zh": "不用斜体、描边、阴影来强调",
+      "en": "No italics, outlines or shadows for emphasis"
+     }
+    },
+    {
+     "title": {
+      "zh": "齐左排版",
+      "en": "Flush left"
+     },
+     "how": {
+      "zh": "文字左边对齐、右边自然参差",
+      "en": "Text aligned left, ragged right"
+     },
+     "watch": {
+      "zh": "不居中，也不两端对齐",
+      "en": "Neither centred nor justified"
+     }
+    },
+    {
+     "title": {
+      "zh": "留白即结构",
+      "en": "Space as structure"
+     },
+     "how": {
+      "zh": "用大块空白隔开信息组，一页只有一个主角",
+      "en": "Separate groups with generous space; one protagonist per page"
+     },
+     "watch": {
+      "zh": "留白不是浪费，填满才是",
+      "en": "Empty space isn’t waste; filling it is"
+     }
+    },
+    {
+     "title": {
+      "zh": "事实优先",
+      "en": "Facts first"
+     },
+     "how": {
+      "zh": "用摄影、数字和清楚的标题说话",
+      "en": "Speak through photography, numbers and plain headings"
+     },
+     "watch": {
+      "zh": "不加插画和比喻性的装饰",
+      "en": "No illustration or metaphorical decoration"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "paper",
+     "hex": "#F4F3EF",
+     "area": 62,
+     "name": {
+      "zh": "纸白",
+      "en": "Paper"
+     }
+    },
+    {
+     "key": "ink",
+     "hex": "#141414",
+     "area": 26,
+     "name": {
+      "zh": "墨黑",
+      "en": "Ink"
+     }
+    },
+    {
+     "key": "signal",
+     "hex": "#D7262E",
+     "area": 8,
+     "name": {
+      "zh": "信号红",
+      "en": "Signal red"
+     }
+    },
+    {
+     "key": "stone",
+     "hex": "#8C8C88",
+     "area": 4,
+     "name": {
+      "zh": "石灰",
+      "en": "Stone grey"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "先定网格",
+     "一个无衬线字族",
+     "齐左不齐右",
+     "大块留白",
+     "一页一个主角"
+    ],
+    "en": [
+     "Set the grid first",
+     "One sans-serif family",
+     "Flush left, ragged right",
+     "Generous space",
+     "One protagonist per page"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "居中对称",
+     "两端对齐",
+     "三种以上字体",
+     "渐变与投影",
+     "装饰性插画"
+    ],
+    "en": [
+     "Centred symmetry",
+     "Justified text",
+     "More than two typefaces",
+     "Gradients and shadows",
+     "Decorative illustration"
+    ]
+   },
+   "myth": {
+    "zh": "瑞士风格并不等于冷冰冰。米勒-布罗克曼为苏黎世音乐厅做的海报，用同心圆和节奏化的网格表现音乐的律动，严格的系统同样可以有情绪。",
+    "en": "Swiss Style is not the same as cold. Müller-Brockmann’s concert posters for the Zurich Tonhalle used concentric circles and rhythmic grids to convey music; a strict system can still carry emotion."
+   },
+   "prompt": "International Typographic Style layout, strict modular grid, one neo-grotesque sans-serif, flush-left ragged-right text, very large headline against small factual captions, asymmetric composition with generous white space, ink #141414 on paper #F4F3EF with a single signal red #D7262E accent, documentary photography, no illustration, no gradients --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "asymmetric-grid",
+     "cover-big-type",
+     "multi-column"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 5
+    },
+    "fonts": {
+     "heading": "Inter / Helvetica Neue / Arial + Source Han Sans Bold / Microsoft YaHei Bold",
+     "body": "Inter / Arial + Source Han Sans / Microsoft YaHei",
+     "scale": 4
+    },
+    "motifs": [
+     "visible-grid",
+     "hairline",
+     "square"
+    ],
+    "roles": {
+     "background": "paper",
+     "text": "ink",
+     "primary": "ink",
+     "secondary": "stone",
+     "accent": "signal"
+    },
+    "colorRule": {
+     "strategy": "single-accent",
+     "note": {
+      "zh": "从当前配色里取饱和度最高的一色作唯一强调色，面积不超过 10%；其余一律用中性灰和黑白。配色整体偏灰时提醒用户强调色可能不够有力。",
+      "en": "Use the most saturated colour in the current palette as the only accent, at most 10% of the area; everything else is neutral. Warn the user if the palette is too grey to give a strong accent."
+     }
+    },
+    "decoration": {
+     "zh": "不加装饰；只允许细线和一块强调色方块。",
+     "en": "No ornament; only hairlines and one block of accent colour."
+    },
+    "forbid": [
+     "centered-layout",
+     "justified-text",
+     "many-fonts",
+     "gradient",
+     "soft-shadow",
+     "rounded-corners",
+     "clipart"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium"
+   }
+  },
+  {
+   "id": "editorial",
+   "kind": "style",
+   "era": "1930s–",
+   "provenance": "original",
+   "name": {
+    "zh": "编辑杂志风",
+    "en": "Editorial"
+   },
+   "origin": {
+    "zh": "纽约 · 伦敦 · 欧洲杂志业",
+    "en": "Magazine publishing in New York, London and Europe"
+   },
+   "tagline": {
+    "zh": "把每一页当作杂志跨页来排：大图、大标题、好读的正文。",
+    "en": "Treat every page as a magazine spread: big image, big headline, readable text."
+   },
+   "summary": {
+    "zh": "编辑设计讲究「节奏」：满版大图之后是一页安静的文字，大号衬线标题旁边是小而清楚的图注。1930 年代起，艺术总监们把摄影、留白和字体对比带进时尚与文化杂志，形成了今天长文网页、年报和品牌画册仍在沿用的语言。它特别适合讲故事的演示：每页像一个翻开的跨页。",
+    "en": "Editorial design is about rhythm: a full-bleed photograph followed by a quiet page of text, a large serif headline beside a small, crisp caption. From the 1930s, art directors brought photography, white space and typographic contrast into fashion and culture magazines, building a language still used in long-form web pages, annual reports and brand books. It suits story-driven presentations: every slide reads like an open spread."
+   },
+   "history": [
+    {
+     "year": "1934",
+     "zh": "布罗多维奇出任《Harper’s Bazaar》艺术总监，大胆使用留白与摄影",
+     "en": "Alexey Brodovitch becomes art director of Harper’s Bazaar, pairing photography with bold white space"
+    },
+    {
+     "year": "1959",
+     "zh": "弗莱克豪斯为德国杂志《twen》设计版式，以超大图片著称",
+     "en": "Willy Fleckhaus designs the German magazine twen, known for its oversized images"
+    },
+    {
+     "year": "1981",
+     "zh": "内维尔·布罗迪开始为《The Face》做实验性版式",
+     "en": "Neville Brody begins his experimental layouts for The Face"
+    },
+    {
+     "year": "2010s",
+     "zh": "长文网页和数字杂志把跨页语言搬到屏幕上",
+     "en": "Long-form web stories and digital magazines bring the spread to the screen"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "衬线对无衬线",
+      "en": "Serif meets sans"
+     },
+     "how": {
+      "zh": "标题用有性格的衬线体，正文和图注用干净的无衬线",
+      "en": "Headlines in a characterful serif, text and captions in a clean sans"
+     },
+     "watch": {
+      "zh": "字体最多两种，靠字号拉开反差",
+      "en": "Two typefaces at most; let size create contrast"
+     }
+    },
+    {
+     "title": {
+      "zh": "大图出血",
+      "en": "Bleed the image"
+     },
+     "how": {
+      "zh": "关键照片铺满整页或半页，不加边框",
+      "en": "Key photographs fill a full or half page, without frames"
+     },
+     "watch": {
+      "zh": "图片质量不够就别放大",
+      "en": "Don’t enlarge a weak image"
+     }
+    },
+    {
+     "title": {
+      "zh": "节奏",
+      "en": "Rhythm"
+     },
+     "how": {
+      "zh": "满页图、文字页、引语页交替出现",
+      "en": "Alternate image pages, text pages and quote pages"
+     },
+     "watch": {
+      "zh": "连续几页同一种版式会让人疲劳",
+      "en": "Repeating one layout page after page tires the reader"
+     }
+    },
+    {
+     "title": {
+      "zh": "编辑元素",
+      "en": "Page furniture"
+     },
+     "how": {
+      "zh": "用栏目名、页码、细线、图注建立秩序感",
+      "en": "Section labels, folios, hairlines and captions create order"
+     },
+     "watch": {
+      "zh": "这些元素要小，不能抢标题",
+      "en": "Keep them small so they never compete with the headline"
+     }
+    },
+    {
+     "title": {
+      "zh": "引语",
+      "en": "Pull quotes"
+     },
+     "how": {
+      "zh": "把一句关键的话放大成一页的主角",
+      "en": "Enlarge one key sentence into the hero of a page"
+     },
+     "watch": {
+      "zh": "一份材料里引语别超过三处",
+      "en": "No more than three pull quotes per deck"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "newsprint",
+     "hex": "#F6F2EA",
+     "area": 58,
+     "name": {
+      "zh": "新闻纸",
+      "en": "Newsprint"
+     }
+    },
+    {
+     "key": "press",
+     "hex": "#1E1E1E",
+     "area": 24,
+     "name": {
+      "zh": "印墨",
+      "en": "Press black"
+     }
+    },
+    {
+     "key": "claret",
+     "hex": "#7A1F2B",
+     "area": 8,
+     "name": {
+      "zh": "深酒红",
+      "en": "Claret"
+     }
+    },
+    {
+     "key": "taupe",
+     "hex": "#A39E93",
+     "area": 8,
+     "name": {
+      "zh": "灰褐",
+      "en": "Taupe"
+     }
+    },
+    {
+     "key": "gilt",
+     "hex": "#C9A227",
+     "area": 2,
+     "name": {
+      "zh": "烫金",
+      "en": "Gilt"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "衬线大标题",
+     "大图出血",
+     "版式有快有慢",
+     "小而精的图注",
+     "页码与栏目名"
+    ],
+    "en": [
+     "Large serif headlines",
+     "Full-bleed images",
+     "Fast and slow pages",
+     "Small, precise captions",
+     "Folios and section labels"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "每页都塞满",
+     "图片加边框和阴影",
+     "三种以上字体",
+     "图库摆拍照",
+     "整页项目符号"
+    ],
+    "en": [
+     "Filling every page",
+     "Framed, shadowed images",
+     "More than two typefaces",
+     "Posed stock photos",
+     "Pages of bullet points"
+    ]
+   },
+   "myth": {
+    "zh": "杂志风不等于把文字排得很满。好的编辑设计里，留白和大图占的面积往往比文字多，文字少而精，才显得有分量。",
+    "en": "Editorial does not mean packing in text. In good editorial design, white space and images often outweigh the words; less text, carefully chosen, carries more weight."
+   },
+   "prompt": "Editorial magazine spread, large high-contrast serif headline, small clean sans-serif captions, one full-bleed documentary photograph, running head and page number, hairline rules, press black #1E1E1E on newsprint #F6F2EA with claret #7A1F2B accents, calm white space --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "full-bleed-image",
+     "pull-quote",
+     "multi-column",
+     "cover-big-type"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 6
+    },
+    "fonts": {
+     "heading": "Playfair Display / Georgia + Source Han Serif Bold / SimSun",
+     "body": "Source Sans 3 / Arial + Source Han Sans / Microsoft YaHei",
+     "scale": 3.5
+    },
+    "motifs": [
+     "drop-cap",
+     "page-furniture",
+     "hairline"
+    ],
+    "roles": {
+     "background": "newsprint",
+     "text": "press",
+     "primary": "claret",
+     "secondary": "taupe",
+     "accent": "gilt"
+    },
+    "colorRule": {
+     "strategy": "deep-duo",
+     "note": {
+      "zh": "主体用黑白灰；从当前配色里取最深的有彩色作主色（用于标题和栏目名），再取一个明亮色作极少量点缀。",
+      "en": "Keep the body neutral; take the deepest chromatic colour in the palette as primary (headlines, section labels) and one bright colour as a tiny highlight."
+     }
+    },
+    "decoration": {
+     "zh": "页眉栏目名、页码和一条细线是固定元素；照片不加框。",
+     "en": "A running head, folio and one hairline are constant; photographs are never framed."
+    },
+    "forbid": [
+     "dense-text",
+     "stock-photo",
+     "many-fonts",
+     "soft-shadow",
+     "clipart"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium"
+   }
+  },
+  {
+   "id": "japanese-minimal",
+   "kind": "style",
+   "era": "1960s–",
+   "provenance": "original",
+   "name": {
+    "zh": "日式极简",
+    "en": "Japanese Minimalism"
+   },
+   "origin": {
+    "zh": "日本东京",
+    "en": "Tokyo, Japan"
+   },
+   "tagline": {
+    "zh": "少放一点，让空白替你说话。",
+    "en": "Put in less, and let the emptiness speak."
+   },
+   "summary": {
+    "zh": "日本现代设计把传统美学里的「间」，也就是事物之间的距离与停顿，带进了平面和产品。画面常常只有一个主体、大面积的米白和细小的文字，颜色来自纸、木、土和朱印。它和瑞士风格同样克制，但瑞士追求的是清楚，日式极简追求的是余韵，空白本身就是要被感受的内容。",
+    "en": "Modern Japanese design carried the traditional idea of ma, the interval or pause between things, into graphics and products. A page often holds one subject, wide fields of off-white and small type, with colours drawn from paper, wood, earth and the vermilion seal. It is as restrained as Swiss Style, but where the Swiss aim for clarity, Japanese minimalism aims for resonance: the empty space is itself meant to be felt."
+   },
+   "history": [
+    {
+     "year": "1964",
+     "zh": "龟仓雄策的东京奥运会海报：白底、红日、五环",
+     "en": "Yusaku Kamekura’s Tokyo Olympics poster: white ground, red sun, rings"
+    },
+    {
+     "year": "1980",
+     "zh": "无印良品诞生，田中一光任艺术总监",
+     "en": "Muji is launched with Ikko Tanaka as art director"
+    },
+    {
+     "year": "2002",
+     "zh": "原研哉接任无印良品艺术总监",
+     "en": "Kenya Hara becomes Muji’s art director"
+    },
+    {
+     "year": "2008",
+     "zh": "原研哉出版《白》，阐述空白与「空」的设计观",
+     "en": "Kenya Hara publishes White, on emptiness as a design idea"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "一个主体",
+      "en": "One subject"
+     },
+     "how": {
+      "zh": "每页只放一个物件、一张图或一句话",
+      "en": "One object, image or sentence per page"
+     },
+     "watch": {
+      "zh": "第二个元素要小到不和主体竞争",
+      "en": "Any second element must be too small to compete"
+     }
+    },
+    {
+     "title": {
+      "zh": "大面积空白",
+      "en": "Wide emptiness"
+     },
+     "how": {
+      "zh": "空白占画面一半以上，主体可以偏离中心",
+      "en": "Space covers more than half the page; the subject may sit off-centre"
+     },
+     "watch": {
+      "zh": "空白要有方向感，不是简单缩小内容",
+      "en": "Space needs direction; it isn’t just shrinking the content"
+     }
+    },
+    {
+     "title": {
+      "zh": "细小的字",
+      "en": "Small type"
+     },
+     "how": {
+      "zh": "正文字号克制，字距略放宽，行距宽松",
+      "en": "Modest text size, slightly open tracking, generous leading"
+     },
+     "watch": {
+      "zh": "投影时也要保证最后一排看得清",
+      "en": "Still legible from the back row when projected"
+     }
+    },
+    {
+     "title": {
+      "zh": "自然色",
+      "en": "Natural colour"
+     },
+     "how": {
+      "zh": "米白、墨灰、木色为主，朱红只作一个点",
+      "en": "Off-white, ink grey and wood tones; vermilion only as a single dot"
+     },
+     "watch": {
+      "zh": "点缀色面积控制在 3% 以内",
+      "en": "Keep the accent under 3% of the area"
+     }
+    },
+    {
+     "title": {
+      "zh": "竖排点题",
+      "en": "Vertical titles"
+     },
+     "how": {
+      "zh": "中文标题可以竖排，贴在页面一侧",
+      "en": "Chinese or Japanese titles may run vertically along one side"
+     },
+     "watch": {
+      "zh": "英文不要竖排",
+      "en": "Never set Latin text vertically"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "washi",
+     "hex": "#F5F2EA",
+     "area": 64,
+     "name": {
+      "zh": "和纸白",
+      "en": "Washi"
+     }
+    },
+    {
+     "key": "sumi",
+     "hex": "#3B3A36",
+     "area": 16,
+     "name": {
+      "zh": "墨灰",
+      "en": "Sumi grey"
+     }
+    },
+    {
+     "key": "kurocha",
+     "hex": "#8B7B65",
+     "area": 10,
+     "name": {
+      "zh": "枯茶",
+      "en": "Withered tea"
+     }
+    },
+    {
+     "key": "aonibi",
+     "hex": "#9AA59B",
+     "area": 8,
+     "name": {
+      "zh": "青钝",
+      "en": "Blue-grey"
+     }
+    },
+    {
+     "key": "shu",
+     "hex": "#B8432F",
+     "area": 2,
+     "name": {
+      "zh": "朱",
+      "en": "Vermilion seal"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "一页一物",
+     "大片空白",
+     "宽行距",
+     "纸与木的颜色",
+     "一个朱点"
+    ],
+    "en": [
+     "One thing per page",
+     "Wide empty space",
+     "Generous leading",
+     "Paper and wood colours",
+     "A single red dot"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "高饱和色块",
+     "满屏文字",
+     "粗黑描边",
+     "立体特效",
+     "表情包配图"
+    ],
+    "en": [
+     "Saturated colour blocks",
+     "Wall-to-wall text",
+     "Heavy outlines",
+     "3D effects",
+     "Meme images"
+    ]
+   },
+   "myth": {
+    "zh": "「侘寂」不是极简的同义词。侘寂欣赏粗糙、残缺和时间留下的痕迹，极简追求纯净与秩序，两者在日本设计里常常并存，但不是一回事。",
+    "en": "Wabi-sabi is not a synonym for minimalism. Wabi-sabi values roughness, imperfection and the marks of time; minimalism seeks purity and order. They often coexist in Japanese design, but they are different ideas."
+   },
+   "prompt": "Japanese minimalist layout, a single small object placed off-centre on warm washi paper #F5F2EA, vast negative space, thin sumi grey #3B3A36 type with open letter-spacing, one tiny vermilion #B8432F dot, subtle paper texture, quiet and calm, no saturated colour --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "single-focus",
+     "vertical-text",
+     "full-bleed-image"
+    ],
+    "grid": {
+     "cols": 6,
+     "marginPct": 10
+    },
+    "fonts": {
+     "heading": "Noto Serif / Georgia + Source Han Serif / SimSun",
+     "body": "Noto Sans / Arial + Source Han Sans Light / Microsoft YaHei Light",
+     "scale": 2
+    },
+    "motifs": [
+     "red-dot",
+     "hairline",
+     "paper-texture"
+    ],
+    "roles": {
+     "background": "washi",
+     "text": "sumi",
+     "primary": "kurocha",
+     "secondary": "aonibi",
+     "accent": "shu"
+    },
+    "colorRule": {
+     "strategy": "desaturate-lighten",
+     "note": {
+      "zh": "把当前配色整体降饱和、提亮；每页只用主色加一个点缀色，点缀色面积不超过 3%。",
+      "en": "Desaturate and lighten the current palette; each slide uses only the primary plus one accent, the accent under 3% of the area."
+     }
+    },
+    "decoration": {
+     "zh": "只允许一条细线、一个小色点或淡淡的纸纹。",
+     "en": "Only one hairline, one small dot of colour or a faint paper texture."
+    },
+    "forbid": [
+     "high-saturation",
+     "dense-text",
+     "3d-effects",
+     "emoji",
+     "soft-shadow"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low"
+   }
+  },
+  {
+   "id": "art-deco",
+   "kind": "style",
+   "era": "1920s–1930s",
+   "provenance": "original",
+   "name": {
+    "zh": "装饰艺术",
+    "en": "Art Deco"
+   },
+   "origin": {
+    "zh": "法国巴黎 · 美国纽约",
+    "en": "Paris & New York"
+   },
+   "tagline": {
+    "zh": "把机器时代的速度和奢华，铸成对称、闪亮的几何。",
+    "en": "The speed and luxury of the machine age, cast into symmetrical, gleaming geometry."
+   },
+   "summary": {
+    "zh": "装饰艺术得名于 1925 年巴黎的国际装饰艺术与现代工业博览会。它把古埃及、阿兹特克的阶梯造型和工业时代的流线结合起来，用放射线、阶梯拱、金属色和强烈的对称表达自信与繁荣。从远洋邮轮、摩天楼到电影院海报，它是两次大战之间的「摩登」本身。",
+    "en": "Art Deco takes its name from the 1925 International Exhibition of Modern Decorative and Industrial Arts in Paris. It fused stepped forms from ancient Egypt and Mesoamerica with machine-age streamlining, expressing confidence and prosperity through sunbursts, stepped arches, metallic colour and strong symmetry. From ocean liners and skyscrapers to cinema posters, it was the very image of interwar modernity."
+   },
+   "history": [
+    {
+     "year": "1925",
+     "zh": "巴黎国际装饰艺术与现代工业博览会举办",
+     "en": "The International Exhibition of Modern Decorative and Industrial Arts opens in Paris"
+    },
+    {
+     "year": "1927",
+     "zh": "卡桑德尔创作海报《北方快车》",
+     "en": "Cassandre designs the Nord Express poster"
+    },
+    {
+     "year": "1930",
+     "zh": "纽约克莱斯勒大厦落成，阶梯式尖顶成为标志",
+     "en": "The Chrysler Building is completed in New York, its stepped crown an icon"
+    },
+    {
+     "year": "1960s",
+     "zh": "回顾展和研究让「Art Deco」这个名称被追认并流行",
+     "en": "Retrospectives and scholarship popularise the retrospective label “Art Deco”"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "强对称",
+      "en": "Strong symmetry"
+     },
+     "how": {
+      "zh": "以中轴线组织画面，左右呼应",
+      "en": "Organise the page on a central axis with mirrored sides"
+     },
+     "watch": {
+      "zh": "对称要有层次，不是简单复制",
+      "en": "Symmetry needs depth, not just a mirror copy"
+     }
+    },
+    {
+     "title": {
+      "zh": "放射与阶梯",
+      "en": "Rays and steps"
+     },
+     "how": {
+      "zh": "用放射光芒、阶梯拱和扇形做主结构",
+      "en": "Use sunbursts, stepped arches and fans as the main structure"
+     },
+     "watch": {
+      "zh": "线条要等距、精确",
+      "en": "Keep lines evenly spaced and precise"
+     }
+    },
+    {
+     "title": {
+      "zh": "金属色",
+      "en": "Metallic colour"
+     },
+     "how": {
+      "zh": "深底配金色或铜色线条",
+      "en": "Gold or brass linework on a dark ground"
+     },
+     "watch": {
+      "zh": "金色只用于线和小字，不铺大面",
+      "en": "Gold for lines and small type, not large fills"
+     }
+    },
+    {
+     "title": {
+      "zh": "高挑字体",
+      "en": "Tall lettering"
+     },
+     "how": {
+      "zh": "窄长的几何字，字距放宽，全大写",
+      "en": "Tall, condensed geometric capitals with open tracking"
+     },
+     "watch": {
+      "zh": "正文仍用易读的字体",
+      "en": "Body text stays in a readable face"
+     }
+    },
+    {
+     "title": {
+      "zh": "框饰",
+      "en": "Framing"
+     },
+     "how": {
+      "zh": "用多重细线框和转角装饰收住画面",
+      "en": "Close the page with nested fine frames and corner details"
+     },
+     "watch": {
+      "zh": "框饰占边缘，不要侵入内容区",
+      "en": "Frames stay at the edges, out of the content area"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "midnight",
+     "hex": "#15171C",
+     "area": 45,
+     "name": {
+      "zh": "午夜黑",
+      "en": "Midnight"
+     }
+    },
+    {
+     "key": "champagne",
+     "hex": "#EDE3CC",
+     "area": 15,
+     "name": {
+      "zh": "香槟",
+      "en": "Champagne"
+     }
+    },
+    {
+     "key": "gold",
+     "hex": "#C6A15B",
+     "area": 20,
+     "name": {
+      "zh": "旧金",
+      "en": "Old gold"
+     }
+    },
+    {
+     "key": "peacock",
+     "hex": "#1F5A55",
+     "area": 15,
+     "name": {
+      "zh": "孔雀绿",
+      "en": "Peacock green"
+     }
+    },
+    {
+     "key": "garnet",
+     "hex": "#8E2E3B",
+     "area": 5,
+     "name": {
+      "zh": "石榴红",
+      "en": "Garnet"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "中轴对称",
+     "放射光芒",
+     "金色细线",
+     "窄长大写字",
+     "多重框线"
+    ],
+    "en": [
+     "Central symmetry",
+     "Sunbursts",
+     "Fine gold lines",
+     "Tall capitals",
+     "Nested frames"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "随意不对称",
+     "大面积金色",
+     "卡通插画",
+     "圆润可爱的字体",
+     "杂乱拼贴"
+    ],
+    "en": [
+     "Casual asymmetry",
+     "Large gold fills",
+     "Cartoon illustration",
+     "Cute rounded type",
+     "Messy collage"
+    ]
+   },
+   "myth": {
+    "zh": "「Art Deco」这个名字在它最流行的年代几乎没人用，当时人们说「现代风」或「摩登」。这个称呼是 1960 年代才被研究者和展览普及的。",
+    "en": "Hardly anyone called it Art Deco in its heyday; people said moderne or simply modern. The label was popularised by scholars and exhibitions in the 1960s."
+   },
+   "prompt": "Art Deco poster, strict central symmetry, sunburst rays and stepped arches in fine old-gold #C6A15B lines on midnight #15171C, tall condensed geometric capitals with wide tracking, peacock green #1F5A55 and garnet #8E2E3B details, nested frames, elegant machine-age glamour --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "symmetric-frame",
+     "cover-big-type",
+     "hero-object"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 7
+    },
+    "fonts": {
+     "heading": "Poiret One / Josefin Sans / Futura + Source Han Sans Medium / Microsoft YaHei",
+     "body": "Josefin Sans / Arial + Source Han Sans Light / Microsoft YaHei",
+     "scale": 3
+    },
+    "motifs": [
+     "sunburst",
+     "stepped-arch",
+     "metallic-line"
+    ],
+    "roles": {
+     "background": "midnight",
+     "text": "champagne",
+     "primary": "gold",
+     "secondary": "peacock",
+     "accent": "garnet"
+    },
+    "colorRule": {
+     "strategy": "dark-metallic",
+     "note": {
+      "zh": "取当前配色里最深的色作底；取最亮的暖色当「金属色」用于线条和标题；其余色只做小面积宝石点缀。",
+      "en": "Use the darkest colour of the palette as ground and the brightest warm colour as the ‘metal’ for lines and titles; other colours appear only as small jewel accents."
+     }
+    },
+    "decoration": {
+     "zh": "页边双线框加四角装饰；标题上下可加放射线。",
+     "en": "Double-line frame with corner details; rays may sit above or below the title."
+    },
+    "forbid": [
+     "clipart",
+     "emoji",
+     "rounded-corners",
+     "soft-shadow",
+     "dense-text"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low"
+   }
+  },
+  {
+   "id": "art-nouveau",
+   "kind": "style",
+   "era": "1890–1910",
+   "provenance": "original",
+   "name": {
+    "zh": "新艺术运动",
+    "en": "Art Nouveau"
+   },
+   "origin": {
+    "zh": "巴黎 · 布鲁塞尔 · 慕尼黑 · 维也纳",
+    "en": "Paris, Brussels, Munich & Vienna"
+   },
+   "tagline": {
+    "zh": "让线条像藤蔓一样生长，把植物的曲线带进日常。",
+    "en": "Lines that grow like vines, bringing the curves of plants into everyday life."
+   },
+   "summary": {
+    "zh": "19 世纪末，欧洲的设计师厌倦了工业复制的历史样式，转向自然寻找新语言。新艺术运动的标志是「鞭形曲线」：从植物茎蔓、女性长发和水波中提炼出的弹性线条。它出现在海报、书籍、铁艺和地铁入口上，在德国叫青年风格，在维也纳叫分离派。",
+    "en": "At the end of the nineteenth century, European designers tired of mass-produced historical styles and turned to nature for a new language. Art Nouveau’s signature is the whiplash curve, an elastic line drawn from plant stems, flowing hair and water. It appeared on posters, books, ironwork and metro entrances, and went by Jugendstil in Germany and Secession in Vienna."
+   },
+   "history": [
+    {
+     "year": "1895",
+     "zh": "穆夏为莎拉·伯恩哈特绘制海报《吉斯蒙达》",
+     "en": "Alphonse Mucha’s Gismonda poster for Sarah Bernhardt"
+    },
+    {
+     "year": "1895",
+     "zh": "宾在巴黎开设「新艺术之家」画廊，风格因此得名",
+     "en": "Siegfried Bing opens the Maison de l’Art Nouveau in Paris, giving the style its name"
+    },
+    {
+     "year": "1896",
+     "zh": "慕尼黑杂志《Jugend》创刊，德国称之为青年风格",
+     "en": "The Munich magazine Jugend launches; Germany calls the style Jugendstil"
+    },
+    {
+     "year": "1900",
+     "zh": "吉马尔设计的巴黎地铁入口陆续建成",
+     "en": "Hector Guimard’s Paris Métro entrances begin to appear"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "鞭形曲线",
+      "en": "Whiplash curve"
+     },
+     "how": {
+      "zh": "用一条有弹性、粗细变化的长曲线组织画面",
+      "en": "Organise the page around one long, springy line of varying thickness"
+     },
+     "watch": {
+      "zh": "曲线要流畅，避免生硬的折角",
+      "en": "Keep it fluid; avoid sharp kinks"
+     }
+    },
+    {
+     "title": {
+      "zh": "植物母题",
+      "en": "Plant motifs"
+     },
+     "how": {
+      "zh": "藤蔓、花瓣、叶片做边框和分隔",
+      "en": "Vines, petals and leaves become frames and dividers"
+     },
+     "watch": {
+      "zh": "母题要风格化，不是写实照片",
+      "en": "Stylise the motif; don’t use realistic photos"
+     }
+    },
+    {
+     "title": {
+      "zh": "装饰边框",
+      "en": "Ornamental border"
+     },
+     "how": {
+      "zh": "主体放在拱形或圆形光环里",
+      "en": "Place the subject inside an arch or a circular halo"
+     },
+     "watch": {
+      "zh": "边框不要压住文字",
+      "en": "Never let the border crowd the text"
+     }
+    },
+    {
+     "title": {
+      "zh": "手绘字",
+      "en": "Drawn lettering"
+     },
+     "how": {
+      "zh": "标题字形可以带曲线和花饰",
+      "en": "Headlines may carry curves and flourishes"
+     },
+     "watch": {
+      "zh": "正文仍用清楚的字体",
+      "en": "Body text stays plain and clear"
+     }
+    },
+    {
+     "title": {
+      "zh": "柔和色调",
+      "en": "Soft tones"
+     },
+     "how": {
+      "zh": "鼠尾草绿、古铜金、玫瑰粉等低饱和暖色",
+      "en": "Sage green, bronze, dusty rose and other muted warm tones"
+     },
+     "watch": {
+      "zh": "避免荧光色和纯黑大面",
+      "en": "Avoid neon and large pure-black areas"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "vellum",
+     "hex": "#F1E6CF",
+     "area": 50,
+     "name": {
+      "zh": "羊皮纸",
+      "en": "Vellum"
+     }
+    },
+    {
+     "key": "olive",
+     "hex": "#3F4A33",
+     "area": 18,
+     "name": {
+      "zh": "深橄榄",
+      "en": "Deep olive"
+     }
+    },
+    {
+     "key": "sage",
+     "hex": "#8A9A6B",
+     "area": 15,
+     "name": {
+      "zh": "鼠尾草绿",
+      "en": "Sage"
+     }
+    },
+    {
+     "key": "bronze",
+     "hex": "#B08A4A",
+     "area": 12,
+     "name": {
+      "zh": "古铜金",
+      "en": "Bronze"
+     }
+    },
+    {
+     "key": "rose",
+     "hex": "#C47A75",
+     "area": 5,
+     "name": {
+      "zh": "玫瑰粉",
+      "en": "Dusty rose"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "流动曲线",
+     "植物纹样",
+     "拱形或圆形框",
+     "低饱和暖色",
+     "装饰性标题字"
+    ],
+    "en": [
+     "Flowing curves",
+     "Botanical ornament",
+     "Arched or circular frames",
+     "Muted warm colour",
+     "Decorative headline lettering"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "直角网格",
+     "荧光色",
+     "纯黑大面",
+     "无衬线粗黑体标题",
+     "照片堆砌"
+    ],
+    "en": [
+     "Rigid right-angle grids",
+     "Neon colour",
+     "Large pure-black areas",
+     "Heavy grotesque headlines",
+     "Stacks of photographs"
+    ]
+   },
+   "myth": {
+    "zh": "新艺术运动不只是「花哨」。它的初衷恰恰是反对照搬历史装饰，主张把艺术带进日常用品，后来的现代主义者正是从这里出发再往前走了一步。",
+    "en": "Art Nouveau was not mere frilliness. Its aim was to stop copying historical ornament and bring art into everyday objects; the modernists who followed started from exactly that point."
+   },
+   "prompt": "Art Nouveau poster, a central figure framed by a circular halo, flowing whiplash curves and stylised vines, decorative hand-drawn lettering, muted palette of sage #8A9A6B, bronze #B08A4A and dusty rose #C47A75 on vellum #F1E6CF, deep olive #3F4A33 outlines, elegant and organic --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "organic-frame",
+     "hero-object",
+     "symmetric-frame"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 7
+    },
+    "fonts": {
+     "heading": "Cormorant Garamond / Georgia + Source Han Serif / SimSun",
+     "body": "Lato / Arial + Source Han Sans / Microsoft YaHei",
+     "scale": 2.5
+    },
+    "motifs": [
+     "whiplash-curve",
+     "botanical",
+     "halo"
+    ],
+    "roles": {
+     "background": "vellum",
+     "text": "olive",
+     "primary": "sage",
+     "secondary": "bronze",
+     "accent": "rose"
+    },
+    "colorRule": {
+     "strategy": "analogous-soft",
+     "note": {
+      "zh": "从当前配色里取色相相邻的两三色并略降饱和，偏向暖调；最深色作描线和文字。",
+      "en": "Pick two or three neighbouring hues from the palette, slightly desaturated and warmed; the darkest colour draws lines and text."
+     }
+    },
+    "decoration": {
+     "zh": "曲线边框或植物纹样放在页边；正文区保持干净。",
+     "en": "Curved frames or botanical ornament sit at the edges; the text area stays clean."
+    },
+    "forbid": [
+     "high-saturation",
+     "rounded-corners",
+     "soft-shadow",
+     "flat-icons",
+     "3d-effects"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low"
+   }
+  },
+  {
+   "id": "constructivism",
+   "kind": "style",
+   "era": "1915–1930s",
+   "provenance": "original",
+   "name": {
+    "zh": "构成主义",
+    "en": "Constructivism"
+   },
+   "origin": {
+    "zh": "苏联莫斯科",
+    "en": "Moscow, Soviet Union"
+   },
+   "tagline": {
+    "zh": "斜线、红黑对撞和照片拼贴，让画面像口号一样有力。",
+    "en": "Diagonals, red against black and photomontage: pages that hit like a slogan."
+   },
+   "summary": {
+    "zh": "十月革命前后，俄国艺术家主张艺术应当「建造」新社会，而不是装点客厅。他们把几何抽象用在海报、书籍和宣传上：倾斜的构图制造动感，红黑两色制造冲击，照片拼贴把真实人物放进口号里。罗德琴科、利西茨基等人的作品，直接影响了后来的现代海报和唱片封面。",
+    "en": "Around the 1917 revolution, Russian artists argued that art should construct a new society rather than decorate drawing rooms. They put geometric abstraction to work in posters, books and propaganda: tilted compositions for momentum, red and black for impact, photomontage to place real people inside slogans. The work of Rodchenko, El Lissitzky and others shaped later modern posters and album covers."
+   },
+   "history": [
+    {
+     "year": "1919",
+     "zh": "利西茨基创作《用红楔子打白军》",
+     "en": "El Lissitzky creates Beat the Whites with the Red Wedge"
+    },
+    {
+     "year": "1923",
+     "zh": "罗德琴科与马雅可夫斯基合作商业广告",
+     "en": "Rodchenko and Mayakovsky team up on advertising"
+    },
+    {
+     "year": "1924",
+     "zh": "罗德琴科为列宁格勒国家出版社设计「书」海报",
+     "en": "Rodchenko’s poster “Books” for the Leningrad State Publishing House"
+    },
+    {
+     "year": "1932",
+     "zh": "官方确立社会主义现实主义，先锋实验逐渐终止",
+     "en": "Socialist Realism becomes official policy and avant-garde experiment fades"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "斜向构图",
+      "en": "Diagonal composition"
+     },
+     "how": {
+      "zh": "主体和文字沿 15 到 45 度斜线排布",
+      "en": "Run the subject and type along a 15 to 45 degree diagonal"
+     },
+     "watch": {
+      "zh": "全页斜线方向保持一致",
+      "en": "Keep one diagonal direction per page"
+     }
+    },
+    {
+     "title": {
+      "zh": "红黑对撞",
+      "en": "Red against black"
+     },
+     "how": {
+      "zh": "大面积红、黑和纸色三者构成画面",
+      "en": "Build the page from red, black and paper"
+     },
+     "watch": {
+      "zh": "第四种颜色只能很小",
+      "en": "A fourth colour must stay tiny"
+     }
+    },
+    {
+     "title": {
+      "zh": "照片拼贴",
+      "en": "Photomontage"
+     },
+     "how": {
+      "zh": "剪下的黑白人像和几何形叠在一起",
+      "en": "Cut-out black-and-white portraits layered with geometry"
+     },
+     "watch": {
+      "zh": "照片要高对比，去掉背景",
+      "en": "Use high-contrast photos with the background removed"
+     }
+    },
+    {
+     "title": {
+      "zh": "粗体字块",
+      "en": "Heavy type blocks"
+     },
+     "how": {
+      "zh": "粗黑无衬线大写，字可以穿过形状",
+      "en": "Bold grotesque capitals that may cut through shapes"
+     },
+     "watch": {
+      "zh": "每页只喊一句话",
+      "en": "One slogan per page"
+     }
+    },
+    {
+     "title": {
+      "zh": "几何张力",
+      "en": "Geometric tension"
+     },
+     "how": {
+      "zh": "楔形、圆和长条互相刺入、对抗",
+      "en": "Wedges, circles and bars thrust into one another"
+     },
+     "watch": {
+      "zh": "张力来自方向，不是数量",
+      "en": "Tension comes from direction, not quantity"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "kraft",
+     "hex": "#E9DFC8",
+     "area": 45,
+     "name": {
+      "zh": "牛皮纸",
+      "en": "Kraft"
+     }
+    },
+    {
+     "key": "soot",
+     "hex": "#161616",
+     "area": 22,
+     "name": {
+      "zh": "烟黑",
+      "en": "Soot"
+     }
+    },
+    {
+     "key": "red",
+     "hex": "#B5262B",
+     "area": 25,
+     "name": {
+      "zh": "旗红",
+      "en": "Banner red"
+     }
+    },
+    {
+     "key": "slate",
+     "hex": "#7D776C",
+     "area": 6,
+     "name": {
+      "zh": "岩灰",
+      "en": "Slate"
+     }
+    },
+    {
+     "key": "ochre",
+     "hex": "#C99A3B",
+     "area": 2,
+     "name": {
+      "zh": "赭黄",
+      "en": "Ochre"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "斜线构图",
+     "红黑纸三色",
+     "高对比照片拼贴",
+     "粗黑大写字",
+     "楔形与圆"
+    ],
+    "en": [
+     "Diagonal layout",
+     "Red, black and paper",
+     "High-contrast photomontage",
+     "Heavy capitals",
+     "Wedges and circles"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "水平居中",
+     "柔和配色",
+     "圆角",
+     "细弱的字",
+     "装饰花纹"
+    ],
+    "en": [
+     "Horizontal centring",
+     "Soft palettes",
+     "Rounded corners",
+     "Light, thin type",
+     "Ornament"
+    ]
+   },
+   "myth": {
+    "zh": "构成主义不只做政治宣传。罗德琴科等人也大量设计商品广告、书籍封面和舞台布景，他们认为好设计应该服务于日常生活。",
+    "en": "Constructivism was not only propaganda. Rodchenko and others designed product advertising, book covers and stage sets, believing good design should serve daily life."
+   },
+   "prompt": "Russian Constructivist poster, dynamic 30-degree diagonal composition, red wedge piercing a black circle, high-contrast black-and-white photomontage, heavy condensed sans-serif capitals, banner red #B5262B and soot black #161616 on kraft paper #E9DFC8 --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "diagonal-split",
+     "collage",
+     "cover-big-type"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 5
+    },
+    "fonts": {
+     "heading": "Oswald / Bebas Neue / Impact + Source Han Sans Heavy / Microsoft YaHei Bold",
+     "body": "Roboto Condensed / Arial + Source Han Sans / Microsoft YaHei",
+     "scale": 4
+    },
+    "motifs": [
+     "wedge",
+     "diagonal-bar",
+     "circle",
+     "photomontage"
+    ],
+    "roles": {
+     "background": "kraft",
+     "text": "soot",
+     "primary": "red",
+     "secondary": "slate",
+     "accent": "ochre"
+    },
+    "colorRule": {
+     "strategy": "high-contrast-duo",
+     "note": {
+      "zh": "取当前配色里最饱和的暖色作主色，与近黑色大面积对撞；底色取最浅的暖色。配色里没有足够强的暖色时提醒用户。",
+      "en": "Pair the most saturated warm colour in the palette with near-black in large areas; ground in the lightest warm tone. Warn the user if the palette lacks a strong warm colour."
+     }
+    },
+    "decoration": {
+     "zh": "一条贯穿全页的斜向长条或楔形，文字沿它排布。",
+     "en": "One diagonal bar or wedge crossing the slide, with type running along it."
+    },
+    "forbid": [
+     "centered-layout",
+     "rounded-corners",
+     "soft-shadow",
+     "ornament",
+     "gradient"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium"
+   }
+  },
+  {
+   "id": "de-stijl",
+   "kind": "style",
+   "era": "1917–1931",
+   "provenance": "original",
+   "name": {
+    "zh": "风格派",
+    "en": "De Stijl"
+   },
+   "origin": {
+    "zh": "荷兰莱顿 · 阿姆斯特丹",
+    "en": "Leiden & Amsterdam, Netherlands"
+   },
+   "tagline": {
+    "zh": "只剩横线、竖线和三原色，追求一种普遍的和谐。",
+    "en": "Only horizontals, verticals and the three primaries, in search of universal harmony."
+   },
+   "summary": {
+    "zh": "1917 年，杜斯伯格在荷兰创办《风格》杂志，和蒙德里安等人一起提出「新造型主义」：去掉一切具象，只用水平与垂直的直线、红黄蓝三原色和黑白灰。这种极端的简化后来进入了建筑、家具和平面设计，里特费尔德的红蓝椅和施罗德住宅都是它的立体版本。",
+    "en": "In 1917 Theo van Doesburg founded the magazine De Stijl in the Netherlands and, with Piet Mondrian and others, proposed Neoplasticism: strip away all representation and keep only horizontal and vertical lines, the three primaries, and black, white and grey. The radical reduction spread into architecture, furniture and graphics; Rietveld’s Red Blue Chair and Schröder House are its three-dimensional versions."
+   },
+   "history": [
+    {
+     "year": "1917",
+     "zh": "杜斯伯格创办《风格》杂志",
+     "en": "Van Doesburg founds the magazine De Stijl"
+    },
+    {
+     "year": "1918",
+     "zh": "里特费尔德设计扶手椅原型，几年后涂成红蓝椅",
+     "en": "Rietveld designs the armchair later painted as the Red Blue Chair"
+    },
+    {
+     "year": "1921",
+     "zh": "蒙德里安开始创作黑线网格加红黄蓝色块的构图",
+     "en": "Mondrian begins his black-grid compositions with red, yellow and blue"
+    },
+    {
+     "year": "1931",
+     "zh": "杜斯伯格去世，杂志停刊，运动随之结束",
+     "en": "Van Doesburg dies, the magazine ends and the movement with it"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "只用正交线",
+      "en": "Orthogonal only"
+     },
+     "how": {
+      "zh": "所有线和边都是水平或垂直的",
+      "en": "Every line and edge is horizontal or vertical"
+     },
+     "watch": {
+      "zh": "杜斯伯格后期引入斜线，但经典样式不用",
+      "en": "Van Doesburg later added diagonals; the classic look does not"
+     }
+    },
+    {
+     "title": {
+      "zh": "三原色加黑白",
+      "en": "Primaries plus neutrals"
+     },
+     "how": {
+      "zh": "红、黄、蓝只填少数格子，大部分留白",
+      "en": "Red, yellow and blue fill only a few cells; most stay white"
+     },
+     "watch": {
+      "zh": "不要用二次色",
+      "en": "No secondary colours"
+     }
+    },
+    {
+     "title": {
+      "zh": "黑线分格",
+      "en": "Black dividers"
+     },
+     "how": {
+      "zh": "粗细不同的黑线把画面分成大小不等的矩形",
+      "en": "Black lines of varied weight cut the page into unequal rectangles"
+     },
+     "watch": {
+      "zh": "格子大小要有明显差别",
+      "en": "Cell sizes must differ clearly"
+     }
+    },
+    {
+     "title": {
+      "zh": "开放边缘",
+      "en": "Open edges"
+     },
+     "how": {
+      "zh": "有的线和色块延伸出画面边缘",
+      "en": "Some lines and blocks run off the edge"
+     },
+     "watch": {
+      "zh": "不要给整幅画面加外框",
+      "en": "Don’t frame the whole composition"
+     }
+    },
+    {
+     "title": {
+      "zh": "不对称均衡",
+      "en": "Asymmetric equilibrium"
+     },
+     "how": {
+      "zh": "小块强色平衡大块白，求得动态均衡",
+      "en": "Small strong blocks balance large white areas"
+     },
+     "watch": {
+      "zh": "颜色不要集中在同一角",
+      "en": "Don’t bunch the colours in one corner"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "white",
+     "hex": "#F7F6F2",
+     "area": 52,
+     "name": {
+      "zh": "白",
+      "en": "White"
+     }
+    },
+    {
+     "key": "black",
+     "hex": "#121212",
+     "area": 14,
+     "name": {
+      "zh": "黑",
+      "en": "Black"
+     }
+    },
+    {
+     "key": "red",
+     "hex": "#C62A2A",
+     "area": 16,
+     "name": {
+      "zh": "红",
+      "en": "Red"
+     }
+    },
+    {
+     "key": "blue",
+     "hex": "#1F3F95",
+     "area": 12,
+     "name": {
+      "zh": "蓝",
+      "en": "Blue"
+     }
+    },
+    {
+     "key": "yellow",
+     "hex": "#EFC12B",
+     "area": 6,
+     "name": {
+      "zh": "黄",
+      "en": "Yellow"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "水平垂直线",
+     "三原色少量填格",
+     "格子大小悬殊",
+     "线条出血",
+     "大面积白"
+    ],
+    "en": [
+     "Horizontal and vertical lines",
+     "Few primary-filled cells",
+     "Very unequal cells",
+     "Lines bleeding off",
+     "Plenty of white"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "斜线和曲线",
+     "二次色",
+     "渐变",
+     "圆角",
+     "格子一样大"
+    ],
+    "en": [
+     "Diagonals and curves",
+     "Secondary colours",
+     "Gradients",
+     "Rounded corners",
+     "Equal cells"
+    ]
+   },
+   "myth": {
+    "zh": "蒙德里安并不是用尺子随手画格子。他反复调整线的粗细和位置，一幅画常要改很多遍，看似简单的均衡其实是长时间推敲的结果。",
+    "en": "Mondrian did not rule his grids casually. He adjusted line weights and positions again and again, often reworking a canvas many times; the apparently simple balance is the product of long deliberation."
+   },
+   "prompt": "De Stijl composition, asymmetric grid of black horizontal and vertical lines of varied weight, a few cells filled with red #C62A2A, blue #1F3F95 and yellow #EFC12B, mostly white #F7F6F2, lines running off the edge, flat colour, no diagonals, no gradients --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "color-field-grid",
+     "asymmetric-grid"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 0
+    },
+    "fonts": {
+     "heading": "Archivo Black / Arial Black + Source Han Sans Heavy / Microsoft YaHei Bold",
+     "body": "Archivo / Arial + Source Han Sans / Microsoft YaHei",
+     "scale": 3
+    },
+    "motifs": [
+     "orthogonal-lines",
+     "square"
+    ],
+    "roles": {
+     "background": "white",
+     "text": "black",
+     "primary": "red",
+     "secondary": "blue",
+     "accent": "yellow"
+    },
+    "colorRule": {
+     "strategy": "primaries-blocks",
+     "note": {
+      "zh": "从当前配色里挑最接近红、蓝、黄的三色作色块；色块只占少数格子，其余为白，分格线用最深色。",
+      "en": "Pick the three colours nearest to red, blue and yellow for the blocks; fill only a few cells, keep the rest white, and draw dividers in the darkest colour."
+     }
+    },
+    "decoration": {
+     "zh": "正文放在白格子里，色块格子不放字。",
+     "en": "Text lives in white cells; coloured cells carry no text."
+    },
+    "forbid": [
+     "gradient",
+     "rounded-corners",
+     "soft-shadow",
+     "equal-cells",
+     "ornament"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low"
+   }
+  },
+  {
+   "id": "memphis",
+   "kind": "style",
+   "era": "1981–1988",
+   "provenance": "original",
+   "name": {
+    "zh": "孟菲斯",
+    "en": "Memphis"
+   },
+   "origin": {
+    "zh": "意大利米兰",
+    "en": "Milan, Italy"
+   },
+   "tagline": {
+    "zh": "故意不讲「好品味」：撞色、波浪线和玩具般的形状。",
+    "en": "Deliberately ignoring “good taste”: clashing colour, squiggles and toy-like shapes."
+   },
+   "summary": {
+    "zh": "1980 年底，索特萨斯和一群年轻设计师在米兰组成孟菲斯小组，用塑料贴面、撞色和不合常理的造型挑战现代主义的严肃。他们的家具像玩具，图案像涂鸦，颜色像糖果。1981 年首展轰动一时，1988 年小组解散，但这种玩味的视觉语言在 2010 年代的网页、插画和品牌设计里又流行起来。",
+    "en": "At the end of 1980, Ettore Sottsass and a group of young designers formed the Memphis Group in Milan, challenging modernist seriousness with plastic laminates, clashing colours and illogical forms. Their furniture looked like toys, their patterns like doodles, their colours like sweets. The 1981 debut caused a sensation; the group disbanded in 1988, but its playful language returned in 2010s web, illustration and branding."
+   },
+   "history": [
+    {
+     "year": "1980",
+     "zh": "索特萨斯家中聚会，以一首鲍勃·迪伦的歌给小组命名",
+     "en": "A gathering at Sottsass’s flat names the group after a Bob Dylan song"
+    },
+    {
+     "year": "1981",
+     "zh": "米兰首展，作品被评论界称为「丑」也被热捧",
+     "en": "The Milan debut is both derided as ugly and wildly celebrated"
+    },
+    {
+     "year": "1988",
+     "zh": "小组正式解散",
+     "en": "The group formally disbands"
+    },
+    {
+     "year": "2010s",
+     "zh": "扁平插画和品牌设计掀起孟菲斯复兴",
+     "en": "Flat illustration and branding spark a Memphis revival"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "撞色",
+      "en": "Clashing colour"
+     },
+     "how": {
+      "zh": "粉、薄荷、柠檬黄并置，用黑色压住",
+      "en": "Pink, mint and lemon side by side, anchored with black"
+     },
+     "watch": {
+      "zh": "底色要浅，不然画面太吵",
+      "en": "Keep the ground light or it gets too loud"
+     }
+    },
+    {
+     "title": {
+      "zh": "图案填充",
+      "en": "Pattern fills"
+     },
+     "how": {
+      "zh": "用点阵、波浪线、斑马纹填充形状",
+      "en": "Fill shapes with dots, squiggles and zebra stripes"
+     },
+     "watch": {
+      "zh": "一页最多两种图案",
+      "en": "No more than two patterns per page"
+     }
+    },
+    {
+     "title": {
+      "zh": "玩具形状",
+      "en": "Toy shapes"
+     },
+     "how": {
+      "zh": "三角、圆、半圆随意漂浮、轻微倾斜",
+      "en": "Triangles, circles and half-moons float at slight angles"
+     },
+     "watch": {
+      "zh": "形状要大小悬殊",
+      "en": "Vary their sizes boldly"
+     }
+    },
+    {
+     "title": {
+      "zh": "黑色描边",
+      "en": "Black outlines"
+     },
+     "how": {
+      "zh": "形状可加黑色粗描边或硬投影",
+      "en": "Shapes may carry a bold black outline or hard shadow"
+     },
+     "watch": {
+      "zh": "不要柔和的模糊投影",
+      "en": "No soft, blurred shadows"
+     }
+    },
+    {
+     "title": {
+      "zh": "文字留出安全区",
+      "en": "A safe zone for text"
+     },
+     "how": {
+      "zh": "正文放在纯色区域，装饰在四周",
+      "en": "Put text in a plain area with decoration around it"
+     },
+     "watch": {
+      "zh": "图案不要压在正文下面",
+      "en": "Never run pattern behind body text"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "cream",
+     "hex": "#FFF4E0",
+     "area": 40,
+     "name": {
+      "zh": "奶油",
+      "en": "Cream"
+     }
+    },
+    {
+     "key": "liquorice",
+     "hex": "#1A1A1A",
+     "area": 12,
+     "name": {
+      "zh": "甘草黑",
+      "en": "Liquorice"
+     }
+    },
+    {
+     "key": "coral",
+     "hex": "#FF7A85",
+     "area": 18,
+     "name": {
+      "zh": "珊瑚粉",
+      "en": "Coral pink"
+     }
+    },
+    {
+     "key": "mint",
+     "hex": "#4FC9B0",
+     "area": 18,
+     "name": {
+      "zh": "薄荷",
+      "en": "Mint"
+     }
+    },
+    {
+     "key": "lemon",
+     "hex": "#FFD23F",
+     "area": 12,
+     "name": {
+      "zh": "柠檬黄",
+      "en": "Lemon"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "糖果撞色",
+     "点阵与波浪线",
+     "漂浮几何形",
+     "黑色描边",
+     "正文留安全区"
+    ],
+    "en": [
+     "Candy clashes",
+     "Dots and squiggles",
+     "Floating shapes",
+     "Black outlines",
+     "A safe zone for text"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "暗沉配色",
+     "严格对齐的网格",
+     "柔和投影",
+     "大段正文压在图案上",
+     "写实照片"
+    ],
+    "en": [
+     "Dull palettes",
+     "Rigidly aligned grids",
+     "Soft shadows",
+     "Text over pattern",
+     "Realistic photography"
+    ]
+   },
+   "myth": {
+    "zh": "孟菲斯和美国城市孟菲斯没有直接关系。名字来自聚会时反复播放的一首鲍勃·迪伦的歌，同时也暗指古埃及的孟菲斯。",
+    "en": "Memphis has nothing directly to do with the city in Tennessee. The name came from a Bob Dylan song playing on repeat at the founding gathering, with a nod to the ancient Egyptian city as well."
+   },
+   "prompt": "Memphis Group inspired graphic, floating triangles, circles and half-moons at playful angles, black squiggles and dot patterns, coral #FF7A85, mint #4FC9B0 and lemon #FFD23F on cream #FFF4E0, bold black outlines and hard shadows, a clean area for text, 1980s Milan design --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "collage",
+     "card-stack",
+     "cover-big-type"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 6
+    },
+    "fonts": {
+     "heading": "Rubik Black / Arial Black + Source Han Sans Heavy / Microsoft YaHei Bold",
+     "body": "Rubik / Arial + Source Han Sans / Microsoft YaHei",
+     "scale": 3
+    },
+    "motifs": [
+     "squiggle",
+     "dot-pattern",
+     "triangle",
+     "circle"
+    ],
+    "roles": {
+     "background": "cream",
+     "text": "liquorice",
+     "primary": "coral",
+     "secondary": "mint",
+     "accent": "lemon"
+    },
+    "colorRule": {
+     "strategy": "candy-multi",
+     "note": {
+      "zh": "把当前配色的有彩色全部提亮、提饱和，配一个近黑色做图案和描边。自然色配色偏沉稳时，提醒用户孟菲斯会显得发闷。",
+      "en": "Lighten and saturate every chromatic colour of the palette and add a near-black for patterns and outlines. Warn the user that a subdued natural palette may make Memphis look muddy."
+     }
+    },
+    "decoration": {
+     "zh": "四周散布 3 到 5 个形状和一种图案，正文区留空。",
+     "en": "Scatter three to five shapes and one pattern around the edges; leave the text area clear."
+    },
+    "forbid": [
+     "muted-colors",
+     "soft-shadow",
+     "dense-text",
+     "stock-photo"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium"
+   }
+  },
+  {
+   "id": "pop-art",
+   "kind": "style",
+   "era": "1955–1970s",
+   "provenance": "original",
+   "name": {
+    "zh": "波普艺术",
+    "en": "Pop Art"
+   },
+   "origin": {
+    "zh": "英国伦敦 · 美国纽约",
+    "en": "London & New York"
+   },
+   "tagline": {
+    "zh": "把超市货架、漫画和广告搬进画廊，再搬回海报。",
+    "en": "Supermarket shelves, comics and adverts moved into the gallery, then back onto the poster."
+   },
+   "summary": {
+    "zh": "波普艺术用大众消费文化的图像做艺术：罐头、明星照、漫画分格。它借用印刷工业的手法，比如本戴网点、丝网印刷和平涂高饱和色，让画面看起来像量产品。对设计来说，它留下了一套直接、响亮、带点幽默的视觉方法，至今仍常见于活动海报和年轻品牌。",
+    "en": "Pop Art made art from the images of mass consumer culture: tins, celebrity photographs, comic panels. It borrowed industrial printing techniques such as Ben-Day dots, silkscreen and flat saturated colour, so pictures looked mass-produced. For design it left a direct, loud and slightly humorous visual method still common in event posters and youthful brands."
+   },
+   "history": [
+    {
+     "year": "1956",
+     "zh": "理查德·汉密尔顿的拼贴作品在伦敦展出，被视为波普的开端之一",
+     "en": "Richard Hamilton’s collage is shown in London, often cited as a starting point of Pop"
+    },
+    {
+     "year": "1962",
+     "zh": "沃霍尔展出《金宝汤罐头》",
+     "en": "Andy Warhol exhibits Campbell’s Soup Cans"
+    },
+    {
+     "year": "1963",
+     "zh": "利希滕斯坦创作漫画风格的《Whaam!》",
+     "en": "Roy Lichtenstein paints the comic-style Whaam!"
+    },
+    {
+     "year": "1967",
+     "zh": "沃霍尔为地下丝绒乐队设计香蕉封面",
+     "en": "Warhol designs the banana cover for The Velvet Underground"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "网点",
+      "en": "Halftone dots"
+     },
+     "how": {
+      "zh": "用放大的圆点网点做底纹或阴影",
+      "en": "Enlarged halftone dots as texture or shading"
+     },
+     "watch": {
+      "zh": "网点只在背景或局部，不要盖住文字",
+      "en": "Keep dots in the background or in parts, never under text"
+     }
+    },
+    {
+     "title": {
+      "zh": "平涂高饱和",
+      "en": "Flat, saturated colour"
+     },
+     "how": {
+      "zh": "红、黄、蓝等高饱和色平涂，不做过渡",
+      "en": "Flat saturated red, yellow and blue, no blending"
+     },
+     "watch": {
+      "zh": "加黑色轮廓线把颜色分开",
+      "en": "Separate colours with black outlines"
+     }
+    },
+    {
+     "title": {
+      "zh": "重复",
+      "en": "Repetition"
+     },
+     "how": {
+      "zh": "同一图像按网格重复，换色排列",
+      "en": "Repeat one image in a grid with shifting colours"
+     },
+     "watch": {
+      "zh": "重复适合封面，不适合每页",
+      "en": "Good for a cover, not for every slide"
+     }
+    },
+    {
+     "title": {
+      "zh": "对话框与拟声词",
+      "en": "Bubbles and sound words"
+     },
+     "how": {
+      "zh": "爆炸形对话框装一个关键词",
+      "en": "A burst-shaped bubble holds one key word"
+     },
+     "watch": {
+      "zh": "一份材料用一两次就够",
+      "en": "Once or twice per deck is enough"
+     }
+    },
+    {
+     "title": {
+      "zh": "日常物件",
+      "en": "Everyday objects"
+     },
+     "how": {
+      "zh": "把普通商品当主角，大而居中",
+      "en": "Make an ordinary product the hero, large and central"
+     },
+     "watch": {
+      "zh": "注意商标与肖像版权",
+      "en": "Mind trademark and portrait rights"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "paper",
+     "hex": "#FBF8F1",
+     "area": 35,
+     "name": {
+      "zh": "白纸",
+      "en": "Paper"
+     }
+    },
+    {
+     "key": "black",
+     "hex": "#141210",
+     "area": 15,
+     "name": {
+      "zh": "轮廓黑",
+      "en": "Keyline black"
+     }
+    },
+    {
+     "key": "red",
+     "hex": "#E8312F",
+     "area": 22,
+     "name": {
+      "zh": "波普红",
+      "en": "Pop red"
+     }
+    },
+    {
+     "key": "blue",
+     "hex": "#1F6FD1",
+     "area": 18,
+     "name": {
+      "zh": "钴蓝",
+      "en": "Cobalt"
+     }
+    },
+    {
+     "key": "yellow",
+     "hex": "#FFD400",
+     "area": 10,
+     "name": {
+      "zh": "亮黄",
+      "en": "Bright yellow"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "网点底纹",
+     "平涂高饱和",
+     "黑色轮廓线",
+     "爆炸对话框",
+     "图像重复"
+    ],
+    "en": [
+     "Halftone texture",
+     "Flat saturated colour",
+     "Black keylines",
+     "Burst bubbles",
+     "Repeated images"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "低饱和配色",
+     "渐变",
+     "细描边",
+     "满页小字",
+     "精致留白"
+    ],
+    "en": [
+     "Muted palettes",
+     "Gradients",
+     "Hairline outlines",
+     "Pages of small type",
+     "Precious white space"
+    ]
+   },
+   "myth": {
+    "zh": "波普艺术诞生在英国，不是美国。1950 年代中期伦敦的「独立小组」最早讨论和创作了这类作品，美国艺术家几年后才让它家喻户晓。",
+    "en": "Pop Art began in Britain, not the US. London’s Independent Group discussed and made such work in the mid-1950s; American artists made it famous a few years later."
+   },
+   "prompt": "Pop Art graphic, flat saturated pop red #E8312F, cobalt #1F6FD1 and bright yellow #FFD400 with thick black keylines, enlarged Ben-Day halftone dots, a comic speech burst with one bold word, everyday product as hero, paper #FBF8F1 background --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "comic-panel",
+     "hero-object",
+     "cover-big-type"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 5
+    },
+    "fonts": {
+     "heading": "Bangers / Anton / Impact + Source Han Sans Heavy / Microsoft YaHei Bold",
+     "body": "Roboto / Arial + Source Han Sans / Microsoft YaHei",
+     "scale": 4
+    },
+    "motifs": [
+     "halftone",
+     "speech-burst",
+     "thick-outline"
+    ],
+    "roles": {
+     "background": "paper",
+     "text": "black",
+     "primary": "red",
+     "secondary": "blue",
+     "accent": "yellow"
+    },
+    "colorRule": {
+     "strategy": "saturated-halftone",
+     "note": {
+      "zh": "取当前配色里饱和度最高的三色，全部推到高饱和平涂，配黑色轮廓；浅色版本做网点底纹。自然色饱和度不够时提醒用户。",
+      "en": "Take the three most saturated colours of the palette, push them to flat full saturation and outline in black; use light tints for halftone texture. Warn the user if the palette is not vivid enough."
+     }
+    },
+    "decoration": {
+     "zh": "网点底纹限于背景一角；爆炸对话框全份最多两处。",
+     "en": "Halftone texture limited to one corner of the background; at most two speech bursts per deck."
+    },
+    "forbid": [
+     "muted-colors",
+     "gradient",
+     "thin-outline",
+     "dense-text"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium"
+   }
+  },
+  {
+   "id": "neubrutalism",
+   "kind": "style",
+   "era": "2020s–",
+   "provenance": "original",
+   "name": {
+    "zh": "新粗野主义",
+    "en": "Neubrutalism"
+   },
+   "origin": {
+    "zh": "网页与产品设计社区",
+    "en": "Web and product design communities"
+   },
+   "tagline": {
+    "zh": "粗黑边、硬投影、直白的颜色：故意不精致，反而很好认。",
+    "en": "Thick black borders, hard shadows, blunt colour: unpolished on purpose, and instantly recognisable."
+   },
+   "summary": {
+    "zh": "新粗野主义是对多年来「干净、柔和、圆润」界面审美的反弹。它保留了现代界面的清楚结构，却换上粗黑描边、无模糊的硬投影、高明度平涂色和朴素的系统字体，看起来像手工拼出来的。名字借自建筑上的粗野主义，但两者只是在「不掩饰材料」这一点上相通。",
+    "en": "Neubrutalism is a reaction to years of clean, soft, rounded interfaces. It keeps the clear structure of modern UI but swaps in thick black outlines, hard unblurred shadows, bright flat fills and plain system fonts, so it looks hand-assembled. The name borrows from Brutalist architecture, but the two share only the idea of not disguising the material."
+   },
+   "history": [
+    {
+     "year": "2014",
+     "zh": "网站「Brutalist Websites」开始收集粗野风格网页",
+     "en": "The site Brutalist Websites starts collecting raw, brutalist web pages"
+    },
+    {
+     "year": "2021",
+     "zh": "Gumroad 改版，粗边框加亮色的界面引起广泛关注",
+     "en": "Gumroad’s redesign brings outlined, bright interfaces to wide attention"
+    },
+    {
+     "year": "2022",
+     "zh": "「Neubrutalism」一词在设计社区流行",
+     "en": "The term Neubrutalism spreads through design communities"
+    },
+    {
+     "year": "2023",
+     "zh": "常见于独立产品、创作者工具和年轻品牌的界面",
+     "en": "Common in indie products, creator tools and youthful brands"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "粗黑描边",
+      "en": "Thick black borders"
+     },
+     "how": {
+      "zh": "卡片、按钮、图片统一加 2 到 4 像素黑边",
+      "en": "Cards, buttons and images share a 2 to 4 px black border"
+     },
+     "watch": {
+      "zh": "描边粗细全篇统一",
+      "en": "Keep border weight consistent everywhere"
+     }
+    },
+    {
+     "title": {
+      "zh": "硬投影",
+      "en": "Hard shadows"
+     },
+     "how": {
+      "zh": "投影是向右下偏移的纯黑块，没有模糊",
+      "en": "Shadows are solid black offsets to the lower right, no blur"
+     },
+     "watch": {
+      "zh": "偏移方向和距离全篇一致",
+      "en": "Same direction and distance throughout"
+     }
+    },
+    {
+     "title": {
+      "zh": "高明度平涂",
+      "en": "Bright flat fills"
+     },
+     "how": {
+      "zh": "橙、天蓝、柠檬等明亮色平涂卡片",
+      "en": "Fill cards with bright orange, sky blue or lemon"
+     },
+     "watch": {
+      "zh": "同一页最多三种填充色",
+      "en": "No more than three fill colours per page"
+     }
+    },
+    {
+     "title": {
+      "zh": "朴素字体",
+      "en": "Plain type"
+     },
+     "how": {
+      "zh": "粗无衬线或等宽字，字号大",
+      "en": "Bold sans or monospace at large sizes"
+     },
+     "watch": {
+      "zh": "不要用纤细的装饰字体",
+      "en": "Avoid thin decorative faces"
+     }
+    },
+    {
+     "title": {
+      "zh": "结构清楚",
+      "en": "Clear structure"
+     },
+     "how": {
+      "zh": "仍然对齐网格，信息分组明确",
+      "en": "Still align to a grid with clear grouping"
+     },
+     "watch": {
+      "zh": "粗野是外观，不是混乱",
+      "en": "Brutal is the surface, not chaos"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "butter",
+     "hex": "#FFF5DB",
+     "area": 45,
+     "name": {
+      "zh": "黄油米",
+      "en": "Butter"
+     }
+    },
+    {
+     "key": "ink",
+     "hex": "#121212",
+     "area": 20,
+     "name": {
+      "zh": "描边黑",
+      "en": "Outline black"
+     }
+    },
+    {
+     "key": "tangerine",
+     "hex": "#FF6B35",
+     "area": 15,
+     "name": {
+      "zh": "橘橙",
+      "en": "Tangerine"
+     }
+    },
+    {
+     "key": "sky",
+     "hex": "#6EC3F4",
+     "area": 12,
+     "name": {
+      "zh": "天蓝",
+      "en": "Sky"
+     }
+    },
+    {
+     "key": "citron",
+     "hex": "#F5E663",
+     "area": 8,
+     "name": {
+      "zh": "香橼黄",
+      "en": "Citron"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "统一粗黑边",
+     "无模糊硬投影",
+     "明亮平涂",
+     "粗体大字",
+     "对齐网格"
+    ],
+    "en": [
+     "Consistent thick borders",
+     "Hard, unblurred shadows",
+     "Bright flat fills",
+     "Big bold type",
+     "Grid alignment"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "柔和模糊投影",
+     "渐变",
+     "细描边",
+     "拟物质感",
+     "低对比文字"
+    ],
+    "en": [
+     "Soft blurred shadows",
+     "Gradients",
+     "Hairline borders",
+     "Skeuomorphic texture",
+     "Low-contrast text"
+    ]
+   },
+   "myth": {
+    "zh": "新粗野主义和建筑上的粗野主义不是一回事。建筑粗野主义强调裸露的混凝土和体量；界面上的新粗野主义借的只是「坦率、不修饰」的态度。",
+    "en": "Neubrutalism is not architectural Brutalism. The architecture is about raw concrete and mass; the interface style borrows only its frank, unadorned attitude."
+   },
+   "prompt": "Neubrutalist slide, cards with thick 3px black borders and hard offset black shadows with no blur, bright flat tangerine #FF6B35, sky #6EC3F4 and citron #F5E663 fills on butter #FFF5DB, big bold sans-serif headline, monospace labels, clear grid --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "card-stack",
+     "cover-big-type",
+     "bento"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 5
+    },
+    "fonts": {
+     "heading": "Space Grotesk / Arial Black + Source Han Sans Heavy / Microsoft YaHei Bold",
+     "body": "Space Mono / Consolas + Source Han Sans / Microsoft YaHei",
+     "scale": 3
+    },
+    "motifs": [
+     "thick-outline",
+     "hard-shadow"
+    ],
+    "roles": {
+     "background": "butter",
+     "text": "ink",
+     "primary": "tangerine",
+     "secondary": "sky",
+     "accent": "citron"
+    },
+    "colorRule": {
+     "strategy": "flat-bold-outline",
+     "note": {
+      "zh": "当前配色的有彩色提亮后平涂卡片，近黑色统一做描边和硬投影；底色取最浅色或略暖的米色。",
+      "en": "Lighten the chromatic colours for flat card fills, use near-black for every outline and hard shadow, and ground in the lightest colour or a warm cream."
+     }
+    },
+    "decoration": {
+     "zh": "所有卡片同一描边粗细、同一投影偏移（如右下 6 像素）。",
+     "en": "Every card shares one border weight and one shadow offset, such as 6 px to the lower right."
+    },
+    "forbid": [
+     "soft-shadow",
+     "gradient",
+     "thin-outline",
+     "skeuomorphism",
+     "low-contrast-text"
+    ],
+    "radius": 8,
+    "shadow": true,
+    "density": "medium"
+   }
+  },
+  {
+   "id": "metro",
+   "kind": "style",
+   "era": "2010–2015",
+   "provenance": "original",
+   "name": {
+    "zh": "Metro 磁贴",
+    "en": "Metro"
+   },
+   "origin": {
+    "zh": "美国雷德蒙德 · 微软",
+    "en": "Microsoft, Redmond, USA"
+   },
+   "tagline": {
+    "zh": "纯色方块、大号细字、没有任何拟物质感。",
+    "en": "Solid tiles, large light type and not a trace of skeuomorphism."
+   },
+   "summary": {
+    "zh": "Metro 是微软在 Windows Phone 7 上推出的设计语言，灵感来自机场、地铁的导视牌：信息直接，排版优先，去掉一切仿真纹理。它用纯色动态磁贴代替图标，用超大号细体字做标题，内容横向延伸出屏幕。它比 iOS 7 的扁平化更早，后来演变成 Windows 8 和 10 的界面。",
+    "en": "Metro was the design language Microsoft introduced with Windows Phone 7, inspired by airport and transit signage: direct information, typography first, no simulated textures. It replaced icons with solid live tiles, used huge light headlines and let content run off the screen sideways. It predated iOS 7’s flat redesign and evolved into the Windows 8 and 10 interfaces."
+   },
+   "history": [
+    {
+     "year": "2010",
+     "zh": "Windows Phone 7 发布，Metro 设计语言亮相",
+     "en": "Windows Phone 7 launches with the Metro design language"
+    },
+    {
+     "year": "2012",
+     "zh": "Windows 8 把磁贴开始屏幕带到电脑",
+     "en": "Windows 8 brings the tile Start screen to PCs"
+    },
+    {
+     "year": "2012",
+     "zh": "因商标问题，微软改称其为 Modern UI",
+     "en": "Over a trademark issue, Microsoft renames it Modern UI"
+    },
+    {
+     "year": "2015",
+     "zh": "Windows 10 保留磁贴但弱化其地位，后续转向 Fluent Design",
+     "en": "Windows 10 keeps tiles but downplays them, later moving to Fluent Design"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "纯色磁贴",
+      "en": "Solid tiles"
+     },
+     "how": {
+      "zh": "方形或长方形纯色块承载信息，间隙窄而统一",
+      "en": "Square or oblong solid tiles carry content with narrow, even gaps"
+     },
+     "watch": {
+      "zh": "不加阴影和圆角",
+      "en": "No shadows, no rounded corners"
+     }
+    },
+    {
+     "title": {
+      "zh": "排版优先",
+      "en": "Type first"
+     },
+     "how": {
+      "zh": "超大号细体标题，层级靠字号",
+      "en": "Huge light headlines; hierarchy by size"
+     },
+     "watch": {
+      "zh": "细体字在投影上要够大",
+      "en": "Light weights must be big enough when projected"
+     }
+    },
+    {
+     "title": {
+      "zh": "线性图标",
+      "en": "Line icons"
+     },
+     "how": {
+      "zh": "单色线性图标，放在磁贴左下角",
+      "en": "Monochrome line icons, placed bottom-left on tiles"
+     },
+     "watch": {
+      "zh": "不用彩色立体图标",
+      "en": "No colourful 3D icons"
+     }
+    },
+    {
+     "title": {
+      "zh": "出屏内容",
+      "en": "Content off-screen"
+     },
+     "how": {
+      "zh": "标题或磁贴故意被页面右边裁切，暗示还有更多",
+      "en": "Let a heading or tile be cut by the right edge, hinting at more"
+     },
+     "watch": {
+      "zh": "只在封面或目录页用",
+      "en": "Use only on cover or contents slides"
+     }
+    },
+    {
+     "title": {
+      "zh": "一个品牌色",
+      "en": "One brand colour"
+     },
+     "how": {
+      "zh": "整体由一个主题色统领，其余磁贴用同系或中性色",
+      "en": "One theme colour leads; other tiles are related hues or neutrals"
+     },
+     "watch": {
+      "zh": "磁贴颜色不要超过四种",
+      "en": "No more than four tile colours"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "charcoal",
+     "hex": "#1E1E1E",
+     "area": 40,
+     "name": {
+      "zh": "炭灰",
+      "en": "Charcoal"
+     }
+    },
+    {
+     "key": "white",
+     "hex": "#FFFFFF",
+     "area": 15,
+     "name": {
+      "zh": "白",
+      "en": "White"
+     }
+    },
+    {
+     "key": "cobalt",
+     "hex": "#0063B1",
+     "area": 20,
+     "name": {
+      "zh": "钴蓝",
+      "en": "Cobalt"
+     }
+    },
+    {
+     "key": "teal",
+     "hex": "#00A3A3",
+     "area": 15,
+     "name": {
+      "zh": "水鸭青",
+      "en": "Teal"
+     }
+    },
+    {
+     "key": "flame",
+     "hex": "#E3522B",
+     "area": 10,
+     "name": {
+      "zh": "火焰橙",
+      "en": "Flame"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "纯色磁贴",
+     "超大细体标题",
+     "单色线性图标",
+     "统一窄间隙",
+     "一个主题色"
+    ],
+    "en": [
+     "Solid tiles",
+     "Huge light headlines",
+     "Monochrome line icons",
+     "Even narrow gaps",
+     "One theme colour"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "阴影与圆角",
+     "拟物纹理",
+     "彩色立体图标",
+     "渐变",
+     "过多磁贴颜色"
+    ],
+    "en": [
+     "Shadows and rounded corners",
+     "Skeuomorphic textures",
+     "Colourful 3D icons",
+     "Gradients",
+     "Too many tile colours"
+    ]
+   },
+   "myth": {
+    "zh": "扁平化不是苹果带起来的。Metro 在 2010 年就系统地抛弃了拟物设计，比 2013 年的 iOS 7 早了三年。",
+    "en": "Flat design was not started by Apple. Metro systematically dropped skeuomorphism in 2010, three years before iOS 7 in 2013."
+   },
+   "prompt": "Metro design language slide, grid of solid square and oblong tiles in cobalt #0063B1, teal #00A3A3 and flame #E3522B on charcoal #1E1E1E, narrow even gaps, huge light sans-serif headline partly cut off by the right edge, white monochrome line icons, no shadows, no rounded corners --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "tiles",
+     "cover-big-type"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 4
+    },
+    "fonts": {
+     "heading": "Segoe UI Light / Selawik Light + Microsoft YaHei Light / Source Han Sans Light",
+     "body": "Segoe UI / Selawik + Microsoft YaHei / Source Han Sans",
+     "scale": 4
+    },
+    "motifs": [
+     "live-tile",
+     "line-icon"
+    ],
+    "roles": {
+     "background": "charcoal",
+     "text": "white",
+     "primary": "cobalt",
+     "secondary": "teal",
+     "accent": "flame"
+    },
+    "colorRule": {
+     "strategy": "flat-tiles",
+     "note": {
+      "zh": "取当前配色里中高明度的三到四色作磁贴，深色作底，白字。磁贴之间明度要拉开，避免看成一片。",
+      "en": "Use three or four mid-to-high value colours from the palette as tiles, the darkest as ground, white text. Separate tile values so they don’t merge."
+     }
+    },
+    "decoration": {
+     "zh": "磁贴本身就是装饰；不再加线条或图案。",
+     "en": "The tiles are the decoration; add no lines or patterns."
+    },
+    "forbid": [
+     "soft-shadow",
+     "rounded-corners",
+     "gradient",
+     "skeuomorphism",
+     "3d-effects"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium"
+   }
+  },
+  {
+   "id": "y2k",
+   "kind": "style",
+   "era": "1997–2004",
+   "provenance": "original",
+   "name": {
+    "zh": "千禧未来风",
+    "en": "Y2K Aesthetic"
+   },
+   "origin": {
+    "zh": "全球流行文化与电子产品",
+    "en": "Global pop culture and consumer electronics"
+   },
+   "tagline": {
+    "zh": "半透明塑料、铬金属和蓝色光晕，对新千年的乐观想象。",
+    "en": "Translucent plastic, chrome and blue glow: an optimistic vision of the new millennium."
+   },
+   "summary": {
+    "zh": "世纪之交，人们对互联网和新千年充满期待，这种情绪变成了一套视觉：糖果色半透明外壳、铬金属字、气泡和光晕、数码感的四角星。电子产品、音乐录影带和早期网页都在用它。2020 年前后，它借社交媒体和时尚圈强势回潮。",
+    "en": "At the turn of the century, excitement about the internet and the new millennium became a visual language: candy-coloured translucent cases, chrome lettering, bubbles and glows, digital sparkles. Electronics, music videos and early websites all used it. Around 2020 it returned strongly through social media and fashion."
+   },
+   "history": [
+    {
+     "year": "1998",
+     "zh": "邦迪蓝半透明 iMac G3 发布",
+     "en": "The Bondi Blue translucent iMac G3 is released"
+    },
+    {
+     "year": "2000",
+     "zh": "苹果展示 Aqua 界面：水滴按钮和半透明窗口",
+     "en": "Apple unveils the Aqua interface: droplet buttons and translucent windows"
+    },
+    {
+     "year": "2001",
+     "zh": "Windows XP 推出圆润明亮的 Luna 主题",
+     "en": "Windows XP ships with the bright, rounded Luna theme"
+    },
+    {
+     "year": "2020",
+     "zh": "千禧风在社交媒体和时尚中回潮",
+     "en": "Y2K returns through social media and fashion"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "铬与光泽",
+      "en": "Chrome and gloss"
+     },
+     "how": {
+      "zh": "标题或主体用冷色金属渐变和高光",
+      "en": "Headline or hero object in cool metallic gradient with highlights"
+     },
+     "watch": {
+      "zh": "高光方向全页统一",
+      "en": "Keep the highlight direction consistent"
+     }
+    },
+    {
+     "title": {
+      "zh": "半透明",
+      "en": "Translucency"
+     },
+     "how": {
+      "zh": "糖果色半透明形状叠在一起",
+      "en": "Overlap translucent candy-coloured shapes"
+     },
+     "watch": {
+      "zh": "文字下方的透明度不能太低",
+      "en": "Keep enough opacity behind text"
+     }
+    },
+    {
+     "title": {
+      "zh": "四角星与气泡",
+      "en": "Sparkles and bubbles"
+     },
+     "how": {
+      "zh": "用四角星、气泡点缀空白处",
+      "en": "Dot sparkles and bubbles into empty space"
+     },
+     "watch": {
+      "zh": "点缀要少，不然像贴纸墙",
+      "en": "Use sparingly or it becomes a sticker wall"
+     }
+    },
+    {
+     "title": {
+      "zh": "圆润未来字体",
+      "en": "Rounded future type"
+     },
+     "how": {
+      "zh": "宽扁、圆润的科技感字体做标题",
+      "en": "Wide, rounded techno faces for headlines"
+     },
+     "watch": {
+      "zh": "正文仍用普通无衬线",
+      "en": "Body text stays in a plain sans"
+     }
+    },
+    {
+     "title": {
+      "zh": "冷色基调",
+      "en": "Cool base"
+     },
+     "how": {
+      "zh": "银白、冰蓝为底，粉紫做点缀",
+      "en": "Silver and ice blue as the base, pink and violet as accents"
+     },
+     "watch": {
+      "zh": "暖色只做极小点缀",
+      "en": "Warm colours only as tiny touches"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "silver",
+     "hex": "#E9EEF5",
+     "area": 40,
+     "name": {
+      "zh": "银白",
+      "en": "Silver"
+     }
+    },
+    {
+     "key": "indigo",
+     "hex": "#1B2240",
+     "area": 15,
+     "name": {
+      "zh": "深靛",
+      "en": "Deep indigo"
+     }
+    },
+    {
+     "key": "electric",
+     "hex": "#3A7BFF",
+     "area": 20,
+     "name": {
+      "zh": "电光蓝",
+      "en": "Electric blue"
+     }
+    },
+    {
+     "key": "lilac",
+     "hex": "#B48CFF",
+     "area": 15,
+     "name": {
+      "zh": "丁香紫",
+      "en": "Lilac"
+     }
+    },
+    {
+     "key": "bubblegum",
+     "hex": "#FF5FC8",
+     "area": 10,
+     "name": {
+      "zh": "泡泡糖粉",
+      "en": "Bubblegum"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "铬金属标题",
+     "半透明叠色",
+     "四角星点缀",
+     "圆润科技字",
+     "冷色基调"
+    ],
+    "en": [
+     "Chrome headlines",
+     "Translucent overlaps",
+     "Sparkle accents",
+     "Rounded techno type",
+     "Cool base colours"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "暗沉大地色",
+     "纸张肌理",
+     "衬线古典字",
+     "满屏贴纸",
+     "低对比文字"
+    ],
+    "en": [
+     "Dull earth tones",
+     "Paper textures",
+     "Classical serifs",
+     "Wall-to-wall stickers",
+     "Low-contrast text"
+    ]
+   },
+   "myth": {
+    "zh": "「Y2K」本来指千年虫问题，是一个计算机漏洞的名字。用它来称呼这种视觉风格，是后来网络社区的叫法。",
+    "en": "“Y2K” originally named the millennium bug, a computer date problem. Using it for a visual style is a later internet-community coinage."
+   },
+   "prompt": "Y2K aesthetic slide, glossy chrome headline with cool metallic gradient, translucent candy-coloured bubbles in electric blue #3A7BFF, lilac #B48CFF and bubblegum #FF5FC8, four-point sparkles, silver #E9EEF5 background, rounded futuristic typography, optimistic late-1990s tech mood --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "hero-object",
+     "cover-big-type",
+     "card-stack"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 6
+    },
+    "fonts": {
+     "heading": "Michroma / Orbitron / Arial Rounded + Source Han Sans Heavy / Microsoft YaHei Bold",
+     "body": "Nunito / Arial + Source Han Sans / Microsoft YaHei",
+     "scale": 3
+    },
+    "motifs": [
+     "chrome",
+     "sparkle",
+     "bubble"
+    ],
+    "roles": {
+     "background": "silver",
+     "text": "indigo",
+     "primary": "electric",
+     "secondary": "lilac",
+     "accent": "bubblegum"
+    },
+    "colorRule": {
+     "strategy": "chrome-gradient",
+     "note": {
+      "zh": "取当前配色里的冷色做渐变和半透明形状，最浅色作底；暖色只做小点缀。全暖调配色不适合此风格，需提醒用户。",
+      "en": "Use the cool colours of the palette for gradients and translucent shapes, the lightest as ground; warm colours only as small touches. Warn the user that an all-warm palette fits poorly."
+     }
+    },
+    "decoration": {
+     "zh": "每页一到两个四角星或气泡，放在标题附近。",
+     "en": "One or two sparkles or bubbles per slide, near the headline."
+    },
+    "forbid": [
+     "muted-colors",
+     "ornament",
+     "low-contrast-text",
+     "dense-text"
+    ],
+    "radius": 24,
+    "shadow": true,
+    "density": "low"
+   }
+  },
+  {
+   "id": "vaporwave",
+   "kind": "style",
+   "era": "2010s–",
+   "provenance": "original",
+   "name": {
+    "zh": "蒸汽波",
+    "en": "Vaporwave"
+   },
+   "origin": {
+    "zh": "网络音乐与艺术社区",
+    "en": "Online music and art communities"
+   },
+   "tagline": {
+    "zh": "霓虹落日、透视网格和旧电脑窗口，一种怀旧的数字梦境。",
+    "en": "Neon sunsets, perspective grids and old computer windows: a nostalgic digital dream."
+   },
+   "summary": {
+    "zh": "蒸汽波最早是一种网络音乐：把 80、90 年代的商场背景乐和流行曲放慢、循环。与之配套的视觉拼贴了古典石膏像、早期操作系统窗口、霓虹粉青配色、条纹落日和无限延伸的透视网格，带着对消费主义和旧科技既怀念又讽刺的情绪。",
+    "en": "Vaporwave began as internet music: slowed, looped mall muzak and pop from the 1980s and 1990s. Its visuals collage classical plaster busts, early operating-system windows, neon pink and cyan, striped sunsets and endless perspective grids, with a mood both nostalgic and ironic about consumerism and old technology."
+   },
+   "history": [
+    {
+     "year": "2010",
+     "zh": "丹尼尔·洛帕廷以 Chuck Person 之名发布《Eccojams Vol. 1》",
+     "en": "Daniel Lopatin releases Eccojams Vol. 1 as Chuck Person"
+    },
+    {
+     "year": "2011",
+     "zh": "Macintosh Plus 专辑《Floral Shoppe》发布，封面成为标志图像",
+     "en": "Macintosh Plus releases Floral Shoppe; its cover becomes an icon"
+    },
+    {
+     "year": "2012",
+     "zh": "「Vaporwave」一词在网络社区固定下来",
+     "en": "The word Vaporwave settles in online communities"
+    },
+    {
+     "year": "2015+",
+     "zh": "视觉元素进入时尚、广告和游戏",
+     "en": "Its visuals spread into fashion, advertising and games"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "暗底霓虹",
+      "en": "Neon on dark"
+     },
+     "how": {
+      "zh": "深紫或深蓝底，霓虹粉、青做主色",
+      "en": "Deep purple or navy ground with neon pink and cyan"
+     },
+     "watch": {
+      "zh": "霓虹色只用于线条和标题",
+      "en": "Neon for lines and titles only"
+     }
+    },
+    {
+     "title": {
+      "zh": "条纹落日",
+      "en": "Striped sunset"
+     },
+     "how": {
+      "zh": "地平线上一个带横向切条的渐变圆",
+      "en": "A gradient sun sliced by horizontal stripes on the horizon"
+     },
+     "watch": {
+      "zh": "一份材料只在封面或分隔页用",
+      "en": "Use only on the cover or section dividers"
+     }
+    },
+    {
+     "title": {
+      "zh": "透视网格",
+      "en": "Perspective grid"
+     },
+     "how": {
+      "zh": "地面是向消失点汇聚的发光网格",
+      "en": "The floor is a glowing grid converging to a vanishing point"
+     },
+     "watch": {
+      "zh": "网格要细，不要抢正文",
+      "en": "Keep it thin so it doesn’t compete with text"
+     }
+    },
+    {
+     "title": {
+      "zh": "旧系统窗口",
+      "en": "Retro windows"
+     },
+     "how": {
+      "zh": "用早期操作系统的窗口框装内容",
+      "en": "Frame content in early-OS style windows"
+     },
+     "watch": {
+      "zh": "避免使用真实商标图形",
+      "en": "Avoid real trademarked UI graphics"
+     }
+    },
+    {
+     "title": {
+      "zh": "宽字距",
+      "en": "Wide tracking"
+     },
+     "how": {
+      "zh": "英文标题全角宽字距，如 A E S T H E T I C",
+      "en": "Latin headlines in full-width spacing, like A E S T H E T I C"
+     },
+     "watch": {
+      "zh": "中文不要额外加宽字距",
+      "en": "Don’t add extra tracking to Chinese"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "night",
+     "hex": "#2A1B4A",
+     "area": 40,
+     "name": {
+      "zh": "夜紫",
+      "en": "Night violet"
+     }
+    },
+    {
+     "key": "blush",
+     "hex": "#FCE8F5",
+     "area": 12,
+     "name": {
+      "zh": "淡粉白",
+      "en": "Blush"
+     }
+    },
+    {
+     "key": "neonpink",
+     "hex": "#F772C8",
+     "area": 20,
+     "name": {
+      "zh": "霓虹粉",
+      "en": "Neon pink"
+     }
+    },
+    {
+     "key": "cyan",
+     "hex": "#2DCCF0",
+     "area": 18,
+     "name": {
+      "zh": "霓虹青",
+      "en": "Neon cyan"
+     }
+    },
+    {
+     "key": "mint",
+     "hex": "#3DF2A8",
+     "area": 10,
+     "name": {
+      "zh": "电子薄荷",
+      "en": "Digital mint"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "暗底霓虹",
+     "条纹落日",
+     "透视网格",
+     "复古视窗",
+     "英文宽字距"
+    ],
+    "en": [
+     "Neon on dark",
+     "Striped sunsets",
+     "Perspective grids",
+     "Retro windows",
+     "Wide-tracked Latin"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "白底",
+     "大地色",
+     "正式商务图表样式",
+     "每页都放落日",
+     "低对比小字"
+    ],
+    "en": [
+     "White grounds",
+     "Earth tones",
+     "Corporate chart styling",
+     "A sunset on every slide",
+     "Small low-contrast text"
+    ]
+   },
+   "myth": {
+    "zh": "蒸汽波不只是「好看的粉紫色」。它最初带有对消费社会的讽刺，循环的商场音乐和过时的科技图像都是在调侃被许诺过的美好未来。",
+    "en": "Vaporwave is not just pretty pink and purple. It began with irony about consumer society; the looped mall music and outdated tech imagery mock a promised bright future."
+   },
+   "prompt": "Vaporwave slide, deep night violet #2A1B4A background, striped gradient sunset on the horizon, glowing neon cyan #2DCCF0 perspective grid floor, neon pink #F772C8 headline with wide letter-spacing, a retro operating-system window frame, digital mint #3DF2A8 highlights, nostalgic 1990s internet mood --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "horizon-scene",
+     "frosted-panels",
+     "cover-big-type"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 6
+    },
+    "fonts": {
+     "heading": "Monoton / VT323 / Arial Black + Source Han Sans Heavy / Microsoft YaHei Bold",
+     "body": "VT323 / Consolas + Source Han Sans / Microsoft YaHei",
+     "scale": 3
+    },
+    "motifs": [
+     "sunset-stripes",
+     "perspective-grid",
+     "retro-window"
+    ],
+    "roles": {
+     "background": "night",
+     "text": "blush",
+     "primary": "neonpink",
+     "secondary": "cyan",
+     "accent": "mint"
+    },
+    "colorRule": {
+     "strategy": "neon-night",
+     "note": {
+      "zh": "把当前配色的最深色再压暗作底，其余有彩色提到高明度当霓虹线条。自然色配色做出来会偏「夜景」而非霓虹，可提醒用户。",
+      "en": "Darken the deepest colour further for the ground and push the other chromatic colours to high value as neon lines. A natural palette tends toward a night scene rather than neon; tell the user."
+     }
+    },
+    "decoration": {
+     "zh": "落日和网格只用于封面和章节页；内容页用复古视窗框。",
+     "en": "Sunset and grid only on cover and section slides; content slides use retro window frames."
+    },
+    "forbid": [
+     "muted-colors",
+     "low-contrast-text",
+     "stock-photo",
+     "dense-text"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low"
+   }
+  },
+  {
+   "id": "glassmorphism",
+   "kind": "style",
+   "era": "2020–",
+   "provenance": "original",
+   "name": {
+    "zh": "玻璃拟态",
+    "en": "Glassmorphism"
+   },
+   "origin": {
+    "zh": "操作系统与界面设计社区",
+    "en": "Operating systems and UI design communities"
+   },
+   "tagline": {
+    "zh": "鲜艳的色团在后面，磨砂玻璃面板浮在前面。",
+    "en": "Vivid colour blobs behind, frosted glass panels floating in front."
+   },
+   "summary": {
+    "zh": "玻璃拟态让界面面板像一块磨砂玻璃：半透明、带背景模糊、边缘有一道细亮线，后面透出鲜艳的色团。它在 Windows Vista 的 Aero 玻璃里已有雏形，2020 年 macOS Big Sur 和设计社区让它重新流行。它对背景依赖很大，背景越丰富，玻璃感越强，但也越要注意文字可读性。",
+    "en": "Glassmorphism makes interface panels look like frosted glass: translucent, background-blurred, with a thin bright edge, letting vivid colour blobs glow through. It had a precursor in Windows Vista’s Aero glass and became popular again in 2020 with macOS Big Sur and the design community. It depends heavily on the backdrop: the richer the background, the stronger the glass, and the more care text legibility needs."
+   },
+   "history": [
+    {
+     "year": "2007",
+     "zh": "Windows Vista 的 Aero 界面使用半透明玻璃边框",
+     "en": "Windows Vista’s Aero interface uses translucent glass frames"
+    },
+    {
+     "year": "2013",
+     "zh": "iOS 7 的控制中心采用背景模糊面板",
+     "en": "iOS 7’s Control Center adopts background-blurred panels"
+    },
+    {
+     "year": "2020",
+     "zh": "macOS Big Sur 发布；设计师马列维奇提出「Glassmorphism」一词",
+     "en": "macOS Big Sur ships; designer Michał Malewicz coins “glassmorphism”"
+    },
+    {
+     "year": "2021",
+     "zh": "Windows 11 推出 Mica 与 Acrylic 材质",
+     "en": "Windows 11 introduces Mica and Acrylic materials"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "鲜艳背景",
+      "en": "Vivid backdrop"
+     },
+     "how": {
+      "zh": "背景放两三个大而模糊的彩色色团",
+      "en": "Place two or three large blurred colour blobs behind"
+     },
+     "watch": {
+      "zh": "纯色背景上玻璃效果看不出来",
+      "en": "On a flat background the glass effect disappears"
+     }
+    },
+    {
+     "title": {
+      "zh": "磨砂面板",
+      "en": "Frosted panels"
+     },
+     "how": {
+      "zh": "白色 15% 到 30% 透明度，加背景模糊",
+      "en": "White at 15% to 30% opacity with background blur"
+     },
+     "watch": {
+      "zh": "PPT 里可用半透明填充加柔化图片近似",
+      "en": "In PowerPoint, approximate with translucent fill over a blurred image"
+     }
+    },
+    {
+     "title": {
+      "zh": "亮边",
+      "en": "Bright edge"
+     },
+     "how": {
+      "zh": "面板加 1 像素半透明白色描边",
+      "en": "Give panels a 1 px translucent white border"
+     },
+     "watch": {
+      "zh": "描边要细，不要黑边",
+      "en": "Keep it fine, never black"
+     }
+    },
+    {
+     "title": {
+      "zh": "层次",
+      "en": "Layering"
+     },
+     "how": {
+      "zh": "面板分前后层，越靠前越不透明",
+      "en": "Stack panels in depth; nearer panels are more opaque"
+     },
+     "watch": {
+      "zh": "层数不超过三层",
+      "en": "No more than three layers"
+     }
+    },
+    {
+     "title": {
+      "zh": "可读性",
+      "en": "Legibility"
+     },
+     "how": {
+      "zh": "面板上的文字用白色或深色并加大字重",
+      "en": "Text on panels is white or dark with heavier weight"
+     },
+     "watch": {
+      "zh": "检查对比度，必要时提高面板不透明度",
+      "en": "Check contrast; raise panel opacity if needed"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "indigo",
+     "hex": "#2E3482",
+     "area": 40,
+     "name": {
+      "zh": "靛蓝",
+      "en": "Indigo"
+     }
+    },
+    {
+     "key": "white",
+     "hex": "#FFFFFF",
+     "area": 15,
+     "name": {
+      "zh": "白",
+      "en": "White"
+     }
+    },
+    {
+     "key": "violet",
+     "hex": "#7B5CE6",
+     "area": 20,
+     "name": {
+      "zh": "紫罗兰",
+      "en": "Violet"
+     }
+    },
+    {
+     "key": "azure",
+     "hex": "#46B5E8",
+     "area": 15,
+     "name": {
+      "zh": "天青",
+      "en": "Azure"
+     }
+    },
+    {
+     "key": "coral",
+     "hex": "#FF8E7A",
+     "area": 10,
+     "name": {
+      "zh": "珊瑚",
+      "en": "Coral"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "模糊彩色色团",
+     "半透明磨砂面板",
+     "1 像素亮边",
+     "前后分层",
+     "检查文字对比"
+    ],
+    "en": [
+     "Blurred colour blobs",
+     "Translucent frosted panels",
+     "1 px bright edge",
+     "Layered depth",
+     "Check text contrast"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "纯色平背景",
+     "黑色粗描边",
+     "超过三层叠加",
+     "细小浅色字",
+     "满屏面板"
+    ],
+    "en": [
+     "Flat plain backgrounds",
+     "Thick black borders",
+     "More than three layers",
+     "Small pale text",
+     "Panels everywhere"
+    ]
+   },
+   "myth": {
+    "zh": "玻璃拟态不是 2020 年才发明的。Windows Vista 的 Aero 在 2007 年就用了半透明玻璃，2020 年流行的是一个新名字和更扁平、更柔和的做法。",
+    "en": "Glassmorphism wasn’t invented in 2020. Windows Vista’s Aero used translucent glass in 2007; what 2020 brought was a new name and a flatter, softer treatment."
+   },
+   "prompt": "Glassmorphism slide, frosted translucent white panels with background blur and a thin bright edge floating over large blurred blobs of violet #7B5CE6, azure #46B5E8 and coral #FF8E7A on indigo #2E3482, layered depth, clean white sans-serif text with good contrast --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "frosted-panels",
+     "card-stack",
+     "hero-object"
+    ],
+    "grid": {
+     "cols": 12,
+     "marginPct": 6
+    },
+    "fonts": {
+     "heading": "Inter SemiBold / Segoe UI Semibold + Source Han Sans Bold / Microsoft YaHei Bold",
+     "body": "Inter / Segoe UI + Source Han Sans / Microsoft YaHei",
+     "scale": 3
+    },
+    "motifs": [
+     "blurred-blob",
+     "frosted-card"
+    ],
+    "roles": {
+     "background": "indigo",
+     "text": "white",
+     "primary": "violet",
+     "secondary": "azure",
+     "accent": "coral"
+    },
+    "colorRule": {
+     "strategy": "vivid-backdrop",
+     "note": {
+      "zh": "取当前配色里最深的色作底，其余有彩色做背景模糊色团；面板一律白色半透明。配色太灰时色团没有存在感，需提醒用户。",
+      "en": "Use the darkest colour as ground and the other chromatic colours as blurred blobs; all panels are translucent white. Warn the user if the palette is too grey for the blobs to register."
+     }
+    },
+    "decoration": {
+     "zh": "背景两三个模糊色团；面板加 1 像素半透明白边。",
+     "en": "Two or three blurred blobs behind; panels carry a 1 px translucent white edge."
+    },
+    "forbid": [
+     "thin-outline",
+     "low-contrast-text",
+     "dense-text",
+     "3d-effects"
+    ],
+    "radius": 20,
+    "shadow": true,
+    "density": "low"
+   }
+  },
+  {
+   "id": "bento-grid",
+   "kind": "layout",
+   "era": "2020s–",
+   "provenance": "original",
+   "name": {
+    "zh": "便当盒布局",
+    "en": "Bento Grid"
+   },
+   "origin": {
+    "zh": "产品官网与界面设计",
+    "en": "Product websites and interface design"
+   },
+   "tagline": {
+    "zh": "大小不一的格子，每格讲一件事，格子越大越重要。",
+    "en": "Cells of different sizes, one idea per cell; the bigger the cell, the more it matters."
+   },
+   "summary": {
+    "zh": "便当盒是一种布局方式而不是风格：它只规定怎么切分格子、怎么对齐，不规定颜色和字体。一页里放五到九个圆角格子，用面积表达主次，一个最大的格子放核心信息，其余格子放数据、图片或短句。它特别适合总结页和功能概览，可以和本站任何一种风格叠加使用。",
+    "en": "Bento is a layout, not a style: it defines how cells are divided and aligned, not colour or type. A page holds five to nine rounded cells whose area signals importance; the largest holds the core message, the rest hold numbers, images or short lines. It suits summary and feature-overview slides and can be combined with any style in this library."
+   },
+   "history": [
+    {
+     "year": "2010",
+     "zh": "Windows Phone 的磁贴让大小不一的方格界面进入日常",
+     "en": "Windows Phone tiles bring mixed-size grids into everyday use"
+    },
+    {
+     "year": "2020",
+     "zh": "iOS 14 桌面小组件提供小、中、大三种尺寸",
+     "en": "iOS 14 home-screen widgets come in small, medium and large"
+    },
+    {
+     "year": "2022",
+     "zh": "「Bento grid」一词在设计社区流行",
+     "en": "The term bento grid spreads through design communities"
+    },
+    {
+     "year": "2023",
+     "zh": "常用于产品发布页、个人主页和年度总结",
+     "en": "Common on product launch pages, personal sites and annual recaps"
+    }
+   ],
+   "rules": [
+    {
+     "title": {
+      "zh": "一格一事",
+      "en": "One idea per cell"
+     },
+     "how": {
+      "zh": "每个格子只放一个数字、一张图或一句话",
+      "en": "Each cell holds one number, image or sentence"
+     },
+     "watch": {
+      "zh": "格子里塞长段落就成了表格",
+      "en": "Paragraphs in cells turn it into a table"
+     }
+    },
+    {
+     "title": {
+      "zh": "面积即主次",
+      "en": "Area is hierarchy"
+     },
+     "how": {
+      "zh": "最重要的信息占最大的格子，通常是 2 × 2",
+      "en": "The most important item gets the largest cell, often 2 × 2"
+     },
+     "watch": {
+      "zh": "格子一样大就失去了重点",
+      "en": "Equal cells lose the focus"
+     }
+    },
+    {
+     "title": {
+      "zh": "统一间距与圆角",
+      "en": "Uniform gap and radius"
+     },
+     "how": {
+      "zh": "所有格子同一间距、同一圆角",
+      "en": "All cells share one gap and one corner radius"
+     },
+     "watch": {
+      "zh": "间距不统一会显得凌乱",
+      "en": "Uneven gaps look messy"
+     }
+    },
+    {
+     "title": {
+      "zh": "五到九格",
+      "en": "Five to nine cells"
+     },
+     "how": {
+      "zh": "一页五到九格最容易读",
+      "en": "Five to nine cells per page read best"
+     },
+     "watch": {
+      "zh": "超过十二格就该拆成两页",
+      "en": "Over twelve cells, split the page"
+     }
+    },
+    {
+     "title": {
+      "zh": "对齐网格",
+      "en": "Snap to grid"
+     },
+     "how": {
+      "zh": "格子边缘都落在同一套列网格上",
+      "en": "Every cell edge lands on one column grid"
+     },
+     "watch": {
+      "zh": "不要随意错位拼接",
+      "en": "Don’t offset cells at random"
+     }
+    }
+   ],
+   "palette": [
+    {
+     "key": "mist",
+     "hex": "#F2F2F0",
+     "area": 30,
+     "name": {
+      "zh": "雾灰",
+      "en": "Mist"
+     }
+    },
+    {
+     "key": "card",
+     "hex": "#FFFFFF",
+     "area": 45,
+     "name": {
+      "zh": "卡片白",
+      "en": "Card white"
+     }
+    },
+    {
+     "key": "graphite",
+     "hex": "#1A1A1A",
+     "area": 15,
+     "name": {
+      "zh": "石墨",
+      "en": "Graphite"
+     }
+    },
+    {
+     "key": "iris",
+     "hex": "#3B5BDB",
+     "area": 7,
+     "name": {
+      "zh": "鸢尾蓝",
+      "en": "Iris blue"
+     }
+    },
+    {
+     "key": "amber",
+     "hex": "#F08C2E",
+     "area": 3,
+     "name": {
+      "zh": "琥珀",
+      "en": "Amber"
+     }
+    }
+   ],
+   "dos": {
+    "zh": [
+     "一个 2×2 主格",
+     "一格一事",
+     "统一间距圆角",
+     "数字放大",
+     "对齐列网格"
+    ],
+    "en": [
+     "One 2×2 hero cell",
+     "One idea per cell",
+     "Uniform gap and radius",
+     "Oversized numbers",
+     "Column alignment"
+    ]
+   },
+   "donts": {
+    "zh": [
+     "格子全一样大",
+     "格内长段落",
+     "间距忽大忽小",
+     "超过十二格",
+     "每格不同圆角"
+    ],
+    "en": [
+     "Equal-sized cells",
+     "Long paragraphs in cells",
+     "Uneven gaps",
+     "More than twelve cells",
+     "Different radii per cell"
+    ]
+   },
+   "myth": {
+    "zh": "便当盒不是瀑布流。瀑布流的卡片高度随内容变化、列与列不对齐；便当盒的格子尺寸是事先设计好的，行和列都严格对齐。",
+    "en": "Bento is not a masonry layout. Masonry cards vary in height with content and columns don’t align; bento cells are sized in advance and align on both rows and columns."
+   },
+   "prompt": "Bento grid slide layout, 4-column grid with one 2x2 hero cell and six smaller cells, uniform 16px gaps and rounded corners, one idea per cell, oversized numbers, white cards on mist #F2F2F0, graphite #1A1A1A text, iris blue #3B5BDB and amber #F08C2E accents --ar 16:9",
+   "ppt": {
+    "layouts": [
+     "bento"
+    ],
+    "grid": {
+     "cols": 4,
+     "marginPct": 5
+    },
+    "fonts": {
+     "heading": "Inter Bold / Segoe UI Bold + Source Han Sans Bold / Microsoft YaHei Bold",
+     "body": "Inter / Segoe UI + Source Han Sans / Microsoft YaHei",
+     "scale": 3
+    },
+    "motifs": [
+     "rounded-card"
+    ],
+    "roles": {
+     "background": "mist",
+     "text": "graphite",
+     "primary": "iris",
+     "secondary": "card",
+     "accent": "amber"
+    },
+    "colorRule": {
+     "strategy": "palette-agnostic",
+     "note": {
+      "zh": "布局不规定颜色：直接沿用当前配色和当前风格的角色分配。与其他风格叠加时，圆角和投影服从那个风格的规定。",
+      "en": "The layout sets no colour: reuse the roles of the current palette and style. When combined with another style, corner radius and shadows follow that style."
+     }
+    },
+    "decoration": {
+     "zh": "不加额外装饰；格子本身构成画面。",
+     "en": "No extra decoration; the cells are the picture."
+    },
+    "forbid": [
+     "equal-cells",
+     "dense-text",
+     "many-fonts"
+    ],
+    "radius": 16,
+    "shadow": false,
+    "density": "medium"
+   }
+  }
+ ],
+ "TERMS": {
+  "role": {
+   "background": {
+    "zh": "底色",
+    "en": "Background"
+   },
+   "text": {
+    "zh": "文字",
+    "en": "Text"
+   },
+   "primary": {
+    "zh": "主色",
+    "en": "Primary"
+   },
+   "secondary": {
+    "zh": "辅色",
+    "en": "Secondary"
+   },
+   "accent": {
+    "zh": "强调",
+    "en": "Accent"
+   }
+  },
+  "layout": {
+   "cover-big-type": {
+    "zh": "超大字封面",
+    "en": "Oversized-type cover"
+   },
+   "asymmetric-grid": {
+    "zh": "不对称网格",
+    "en": "Asymmetric grid"
+   },
+   "geometric-blocks": {
+    "zh": "几何色块构图",
+    "en": "Geometric blocks"
+   },
+   "diagonal-split": {
+    "zh": "斜线分割",
+    "en": "Diagonal split"
+   },
+   "multi-column": {
+    "zh": "多栏图文",
+    "en": "Multi-column text"
+   },
+   "full-bleed-image": {
+    "zh": "满版出血大图",
+    "en": "Full-bleed image"
+   },
+   "pull-quote": {
+    "zh": "大号引语页",
+    "en": "Pull-quote slide"
+   },
+   "single-focus": {
+    "zh": "单一焦点留白",
+    "en": "Single focus, open space"
+   },
+   "vertical-text": {
+    "zh": "竖排点题",
+    "en": "Vertical title"
+   },
+   "symmetric-frame": {
+    "zh": "对称框饰",
+    "en": "Symmetric frame"
+   },
+   "organic-frame": {
+    "zh": "曲线边框",
+    "en": "Organic frame"
+   },
+   "color-field-grid": {
+    "zh": "色域网格",
+    "en": "Colour-field grid"
+   },
+   "collage": {
+    "zh": "拼贴",
+    "en": "Collage"
+   },
+   "comic-panel": {
+    "zh": "漫画分格",
+    "en": "Comic panels"
+   },
+   "card-stack": {
+    "zh": "粗边卡片",
+    "en": "Outlined cards"
+   },
+   "tiles": {
+    "zh": "磁贴",
+    "en": "Tiles"
+   },
+   "hero-object": {
+    "zh": "主体物居中",
+    "en": "Hero object"
+   },
+   "horizon-scene": {
+    "zh": "地平线场景",
+    "en": "Horizon scene"
+   },
+   "frosted-panels": {
+    "zh": "毛玻璃面板",
+    "en": "Frosted panels"
+   },
+   "bento": {
+    "zh": "便当盒格子",
+    "en": "Bento grid"
+   }
+  },
+  "motif": {
+   "circle": {
+    "zh": "圆",
+    "en": "Circle"
+   },
+   "square": {
+    "zh": "方块",
+    "en": "Square"
+   },
+   "triangle": {
+    "zh": "三角",
+    "en": "Triangle"
+   },
+   "thick-rule": {
+    "zh": "粗黑线",
+    "en": "Heavy rule"
+   },
+   "hairline": {
+    "zh": "细线",
+    "en": "Hairline"
+   },
+   "visible-grid": {
+    "zh": "可见网格",
+    "en": "Visible grid"
+   },
+   "drop-cap": {
+    "zh": "首字下沉",
+    "en": "Drop cap"
+   },
+   "page-furniture": {
+    "zh": "页眉页码",
+    "en": "Running heads & folios"
+   },
+   "red-dot": {
+    "zh": "朱点",
+    "en": "Red dot"
+   },
+   "paper-texture": {
+    "zh": "纸纹",
+    "en": "Paper texture"
+   },
+   "sunburst": {
+    "zh": "放射光芒",
+    "en": "Sunburst"
+   },
+   "stepped-arch": {
+    "zh": "阶梯拱",
+    "en": "Stepped arch"
+   },
+   "metallic-line": {
+    "zh": "金属线框",
+    "en": "Metallic linework"
+   },
+   "whiplash-curve": {
+    "zh": "鞭形曲线",
+    "en": "Whiplash curve"
+   },
+   "botanical": {
+    "zh": "植物纹样",
+    "en": "Botanical ornament"
+   },
+   "halo": {
+    "zh": "光环",
+    "en": "Halo"
+   },
+   "wedge": {
+    "zh": "楔形",
+    "en": "Wedge"
+   },
+   "diagonal-bar": {
+    "zh": "斜向长条",
+    "en": "Diagonal bar"
+   },
+   "photomontage": {
+    "zh": "照片拼贴",
+    "en": "Photomontage"
+   },
+   "orthogonal-lines": {
+    "zh": "正交黑线",
+    "en": "Orthogonal lines"
+   },
+   "squiggle": {
+    "zh": "波浪线",
+    "en": "Squiggle"
+   },
+   "dot-pattern": {
+    "zh": "点阵图案",
+    "en": "Dot pattern"
+   },
+   "halftone": {
+    "zh": "网点",
+    "en": "Halftone dots"
+   },
+   "speech-burst": {
+    "zh": "爆炸对话框",
+    "en": "Speech burst"
+   },
+   "hard-shadow": {
+    "zh": "硬投影",
+    "en": "Hard offset shadow"
+   },
+   "thick-outline": {
+    "zh": "粗描边",
+    "en": "Thick outline"
+   },
+   "live-tile": {
+    "zh": "动态磁贴",
+    "en": "Live tile"
+   },
+   "line-icon": {
+    "zh": "线性图标",
+    "en": "Line icon"
+   },
+   "chrome": {
+    "zh": "铬金属",
+    "en": "Chrome"
+   },
+   "sparkle": {
+    "zh": "四角星",
+    "en": "Sparkle"
+   },
+   "bubble": {
+    "zh": "透明气泡",
+    "en": "Glossy bubble"
+   },
+   "sunset-stripes": {
+    "zh": "条纹落日",
+    "en": "Striped sunset"
+   },
+   "perspective-grid": {
+    "zh": "透视网格",
+    "en": "Perspective grid"
+   },
+   "retro-window": {
+    "zh": "复古视窗",
+    "en": "Retro window"
+   },
+   "blurred-blob": {
+    "zh": "模糊色团",
+    "en": "Blurred blob"
+   },
+   "frosted-card": {
+    "zh": "毛玻璃卡片",
+    "en": "Frosted card"
+   },
+   "rounded-card": {
+    "zh": "圆角卡片",
+    "en": "Rounded card"
+   }
+  },
+  "forbid": {
+   "gradient": {
+    "zh": "渐变",
+    "en": "Gradients"
+   },
+   "soft-shadow": {
+    "zh": "柔和投影",
+    "en": "Soft drop shadows"
+   },
+   "rounded-corners": {
+    "zh": "圆角",
+    "en": "Rounded corners"
+   },
+   "centered-layout": {
+    "zh": "全部居中",
+    "en": "Everything centred"
+   },
+   "justified-text": {
+    "zh": "两端对齐",
+    "en": "Justified text"
+   },
+   "ornament": {
+    "zh": "装饰花纹",
+    "en": "Ornament"
+   },
+   "clipart": {
+    "zh": "剪贴画",
+    "en": "Clip art"
+   },
+   "many-fonts": {
+    "zh": "三种以上字体",
+    "en": "More than two typefaces"
+   },
+   "dense-text": {
+    "zh": "大段密排文字",
+    "en": "Dense text blocks"
+   },
+   "high-saturation": {
+    "zh": "高饱和大色块",
+    "en": "Large saturated areas"
+   },
+   "3d-effects": {
+    "zh": "立体特效",
+    "en": "3D effects"
+   },
+   "emoji": {
+    "zh": "表情符号",
+    "en": "Emoji"
+   },
+   "stock-photo": {
+    "zh": "摆拍图库照",
+    "en": "Posed stock photos"
+   },
+   "flat-icons": {
+    "zh": "扁平小图标堆砌",
+    "en": "Piles of flat icons"
+   },
+   "muted-colors": {
+    "zh": "灰暗低饱和",
+    "en": "Dull, muted colour"
+   },
+   "thin-outline": {
+    "zh": "细描边",
+    "en": "Hairline outlines"
+   },
+   "skeuomorphism": {
+    "zh": "拟物质感",
+    "en": "Skeuomorphic texture"
+   },
+   "low-contrast-text": {
+    "zh": "低对比文字",
+    "en": "Low-contrast text"
+   },
+   "equal-cells": {
+    "zh": "格子全一样大",
+    "en": "All cells the same size"
+   }
+  },
+  "strategy": {
+   "triad-far-hues": {
+    "zh": "取色相相距最远的三色",
+    "en": "Three most distant hues"
+   },
+   "single-accent": {
+    "zh": "唯一强调色",
+    "en": "Single accent"
+   },
+   "deep-duo": {
+    "zh": "深色主色加一点亮色",
+    "en": "Deep primary plus one highlight"
+   },
+   "desaturate-lighten": {
+    "zh": "整体降饱和提亮",
+    "en": "Desaturate and lighten"
+   },
+   "dark-metallic": {
+    "zh": "深底金属色",
+    "en": "Dark ground, metallic line"
+   },
+   "analogous-soft": {
+    "zh": "邻近色柔化",
+    "en": "Soft analogous hues"
+   },
+   "high-contrast-duo": {
+    "zh": "黑加一色对撞",
+    "en": "Black plus one clashing hue"
+   },
+   "primaries-blocks": {
+    "zh": "三原色色块",
+    "en": "Primary-colour blocks"
+   },
+   "candy-multi": {
+    "zh": "多色糖果化",
+    "en": "Candy multicolour"
+   },
+   "saturated-halftone": {
+    "zh": "高饱和加网点",
+    "en": "Saturated with halftone"
+   },
+   "flat-bold-outline": {
+    "zh": "平涂加粗黑边",
+    "en": "Flat fill, bold outline"
+   },
+   "flat-tiles": {
+    "zh": "纯色磁贴",
+    "en": "Flat tile colours"
+   },
+   "chrome-gradient": {
+    "zh": "冷色金属渐变",
+    "en": "Cool chrome gradient"
+   },
+   "neon-night": {
+    "zh": "暗底霓虹",
+    "en": "Neon on dark"
+   },
+   "vivid-backdrop": {
+    "zh": "鲜艳背景加毛玻璃",
+    "en": "Vivid backdrop, frosted glass"
+   },
+   "palette-agnostic": {
+    "zh": "沿用当前配色",
+    "en": "Use the current palette as is"
+   }
+  }
+ }
+}

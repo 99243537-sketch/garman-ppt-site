@@ -1,0 +1,853 @@
+{
+ "_note": "由 build_site_data.py 生成，请勿手改",
+ "version": "0.2.3",
+ "styles": [
+  {
+   "id": "bauhaus",
+   "order": 0,
+   "name": {
+    "zh": "包豪斯",
+    "en": "Bauhaus"
+   },
+   "tagline": {
+    "zh": "把设计拆成点、线、面和三原色，再一课一课教给学生。",
+    "en": "Design broken down into point, line, plane and primary colour, then taught one lesson at a time."
+   },
+   "era": "1919–1933",
+   "status": "preview",
+   "docTypes": [
+    "teaching",
+    "culture"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": null,
+   "ppt": {
+    "layouts": [
+     "geometric-blocks",
+     "diagonal-split",
+     "cover-big-type"
+    ],
+    "motifs": [
+     "circle",
+     "square",
+     "triangle",
+     "thick-rule"
+    ],
+    "forbid": [
+     "gradient",
+     "soft-shadow",
+     "rounded-corners",
+     "ornament",
+     "centered-layout"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low",
+    "colorRule": {
+     "strategy": "triad-far-hues",
+     "note": {
+      "zh": "从当前配色里取色相相距最远的三色，分别给圆、方、三角；底色取最浅色，文字取最深色。",
+      "en": "Take the three most distant hues from the current palette for circle, square and triangle; lightest colour as ground, darkest as text."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=bauhaus"
+  },
+  {
+   "id": "swiss-style",
+   "order": 1,
+   "name": {
+    "zh": "瑞士国际主义",
+    "en": "International Typographic Style"
+   },
+   "tagline": {
+    "zh": "先画网格，再让信息按重要程度各就各位。",
+    "en": "Draw the grid first, then let each piece of information take its place by importance."
+   },
+   "era": "1950s–1970s",
+   "status": "ready",
+   "docTypes": [
+    "report",
+    "official",
+    "tech",
+    "product"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": {
+    "palette": "blue-magpie",
+    "file": "templates/garman-swiss-blue-magpie-v1.pptx"
+   },
+   "ppt": {
+    "layouts": [
+     "asymmetric-grid",
+     "cover-big-type",
+     "multi-column"
+    ],
+    "motifs": [
+     "visible-grid",
+     "hairline",
+     "square"
+    ],
+    "forbid": [
+     "centered-layout",
+     "justified-text",
+     "many-fonts",
+     "gradient",
+     "soft-shadow",
+     "rounded-corners",
+     "clipart"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium",
+    "colorRule": {
+     "strategy": "single-accent",
+     "note": {
+      "zh": "从当前配色里取饱和度最高的一色作唯一强调色，面积不超过 10%；其余一律用中性灰和黑白。配色整体偏灰时提醒用户强调色可能不够有力。",
+      "en": "Use the most saturated colour in the current palette as the only accent, at most 10% of the area; everything else is neutral. Warn the user if the palette is too grey to give a strong accent."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=swiss-style"
+  },
+  {
+   "id": "editorial",
+   "order": 2,
+   "name": {
+    "zh": "编辑杂志风",
+    "en": "Editorial"
+   },
+   "tagline": {
+    "zh": "把每一页当作杂志跨页来排：大图、大标题、好读的正文。",
+    "en": "Treat every page as a magazine spread: big image, big headline, readable text."
+   },
+   "era": "1930s–",
+   "status": "ready",
+   "docTypes": [
+    "reading",
+    "teaching",
+    "culture"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": {
+    "palette": "amazonite",
+    "file": "templates/garman-editorial-amazonite-v1.pptx"
+   },
+   "ppt": {
+    "layouts": [
+     "full-bleed-image",
+     "pull-quote",
+     "multi-column",
+     "cover-big-type"
+    ],
+    "motifs": [
+     "drop-cap",
+     "page-furniture",
+     "hairline"
+    ],
+    "forbid": [
+     "dense-text",
+     "stock-photo",
+     "many-fonts",
+     "soft-shadow",
+     "clipart"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium",
+    "colorRule": {
+     "strategy": "deep-duo",
+     "note": {
+      "zh": "主体用黑白灰；从当前配色里取最深的有彩色作主色（用于标题和栏目名），再取一个明亮色作极少量点缀。",
+      "en": "Keep the body neutral; take the deepest chromatic colour in the palette as primary (headlines, section labels) and one bright colour as a tiny highlight."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=editorial"
+  },
+  {
+   "id": "japanese-minimal",
+   "order": 3,
+   "name": {
+    "zh": "日式极简",
+    "en": "Japanese Minimalism"
+   },
+   "tagline": {
+    "zh": "少放一点，让空白替你说话。",
+    "en": "Put in less, and let the emptiness speak."
+   },
+   "era": "1960s–",
+   "status": "ready",
+   "docTypes": [
+    "culture",
+    "reading",
+    "festive"
+   ],
+   "effects": {
+    "glass": "adjust"
+   },
+   "template": {
+    "palette": "plum-blossom",
+    "file": "templates/garman-japanese-minimal-plum-blossom-v1.pptx"
+   },
+   "ppt": {
+    "layouts": [
+     "single-focus",
+     "vertical-text",
+     "full-bleed-image"
+    ],
+    "motifs": [
+     "red-dot",
+     "hairline",
+     "paper-texture"
+    ],
+    "forbid": [
+     "high-saturation",
+     "dense-text",
+     "3d-effects",
+     "emoji",
+     "soft-shadow"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low",
+    "colorRule": {
+     "strategy": "desaturate-lighten",
+     "note": {
+      "zh": "把当前配色整体降饱和、提亮；每页只用主色加一个点缀色，点缀色面积不超过 3%。",
+      "en": "Desaturate and lighten the current palette; each slide uses only the primary plus one accent, the accent under 3% of the area."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=japanese-minimal"
+  },
+  {
+   "id": "art-deco",
+   "order": 4,
+   "name": {
+    "zh": "装饰艺术",
+    "en": "Art Deco"
+   },
+   "tagline": {
+    "zh": "把机器时代的速度和奢华，铸成对称、闪亮的几何。",
+    "en": "The speed and luxury of the machine age, cast into symmetrical, gleaming geometry."
+   },
+   "era": "1920s–1930s",
+   "status": "preview",
+   "docTypes": [
+    "festive",
+    "event"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": null,
+   "ppt": {
+    "layouts": [
+     "symmetric-frame",
+     "cover-big-type",
+     "hero-object"
+    ],
+    "motifs": [
+     "sunburst",
+     "stepped-arch",
+     "metallic-line"
+    ],
+    "forbid": [
+     "clipart",
+     "emoji",
+     "rounded-corners",
+     "soft-shadow",
+     "dense-text"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low",
+    "colorRule": {
+     "strategy": "dark-metallic",
+     "note": {
+      "zh": "取当前配色里最深的色作底；取最亮的暖色当「金属色」用于线条和标题；其余色只做小面积宝石点缀。",
+      "en": "Use the darkest colour of the palette as ground and the brightest warm colour as the ‘metal’ for lines and titles; other colours appear only as small jewel accents."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=art-deco"
+  },
+  {
+   "id": "art-nouveau",
+   "order": 5,
+   "name": {
+    "zh": "新艺术运动",
+    "en": "Art Nouveau"
+   },
+   "tagline": {
+    "zh": "让线条像藤蔓一样生长，把植物的曲线带进日常。",
+    "en": "Lines that grow like vines, bringing the curves of plants into everyday life."
+   },
+   "era": "1890–1910",
+   "status": "ready",
+   "docTypes": [
+    "culture",
+    "reading",
+    "festive"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": {
+    "palette": "nautilus",
+    "file": "templates/garman-art-nouveau-nautilus-v1.pptx"
+   },
+   "ppt": {
+    "layouts": [
+     "organic-frame",
+     "hero-object",
+     "symmetric-frame"
+    ],
+    "motifs": [
+     "whiplash-curve",
+     "botanical",
+     "halo"
+    ],
+    "forbid": [
+     "high-saturation",
+     "rounded-corners",
+     "soft-shadow",
+     "flat-icons",
+     "3d-effects"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low",
+    "colorRule": {
+     "strategy": "analogous-soft",
+     "note": {
+      "zh": "从当前配色里取色相相邻的两三色并略降饱和，偏向暖调；最深色作描线和文字。",
+      "en": "Pick two or three neighbouring hues from the palette, slightly desaturated and warmed; the darkest colour draws lines and text."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=art-nouveau"
+  },
+  {
+   "id": "constructivism",
+   "order": 6,
+   "name": {
+    "zh": "构成主义",
+    "en": "Constructivism"
+   },
+   "tagline": {
+    "zh": "斜线、红黑对撞和照片拼贴，让画面像口号一样有力。",
+    "en": "Diagonals, red against black and photomontage: pages that hit like a slogan."
+   },
+   "era": "1915–1930s",
+   "status": "preview",
+   "docTypes": [
+    "event"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": null,
+   "ppt": {
+    "layouts": [
+     "diagonal-split",
+     "collage",
+     "cover-big-type"
+    ],
+    "motifs": [
+     "wedge",
+     "diagonal-bar",
+     "circle",
+     "photomontage"
+    ],
+    "forbid": [
+     "centered-layout",
+     "rounded-corners",
+     "soft-shadow",
+     "ornament",
+     "gradient"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium",
+    "colorRule": {
+     "strategy": "high-contrast-duo",
+     "note": {
+      "zh": "取当前配色里最饱和的暖色作主色，与近黑色大面积对撞；底色取最浅的暖色。配色里没有足够强的暖色时提醒用户。",
+      "en": "Pair the most saturated warm colour in the palette with near-black in large areas; ground in the lightest warm tone. Warn the user if the palette lacks a strong warm colour."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=constructivism"
+  },
+  {
+   "id": "de-stijl",
+   "order": 7,
+   "name": {
+    "zh": "风格派",
+    "en": "De Stijl"
+   },
+   "tagline": {
+    "zh": "只剩横线、竖线和三原色，追求一种普遍的和谐。",
+    "en": "Only horizontals, verticals and the three primaries, in search of universal harmony."
+   },
+   "era": "1917–1931",
+   "status": "preview",
+   "docTypes": [
+    "culture"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": null,
+   "ppt": {
+    "layouts": [
+     "color-field-grid",
+     "asymmetric-grid"
+    ],
+    "motifs": [
+     "orthogonal-lines",
+     "square"
+    ],
+    "forbid": [
+     "gradient",
+     "rounded-corners",
+     "soft-shadow",
+     "equal-cells",
+     "ornament"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low",
+    "colorRule": {
+     "strategy": "primaries-blocks",
+     "note": {
+      "zh": "从当前配色里挑最接近红、蓝、黄的三色作色块；色块只占少数格子，其余为白，分格线用最深色。",
+      "en": "Pick the three colours nearest to red, blue and yellow for the blocks; fill only a few cells, keep the rest white, and draw dividers in the darkest colour."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=de-stijl"
+  },
+  {
+   "id": "memphis",
+   "order": 8,
+   "name": {
+    "zh": "孟菲斯",
+    "en": "Memphis"
+   },
+   "tagline": {
+    "zh": "故意不讲「好品味」：撞色、波浪线和玩具般的形状。",
+    "en": "Deliberately ignoring “good taste”: clashing colour, squiggles and toy-like shapes."
+   },
+   "era": "1981–1988",
+   "status": "preview",
+   "docTypes": [
+    "student",
+    "event"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": null,
+   "ppt": {
+    "layouts": [
+     "collage",
+     "card-stack",
+     "cover-big-type"
+    ],
+    "motifs": [
+     "squiggle",
+     "dot-pattern",
+     "triangle",
+     "circle"
+    ],
+    "forbid": [
+     "muted-colors",
+     "soft-shadow",
+     "dense-text",
+     "stock-photo"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium",
+    "colorRule": {
+     "strategy": "candy-multi",
+     "note": {
+      "zh": "把当前配色的有彩色全部提亮、提饱和，配一个近黑色做图案和描边。自然色配色偏沉稳时，提醒用户孟菲斯会显得发闷。",
+      "en": "Lighten and saturate every chromatic colour of the palette and add a near-black for patterns and outlines. Warn the user that a subdued natural palette may make Memphis look muddy."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=memphis"
+  },
+  {
+   "id": "pop-art",
+   "order": 9,
+   "name": {
+    "zh": "波普艺术",
+    "en": "Pop Art"
+   },
+   "tagline": {
+    "zh": "把超市货架、漫画和广告搬进画廊，再搬回海报。",
+    "en": "Supermarket shelves, comics and adverts moved into the gallery, then back onto the poster."
+   },
+   "era": "1955–1970s",
+   "status": "preview",
+   "docTypes": [
+    "event",
+    "student"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": null,
+   "ppt": {
+    "layouts": [
+     "comic-panel",
+     "hero-object",
+     "cover-big-type"
+    ],
+    "motifs": [
+     "halftone",
+     "speech-burst",
+     "thick-outline"
+    ],
+    "forbid": [
+     "muted-colors",
+     "gradient",
+     "thin-outline",
+     "dense-text"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium",
+    "colorRule": {
+     "strategy": "saturated-halftone",
+     "note": {
+      "zh": "取当前配色里饱和度最高的三色，全部推到高饱和平涂，配黑色轮廓；浅色版本做网点底纹。自然色饱和度不够时提醒用户。",
+      "en": "Take the three most saturated colours of the palette, push them to flat full saturation and outline in black; use light tints for halftone texture. Warn the user if the palette is not vivid enough."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=pop-art"
+  },
+  {
+   "id": "neubrutalism",
+   "order": 10,
+   "name": {
+    "zh": "新粗野主义",
+    "en": "Neubrutalism"
+   },
+   "tagline": {
+    "zh": "粗黑边、硬投影、直白的颜色：故意不精致，反而很好认。",
+    "en": "Thick black borders, hard shadows, blunt colour: unpolished on purpose, and instantly recognisable."
+   },
+   "era": "2020s–",
+   "status": "ready",
+   "docTypes": [
+    "student",
+    "event",
+    "product"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": {
+    "palette": "ginkgo",
+    "file": "templates/garman-neubrutalism-ginkgo-v1.pptx"
+   },
+   "ppt": {
+    "layouts": [
+     "card-stack",
+     "cover-big-type",
+     "bento"
+    ],
+    "motifs": [
+     "thick-outline",
+     "hard-shadow"
+    ],
+    "forbid": [
+     "soft-shadow",
+     "gradient",
+     "thin-outline",
+     "skeuomorphism",
+     "low-contrast-text"
+    ],
+    "radius": 8,
+    "shadow": true,
+    "density": "medium",
+    "colorRule": {
+     "strategy": "flat-bold-outline",
+     "note": {
+      "zh": "当前配色的有彩色提亮后平涂卡片，近黑色统一做描边和硬投影；底色取最浅色或略暖的米色。",
+      "en": "Lighten the chromatic colours for flat card fills, use near-black for every outline and hard shadow, and ground in the lightest colour or a warm cream."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=neubrutalism"
+  },
+  {
+   "id": "metro",
+   "order": 11,
+   "name": {
+    "zh": "Metro 磁贴",
+    "en": "Metro"
+   },
+   "tagline": {
+    "zh": "纯色方块、大号细字、没有任何拟物质感。",
+    "en": "Solid tiles, large light type and not a trace of skeuomorphism."
+   },
+   "era": "2010–2015",
+   "status": "ready",
+   "docTypes": [
+    "report",
+    "tech"
+   ],
+   "effects": {
+    "glass": "conflict"
+   },
+   "template": {
+    "palette": "kingfisher",
+    "file": "templates/garman-metro-kingfisher-v1.pptx"
+   },
+   "ppt": {
+    "layouts": [
+     "tiles",
+     "cover-big-type"
+    ],
+    "motifs": [
+     "live-tile",
+     "line-icon"
+    ],
+    "forbid": [
+     "soft-shadow",
+     "rounded-corners",
+     "gradient",
+     "skeuomorphism",
+     "3d-effects"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "medium",
+    "colorRule": {
+     "strategy": "flat-tiles",
+     "note": {
+      "zh": "取当前配色里中高明度的三到四色作磁贴，深色作底，白字。磁贴之间明度要拉开，避免看成一片。",
+      "en": "Use three or four mid-to-high value colours from the palette as tiles, the darkest as ground, white text. Separate tile values so they don’t merge."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=metro"
+  },
+  {
+   "id": "y2k",
+   "order": 12,
+   "name": {
+    "zh": "千禧未来风",
+    "en": "Y2K Aesthetic"
+   },
+   "tagline": {
+    "zh": "半透明塑料、铬金属和蓝色光晕，对新千年的乐观想象。",
+    "en": "Translucent plastic, chrome and blue glow: an optimistic vision of the new millennium."
+   },
+   "era": "1997–2004",
+   "status": "preview",
+   "docTypes": [
+    "tech",
+    "event"
+   ],
+   "effects": {
+    "glass": "ok"
+   },
+   "template": null,
+   "ppt": {
+    "layouts": [
+     "hero-object",
+     "cover-big-type",
+     "card-stack"
+    ],
+    "motifs": [
+     "chrome",
+     "sparkle",
+     "bubble"
+    ],
+    "forbid": [
+     "muted-colors",
+     "ornament",
+     "low-contrast-text",
+     "dense-text"
+    ],
+    "radius": 24,
+    "shadow": true,
+    "density": "low",
+    "colorRule": {
+     "strategy": "chrome-gradient",
+     "note": {
+      "zh": "取当前配色里的冷色做渐变和半透明形状，最浅色作底；暖色只做小点缀。全暖调配色不适合此风格，需提醒用户。",
+      "en": "Use the cool colours of the palette for gradients and translucent shapes, the lightest as ground; warm colours only as small touches. Warn the user that an all-warm palette fits poorly."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=y2k"
+  },
+  {
+   "id": "vaporwave",
+   "order": 13,
+   "name": {
+    "zh": "蒸汽波",
+    "en": "Vaporwave"
+   },
+   "tagline": {
+    "zh": "霓虹落日、透视网格和旧电脑窗口，一种怀旧的数字梦境。",
+    "en": "Neon sunsets, perspective grids and old computer windows: a nostalgic digital dream."
+   },
+   "era": "2010s–",
+   "status": "preview",
+   "docTypes": [
+    "culture",
+    "event"
+   ],
+   "effects": {
+    "glass": "ok"
+   },
+   "template": null,
+   "ppt": {
+    "layouts": [
+     "horizon-scene",
+     "frosted-panels",
+     "cover-big-type"
+    ],
+    "motifs": [
+     "sunset-stripes",
+     "perspective-grid",
+     "retro-window"
+    ],
+    "forbid": [
+     "muted-colors",
+     "low-contrast-text",
+     "stock-photo",
+     "dense-text"
+    ],
+    "radius": 0,
+    "shadow": false,
+    "density": "low",
+    "colorRule": {
+     "strategy": "neon-night",
+     "note": {
+      "zh": "把当前配色的最深色再压暗作底，其余有彩色提到高明度当霓虹线条。自然色配色做出来会偏「夜景」而非霓虹，可提醒用户。",
+      "en": "Darken the deepest colour further for the ground and push the other chromatic colours to high value as neon lines. A natural palette tends toward a night scene rather than neon; tell the user."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=vaporwave"
+  },
+  {
+   "id": "glassmorphism",
+   "order": 14,
+   "name": {
+    "zh": "玻璃拟态",
+    "en": "Glassmorphism"
+   },
+   "tagline": {
+    "zh": "鲜艳的色团在后面，磨砂玻璃面板浮在前面。",
+    "en": "Vivid colour blobs behind, frosted glass panels floating in front."
+   },
+   "era": "2020–",
+   "status": "preview",
+   "docTypes": [
+    "tech",
+    "product"
+   ],
+   "effects": {
+    "glass": "ok"
+   },
+   "template": null,
+   "ppt": {
+    "layouts": [
+     "frosted-panels",
+     "card-stack",
+     "hero-object"
+    ],
+    "motifs": [
+     "blurred-blob",
+     "frosted-card"
+    ],
+    "forbid": [
+     "thin-outline",
+     "low-contrast-text",
+     "dense-text",
+     "3d-effects"
+    ],
+    "radius": 20,
+    "shadow": true,
+    "density": "low",
+    "colorRule": {
+     "strategy": "vivid-backdrop",
+     "note": {
+      "zh": "取当前配色里最深的色作底，其余有彩色做背景模糊色团；面板一律白色半透明。配色太灰时色团没有存在感，需提醒用户。",
+      "en": "Use the darkest colour as ground and the other chromatic colours as blurred blobs; all panels are translucent white. Warn the user if the palette is too grey for the blobs to register."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=glassmorphism"
+  },
+  {
+   "id": "bento-grid",
+   "order": 15,
+   "name": {
+    "zh": "便当盒布局",
+    "en": "Bento Grid"
+   },
+   "tagline": {
+    "zh": "大小不一的格子，每格讲一件事，格子越大越重要。",
+    "en": "Cells of different sizes, one idea per cell; the bigger the cell, the more it matters."
+   },
+   "era": "2020s–",
+   "status": "ready",
+   "docTypes": [
+    "product",
+    "report",
+    "tech"
+   ],
+   "effects": {
+    "glass": "ok"
+   },
+   "template": {
+    "palette": "tallow-tree",
+    "file": "templates/garman-bento-grid-tallow-tree-v1.pptx"
+   },
+   "ppt": {
+    "layouts": [
+     "bento"
+    ],
+    "motifs": [
+     "rounded-card"
+    ],
+    "forbid": [
+     "equal-cells",
+     "dense-text",
+     "many-fonts"
+    ],
+    "radius": 16,
+    "shadow": false,
+    "density": "medium",
+    "colorRule": {
+     "strategy": "palette-agnostic",
+     "note": {
+      "zh": "布局不规定颜色：直接沿用当前配色和当前风格的角色分配。与其他风格叠加时，圆角和投影服从那个风格的规定。",
+      "en": "The layout sets no colour: reuse the roles of the current palette and style. When combined with another style, corner radius and shadows follow that style."
+     }
+    }
+   },
+   "detailUrl": "/design-styles/?style=bento-grid"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+# 打 site-v* 标签时，把 site/ppt/ 和部署说明打成 garman-site-<版本>.zip 上传到 Release
+name: Release
+on:
+  push:
+    tags: ["site-v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 校验 version.json 与标签一致
+        run: |
+          tag="${GITHUB_REF_NAME#site-v}"
+          ver=$(python3 -c "import json;print(json.load(open('site/ppt/site-data/version.json'))['version'])")
+          test "$tag" = "$ver" || { echo "标签 $tag 与 version.json 的 $ver 不一致"; exit 1; }
+      - name: 打包
+        run: |
+          mkdir dist
+          cp DEPLOY.md site/ppt/部署说明.md
+          (cd site/ppt && zip -qr "../../dist/garman-site-${GITHUB_REF_NAME#site-v}.zip" 部署说明.md pick site-data templates)
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          generate_release_notes: true
