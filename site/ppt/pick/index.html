@@ -3,22 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GarmanPPT 组合挑选 · 配色 × 风格</title>
-<meta name="description" content="GarmanPPT 组合挑选：13 套矿物配色 × 16 种设计风格，共 208 种组合，可看 6 页真实预览图、直接下载 pptx 模板，复制口令交给智能体即可生成 PPT。">
+<title>模板挑选 · GarmanPPT 配色 × 风格</title>
+<meta name="description" content="GarmanPPT 模板挑选：13 套自然配色 × 16 种设计风格，共 208 种组合，看 6 页真实预览、直接下载 PPT 模板，不用安装任何东西；想让 AI 直接做成品，再配合 GarmanPPT 技能。">
 <meta property="og:type" content="website">
-<meta property="og:title" content="GarmanPPT 组合挑选 · 配色 × 风格">
-<meta property="og:description" content="13 套矿物配色 × 16 种设计风格，选好搭配复制口令，交给智能体生成 PPT；也可直接下载模板。">
+<meta property="og:title" content="模板挑选 · GarmanPPT 配色 × 风格">
+<meta property="og:description" content="13 套自然配色 × 16 种设计风格，挑好搭配直接下载 PPT 模板；想让 AI 做成品，配合 GarmanPPT 技能。">
 <meta property="og:url" content="https://www.zhaodun.work/ppt/pick/">
 <meta property="og:image" content="https://www.zhaodun.work/ppt/media/palettes-13.webp">
-<link rel="stylesheet" href="pick.css?v=0.6.1">
+<link rel="stylesheet" href="pick.css?v=0.6.2">
 </head>
 <body>
 <header class="top">
   <div class="wrap">
     <div class="util"><a href="../../">← 返回首页</a><button type="button" data-share>分享</button><span class="share-status" aria-live="polite"></span></div>
-    <a class="brand" href="../">GarmanPPT</a>
-    <h1>选一套配色 × 风格</h1>
-    <p class="lead">选好后复制口令，和技能包、你的文档一起交给智能体；也可以直接下载模板自己填。</p>
+    <nav class="crumb" aria-label="位置"><a class="brand" href="../">GarmanPPT 技能</a> <span aria-hidden="true">›</span> <span aria-current="page">模板挑选</span></nav>
+    <h1>模板挑选：选一套配色 × 风格</h1>
+    <p class="lead">在这里挑搭配、看预览、下载 PPT 模板，不用安装任何东西。想让 AI 直接把你的内容做成 PPT，需要另装 <a href="../#download">GarmanPPT 技能</a>。</p>
     <div class="dialbox">
       <div class="dial" role="radiogroup" aria-label="挑选方式转盘" tabindex="0">
         <span class="mark" aria-hidden="true"></span>
@@ -70,7 +70,7 @@
           <button id="aiBtn" class="btn primary" aria-expanded="false">用 AI 生成成品</button>
         </div>
         <ol id="ai" class="ai" hidden>
-          <li>下载技能包：<a id="skillLink" target="_blank" rel="noopener">GitHub Release</a></li>
+          <li>安装 GarmanPPT 技能：看 <a href="../#download">技能介绍页</a>（含下载和安装方法），或直接到 <a id="skillLink" target="_blank" rel="noopener">GitHub</a> 下载</li>
           <li>复制口令：
             <code id="cmd"></code>
             <button id="copy" class="btn small">复制</button>
@@ -85,9 +85,9 @@
 </main>
 
 <footer class="wrap foot muted small">
-  16 种风格 × 13 套配色共 208 个组合，每个都有 6 页预览和可下载的模板。数据版本 <span id="ver"></span> · <a href="../">GarmanPPT 说明页</a> · <a href="../../">返回首页</a>
+  16 种风格 × 13 套配色共 208 个组合，每个都有 6 页预览和可下载的模板。数据版本 <span id="ver"></span> · <a href="../">GarmanPPT 技能介绍</a> · <a href="../../">返回首页</a>
 </footer>
-<script src="pick.js?v=0.6.1"></script>
+<script src="pick.js?v=0.6.2"></script>
 <script>
 (function(){
   function setStatus(m){document.querySelectorAll(".share-status").forEach(function(el){el.textContent=m;});setTimeout(function(){document.querySelectorAll(".share-status").forEach(function(el){el.textContent="";});},2200);}

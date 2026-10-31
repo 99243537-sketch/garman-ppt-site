@@ -2,7 +2,7 @@
 
 > 仓库里的 `site/ppt/` 对应服务器上的 `/ppt/`。下文说的「包」就是 Release 里的 zip，结构与 `site/ppt/` 相同。
 
-> 数据版本 0.6.1 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
+> 数据版本 0.6.2 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
 
 Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的全部东西。网站只放静态文件，**没有后端、不调模型、不做在线生成**。
 
@@ -98,7 +98,7 @@ python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/st
 ### 4A. 手动部署（第一次部署或想手动更新时）
 
 ```bash
-VER=0.6.1                                  # 要部署的版本
+VER=0.6.2                                  # 要部署的版本
 WEB=/var/www/zhaodun.work/ppt              # 服务器上 /ppt/ 的实际目录，按你的路径改
 TMP=$(mktemp -d)
 
@@ -108,7 +108,7 @@ curl -fL -o "$TMP/site.zip" \
 unzip -q "$TMP/site.zip" -d "$TMP/site"
 
 # 2. 核对版本号
-grep '"version"' "$TMP/site/site-data/version.json"        # 应显示 "version": "0.6.1"
+grep '"version"' "$TMP/site/site-data/version.json"        # 应显示 "version": "0.6.2"
 
 # 3. 逐个目录同步；--delete 只删这四个目录里已不在包中的旧文件，不碰 /ppt/ 下其他内容
 for d in pick site-data templates previews; do
