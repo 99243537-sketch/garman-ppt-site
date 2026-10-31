@@ -205,7 +205,7 @@
     b.innerHTML = html; b.setAttribute("aria-pressed", pressed); b.onclick = onclick;
     el.appendChild(b); return el;
   }
-  const soon = (s) => s.status !== "ready" ? '<span class="badge soon">即将支持</span>' : "";
+  const soon = (s) => s.status !== "ready" ? '<span class="badge soon">AI 即将支持</span>' : "";
   const badge = (sc, prefix) => `<span class="badge ${sc.tier}">${prefix || TIER_ZH[sc.tier]} ${sc.total}</span>`;
   const styleHtml = (s, tag) => `<span class="nm">${s.name.zh}<span class="sub">${s.tagline.zh}</span></span>${soon(s)}${tag || ""}`;
   const palHtml = (p, tag) => `${swatch(p)}<span class="nm">${p.name.zh}<span class="sub">${p.kind} · ${p.tier}</span></span>${tag || ""}`;
@@ -286,7 +286,7 @@
     note.hidden = true; note.className = "note";
     if (!has) { $("preview").innerHTML = ""; return; }
     const st = D.styleById[S.style], pa = D.palById[S.pal], c = cell(S.style, S.pal);
-    // 可生成风格有真实模板的 6 页预览图；其余风格用按五色上色的示意样张
+    // 16 种风格都有真实模板的 6 页预览图；没有预览图时（如毛玻璃效果）用按五色上色的示意样张
     const shot = S.fx === "plain" && st.previews && st.previews[pa.id];
     $("preview").classList.toggle("photo", !!shot);
     $("preview").innerHTML = shot
@@ -307,7 +307,7 @@
       msgs.push(`提示：这套组合在兼容矩阵里是冲突，${c.why} 仍可以用。`);
     }
     if (S.fx === "glass" && st.effects.glass === "conflict") msgs.push("提示：这种风格的禁止项里有柔和投影或渐变，和毛玻璃效果冲突。");
-    if (st.status !== "ready") msgs.push("这种风格技能还不能生成，先看示意样张。");
+    if (st.status !== "ready") msgs.push("这种风格可以下载模板，「用 AI 生成成品」即将支持。");
     if (msgs.length) { note.innerHTML = msgs.join("<br>"); note.hidden = false; if (/冲突|不推荐/.test(note.textContent)) note.classList.add("warn"); }
 
     const fxZh = S.fx === "glass" ? "毛玻璃" : "普通";

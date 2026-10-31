@@ -10,7 +10,7 @@
 import json, sys, os, datetime
 
 MATRIX, STYLES_V2, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
-DATA_VERSION = "0.3.0"
+DATA_VERSION = "0.4.0"
 
 # ---- 规则（暂定，待赵盾按实际分布定）----
 RULES = {
@@ -134,9 +134,9 @@ for i, s in enumerate(v2):
         "docTypes": docs, "effects": {"glass": glass},
         "template": TEMPLATES.get(s["id"]),   # 每种风格手工定稿的那一套（推荐展示用）
         # 可生成风格 × 全部 13 套配色：模板与 6 页预览图（tools/masters/build_all.py 生成）
-        "templates": {p["id"]: tpl_file(s["id"], p["id"]) for p in palettes} if s["id"] in READY else {},
+        "templates": {p["id"]: tpl_file(s["id"], p["id"]) for p in palettes},   # 16 种风格全有模板
         "previews": {p["id"]: "previews/" + os.path.basename(tpl_file(s["id"], p["id"]))[:-5] + ".jpg"
-                     for p in palettes} if s["id"] in READY else {},
+                     for p in palettes},
         "ppt": {k: ppt[k] for k in ("layouts", "motifs", "forbid", "radius", "shadow", "density", "colorRule")},
         "detailUrl": f"/design-styles/?style={s['id']}",
     })

@@ -1,6 +1,6 @@
 {
  "_note": "由 build_site_data.py 生成，请勿手改",
- "version": "0.3.0",
+ "version": "0.4.0",
  "styles": [
   {
    "id": "bauhaus",
@@ -23,8 +23,36 @@
     "glass": "conflict"
    },
    "template": null,
-   "templates": {},
-   "previews": {},
+   "templates": {
+    "amazonite": "templates/garman-bauhaus-amazonite-v1.pptx",
+    "nautilus": "templates/garman-bauhaus-nautilus-v1.pptx",
+    "abalone": "templates/garman-bauhaus-abalone-v1.pptx",
+    "kingfisher": "templates/garman-bauhaus-kingfisher-v1.pptx",
+    "blue-magpie": "templates/garman-bauhaus-blue-magpie-v1.pptx",
+    "iris": "templates/garman-bauhaus-iris-v1.pptx",
+    "plum-blossom": "templates/garman-bauhaus-plum-blossom-v1.pptx",
+    "goldenrain": "templates/garman-bauhaus-goldenrain-v1.pptx",
+    "maple": "templates/garman-bauhaus-maple-v1.pptx",
+    "tallow-tree": "templates/garman-bauhaus-tallow-tree-v1.pptx",
+    "golden-cowry": "templates/garman-bauhaus-golden-cowry-v1.pptx",
+    "ginkgo": "templates/garman-bauhaus-ginkgo-v1.pptx",
+    "jewel-beetle": "templates/garman-bauhaus-jewel-beetle-v1.pptx"
+   },
+   "previews": {
+    "amazonite": "previews/garman-bauhaus-amazonite-v1.jpg",
+    "nautilus": "previews/garman-bauhaus-nautilus-v1.jpg",
+    "abalone": "previews/garman-bauhaus-abalone-v1.jpg",
+    "kingfisher": "previews/garman-bauhaus-kingfisher-v1.jpg",
+    "blue-magpie": "previews/garman-bauhaus-blue-magpie-v1.jpg",
+    "iris": "previews/garman-bauhaus-iris-v1.jpg",
+    "plum-blossom": "previews/garman-bauhaus-plum-blossom-v1.jpg",
+    "goldenrain": "previews/garman-bauhaus-goldenrain-v1.jpg",
+    "maple": "previews/garman-bauhaus-maple-v1.jpg",
+    "tallow-tree": "previews/garman-bauhaus-tallow-tree-v1.jpg",
+    "golden-cowry": "previews/garman-bauhaus-golden-cowry-v1.jpg",
+    "ginkgo": "previews/garman-bauhaus-ginkgo-v1.jpg",
+    "jewel-beetle": "previews/garman-bauhaus-jewel-beetle-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "geometric-blocks",
@@ -340,8 +368,36 @@
     "glass": "conflict"
    },
    "template": null,
-   "templates": {},
-   "previews": {},
+   "templates": {
+    "amazonite": "templates/garman-art-deco-amazonite-v1.pptx",
+    "nautilus": "templates/garman-art-deco-nautilus-v1.pptx",
+    "abalone": "templates/garman-art-deco-abalone-v1.pptx",
+    "kingfisher": "templates/garman-art-deco-kingfisher-v1.pptx",
+    "blue-magpie": "templates/garman-art-deco-blue-magpie-v1.pptx",
+    "iris": "templates/garman-art-deco-iris-v1.pptx",
+    "plum-blossom": "templates/garman-art-deco-plum-blossom-v1.pptx",
+    "goldenrain": "templates/garman-art-deco-goldenrain-v1.pptx",
+    "maple": "templates/garman-art-deco-maple-v1.pptx",
+    "tallow-tree": "templates/garman-art-deco-tallow-tree-v1.pptx",
+    "golden-cowry": "templates/garman-art-deco-golden-cowry-v1.pptx",
+    "ginkgo": "templates/garman-art-deco-ginkgo-v1.pptx",
+    "jewel-beetle": "templates/garman-art-deco-jewel-beetle-v1.pptx"
+   },
+   "previews": {
+    "amazonite": "previews/garman-art-deco-amazonite-v1.jpg",
+    "nautilus": "previews/garman-art-deco-nautilus-v1.jpg",
+    "abalone": "previews/garman-art-deco-abalone-v1.jpg",
+    "kingfisher": "previews/garman-art-deco-kingfisher-v1.jpg",
+    "blue-magpie": "previews/garman-art-deco-blue-magpie-v1.jpg",
+    "iris": "previews/garman-art-deco-iris-v1.jpg",
+    "plum-blossom": "previews/garman-art-deco-plum-blossom-v1.jpg",
+    "goldenrain": "previews/garman-art-deco-goldenrain-v1.jpg",
+    "maple": "previews/garman-art-deco-maple-v1.jpg",
+    "tallow-tree": "previews/garman-art-deco-tallow-tree-v1.jpg",
+    "golden-cowry": "previews/garman-art-deco-golden-cowry-v1.jpg",
+    "ginkgo": "previews/garman-art-deco-ginkgo-v1.jpg",
+    "jewel-beetle": "previews/garman-art-deco-jewel-beetle-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "symmetric-frame",
@@ -479,8 +535,36 @@
     "glass": "conflict"
    },
    "template": null,
-   "templates": {},
-   "previews": {},
+   "templates": {
+    "amazonite": "templates/garman-constructivism-amazonite-v1.pptx",
+    "nautilus": "templates/garman-constructivism-nautilus-v1.pptx",
+    "abalone": "templates/garman-constructivism-abalone-v1.pptx",
+    "kingfisher": "templates/garman-constructivism-kingfisher-v1.pptx",
+    "blue-magpie": "templates/garman-constructivism-blue-magpie-v1.pptx",
+    "iris": "templates/garman-constructivism-iris-v1.pptx",
+    "plum-blossom": "templates/garman-constructivism-plum-blossom-v1.pptx",
+    "goldenrain": "templates/garman-constructivism-goldenrain-v1.pptx",
+    "maple": "templates/garman-constructivism-maple-v1.pptx",
+    "tallow-tree": "templates/garman-constructivism-tallow-tree-v1.pptx",
+    "golden-cowry": "templates/garman-constructivism-golden-cowry-v1.pptx",
+    "ginkgo": "templates/garman-constructivism-ginkgo-v1.pptx",
+    "jewel-beetle": "templates/garman-constructivism-jewel-beetle-v1.pptx"
+   },
+   "previews": {
+    "amazonite": "previews/garman-constructivism-amazonite-v1.jpg",
+    "nautilus": "previews/garman-constructivism-nautilus-v1.jpg",
+    "abalone": "previews/garman-constructivism-abalone-v1.jpg",
+    "kingfisher": "previews/garman-constructivism-kingfisher-v1.jpg",
+    "blue-magpie": "previews/garman-constructivism-blue-magpie-v1.jpg",
+    "iris": "previews/garman-constructivism-iris-v1.jpg",
+    "plum-blossom": "previews/garman-constructivism-plum-blossom-v1.jpg",
+    "goldenrain": "previews/garman-constructivism-goldenrain-v1.jpg",
+    "maple": "previews/garman-constructivism-maple-v1.jpg",
+    "tallow-tree": "previews/garman-constructivism-tallow-tree-v1.jpg",
+    "golden-cowry": "previews/garman-constructivism-golden-cowry-v1.jpg",
+    "ginkgo": "previews/garman-constructivism-ginkgo-v1.jpg",
+    "jewel-beetle": "previews/garman-constructivism-jewel-beetle-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "diagonal-split",
@@ -533,8 +617,36 @@
     "glass": "conflict"
    },
    "template": null,
-   "templates": {},
-   "previews": {},
+   "templates": {
+    "amazonite": "templates/garman-de-stijl-amazonite-v1.pptx",
+    "nautilus": "templates/garman-de-stijl-nautilus-v1.pptx",
+    "abalone": "templates/garman-de-stijl-abalone-v1.pptx",
+    "kingfisher": "templates/garman-de-stijl-kingfisher-v1.pptx",
+    "blue-magpie": "templates/garman-de-stijl-blue-magpie-v1.pptx",
+    "iris": "templates/garman-de-stijl-iris-v1.pptx",
+    "plum-blossom": "templates/garman-de-stijl-plum-blossom-v1.pptx",
+    "goldenrain": "templates/garman-de-stijl-goldenrain-v1.pptx",
+    "maple": "templates/garman-de-stijl-maple-v1.pptx",
+    "tallow-tree": "templates/garman-de-stijl-tallow-tree-v1.pptx",
+    "golden-cowry": "templates/garman-de-stijl-golden-cowry-v1.pptx",
+    "ginkgo": "templates/garman-de-stijl-ginkgo-v1.pptx",
+    "jewel-beetle": "templates/garman-de-stijl-jewel-beetle-v1.pptx"
+   },
+   "previews": {
+    "amazonite": "previews/garman-de-stijl-amazonite-v1.jpg",
+    "nautilus": "previews/garman-de-stijl-nautilus-v1.jpg",
+    "abalone": "previews/garman-de-stijl-abalone-v1.jpg",
+    "kingfisher": "previews/garman-de-stijl-kingfisher-v1.jpg",
+    "blue-magpie": "previews/garman-de-stijl-blue-magpie-v1.jpg",
+    "iris": "previews/garman-de-stijl-iris-v1.jpg",
+    "plum-blossom": "previews/garman-de-stijl-plum-blossom-v1.jpg",
+    "goldenrain": "previews/garman-de-stijl-goldenrain-v1.jpg",
+    "maple": "previews/garman-de-stijl-maple-v1.jpg",
+    "tallow-tree": "previews/garman-de-stijl-tallow-tree-v1.jpg",
+    "golden-cowry": "previews/garman-de-stijl-golden-cowry-v1.jpg",
+    "ginkgo": "previews/garman-de-stijl-ginkgo-v1.jpg",
+    "jewel-beetle": "previews/garman-de-stijl-jewel-beetle-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "color-field-grid",
@@ -585,8 +697,36 @@
     "glass": "conflict"
    },
    "template": null,
-   "templates": {},
-   "previews": {},
+   "templates": {
+    "amazonite": "templates/garman-memphis-amazonite-v1.pptx",
+    "nautilus": "templates/garman-memphis-nautilus-v1.pptx",
+    "abalone": "templates/garman-memphis-abalone-v1.pptx",
+    "kingfisher": "templates/garman-memphis-kingfisher-v1.pptx",
+    "blue-magpie": "templates/garman-memphis-blue-magpie-v1.pptx",
+    "iris": "templates/garman-memphis-iris-v1.pptx",
+    "plum-blossom": "templates/garman-memphis-plum-blossom-v1.pptx",
+    "goldenrain": "templates/garman-memphis-goldenrain-v1.pptx",
+    "maple": "templates/garman-memphis-maple-v1.pptx",
+    "tallow-tree": "templates/garman-memphis-tallow-tree-v1.pptx",
+    "golden-cowry": "templates/garman-memphis-golden-cowry-v1.pptx",
+    "ginkgo": "templates/garman-memphis-ginkgo-v1.pptx",
+    "jewel-beetle": "templates/garman-memphis-jewel-beetle-v1.pptx"
+   },
+   "previews": {
+    "amazonite": "previews/garman-memphis-amazonite-v1.jpg",
+    "nautilus": "previews/garman-memphis-nautilus-v1.jpg",
+    "abalone": "previews/garman-memphis-abalone-v1.jpg",
+    "kingfisher": "previews/garman-memphis-kingfisher-v1.jpg",
+    "blue-magpie": "previews/garman-memphis-blue-magpie-v1.jpg",
+    "iris": "previews/garman-memphis-iris-v1.jpg",
+    "plum-blossom": "previews/garman-memphis-plum-blossom-v1.jpg",
+    "goldenrain": "previews/garman-memphis-goldenrain-v1.jpg",
+    "maple": "previews/garman-memphis-maple-v1.jpg",
+    "tallow-tree": "previews/garman-memphis-tallow-tree-v1.jpg",
+    "golden-cowry": "previews/garman-memphis-golden-cowry-v1.jpg",
+    "ginkgo": "previews/garman-memphis-ginkgo-v1.jpg",
+    "jewel-beetle": "previews/garman-memphis-jewel-beetle-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "collage",
@@ -639,8 +779,36 @@
     "glass": "conflict"
    },
    "template": null,
-   "templates": {},
-   "previews": {},
+   "templates": {
+    "amazonite": "templates/garman-pop-art-amazonite-v1.pptx",
+    "nautilus": "templates/garman-pop-art-nautilus-v1.pptx",
+    "abalone": "templates/garman-pop-art-abalone-v1.pptx",
+    "kingfisher": "templates/garman-pop-art-kingfisher-v1.pptx",
+    "blue-magpie": "templates/garman-pop-art-blue-magpie-v1.pptx",
+    "iris": "templates/garman-pop-art-iris-v1.pptx",
+    "plum-blossom": "templates/garman-pop-art-plum-blossom-v1.pptx",
+    "goldenrain": "templates/garman-pop-art-goldenrain-v1.pptx",
+    "maple": "templates/garman-pop-art-maple-v1.pptx",
+    "tallow-tree": "templates/garman-pop-art-tallow-tree-v1.pptx",
+    "golden-cowry": "templates/garman-pop-art-golden-cowry-v1.pptx",
+    "ginkgo": "templates/garman-pop-art-ginkgo-v1.pptx",
+    "jewel-beetle": "templates/garman-pop-art-jewel-beetle-v1.pptx"
+   },
+   "previews": {
+    "amazonite": "previews/garman-pop-art-amazonite-v1.jpg",
+    "nautilus": "previews/garman-pop-art-nautilus-v1.jpg",
+    "abalone": "previews/garman-pop-art-abalone-v1.jpg",
+    "kingfisher": "previews/garman-pop-art-kingfisher-v1.jpg",
+    "blue-magpie": "previews/garman-pop-art-blue-magpie-v1.jpg",
+    "iris": "previews/garman-pop-art-iris-v1.jpg",
+    "plum-blossom": "previews/garman-pop-art-plum-blossom-v1.jpg",
+    "goldenrain": "previews/garman-pop-art-goldenrain-v1.jpg",
+    "maple": "previews/garman-pop-art-maple-v1.jpg",
+    "tallow-tree": "previews/garman-pop-art-tallow-tree-v1.jpg",
+    "golden-cowry": "previews/garman-pop-art-golden-cowry-v1.jpg",
+    "ginkgo": "previews/garman-pop-art-ginkgo-v1.jpg",
+    "jewel-beetle": "previews/garman-pop-art-jewel-beetle-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "comic-panel",
@@ -860,8 +1028,36 @@
     "glass": "ok"
    },
    "template": null,
-   "templates": {},
-   "previews": {},
+   "templates": {
+    "amazonite": "templates/garman-y2k-amazonite-v1.pptx",
+    "nautilus": "templates/garman-y2k-nautilus-v1.pptx",
+    "abalone": "templates/garman-y2k-abalone-v1.pptx",
+    "kingfisher": "templates/garman-y2k-kingfisher-v1.pptx",
+    "blue-magpie": "templates/garman-y2k-blue-magpie-v1.pptx",
+    "iris": "templates/garman-y2k-iris-v1.pptx",
+    "plum-blossom": "templates/garman-y2k-plum-blossom-v1.pptx",
+    "goldenrain": "templates/garman-y2k-goldenrain-v1.pptx",
+    "maple": "templates/garman-y2k-maple-v1.pptx",
+    "tallow-tree": "templates/garman-y2k-tallow-tree-v1.pptx",
+    "golden-cowry": "templates/garman-y2k-golden-cowry-v1.pptx",
+    "ginkgo": "templates/garman-y2k-ginkgo-v1.pptx",
+    "jewel-beetle": "templates/garman-y2k-jewel-beetle-v1.pptx"
+   },
+   "previews": {
+    "amazonite": "previews/garman-y2k-amazonite-v1.jpg",
+    "nautilus": "previews/garman-y2k-nautilus-v1.jpg",
+    "abalone": "previews/garman-y2k-abalone-v1.jpg",
+    "kingfisher": "previews/garman-y2k-kingfisher-v1.jpg",
+    "blue-magpie": "previews/garman-y2k-blue-magpie-v1.jpg",
+    "iris": "previews/garman-y2k-iris-v1.jpg",
+    "plum-blossom": "previews/garman-y2k-plum-blossom-v1.jpg",
+    "goldenrain": "previews/garman-y2k-goldenrain-v1.jpg",
+    "maple": "previews/garman-y2k-maple-v1.jpg",
+    "tallow-tree": "previews/garman-y2k-tallow-tree-v1.jpg",
+    "golden-cowry": "previews/garman-y2k-golden-cowry-v1.jpg",
+    "ginkgo": "previews/garman-y2k-ginkgo-v1.jpg",
+    "jewel-beetle": "previews/garman-y2k-jewel-beetle-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "hero-object",
@@ -913,8 +1109,36 @@
     "glass": "ok"
    },
    "template": null,
-   "templates": {},
-   "previews": {},
+   "templates": {
+    "amazonite": "templates/garman-vaporwave-amazonite-v1.pptx",
+    "nautilus": "templates/garman-vaporwave-nautilus-v1.pptx",
+    "abalone": "templates/garman-vaporwave-abalone-v1.pptx",
+    "kingfisher": "templates/garman-vaporwave-kingfisher-v1.pptx",
+    "blue-magpie": "templates/garman-vaporwave-blue-magpie-v1.pptx",
+    "iris": "templates/garman-vaporwave-iris-v1.pptx",
+    "plum-blossom": "templates/garman-vaporwave-plum-blossom-v1.pptx",
+    "goldenrain": "templates/garman-vaporwave-goldenrain-v1.pptx",
+    "maple": "templates/garman-vaporwave-maple-v1.pptx",
+    "tallow-tree": "templates/garman-vaporwave-tallow-tree-v1.pptx",
+    "golden-cowry": "templates/garman-vaporwave-golden-cowry-v1.pptx",
+    "ginkgo": "templates/garman-vaporwave-ginkgo-v1.pptx",
+    "jewel-beetle": "templates/garman-vaporwave-jewel-beetle-v1.pptx"
+   },
+   "previews": {
+    "amazonite": "previews/garman-vaporwave-amazonite-v1.jpg",
+    "nautilus": "previews/garman-vaporwave-nautilus-v1.jpg",
+    "abalone": "previews/garman-vaporwave-abalone-v1.jpg",
+    "kingfisher": "previews/garman-vaporwave-kingfisher-v1.jpg",
+    "blue-magpie": "previews/garman-vaporwave-blue-magpie-v1.jpg",
+    "iris": "previews/garman-vaporwave-iris-v1.jpg",
+    "plum-blossom": "previews/garman-vaporwave-plum-blossom-v1.jpg",
+    "goldenrain": "previews/garman-vaporwave-goldenrain-v1.jpg",
+    "maple": "previews/garman-vaporwave-maple-v1.jpg",
+    "tallow-tree": "previews/garman-vaporwave-tallow-tree-v1.jpg",
+    "golden-cowry": "previews/garman-vaporwave-golden-cowry-v1.jpg",
+    "ginkgo": "previews/garman-vaporwave-ginkgo-v1.jpg",
+    "jewel-beetle": "previews/garman-vaporwave-jewel-beetle-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "horizon-scene",
@@ -966,8 +1190,36 @@
     "glass": "ok"
    },
    "template": null,
-   "templates": {},
-   "previews": {},
+   "templates": {
+    "amazonite": "templates/garman-glassmorphism-amazonite-v1.pptx",
+    "nautilus": "templates/garman-glassmorphism-nautilus-v1.pptx",
+    "abalone": "templates/garman-glassmorphism-abalone-v1.pptx",
+    "kingfisher": "templates/garman-glassmorphism-kingfisher-v1.pptx",
+    "blue-magpie": "templates/garman-glassmorphism-blue-magpie-v1.pptx",
+    "iris": "templates/garman-glassmorphism-iris-v1.pptx",
+    "plum-blossom": "templates/garman-glassmorphism-plum-blossom-v1.pptx",
+    "goldenrain": "templates/garman-glassmorphism-goldenrain-v1.pptx",
+    "maple": "templates/garman-glassmorphism-maple-v1.pptx",
+    "tallow-tree": "templates/garman-glassmorphism-tallow-tree-v1.pptx",
+    "golden-cowry": "templates/garman-glassmorphism-golden-cowry-v1.pptx",
+    "ginkgo": "templates/garman-glassmorphism-ginkgo-v1.pptx",
+    "jewel-beetle": "templates/garman-glassmorphism-jewel-beetle-v1.pptx"
+   },
+   "previews": {
+    "amazonite": "previews/garman-glassmorphism-amazonite-v1.jpg",
+    "nautilus": "previews/garman-glassmorphism-nautilus-v1.jpg",
+    "abalone": "previews/garman-glassmorphism-abalone-v1.jpg",
+    "kingfisher": "previews/garman-glassmorphism-kingfisher-v1.jpg",
+    "blue-magpie": "previews/garman-glassmorphism-blue-magpie-v1.jpg",
+    "iris": "previews/garman-glassmorphism-iris-v1.jpg",
+    "plum-blossom": "previews/garman-glassmorphism-plum-blossom-v1.jpg",
+    "goldenrain": "previews/garman-glassmorphism-goldenrain-v1.jpg",
+    "maple": "previews/garman-glassmorphism-maple-v1.jpg",
+    "tallow-tree": "previews/garman-glassmorphism-tallow-tree-v1.jpg",
+    "golden-cowry": "previews/garman-glassmorphism-golden-cowry-v1.jpg",
+    "ginkgo": "previews/garman-glassmorphism-ginkgo-v1.jpg",
+    "jewel-beetle": "previews/garman-glassmorphism-jewel-beetle-v1.jpg"
+   },
    "ppt": {
     "layouts": [
      "frosted-panels",

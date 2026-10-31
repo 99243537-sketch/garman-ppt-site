@@ -2,7 +2,7 @@
 
 > 仓库里的 `site/ppt/` 对应服务器上的 `/ppt/`。下文说的「包」就是 Release 里的 zip，结构与 `site/ppt/` 相同。
 
-> 数据版本 0.3.0 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
+> 数据版本 0.4.0 · 2026-10-31 · 对应方案 v0.2（第 5、5A、5B 节）
 
 Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的全部东西。网站只放静态文件，**没有后端、不调模型、不做在线生成**。
 
@@ -16,8 +16,8 @@ Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的�
 │  ├─ styles.json         16 种风格
 │  ├─ matrix.json         208 格兼容矩阵（含三挡）
 │  └─ rules.json          三挡切分比例、综合分权重、文档类型表、可用效果
-├─ templates/             91 份「下载这套主题」.pptx（7 种风格 × 13 套配色）
-├─ previews/              91 张 6 页预览图
+├─ templates/             208 份「下载这套主题」.pptx（16 种风格 × 13 套配色）
+├─ previews/              208 张 6 页预览图
 ├─ pick/                  组合挑选页（静态原型）
 │  ├─ index.html
 │  ├─ pick.css
@@ -33,8 +33,8 @@ Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的�
 /ppt/                     现有技能介绍页，加一个「组合挑选」入口链接到 /ppt/pick/
 /ppt/pick/                ← pick/ 三个文件
 /ppt/site-data/           ← site-data/ 五个 JSON
-/ppt/templates/           ← templates/ 91 个 .pptx（见第 5 节）
-/ppt/previews/            ← previews/ 91 张预览图
+/ppt/templates/           ← templates/ 208 个 .pptx（见第 5 节）
+/ppt/previews/            ← previews/ 208 张预览图
 /design-styles/           风格库 v2（已有；挑选页的「详细说明」链接指向 /design-styles/?style=<id>）
 ```
 
@@ -76,15 +76,15 @@ python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/st
 
 ## 5. 模板下载与预览图
 
-7 种可生成风格 × 13 套配色，**91 个组合全部有模板和预览图**：
+16 种风格 × 13 套配色，**208 个组合全部有模板和预览图**（兼容矩阵判为冲突的组合也照样有，页面标「反对」）：
 
 - `templates/garman-<风格id>-<配色id>-v1.pptx`：6 个版式（封面、目录、章节页、正文、正文 + 引文、结尾页）加示例页，元素逐个淡入，微软雅黑，敏感词自检 0 命中。每份约 40 KB。
 - `previews/<同名>.jpg`：6 页拼图，约 2000×760，每张约 100 KB。
-- 每种风格有一套手工定稿（`styles.json` 的 `template`），其余 12 套由 `tools/masters/build_all.py` 按兼容矩阵取好的五色批量生成。
+- 7 种可生成风格各有一套手工定稿（`styles.json` 的 `template`），其余由 `tools/masters/build_all.py` 按兼容矩阵取好的五色批量生成。
 
-对应关系写在 `styles.json` 每种风格的 `templates` 和 `previews`（键是配色 id）。挑选页选中可生成风格时显示真实预览图、点开看大图；还不能生成的 9 种风格仍显示按五色上色的示意样张，「下载模板」显示「这组暂无」。
+对应关系写在 `styles.json` 每种风格的 `templates` 和 `previews`（键是配色 id）。挑选页任选一个组合都显示真实预览图、点开看大图，「下载模板」都能下载。技能还不能生成的 9 种风格（`status: preview`）标「AI 即将支持」，只是「用 AI 生成成品」不可点。
 
-全部文件约 13 MB（模板 3.7 MB + 预览图 8.7 MB）。
+全部文件约 32 MB（模板 8.6 MB + 预览图 23 MB）。
 
 ## 6. 页面怎么工作（如果你要按站点风格重写，看这一节就够）
 
@@ -106,14 +106,14 @@ python3 tools/build_site_data.py tools/sources/matrix-data.json tools/sources/st
 - **M 挡的冲突组合**：只显示一句「这套组合在兼容矩阵里是冲突，{why} 仍可以用」，不给替换建议。
 - **效果**：`rules.json` 的 `effectsAvailable` 现在只有 `plain`，毛玻璃选项显示「即将支持」且不可选。
 
-**结果区**：示意样张（SVG，按该格 `roles` 五色上色）、「下载模板」、「用 AI 生成成品」（展开三步：下载技能包、复制口令、发给智能体）。口令格式：
+**结果区**：6 页预览图（选毛玻璃效果时退回 SVG 示意样张，按该格 `roles` 五色上色）、「下载模板」、「用 AI 生成成品」（展开三步：下载技能包、复制口令、发给智能体）。口令格式：
 
 ```
 用 GarmanPPT 做成 PPT。配色：银杏；风格：新粗野主义；效果：普通。
 GP1:ginkgo/neubrutalism/plain
 ```
 
-`status: preview` 的风格可以看样张，但「用 AI 生成成品」不可点，显示「即将支持」。
+`status: preview` 的风格可以看预览、下载模板，但「用 AI 生成成品」不可点，显示「AI 即将支持」。
 
 **URL 参数**（可分享）：`?mode=p|s|c|m&s=<风格id>&p=<配色id>&doc=<文档类型id>&fx=plain|glass`。
 
@@ -137,7 +137,7 @@ GP1:ginkgo/neubrutalism/plain
 
 1. `/ppt/pick/` 打开后自动选中「编辑杂志风 × 天河石」，上方有一句理由。
 2. 转盘拨到 C，选「吉丁虫」，左列是配色、右列是风格并自动选中第一名；拨到 M：列表变成原顺序，没有分数；选「波普艺术 × 鹦鹉螺」出现冲突软提示，没有替换建议。
-3. 任选一个可生成风格和任一配色，都能看到 6 页预览图并下到 pptx；「复制」按钮能复制口令（需要 https）。
+3. 任选一种风格和任一配色（共 208 组），都能看到 6 页预览图并下到 pptx；「复制」按钮能复制口令（需要 https）。
 4. 手机宽度下没有横向滚动。
 5. 改一次 `version.json` 后刷新页面，页脚版本号立即变化（说明没被缓存）。
 

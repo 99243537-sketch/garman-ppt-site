@@ -30,7 +30,7 @@ GarmanPPT「配色 × 风格」组合挑选网站。纯静态页面，没有后�
 
 P / S / C 挡给每个组合标「推荐 / 中性 / 反对」：综合分 = 兼容矩阵分 + 文档类型加分 + 效果冲突扣分，按排名切成 1/4、1/2、1/4；矩阵判为冲突的一律反对。规则都在 `site/ppt/site-data/rules.json`，页面不写死。
 
-选好后有两条路：**下载模板**（7 种可生成风格 × 13 套配色，91 个组合全有 .pptx 和 6 页预览图），或者**用 AI 生成成品**（下载技能包 + 复制口令，交给自己的智能体）。
+选好后有两条路：**下载模板**（16 种风格 × 13 套配色，208 个组合全有 .pptx 和 6 页预览图，冲突组合也有，只是标「反对」），或者**用 AI 生成成品**（下载技能包 + 复制口令，交给自己的智能体；目前 7 种风格可用，其余 9 种标「AI 即将支持」）。
 
 ## 目录
 
@@ -40,13 +40,13 @@ site/                     GitHub Pages 发布这一层
 └─ ppt/                   = 服务器上的 /ppt/
    ├─ pick/               挑选页（index.html、pick.css、pick.js）
    ├─ site-data/          配色、风格、兼容矩阵、规则、版本（脚本生成，勿手改）
-   ├─ templates/          91 份「下载这套主题」.pptx
-   └─ previews/           91 张 6 页预览图
+   ├─ templates/          208 份「下载这套主题」.pptx
+   └─ previews/           208 张 6 页预览图
 tools/
 ├─ build_site_data.py     从源数据生成 site-data
 ├─ export-styles.cjs      把风格库 data.js 导出成 JSON
 ├─ sources/               当前使用的源数据（兼容矩阵、风格库导出）
-└─ masters/               模板生成脚本（7 个风格类 + build_all.py 批量换色）
+└─ masters/               模板生成脚本（16 个风格类 + build_all.py 批量换色 + render_previews.py 出预览图）
 docs/preview/             截图
 DEPLOY.md                 部署说明（给 Eddy）
 ```
@@ -58,7 +58,7 @@ DEPLOY.md                 部署说明（给 Eddy）
 3. 推到 main：GitHub Pages 自动更新预览
 4. 发版：`version.json` 改好版本号后打标签 `site-v<版本>`，Release 自动附上 `garman-site-<版本>.zip`，Eddy 从这里拉取
 
-模板重新生成：把 `tools/masters/` 下的脚本放在一起运行 `python3 build_masters.py <目录>`（母版 v1 三套）和 `python3 build_masters_batch2.py <目录>`（第二批四套）定稿，再用 `python3 build_all.py site/ppt/site-data <目录>` 生成其余 84 份；预览图用 LibreOffice 转 PDF 后拼成 6 页图，依赖 python-pptx 1.0.x、lxml、Pillow。发布前用 `check_text.py <词表> <文件…>` 做敏感词自检（词表不放在公开仓库里）。
+模板重新生成：把 `tools/masters/` 下的脚本放在一起运行 `python3 build_masters.py <目录>`（母版 v1 三套）和 `python3 build_masters_batch2.py <目录>`（第二批四套）定稿，再用 `python3 build_all.py site/ppt/site-data <目录> [风格id…]` 生成其余 201 份（第三批 9 种风格的版式在 `build_masters_batch3.py`）；预览图用 `python3 render_previews.py <目录> <pptx…>`（LibreOffice 转 PDF 后拼成 6 页图），依赖 python-pptx 1.0.x、lxml、Pillow。发布前用 `check_text.py <词表> <文件…>` 做敏感词自检（词表不放在公开仓库里）。
 
 ## 来源与署名
 
