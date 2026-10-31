@@ -10,7 +10,7 @@
 import json, sys, os, datetime
 
 MATRIX, STYLES_V2, OUT = sys.argv[1], sys.argv[2], sys.argv[3]
-DATA_VERSION = "0.2.3"
+DATA_VERSION = "0.2.4"
 
 # ---- 规则（暂定，待赵盾按实际分布定）----
 RULES = {

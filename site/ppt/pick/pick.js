@@ -24,7 +24,8 @@
   };
   const ORDER = ["p", "s", "c", "m"];
   let D = null;
-  const S = { mode: "p", doc: "", fx: "plain", style: null, pal: null, auto: false };
+  const DEFAULT_DOC = "teaching";   // 文档类型默认「讲课 / 培训」
+  const S = { mode: "p", doc: DEFAULT_DOC, fx: "plain", style: null, pal: null, auto: false };
 
   Promise.all(["palettes", "styles", "matrix", "rules", "version"].map((n) =>
     fetch(BASE + n + ".json", { cache: n === "version" ? "no-store" : "default" }).then((r) => r.json())
@@ -123,6 +124,7 @@
       e.preventDefault();
       setMode(ORDER[(ORDER.indexOf(S.mode) + d + ORDER.length) % ORDER.length]);
     };
+    bindDrag();
     $("doc").onchange = (e) => { S.doc = e.target.value; autoPick(); render(); };
     document.querySelectorAll('input[name="fx"]').forEach((r) => r.onchange = () => {
       S.fx = r.value; autoPick(); render();
@@ -136,10 +138,44 @@
       });
     };
   }
+  // 触控 / 鼠标拖动转盘：跟手转动，松手吸附到最近的一挡；轻点字母仍按点击处理
+  function bindDrag() {
+    const dial = document.querySelector(".dial"), disk = $("disk");
+    let start = null;
+    const angleAt = (e) => {
+      const r = dial.getBoundingClientRect();
+      return Math.atan2(e.clientX - (r.left + r.width / 2), -(e.clientY - (r.top + r.height / 2))) * 180 / Math.PI;
+    };
+    dial.addEventListener("pointerdown", (e) => {
+      start = { a: angleAt(e), rot: -MODES[S.mode].angle, moved: false, id: e.pointerId };
+    });
+    dial.addEventListener("pointermove", (e) => {
+      if (!start || e.pointerId !== start.id) return;
+      let d = angleAt(e) - start.a;
+      if (d > 180) d -= 360; if (d < -180) d += 360;
+      if (!start.moved && Math.abs(d) < 6) return;
+      if (!start.moved) { start.moved = true; dial.setPointerCapture(e.pointerId); dial.classList.add("dragging"); }
+      // 限制在两端挡位之间
+      const rot = Math.max(-MODES.m.angle - 12, Math.min(-MODES.p.angle + 12, start.rot + d));
+      disk.style.transform = `rotate(${rot}deg)`;
+      start.cur = rot;
+    });
+    const end = () => {
+      if (!start) return;
+      const s = start; start = null;
+      if (!s.moved) return;            // 没拖动：交给按钮的点击
+      dial.classList.remove("dragging");
+      const near = ORDER.reduce((a, m) => Math.abs(-MODES[m].angle - s.cur) < Math.abs(-MODES[a].angle - s.cur) ? m : a, S.mode);
+      if (near === S.mode) renderDial(); else setMode(near);
+    };
+    dial.addEventListener("pointerup", end);
+    dial.addEventListener("pointercancel", end);
+  }
+
   function readUrl() {
     const q = new URLSearchParams(location.search);
     if (MODES[q.get("mode")]) S.mode = q.get("mode");
-    if (D.docTypes.some((d) => d.id === q.get("doc"))) S.doc = q.get("doc");
+    if (q.has("doc")) S.doc = D.docTypes.some((d) => d.id === q.get("doc")) ? q.get("doc") : "";
     if (q.get("fx") === "glass" && D.rules.effectsAvailable.includes("glass")) S.fx = "glass";
     if (!D.rules.effectsAvailable.includes("glass")) {   // 首批只做普通效果
       const g = document.querySelector('input[name="fx"][value="glass"]');
@@ -155,7 +191,7 @@
     q.set("mode", S.mode);
     if (S.style) q.set("s", S.style);
     if (S.pal) q.set("p", S.pal);
-    if (S.doc && S.mode !== "m") q.set("doc", S.doc);
+    if (S.mode !== "m" && S.doc !== DEFAULT_DOC) q.set("doc", S.doc);   // 空串表示「不指定」
     if (S.fx !== "plain") q.set("fx", S.fx);
     history.replaceState(null, "", "?" + q);
   }

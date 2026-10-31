@@ -10,6 +10,8 @@
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--ink); line-height: 1.55; }
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+/* 电脑版：主体放宽，结果区（样张）占大头并随页面滚动停在视口内 */
+.wrap { max-width: 1760px; }
 .top { border-bottom: 1px solid var(--line); padding: 20px 0 16px; }
 .brand { color: var(--muted); text-decoration: none; font-size: 14px; }
 h1 { margin: 4px 0; font-size: 26px; }
@@ -19,7 +21,9 @@ h2 { font-size: 15px; margin: 0 0 10px; color: var(--muted); font-weight: 600; }
 
 /* 模式转盘：仿相机拨盘，选中的字母转到顶部刻度下 */
 .dialbox { display: flex; align-items: center; gap: 18px; }
-.dial { position: relative; width: 132px; height: 132px; flex: none; outline: none; }
+.dial { position: relative; width: 132px; height: 132px; flex: none; outline: none; touch-action: none; user-select: none; -webkit-user-select: none; cursor: grab; }
+.dial.dragging { cursor: grabbing; }
+.dial.dragging .disk { transition: none; }
 .dial:focus-visible { box-shadow: 0 0 0 3px var(--sel); border-radius: 50%; }
 .mark { position: absolute; left: 50%; top: -9px; transform: translateX(-50%); width: 0; height: 0;
   border-left: 7px solid transparent; border-right: 7px solid transparent; border-top: 10px solid var(--sel); z-index: 2; }
@@ -40,10 +44,16 @@ h2 { font-size: 15px; margin: 0 0 10px; color: var(--muted); font-weight: 600; }
 .fx { border: 0; padding: 0; margin: 0; display: flex; gap: 14px; align-items: center; }
 .fx legend { float: left; margin-right: 10px; padding: 0; }
 
-.opening { background: var(--card); border-left: 4px solid var(--sel); padding: 10px 14px; border-radius: 6px; margin: 10px 0 0; }
+.opening { background: var(--card); border-left: 4px solid var(--sel); padding: 10px 14px; border-radius: 6px; margin: 16px 0 0; font-size: 14px; }
 
-.grid { display: grid; grid-template-columns: 1fr 1fr 1.3fr; gap: 20px; margin: 18px 0 30px; }
-@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+.grid { display: grid; grid-template-columns: minmax(220px, 300px) minmax(220px, 300px) minmax(0, 1fr); gap: 20px; margin: 18px 0 30px; align-items: start; }
+.result { position: sticky; top: 12px; }
+.preview { max-height: calc(100vh - 220px); margin: 0 auto; }
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+  .result { position: static; }
+  .preview { max-height: none; }
+}
 .list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; max-height: 70vh; overflow: auto; }
 .list button { width: 100%; display: flex; align-items: center; gap: 10px; text-align: left; font: inherit; color: var(--ink);
   background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; cursor: pointer; }
