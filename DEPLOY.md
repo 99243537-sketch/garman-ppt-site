@@ -19,6 +19,13 @@ Eddy 你好，这一包是「配色 × 风格」组合挑选页上线需要的�
 2. **可选，建议做**：把技能 v0.3.2 的 zip 放到服务器 `/ppt/downloads/garman-ppt-0.3.2.zip`（和挑选页同域名）。放了，组合包就会把技能一起打进去；不放，组合包里只写 GitHub 链接。浏览器不能跨域去 GitHub 取文件，所以必须同域名。以后技能升级，换文件名、我这边改 `local` 即可。`downloads/` 不在 Release 包里，自动拉取不会动它。
 3. 按第 7 节第 3 条验一下组合包。
 
+**以后技能换版本（比如 0.3.2 → 0.4.0）要同步的五处**：
+1. 服务器 `/ppt/downloads/` 放新 zip，文件名带版本号（`garman-ppt-0.4.0.zip`），旧的删掉；
+2. 介绍页中英文的下载链接；
+3. 仓库 `tools/build_site_data.py` 里 `version.json` 的 `skill.version`、`skill.zip`（GitHub 标签页）、`skill.local`（新文件名），改完重新生成并发 Release；
+4. Eddy 本机已装的技能目录；
+5. 介绍页上写版本号的地方。
+
 ## 0′. 上一版要点（0.6.0，备查）
 
 和你上次拿到的 0.2.3 包相比：
